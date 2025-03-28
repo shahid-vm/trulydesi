@@ -1,6 +1,205 @@
+  {%- case section.settings.announcement_text_size -%}
+    {%- when 'small' -%}
+      {%- assign text_size_class = 'text--xsmall' -%}
+    {%- when 'normal' -%}
+      {%- assign text_size_class = 'text--small' -%}
+    {%- when 'large' -%}
+      {%- assign text_size_class = '' -%}
+  {%- endcase -%}
+  <style>
+      {%- if section.settings.announcement_bar_position == 'sticky' or section.settings.announcement_bar_position == 'sticky_desktop' -%}
+        .section-{{ section.id }} {
+            position: -webkit-sticky;
+            position: fixed;
+            top: 0;
+            z-index: 5; /* Make sure it goes over header */
+          {%- else -%}
+            position: relative;
+            z-index: unset;
+        }
+      {%- endif -%}
+  </style>
+  {%- if section.blocks.size > 0 -%}
+  <section class="section-{{ section.id }}">
+    <div class="announcement-container bgcolor-{{ section.settings.background }}" id="{{ section.id }}" style="background-color:{{ section.settings.background }};">
+      <div class="marquee">
+        <div class="marquee-content">
+           {% for block in section.blocks %}
+              <div class="marquee-item">
+                <span class="s-container">
+                      <img src="{{ section.settings.image | img_url :'master' }}" alt="{{ block.settings.image.alt}}">
+                      <span style="color:{{ section.settings.text_color }}" class="{{ text_size_class }}">{{ block.settings.anouncement }}</span>
+                </span>
+              </div>
+           {% endfor %}
+          {% for block in section.blocks %}
+              <div class="marquee-item">
+                <span class="s-container">
+                      <img src="{{ section.settings.image | img_url :'master' }}" alt="{{ block.settings.image.alt}}">
+                      <span style="color:{{ section.settings.text_color }}" class="{{ text_size_class }}">{{ block.settings.anouncement }}</span>
+                </span>
+              </div>
+           {% endfor %}
+          {% for block in section.blocks %}
+              <div class="marquee-item">
+                <span class="s-container">
+                      <img src="{{ section.settings.image | img_url :'master' }}" alt="{{ block.settings.image.alt}}">
+                      <span style="color:{{ section.settings.text_color }}" class="{{ text_size_class }}">{{ block.settings.anouncement }}</span>
+                </span>
+              </div>
+           {% endfor %}
+    
+      </div>
+    </div>
+    </div>
+   </section>
+  {% endif %}
+  <style>
+    .marquee {
+      padding: 8px 0px;
+      color: #000;
+      overflow: hidden;
+  }
+      .marquee-item span {
+          letter-spacing: 1px;
+      }
+    .s-container{
+      display: flex;
+      align-items: center;
+      color: #000;
+      font-size: 14px;
+      text-decoration: unset !important;
+      text-transform: uppercase;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
+    .marquee-content {
+      display: flex;
+      animation: scrolling 22s linear infinite;
+      margin-top: 0px;
+  }
+     .marquee-item {
+      flex: 0 0 57vw;
+      margin: 0 0vw;
+      letter-spacing: 1px;
+  }
+   .marquee-item img {
+      width: 7px;
+      margin: 0 auto;
+  }
+    @keyframes scrolling {
+      0% { 
+        transform: translateX(0); 
+      }
+      100% { 
+        transform: translatex(-144vw);
+      }
+    }
+    @media screen and (max-width: 479px) {
+      #{{ section.id }} .marquee-item {
+          flex: 0 0 215vw !important;
+      }
+    }
+    @media (min-width: 480px) and (max-width: 768px) {
+      #{{ section.id }} .marquee-item {
+          flex: 0 0 155vw !important;
+      }
+    }
+    @media screen and (max-width: 1024px) {
+      #{{ section.id }} .marquee-item {
+          flex: 0 0 96vw;
+      }
+    }
+    @media (min-width: 1024px) and (max-width: 1342px) {
+      #{{ section.id }} .marquee-item {
+          flex: 0 0 74vw !important;
+      }
+    }
+  </style>  
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Custom-Announcement-Bar",
+     "settings": [
+           {
+          "type": "select",
+          "id": "announcement_bar_position",
+          "label": "Position",
+          "options": [
+            {
+              "value": "non_sticky",
+              "label": "Non sticky"
+            },
+            {
+              "value": "sticky_desktop",
+              "label": "Sticky on desktop only"
+            },
+            {
+              "value": "sticky_mobile",
+              "label": "Sticky on mobile only"
+            },
+            {
+              "value": "sticky",
+              "label": "Sticky everywhere"
+            }
+          ],
+          "default": "non_sticky"
+        },
+       	{
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+         {
+          "type": "select",
+          "id": "announcement_text_size",
+          "label": "Text size",
+          "options": [
+            {
+              "value": "small",
+              "label": "Small"
+            },
+            {
+              "value": "normal",
+              "label": "Normal"
+            },
+            {
+              "value": "large",
+              "label": "Large"
+            }
+          ],
+          "default": "normal"
+        },
+         {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#1e2d7d"
+          },
+          {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text",
+            "default": "#ffffff"
+          }
+      ],
+    	"blocks": [
+       {
+         "name": "Anouncement",
+         "type": "slide",
+         "settings": [
+           {
+             "type": "text",
+             "id": "anouncement",
+             "label": "Announcement"
+           }
+         ]
+       }
+     ],
+      "presets": [
+        {
+          "name": "Custom-Announcement-Bar",
+        }
+    ]
   }
 {% endschema %}
