@@ -1,0 +1,59 @@
+/* Reset Css */
+body * {
+    letter-spacing: 0 !important;
+}
+
+body, .color-scheme-1, .color-scheme-2, .color-scheme-3, .color-scheme-4, .color-scheme-5, .header__menu-item {
+    color: rgba(var(--color-foreground), 1);
+}
+
+a, a:hover, .header__active-menu-item, .header__menu-item:hover .header__active-menu-item, .header__menu-item:hover span,
+.list-menu__item, .mega-menu__link:hover, .mega-menu__link--active {
+    text-decoration: none !important;
+}
+
+.header__inline-menu .list-menu__item {
+    font-weight: 600;
+}
+
+#ContactForm button.button[type="submit"] {
+    background: #ed3237;
+    border-radius: 200px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.button:before, .shopify-challenge__button:before, .customer button:before, .shopify-payment-button__button--unbranded:before, .button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after, .quantity:before, .quantity:after,
+.field__input:focus~.field__label, .field__input:not(:placeholder-shown)~.field__label, .field__input:-webkit-autofill~.field__label, .customer .field input:focus~label, .customer .field input:not(:placeholder-shown)~label, .customer .field input:-webkit-autofill~label {
+    display: none;
+}
+
+a:hover {
+    transition: 0.6s all ease;
+}
+.header__active-menu-item,.header__menu-item:hover span,details[open]>.header__menu-item, .underline-links-hover:hover a, .collapsible-content summary:hover .accordion__title, .header__submenu .header__menu-item,
+quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hover, a.pagination__item.link:hover {
+    text-decoration:none !important;
+}
+
+*:focus-visible, .swatch-input__input:active+.swatch-input__label, .swatch-input__input:checked+.swatch-input__label, .swatch-input__input+.swatch-input__label:hover, .swatch-input__input:hover+.swatch-input__label, 
+.swatch-input__input:active:focus-visible+.swatch-input__label, .swatch-input__input:checked:focus-visible+.swatch-input__label {
+    outline: 0 !important;
+}
+
+*:focus-visible, .field:after, .select:after, .customer .field:after, .customer select:after, .localization-form__select:after,.field:before, .select:before, .customer .field:before, .customer select:before, .localization-form__select:before,.field:hover.field:after, .select:hover.select:after, .select__select:hover.select__select:after, .customer .field:hover.field:after, .customer select:hover.select:after, .localization-form__select:hover.localization-form__select:after,.field__input:focus, .select__select:focus, .customer .field input:focus, .customer select:focus, .localization-form__select:focus.localization-form__select:after,
+.button:after, .shopify-challenge__button:after, .customer button:after, .shopify-payment-button__button--unbranded:after,.button:not([disabled]):hover:after, 
+.shopify-challenge__button:hover:after, .customer button:hover:after, .shopify-payment-button__button--unbranded:hover:after,
+.swatch-input__input:active:focus-visible+.swatch-input__label, .swatch-input__input:checked:focus-visible+.swatch-input__label,
+.swatch-input__input:focus-visible+.swatch-input__label {
+    box-shadow: none !important;
+}
+
+.button, .shopify-challenge__button, .customer button, button.shopify-payment-button__button--unbranded,.field__input, .customer .field input,.button, 
+.shopify-challenge__button, .customer button,.field__input:focus, .field_select:focus, .select__select:focus, .customer .field input:focus, .customer select:focus, 
+.localization-form__select:focus.localization-form__select:after {
+    border:1px solid #ccc;
+    border-radius: 4px;
+} 
+/* End reset css */
