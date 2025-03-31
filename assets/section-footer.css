@@ -1,3 +1,195 @@
+/* VM */
+
+.footer p, ul.policies a {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.footer__payment {
+    text-align: center;
+}
+
+h2.footer-block__heading.inline-richtext {
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+ul.list-unstyled.list-social.footer__list-social {
+    gap: 20px;
+}
+
+ul.footer__list-social .svg-wrapper {
+    width: 25px;
+    height: 25px;
+}
+
+a.link.list-social__link {
+    padding: 0;
+}
+
+.footer__content-bottom {
+    border: 0 !important;
+}
+
+.footer__payment span {
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.footer__content-top {
+    padding-bottom: 0 !important; 
+}
+
+footer {
+    position: relative;
+}
+
+.to-top-link {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: none;
+    background: #ed3237;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    vertical-align: middle;
+    opacity: 0;
+    border: none;
+    transition: all .4s ease;
+    transform: translateY(60px);
+    -ms-transform: translateY(60px);
+}
+
+@media screen and (min-width: 768px) {
+.to-top-link {
+    display: flex;
+}
+}
+ .to-top-link.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+}
+
+svg.feather.feather-chevron-left {
+    stroke: #fff;
+    stroke-width: 1.5;
+}
+
+.footer-block--newsletter {
+    margin: 0 !important;
+}
+
+.footer-block__newsletter {
+    text-align: left !important;
+}
+
+.newsletter-form, .newsletter-form__field-wrapper {
+    max-width: 100% !important;
+}
+
+.newsletter-form__field-wrapper .field__input {
+    font-size: 14px;
+    line-height: 18px;
+    border: 1px solid #fff;
+    padding: 5px 10px !important;
+    border-radius: 5px;
+    height: 45px;
+}
+
+.newsletter-form__field-wrapper .field:before, .newsletter-form__field-wrapper .field:after,
+.newsletter-form__field-wrapper .field__input:focus~.field__label, .newsletter-form__field-wrapper .field__input:not(:placeholder-shown)~.field__label {
+    display: none;
+}
+
+.newsletter-form__field-wrapper .field:focus, .newsletter-form__field-wrapper .field:focus-visible, .newsletter-form__field-wrapper .field:active {
+    box-shadow: none !important;
+    border: 0;
+    outline: 0;
+}
+
+.newsletter-form__button {
+    position: unset;
+    background-color: #ed3237 !important;
+    height: 45px !important;
+    color: #fff;
+    border-radius: 5px;
+    width: 100% !important;
+    max-width: 70px !important;
+}
+
+.newsletter-form__field-wrapper .field {
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter-form__field-wrapper .field__label {
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.footer__content-bottom {
+    border: 0 !important;
+    padding-top: 10px !important;
+}
+
+ul.policies {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.policies li:before {
+    display: none;
+}
+
+.footer__content-bottom-wrapper--center {
+    background: #ed3237;
+    color: #fff;
+    padding: 8px 0;
+}
+
+.footer__copyright.caption {
+    margin: 0;
+}
+
+@media screen and (max-width: 749px) {
+.footer__content-top {
+    padding: 0 1.5rem !important;
+}
+
+.social-payment-market-wrapper {
+    display: flex !important;
+    gap: 20px;
+}
+  
+ul.policies {
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (min-width: 749px) {
+.footer__blocks-wrapper {
+    gap: 30px;
+}
+
+.footer-block.grid__item.footer-block--menu {
+    width: 10%;
+}
+}
+/* VM */
+
 .footer {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
 }
@@ -337,7 +529,7 @@
 
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground), 1);
 }
 
 .footer-block__details-content .list-menu__item--active {
