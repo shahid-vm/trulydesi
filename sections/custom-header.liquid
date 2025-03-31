@@ -250,7 +250,7 @@
       {% comment %}
         {% render 'header-search', input_id: 'Search-In-Modal' %}
       {% endcomment %}
-     <div class="search-bar ">
+     <div class="vm-search-bar">
         <form action="{{ routes.search_url }}" method="get">
           <input type="text" name="q" placeholder="Search...">
           <button type="submit">{{- 'icon-search.svg' | inline_asset_content -}}</button>
