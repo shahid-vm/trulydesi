@@ -57,3 +57,9 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     border-radius: 4px;
 } 
 /* End reset css */
+
+.vm-custom-search .vm-custom-search-form {
+    border: 1px solid #e2e2e2;
+    padding: 12px 18px;
+    border-radius: 30px;
+}
