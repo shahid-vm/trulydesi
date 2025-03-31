@@ -66,10 +66,13 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   align-items: center;
   padding: 5px;
 }
+.vm-search-bar form{
+  display: flex;
+}
 .vm-search-bar form input{
   border: none;
 }
-.vm-search-bar form button{
+.vm-search-bar form .search__button{
     align-items: center;
     background-color: transparent;
     border: 0;
