@@ -105,8 +105,8 @@
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
                         {% if block.settings.footer_logo != blank %}
-                          <div class="footer-block__image-wrapper" style="width:{{ block.settings.image_width }}">
-                            <img src="{{ block.settings.footer_logo | img_url:'master' }}" class="footer-logo-vm">
+                          <div class="footer-block__image-wrapper">
+                            <img src="{{ block.settings.footer_logo | img_url:'master' }}" class="footer-logo-vm" style="width:{{ block.settings.image_width }}">
                           </div>
                        {% endif %}
                       {%- if block.settings.content != blank -%}
