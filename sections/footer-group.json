@@ -50,7 +50,7 @@
         "color_scheme": "scheme-1",
         "enable_follow_on_shop": true,
         "show_social": true,
-        "payment_enable": true,
+        "payment_enable": false,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "show_policy": true,
