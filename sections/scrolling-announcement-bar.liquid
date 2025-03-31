@@ -1,11 +1,3 @@
-  {%- case section.settings.announcement_text_size -%}
-    {%- when 'small' -%}
-      {%- assign text_size_class = 'text--xsmall' -%}
-    {%- when 'normal' -%}
-      {%- assign text_size_class = 'text--small' -%}
-    {%- when 'large' -%}
-      {%- assign text_size_class = '' -%}
-  {%- endcase -%}
   <style>
       {%- if section.settings.announcement_bar_position == 'sticky' or section.settings.announcement_bar_position == 'sticky_desktop' -%}
         .section-{{ section.id }} {
@@ -62,6 +54,7 @@
     }
     .section-{{ section.id }} .marquee-item .announcement-title {
         letter-spacing: 1px;
+        font-size: {{ section.settings.announcement_text_size }}px;
     }
     .section-{{ section.id }} .s-container{
       display: flex;
@@ -166,25 +159,15 @@
             "default": 10
           },
          {
-          "type": "select",
-          "id": "announcement_text_size",
-          "label": "Text size",
-          "options": [
-            {
-              "value": "small",
-              "label": "Small"
-            },
-            {
-              "value": "normal",
-              "label": "Normal"
-            },
-            {
-              "value": "large",
-              "label": "Large"
-            }
-          ],
-          "default": "normal"
-        },
+            "type": "range",
+            "id": "announcement_text_size",
+            "min": 0,
+            "max": 72,
+            "step": 1,
+            "unit": "px",
+            "label": "Text Size",
+            "default": 12
+          },
          {
             "type": "color",
             "id": "background",
