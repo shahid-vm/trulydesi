@@ -1,1 +1,306 @@
-{"sections":{"slideshow_eWVBwE":{"type":"slideshow","blocks":{"slide_rHcdYg":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/Web-Desk_Banner_87106d0c-2145-45aa-85e0-55e7dcf8a196.png","image_overlay_opacity":0,"heading":"","heading_size":"h1","subheading":"","button_label":"","link":"","button_style_secondary":false,"show_text_box":false,"box_align":"middle-center","text_alignment":"center","text_alignment_mobile":"center","color_scheme":"scheme-1"}}},"block_order":["slide_rHcdYg"],"custom_css":[],"settings":{"layout":"full_bleed","slide_height":"adapt_image","slider_visual":"dots","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":""}},"slideshow_mJhUXy":{"type":"slideshow","settings":{"layout":"full_bleed","slide_height":"adapt_image","slider_visual":"counter","auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","show_text_below":false,"accessibility_info":"Slideshow about our brand"}},"featured_collection_DgB7LH":{"type":"featured-collection","settings":{"collection":"truly-desi-product-list","products_to_show":25,"title":"Our collections","heading_size":"h2","description":"","show_description":false,"description_style":"body","columns_desktop":4,"enable_desktop_slider":false,"full_width":false,"show_view_all":true,"view_all_style":"solid","color_scheme":"","image_ratio":"adapt","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"image_banner_TDV7Vi":{"type":"image-banner","blocks":{"heading_J3Fzhf":{"type":"heading","settings":{"heading":"","heading_size":"h1"}},"text_BNA63r":{"type":"text","settings":{"text":"","text_style":"body"}},"buttons_H6JLhz":{"type":"buttons","settings":{"button_label_1":"","button_link_1":"","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_J3Fzhf","text_BNA63r","buttons_H6JLhz"],"settings":{"image":"shopify:\/\/shop_images\/Web-Desk_Banner_1899_x_500_px_1899_x_400_px_3.png","image_overlay_opacity":0,"image_height":"adapt","image_behavior":"none","desktop_content_position":"middle-center","desktop_content_alignment":"center","show_text_box":false,"color_scheme":"","stack_images_on_mobile":false,"mobile_content_alignment":"center","show_text_below":false}},"image_with_text_iLpMXV":{"type":"image-with-text","blocks":{"heading_nbjVJX":{"type":"heading","settings":{"heading":"<strong>Summer Special - A2 Buttermilk<\/strong>","heading_size":"h2"}},"text_DCUMmW":{"type":"text","settings":{"text":"<p><strong>Explore the delightful world of benefits of buttermilk consumption.<\/strong><\/p><ul><li><strong>Rich in Probiotics.<\/strong><\/li><li><strong>Natural Coolant.<\/strong><\/li><li><strong>Prevents Dehydration and Boosts Energy.<\/strong><\/li><li><strong>High in Calcium.<\/strong><\/li><li><strong>Chemical free Antacid.<\/strong><\/li><li><strong>Rich in Antioxidants.<\/strong><\/li><\/ul><p><\/p><p><\/p><p><\/p>","text_style":"body"}},"button_3XUTg3":{"type":"button","settings":{"button_label":"Order Now","button_link":"shopify:\/\/products\/buttermilk","button_style_secondary":true}}},"block_order":["heading_nbjVJX","text_DCUMmW","button_3XUTg3"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/2_4.png","height":"small","desktop_image_width":"small","layout":"image_first","image_behavior":"zoom-in","content_layout":"no-overlap","desktop_content_position":"top","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","color_scheme":"","padding_top":8,"padding_bottom":16}},"multicolumn_MTkBJb":{"type":"multicolumn","blocks":{"column_3xRPmX":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/3.png","title":"<strong>Milk pouch Recycling<\/strong>","text":"<p><strong>Did you know that daily around 5 crore milk pouches turn into waste in India?<\/strong><\/p><p><strong>To overcome the waste generation and support to reduce the plastic pollution, we are trying to put in an organized system of collection and recycling of our pouches. Once these pouches are collected and sent to the recycling unit these packets are thoroughly washed, dried and then cut into small pieces by a machine and processed into plastic granules which will be further processed.<\/strong><\/p><p><strong> This way one can save a large amount of plastic bits from littering the land and be a part of an initiative and contribute to save this planet.<\/strong><\/p>","link_label":"","link":""}},"column_arhyHL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/1.png","title":"<strong>Breeding of Indian Breeds of Cows<\/strong>","text":"<p><strong>Our cows are free grazing and they get a whole array of natural choices of food and herbs which complete their dietary requirements resulting in correspondingly healthy milk.<\/strong><\/p><p><\/p><p><strong>- Each cow has its own choice depending on its requirements and grazes accordingly.<\/strong><\/p><p><\/p><p><strong>- All our cows conceive while grazing and in a natural setting. No artificial insemination.<\/strong><\/p><p><\/p><p><strong>- All these have resulted in fear-free and stress-free cows which have been tested through cortisol tests of their blood.<\/strong><\/p><p><\/p><p><strong>- One of the lowest scores of cortisol anywhere resulting in correspondingly healthy milk.<\/strong><\/p>","link_label":"","link":""}},"column_6TCiPK":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/2.png","title":"<strong>Conservation of Soil<\/strong>","text":"<p><strong>Did you know that if we continue conventional farming practices, no crops could be grown after 45 to 50 years as no fertile land will be left?<\/strong><\/p><p><\/p><p><strong>At our farm we carry out sustainable farming practices for improving soil fertily.<\/strong><\/p><p><\/p><p><strong>- Use of Desi Cow Based Organic Fertilizers<\/strong><\/p><p><strong>- Mulching<\/strong><\/p><p><strong>- Crop Rotation<\/strong><\/p><p><strong>- Multi Cropping\/Intercropping<\/strong><\/p><p><strong>- Vermicomposting<\/strong><\/p>","link_label":"","link":""}}},"block_order":["column_3xRPmX","column_arhyHL","column_6TCiPK"],"settings":{"title":"<strong>SUSTAINABILITY & CONSERVATION<\/strong>","heading_size":"h2","image_width":"full","image_ratio":"adapt","button_label":"","button_link":"","columns_desktop":3,"column_alignment":"left","background_style":"primary","color_scheme":"","columns_mobile":"1","swipe_on_mobile":true,"padding_top":20,"padding_bottom":0}},"video_e6VkhE":{"type":"video","settings":{"heading":"","heading_size":"h1","enable_video_looping":false,"video":"shopify:\/\/files\/videos\/Enjoy a few peaceful hours in the lap of nature along with your kids, friends and family!.mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","description":"","full_width":true,"color_scheme":"","padding_top":0,"padding_bottom":12}},"featured_blog_dC8T9G":{"type":"featured-blog","settings":{"blog":"truly-desi-blogs","post_limit":4,"heading":"<strong>BLOG POSTS<\/strong>","heading_size":"h2","columns_desktop":2,"show_view_all":true,"show_image":true,"show_date":false,"show_author":false,"color_scheme":"","padding_top":36,"padding_bottom":36}}},"order":["slideshow_eWVBwE","slideshow_mJhUXy","featured_collection_DgB7LH","image_banner_TDV7Vi","image_with_text_iLpMXV","multicolumn_MTkBJb","video_e6VkhE","featured_blog_dC8T9G"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_eWVBwE": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_rHcdYg": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web-Desk_Banner_87106d0c-2145-45aa-85e0-55e7dcf8a196.png",
+            "mob_image": "shopify://shop_images/1st_April_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_xtWBYn": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Web-Desk_Banner_87106d0c-2145-45aa-85e0-55e7dcf8a196.png",
+            "mob_image": "shopify://shop_images/1st_April_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_rHcdYg",
+        "slide_xtWBYn"
+      ],
+      "custom_css": [],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": ""
+      }
+    },
+    "slideshow_mJhUXy": {
+      "type": "slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "featured_collection_DgB7LH": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "truly-desi-product-list",
+        "products_to_show": 25,
+        "title": "Our collections",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "columns_desktop": 4,
+        "enable_desktop_slider": false,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_TDV7Vi": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_J3Fzhf": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_BNA63r": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_H6JLhz": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_J3Fzhf",
+        "text_BNA63r",
+        "buttons_H6JLhz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Web-Desk_Banner_1899_x_500_px_1899_x_400_px_3.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
+    "image_with_text_iLpMXV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nbjVJX": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Summer Special - A2 Buttermilk</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_DCUMmW": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Explore the delightful world of benefits of buttermilk consumption.</strong></p><ul><li><strong>Rich in Probiotics.</strong></li><li><strong>Natural Coolant.</strong></li><li><strong>Prevents Dehydration and Boosts Energy.</strong></li><li><strong>High in Calcium.</strong></li><li><strong>Chemical free Antacid.</strong></li><li><strong>Rich in Antioxidants.</strong></li></ul><p></p><p></p><p></p>",
+            "text_style": "body"
+          }
+        },
+        "button_3XUTg3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Order Now",
+            "button_link": "shopify://products/buttermilk",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_nbjVJX",
+        "text_DCUMmW",
+        "button_3XUTg3"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/2_4.png",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "zoom-in",
+        "content_layout": "no-overlap",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 8,
+        "padding_bottom": 16
+      }
+    },
+    "multicolumn_MTkBJb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_3xRPmX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/3.png",
+            "title": "<strong>Milk pouch Recycling</strong>",
+            "text": "<p><strong>Did you know that daily around 5 crore milk pouches turn into waste in India?</strong></p><p><strong>To overcome the waste generation and support to reduce the plastic pollution, we are trying to put in an organized system of collection and recycling of our pouches. Once these pouches are collected and sent to the recycling unit these packets are thoroughly washed, dried and then cut into small pieces by a machine and processed into plastic granules which will be further processed.</strong></p><p><strong> This way one can save a large amount of plastic bits from littering the land and be a part of an initiative and contribute to save this planet.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_arhyHL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1.png",
+            "title": "<strong>Breeding of Indian Breeds of Cows</strong>",
+            "text": "<p><strong>Our cows are free grazing and they get a whole array of natural choices of food and herbs which complete their dietary requirements resulting in correspondingly healthy milk.</strong></p><p></p><p><strong>- Each cow has its own choice depending on its requirements and grazes accordingly.</strong></p><p></p><p><strong>- All our cows conceive while grazing and in a natural setting. No artificial insemination.</strong></p><p></p><p><strong>- All these have resulted in fear-free and stress-free cows which have been tested through cortisol tests of their blood.</strong></p><p></p><p><strong>- One of the lowest scores of cortisol anywhere resulting in correspondingly healthy milk.</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6TCiPK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2.png",
+            "title": "<strong>Conservation of Soil</strong>",
+            "text": "<p><strong>Did you know that if we continue conventional farming practices, no crops could be grown after 45 to 50 years as no fertile land will be left?</strong></p><p></p><p><strong>At our farm we carry out sustainable farming practices for improving soil fertily.</strong></p><p></p><p><strong>- Use of Desi Cow Based Organic Fertilizers</strong></p><p><strong>- Mulching</strong></p><p><strong>- Crop Rotation</strong></p><p><strong>- Multi Cropping/Intercropping</strong></p><p><strong>- Vermicomposting</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_3xRPmX",
+        "column_arhyHL",
+        "column_6TCiPK"
+      ],
+      "settings": {
+        "title": "<strong>SUSTAINABILITY & CONSERVATION</strong>",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "video_e6VkhE": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/Enjoy a few peaceful hours in the lap of nature along with your kids, friends and family!.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "featured_blog_dC8T9G": {
+      "type": "featured-blog",
+      "settings": {
+        "blog": "truly-desi-blogs",
+        "post_limit": 4,
+        "heading": "<strong>BLOG POSTS</strong>",
+        "heading_size": "h2",
+        "columns_desktop": 2,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow_eWVBwE",
+    "slideshow_mJhUXy",
+    "featured_collection_DgB7LH",
+    "image_banner_TDV7Vi",
+    "image_with_text_iLpMXV",
+    "multicolumn_MTkBJb",
+    "video_e6VkhE",
+    "featured_blog_dC8T9G"
+  ]
+}
