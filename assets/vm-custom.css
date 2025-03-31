@@ -58,11 +58,15 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 } 
 /* End reset css */
 
-.search-bar {
+.vm-search-bar {
   display: flex;
   border: 1px solid #ccc;
   border-radius: 20px;
   overflow: hidden;
   align-items: center;
   padding: 5px;
+  border: none;
+}
+.vm-search-bar input{
+  border: none;
 }
