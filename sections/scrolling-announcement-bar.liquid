@@ -28,7 +28,7 @@
               <div class="marquee-item">
                 <span class="s-container">
                       <img src="{{ section.settings.image | img_url :'master' }}" alt="{{ block.settings.image.alt}}">
-                      <span style="color:{{ section.settings.text_color }}" class="{{ text_size_class }}">{{ block.settings.anouncement }}</span>
+                      <span style="color:{{ section.settings.text_color }}" class="announcement-title">{{ block.settings.anouncement }}</span>
                 </span>
               </div>
            {% endfor %}
@@ -36,7 +36,7 @@
               <div class="marquee-item">
                 <span class="s-container">
                       <img src="{{ section.settings.image | img_url :'master' }}" alt="{{ block.settings.image.alt}}">
-                      <span style="color:{{ section.settings.text_color }}" class="{{ text_size_class }}">{{ block.settings.anouncement }}</span>
+                      <span style="color:{{ section.settings.text_color }}" class="announcement-title">{{ block.settings.anouncement }}</span>
                 </span>
               </div>
            {% endfor %}
@@ -44,7 +44,7 @@
               <div class="marquee-item">
                 <span class="s-container">
                       <img src="{{ section.settings.image | img_url :'master' }}" alt="{{ block.settings.image.alt}}">
-                      <span style="color:{{ section.settings.text_color }}" class="{{ text_size_class }}">{{ block.settings.anouncement }}</span>
+                      <span style="color:{{ section.settings.text_color }}" class="announcement-title">{{ block.settings.anouncement }}</span>
                 </span>
               </div>
            {% endfor %}
@@ -60,7 +60,7 @@
       color: #000;
       overflow: hidden;
     }
-    .section-{{ section.id }} .marquee-item span {
+    .section-{{ section.id }} .marquee-item .announcement-title {
         letter-spacing: 1px;
     }
     .section-{{ section.id }} .s-container{
