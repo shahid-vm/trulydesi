@@ -55,15 +55,15 @@
    </section>
   {% endif %}
   <style>
-    .marquee {
+    .section-{{ section.id }} .marquee {
       padding: 8px 0px;
       color: #000;
       overflow: hidden;
-  }
-      .marquee-item span {
-          letter-spacing: 1px;
-      }
-    .s-container{
+    }
+    .section-{{ section.id }} .marquee-item span {
+        letter-spacing: 1px;
+    }
+    .section-{{ section.id }} .s-container{
       display: flex;
       align-items: center;
       color: #000;
@@ -76,20 +76,20 @@
       font-weight: 600;
       word-spacing: 2px;
     }
-    .marquee-content {
+    .section-{{ section.id }} .marquee-content {
       display: flex;
       animation: scrolling 30s linear infinite;
       margin-top: 0px;
-  }
-     .marquee-item {
+    }
+     .section-{{ section.id }} .marquee-item {
       flex: 0 0 35vw;
       margin: 0 0vw;
       letter-spacing: 1px;
-  }
-   .marquee-item img {
+    }
+   .section-{{ section.id }} .marquee-item img {
       width: 7px;
       margin: 0 auto;
-  }
+    }
     @keyframes scrolling {
       0% { 
         transform: translateX(0); 
@@ -102,7 +102,7 @@
       #{{ section.id }} .marquee-item {
           flex: 0 0 115vw !important;
       }
-      .marquee-content {
+      .section-{{ section.id }} .marquee-content {
           animation: scrolling 7s linear infinite;
       }
     }
