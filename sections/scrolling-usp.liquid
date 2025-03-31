@@ -1,29 +1,48 @@
 <style>
-  .banner {
+  .marquee-container {
       background-color: #f9f7eb; /* Light cream background */
       padding: 10px 0;
-      text-align: center;
-      white-space: nowrap;
       overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      width: 100%;
+  }
+
+  .marquee-content {
+      display: inline-block;
+      white-space: nowrap;
       font-family: "Georgia", serif;
       font-style: italic;
       font-size: 24px;
-      color: #5a7425; /* Green color */
+      color: #5a7425; /* Green text */
+      animation: marquee 15s linear infinite;
   }
-  
-  .banner span {
-      margin: 0 10px;
+
+  .marquee-content span {
+      margin: 0 15px;
   }
-  
+
   .asterisk {
       color: #f4d35e; /* Yellow asterisk */
       font-size: 26px;
   }
+
+  /* Scrolling animation */
+  @keyframes marquee {
+      from {
+          transform: translateX(100%);
+      }
+      to {
+          transform: translateX(-100%);
+      }
+  }
 </style>
 {% for block in section.blocks %}
-  <div class="banner">
-    <span>{{ block.settings.title }}</span>
-    <span class="asterisk">✻</span>
+  <div class="marquee-container">
+    <div class="marquee-content">
+        <span>{{ block.settings.title }}</span>
+        <span class="asterisk">✻</span>
+    </div>
   </div>
 {% endfor %}
 {% schema %}
