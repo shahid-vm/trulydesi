@@ -112,8 +112,8 @@
                       {%- if block.settings.content != blank -%}
                         <div class="rte">{{ block.settings.content }}</div>
                       {%- endif -%}
-                      {% if block.settings.email != blank %}
-                        <b>Email:</b><a href="mailto:{{ block.settings.email }}">{{ block.settings.email }}</a>
+                      {% if block.settings.footer_email != blank %}
+                        <b>Email:</b><a href="mailto:{{ block.settings.footer_email }}">{{ block.settings.footer_email }}</a>
                       {% endif %}
                     </div>
                   {%- when 'image' -%}
@@ -285,6 +285,16 @@
           "type": "textarea",
           "id": "content",
           "label": "Content"
+        },
+        {
+          "type":"text",
+          "id":"footer_email",
+          "label": "Email"
+        },
+        {
+          "type":"text",
+          "id":"footer_phone",
+          "label": "Phone"
         }
       ]
     },
