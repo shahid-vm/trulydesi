@@ -73,6 +73,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 }
 .vm-search-bar form input{
   border: none;
+  background: #f5f5f5;
 }
 .vm-search-bar form .search__button{
     align-items: center;
