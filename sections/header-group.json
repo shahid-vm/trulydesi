@@ -32,7 +32,7 @@
         "slide_rwAhw9"
       ],
       "settings": {
-        "announcement_bar_position": "sticky_desktop",
+        "announcement_bar_position": "non_sticky",
         "image": "shopify://shop_images/circle-svgrepo-com_1.svg",
         "image_width": 10,
         "announcement_text_size": "normal",
