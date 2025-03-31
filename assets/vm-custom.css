@@ -65,6 +65,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   overflow: hidden;
   align-items: center;
   padding: 5px;
+  margin-right: 20px;
 }
 .vm-search-bar form{
   display: flex;
