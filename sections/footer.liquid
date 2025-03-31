@@ -115,6 +115,9 @@
                       {% if block.settings.footer_email != blank %}
                         <b>Email:</b><a href="mailto:{{ block.settings.footer_email }}">{{ block.settings.footer_email }}</a>
                       {% endif %}
+                      {% if block.settings.footer_phone != blank %}
+                        <b>Email:</b><a href="tel:{{ block.settings.footer_phone }}">{{ block.settings.footer_phone }}</a>
+                      {% endif %}
                     </div>
                   {%- when 'image' -%}
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
