@@ -1,5 +1,5 @@
 <style>
-  .marquee-container {
+  .{{ section.id }} .marquee-container {
       background-color: #f9f7eb; /* Light cream background */
       padding: 10px 0;
       overflow: hidden;
@@ -8,7 +8,7 @@
       width: 100%;
   }
 
-  .marquee-content {
+  .{{ section.id }} .marquee-content {
       display: inline-block;
       white-space: nowrap;
       font-family: "Georgia", serif;
@@ -18,11 +18,11 @@
       animation: marquee 15s linear infinite;
   }
 
-  .marquee-content span {
+  .{{ section.id }} .marquee-content span {
       margin: 0 15px;
   }
 
-  .asterisk {
+  .{{ section.id }} .asterisk {
       color: #f4d35e; /* Yellow asterisk */
       font-size: 26px;
   }
@@ -37,7 +37,7 @@
       }
   }
 </style>
-  <div class="marquee-container">
+  <div class="marquee-container {{ section.id }}">
     <div class="marquee-content">
       {% for block in section.blocks %}
               <span>{{ block.settings.title }}</span>
