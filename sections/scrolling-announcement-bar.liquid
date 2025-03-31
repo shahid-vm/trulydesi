@@ -87,7 +87,7 @@
       letter-spacing: 1px;
     }
    .section-{{ section.id }} .marquee-item img {
-      width: 7px;
+      width: {{ section.settings.image_width}}px;
       margin: 0 auto;
     }
     @keyframes scrolling {
@@ -155,6 +155,16 @@
            "id": "image",
            "label": "Image"
          },
+         {
+            "type": "range",
+            "id": "image_width",
+            "min": 0,
+            "max": 36,
+            "step": 1,
+            "unit": "px",
+            "label": "Image Width",
+            "default": 10
+          },
          {
           "type": "select",
           "id": "announcement_text_size",
