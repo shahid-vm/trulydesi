@@ -1,6 +1,64 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+  .banner {
+      background-color: #f9f7eb; /* Light cream background */
+      padding: 10px 0;
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      font-family: "Georgia", serif;
+      font-style: italic;
+      font-size: 24px;
+      color: #5a7425; /* Green color */
   }
+  
+  .banner span {
+      margin: 0 10px;
+  }
+  
+  .asterisk {
+      color: #f4d35e; /* Yellow asterisk */
+      font-size: 26px;
+  }
+</style>
+{% for block in section.blocks %}
+  <div class="banner">
+    <span>{{ block.settings.title }}</span>
+    <span class="asterisk">✻</span>
+  </div>
+{% endfor %}
+{% schema %}
+{
+  "name": "Scrolling Usp",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+  ],
+  "blocks": [
+    {
+      "type": "usp",
+      "name": "USP",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "Title",
+          "label": "Title"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Scrolling Usp"
+    }
+  ]
+}
 {% endschema %}
