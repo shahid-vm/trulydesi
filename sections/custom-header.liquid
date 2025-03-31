@@ -250,11 +250,10 @@
       {% comment %}
         {% render 'header-search', input_id: 'Search-In-Modal' %}
       {% endcomment %}
-     <div class="header__search-bar predictive-search vm-custom-search vm-custom-mob">
-        <form class="predictive-search__form vm-custom-search-form" action="{{ routes.search_url }}" method="get" role="search">
-          <input type="hidden" name="type" value="product">
-          <input class="predictive-search__input typed" is="predictive-search-input" type="text" name="q" autocomplete="off" autocorrect="off" aria-expanded="false" aria-autocomplete="list" aria-controls="search-results" aria-label="Search" aria-label="{{ 'search.general.title' | t }}" placeholder="{{ 'search.general.search_placeholder' | t }}">
-          <button type="submit" aria-label="Search">{%- render 'icon' with 'header-search' -%}</button>
+     <div class="search-bar ">
+        <form action="{{ routes.search_url }}" method="get">
+          <input type="text" name="q" placeholder="Search...">
+          <button type="submit">{{- 'icon-search.svg' | inline_asset_content -}}</button>
         </form>
       </div>
 
