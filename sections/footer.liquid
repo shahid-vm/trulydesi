@@ -109,6 +109,9 @@
                             <img src="{{ block.settings.footer_logo | img_url:'master' }}" class="footer-logo-vm">
                           </div>
                        {% endif %}
+                       {% if block.settings.email != blank %}
+                         <b>Email:</b><a href="mailto:{{ block.settings.email }}">{{ block.settings.email }}</a>
+                       {% endif %}
                       {%- if block.settings.content != blank -%}
                         <div class="rte">{{ block.settings.content }}</div>
                       {%- endif -%}
@@ -282,6 +285,16 @@
           "type": "textarea",
           "id": "content",
           "label": "Content"
+        },
+        {
+          "type": "text",
+          "id":"email",
+          "label": "Email"
+        },
+        {
+          "type": "text",
+          "id":"phone",
+          "label": "Phone"
         }
       ]
     },
