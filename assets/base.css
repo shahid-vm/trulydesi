@@ -2698,7 +2698,7 @@ details[open] .modal-overlay::after {
   }
 
   .search-modal__content {
-    padding: 0 6rem;
+    padding: 0px 0px 0px 6rem;
   }
 }
 
