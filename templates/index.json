@@ -67,6 +67,35 @@
         "accessibility_info": ""
       }
     },
+    "scrolling_usp_EhRn4R": {
+      "type": "scrolling-usp",
+      "blocks": {
+        "usp_68cwNG": {
+          "type": "usp",
+          "settings": {
+            "title": "Title"
+          }
+        },
+        "usp_69QHLE": {
+          "type": "usp",
+          "settings": {
+            "title": "Title"
+          }
+        },
+        "usp_n33f9z": {
+          "type": "usp",
+          "settings": {
+            "title": "Title"
+          }
+        }
+      },
+      "block_order": [
+        "usp_68cwNG",
+        "usp_69QHLE",
+        "usp_n33f9z"
+      ],
+      "settings": {}
+    },
     "slideshow_mJhUXy": {
       "type": "slideshow",
       "settings": {
@@ -295,6 +324,7 @@
   },
   "order": [
     "slideshow_eWVBwE",
+    "scrolling_usp_EhRn4R",
     "slideshow_mJhUXy",
     "featured_collection_DgB7LH",
     "image_banner_TDV7Vi",
