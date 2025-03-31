@@ -37,14 +37,14 @@
       }
   }
 </style>
-{% for block in section.blocks %}
   <div class="marquee-container">
     <div class="marquee-content">
-        <span>{{ block.settings.title }}</span>
-        <span class="asterisk">✻</span>
+      {% for block in section.blocks %}
+              <span>{{ block.settings.title }}</span>
+              <span class="asterisk">✻</span>
+      {% endfor %}
     </div>
-  </div>
-{% endfor %}
+</div>
 {% schema %}
 {
   "name": "Scrolling Usp",
