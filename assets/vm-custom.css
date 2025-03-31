@@ -88,7 +88,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 }
 .mobile-search-bar{
     margin-right: 0px;
-    padding: 0px;
+    padding: 5px;
     justify-content: center;
     margin: 0px 42px;
     margin-bottom: 13px;
