@@ -104,6 +104,9 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   .vm-search-model{
     margin-bottom: 20px;
   }
+  .search-modal__content {
+      padding: 0 1rem 0 1rem;
+  }
 }
 .slideshow__control-wrapper{
     position: absolute;
