@@ -93,4 +93,8 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     margin: 0px 42px;
     margin-bottom: 13px;
 }
-
+@media screen and (min-width: 989px) {
+  .large-hide{
+    display:none;
+  }
+}
