@@ -247,7 +247,15 @@
           </localization-form>
         {%- endif -%}
       </div>
-      {% render 'header-search', input_id: 'Search-In-Modal' %}
+      {% comment %}
+        {% render 'header-search', input_id: 'Search-In-Modal' %}
+      {% endcomment %}
+     <div class="search-bar">
+        <form action="{{ routes.search_url }}" method="get">
+          <input type="text" name="q" placeholder="Search...">
+          <button type="submit">🔍</button>
+        </form>
+      </div>
 
       {%- if shop.customer_accounts_enabled -%}
         <a
