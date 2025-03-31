@@ -288,11 +288,27 @@
     },
     {
       "type": "brand_information",
-      "name": "t:sections.footer.blocks.brand_information.name",
+      "name": "Brand Information",
       "settings": [
         {
-          "type": "paragraph",
-          "content": "t:sections.footer.blocks.brand_information.settings.paragraph.content"
+          "type": "textarea",
+          "id": "content",
+          "label": "Content"
+        },
+        {
+          "type": "image_picker",
+          "id": "footer_logo",
+          "label": "Footer Logo"
+        },
+        {
+          "type":"checkbox",
+          "id": "phone",
+          "label": "Show Phone No."
+        },
+        {
+          "type":"checkbox",
+          "id": "email",
+          "label": "Show Email"
         }
       ]
     },
