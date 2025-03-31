@@ -250,7 +250,7 @@
       {% comment %}
         {% render 'header-search', input_id: 'Search-In-Modal' %}
       {% endcomment %}
-     <div class="vm-search-bar d-search-bar">
+     <div class="vm-search-bar small-hide medium-hide">
         <form action="{{ routes.search_url }}" method="get">
           <input type="text" name="q" placeholder="Search...">
           <button class="search__button" aria-label="{{ 'general.search.search' | t }}">
