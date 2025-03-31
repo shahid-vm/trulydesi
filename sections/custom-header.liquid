@@ -247,10 +247,11 @@
           </localization-form>
         {%- endif -%}
       </div>
+      <!-- Custom Serch form for Desktop -->
       <div class="small-hide medium-hide">
       {% render 'custom-search-form', input_id: 'Search-In-Modal' %}
       </div>
-
+      
       {%- if shop.customer_accounts_enabled -%}
         <a
           href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
@@ -305,15 +306,8 @@
       </a>
     </div>
   </header>
-  <div class="vm-search-bar mobile-search-bar large-hide">
-    <form action="{{ routes.search_url }}" method="get">
-      <button class="search__button" aria-label="{{ 'general.search.search' | t }}">
-          <span class="svg-wrapper">
-            {{- 'icon-search.svg' | inline_asset_content -}}
-          </span>
-      </button>
-      <input type="text" name="q" placeholder="Search...">
-    </form>
+   <div class="large-hide">
+    {% render 'custom-search-form', input_id: 'Search-In-Modal' %}
   </div>
 </{{ header_tag }}>
 
