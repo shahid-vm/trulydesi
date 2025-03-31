@@ -109,3 +109,8 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 .predictive-search__results-groups-wrapper {
     flex-direction: column;
 }
+@media screen and (min-width: 750px) {
+    .predictive-search__result-group:first-child {
+        flex: 0 !important;
+    }
+}
