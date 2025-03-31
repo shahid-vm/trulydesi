@@ -18,9 +18,9 @@
           "type": "brand_information",
           "settings": {
             "footer_logo": "shopify://shop_images/Truly-Desi-PNG-Logo.png",
-            "content": "Truly Desi came into existence in June 2018 as a means to bridge the gap that has been prevailing in the Indian dairy and farming industry.",
-            "phone": false,
-            "email": false
+            "content": "132, Poonam Farm, Navi Pardi, Kamrej, Surat - 394150 Gujarat, India.",
+            "phone": true,
+            "email": true
           }
         },
         "link_list_GHy3f7": {
