@@ -101,7 +101,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   }
 }
 @media screen and (max-width: 989px) {
-  vm-search-model{
+  .vm-search-model{
     margin-bottom: 20px;
   }
 }
