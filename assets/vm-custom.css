@@ -100,3 +100,9 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     display:none;
   }
 }
+.slideshow__controls{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%) !important;
+}
