@@ -317,12 +317,12 @@
   </header>
   <div class="vm-search-bar mobile-search-bar large-hide">
     <form action="{{ routes.search_url }}" method="get">
-      <input type="text" name="q" placeholder="Search...">
       <button class="search__button" aria-label="{{ 'general.search.search' | t }}">
           <span class="svg-wrapper">
             {{- 'icon-search.svg' | inline_asset_content -}}
           </span>
-        </button>
+      </button>
+      <input type="text" name="q" placeholder="Search...">
     </form>
   </div>
 </{{ header_tag }}>
