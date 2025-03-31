@@ -102,7 +102,7 @@ svg.feather.feather-chevron-left {
 .newsletter-form__field-wrapper .field__input {
     font-size: 14px;
     line-height: 18px;
-    border: 1px solid #fff;
+    border: 1px solid #85C247;
     padding: 5px 10px !important;
     border-radius: 5px;
     height: 45px;
@@ -121,7 +121,7 @@ svg.feather.feather-chevron-left {
 
 .newsletter-form__button {
     position: unset;
-    background-color: #ed3237 !important;
+    background-color: #85C247 !important;
     height: 45px !important;
     color: #fff;
     border-radius: 5px;
@@ -155,7 +155,7 @@ ul.policies {
 }
 
 .footer__content-bottom-wrapper--center {
-    background: #ed3237;
+    background: #85C247;
     color: #fff;
     padding: 8px 0;
 }
