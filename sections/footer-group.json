@@ -19,8 +19,8 @@
           "settings": {
             "footer_logo": "shopify://shop_images/Truly-Desi-PNG-Logo.png",
             "content": "132, Poonam Farm, Navi Pardi, Kamrej, Surat - 394150 Gujarat, India.",
-            "phone": true,
-            "email": true
+            "footer_email": "info@trulydesi.in",
+            "footer_phone": "1234567890"
           }
         },
         "link_list_GHy3f7": {
