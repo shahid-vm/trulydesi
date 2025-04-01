@@ -113,7 +113,7 @@
         </h2>
         <div class="tab">
           {% for block in section.blocks %}
-              <button class="tablinks" onclick="openCity(event, '{{ block.id }}')">{{ block.settings.collection.title }}</button>
+              <button class="tablinks {% if forloop.first %} active{% endif %}" onclick="openCity(event, '{{ block.id }}')">{{ block.settings.collection.title }}</button>
           {% endfor %}
         </div>
       {%- endif -%}
