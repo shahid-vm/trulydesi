@@ -152,3 +152,6 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     min-height: 33px;
     border-radius: 20px;
   }
+  .product-form__buttons{
+    text-align: center;
+  }
