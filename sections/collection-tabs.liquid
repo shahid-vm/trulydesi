@@ -97,6 +97,7 @@
     font-size: 48px;
   }
   
+  
 </style>
 <div
   class="color-{{ section.settings.color_scheme }} isolate gradient {{ section.id }}"
@@ -248,6 +249,7 @@
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(blockid).style.display = "block";
+    document.getElementById(blockid).classList.add("custom-style");
     evt.currentTarget.className += " active";
   }
 </script>
