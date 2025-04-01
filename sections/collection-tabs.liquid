@@ -249,7 +249,7 @@
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementById(blockid).style.display = "block";
-    document.getElementById(blockid).classList.add("custom-style");
+    document.getElementById(blockid).classList.toggle("custom-layout");
     evt.currentTarget.className += " active";
   }
 </script>
