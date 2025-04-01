@@ -85,7 +85,6 @@
       >
         {% assign skip_card_product_styles = false %}
         {%- if block.settings.collection.products.size > 0 -%}
-          {{ block.settings.collection.title }}
           {% paginate block.settings.collection.products by section.settings.products_to_show %}
             {%- for product in block.settings.collection.products limit: section.settings.products_to_show -%}
               <li
