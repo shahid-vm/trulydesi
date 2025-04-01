@@ -137,7 +137,7 @@
               {%- for product in block.settings.collection.products limit: section.settings.products_to_show -%}
                 <li
                   id="Slide-{{ section.id }}-{{ forloop.index }}"
-                  class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                  class="{{ block.id }} grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                   {% if settings.animations_reveal_on_scroll %}
                     data-cascade
                     style="--animation-order: {{ forloop.index }};"
@@ -238,20 +238,31 @@
   </div>
 </div>
 <script>
-  function openCity(evt, blockid) {
+function openCity(evt, blockClass) {
     var i, tabcontent, tablinks;
+    
+    // Hide all tab contents
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
+        tabcontent[i].style.display = "none";
     }
+
+    // Remove "active" class from all tab links
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].classList.remove("active");
     }
-    document.getElementById(blockid).style.display = "block";
-    document.getElementById(blockid).classList.toggle("custom-layout");
-    evt.currentTarget.className += " active";
-  }
+
+    // Show all elements with the specified class name
+    var elements = document.getElementsByClassName(blockClass);
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.display = "block";
+        elements[i].classList.toggle("custom-layout"); // Toggle custom layout
+    }
+
+    // Add active class to clicked tab
+    evt.currentTarget.classList.add("active");
+}
 </script>
 {% schema %}
 {
