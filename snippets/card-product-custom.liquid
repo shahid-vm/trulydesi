@@ -288,7 +288,15 @@
               {% endif %}
             {%- endif -%}
           </div>
-          <h1>Place confirm</h1>
+          <form method="post" action="/cart/add">
+            <input type="hidden" name="id" value="{{ card_product.variants.first.id }}">
+            <button type="submit" class="add-to-cart">Add to Cart</button>
+          </form>
+          
+          <form method="post" action="/checkout">
+            <input type="hidden" name="id" value="{{ card_product.variants.first.id }}">
+            <button type="submit" class="buy-now">Buy Now</button>
+          </form>
         </div>
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
