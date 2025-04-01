@@ -20,7 +20,7 @@
   Usage:
   {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
-{%- assign quick_add = 'standard' -%}
+{% assign quick_add = 'standard' %}
 {%- unless skip_styles -%}
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
@@ -29,7 +29,6 @@
   {{ 'quick-order-list.css' | asset_url | stylesheet_tag }}
   {{ 'quantity-popover.css' | asset_url | stylesheet_tag }}
 {%- endunless -%}
-{% assign card_style == 'standard' %}
 {%- if card_product and card_product != empty -%}
   {%- liquid
     assign ratio = 1
