@@ -105,6 +105,24 @@
     },
     "collection_tabs_iVx6Lz": {
       "type": "collection-tabs",
+      "blocks": {
+        "collection_RAf4Rj": {
+          "type": "collection",
+          "settings": {
+            "collection": "truly-desi-product-list"
+          }
+        },
+        "collection_Gjix8d": {
+          "type": "collection",
+          "settings": {
+            "collection": "truly-desi-product-list"
+          }
+        }
+      },
+      "block_order": [
+        "collection_RAf4Rj",
+        "collection_Gjix8d"
+      ],
       "settings": {}
     },
     "image_banner_TDV7Vi": {
