@@ -1,6 +1,153 @@
+<style>
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+
+<h2>Tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Collection-Tabs",
+     "settings": [
+           {
+          "type": "select",
+          "id": "announcement_bar_position",
+          "label": "Position",
+          "options": [
+            {
+              "value": "non_sticky",
+              "label": "Non sticky"
+            },
+            {
+              "value": "sticky_desktop",
+              "label": "Sticky on desktop only"
+            },
+            {
+              "value": "sticky_mobile",
+              "label": "Sticky on mobile only"
+            },
+            {
+              "value": "sticky",
+              "label": "Sticky everywhere"
+            }
+          ],
+          "default": "non_sticky"
+        },
+       	{
+           "type": "image_picker",
+           "id": "image",
+           "label": "Image"
+         },
+         {
+            "type": "range",
+            "id": "image_width",
+            "min": 0,
+            "max": 36,
+            "step": 1,
+            "unit": "px",
+            "label": "Image Width",
+            "default": 10
+          },
+         {
+            "type": "range",
+            "id": "announcement_text_size",
+            "min": 0,
+            "max": 72,
+            "step": 1,
+            "unit": "px",
+            "label": "Text Size",
+            "default": 12
+          },
+         {
+            "type": "color",
+            "id": "background",
+            "label": "Background",
+            "default": "#1e2d7d"
+          },
+          {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text",
+            "default": "#ffffff"
+          }
+      ],
+    	"blocks": [
+       {
+         "name": "Anouncement",
+         "type": "slide",
+         "settings": [
+           {
+             "type": "text",
+             "id": "anouncement",
+             "label": "Announcement"
+           }
+         ]
+       }
+     ],
+      "presets": [
+        {
+          "name": "Collection-Tabs",
+        }
+    ]
   }
 {% endschema %}
