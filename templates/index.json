@@ -103,46 +103,9 @@
         "text_color": "#6d832c"
       }
     },
-    "slideshow_mJhUXy": {
-      "type": "slideshow",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "featured_collection_DgB7LH": {
-      "type": "featured-collection",
-      "settings": {
-        "collection": "truly-desi-product-list",
-        "products_to_show": 25,
-        "title": "Our collections",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
+    "collection_tabs_iVx6Lz": {
+      "type": "collection-tabs",
+      "settings": {}
     },
     "image_banner_TDV7Vi": {
       "type": "image-banner",
@@ -332,8 +295,7 @@
   "order": [
     "slideshow_eWVBwE",
     "scrolling_announcement_bar_UAEhwn",
-    "slideshow_mJhUXy",
-    "featured_collection_DgB7LH",
+    "collection_tabs_iVx6Lz",
     "image_banner_TDV7Vi",
     "image_with_text_iLpMXV",
     "multicolumn_MTkBJb",
