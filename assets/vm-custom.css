@@ -156,3 +156,205 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   .product-form__buttons{
     text-align: center;
   }
+
+/* Collection css/ Product card css */
+  .collectionTabLabel {
+    margin-bottom: 2rem !important;
+}
+  li.tab-title a {
+      color: #000;
+      font-weight: 600;
+  }
+  .new-badge {
+    --f: .5em;
+    --r: .8em;
+    z-index: 9;
+    position: absolute;
+    top: 12px;
+    left: calc(-1* var(--f));
+    padding-inline: .25em;
+    padding-right: .5em !important;
+    padding-left: .5em !important;
+    line-height: 1.8;
+    background: #4f872e;
+    border-bottom: var(--f) solid #0005;
+    border-right: var(--r) solid #0000;
+    clip-path: polygon(0 0, 0 calc(100% - var(--f)), var(--f) 100%, var(--f) calc(100% - var(--f)), 100% calc(100% - var(--f)), calc(100% - var(--r)) calc(50% - var(--f) / 2), 100% 0);
+}
+   .home-tab {
+    text-align: center;
+    padding: 32px 0;
+  }
+  .home-tab ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .collectionsProducts {
+    display: none;
+  }
+  .collection_tab_heading li a {
+    text-transform: capitalize;
+  }
+  .collection_tab_heading li.activeTab a {
+   color: #4F872E;
+    font-weight: 600;
+  }
+  .collection_tab_heading li.swiper-slide:first-child,
+  .collection_tab_heading li.swiper-slide:nth-child(2n) {
+    width: fit-content !important;
+  }
+  ul.collection_tab_heading {
+    display: -webkit-inline-box;
+    overflow-x: auto;
+    width: 100%;
+    padding-bottom:1rem
+  }
+  .collection_tab_heading li {
+    padding: 0 1.5rem;
+  }
+  .collection_tab_heading li:first-child {
+    padding-left: 0;
+  }
+  .collection_tab_heading li:last-child {
+    padding-right: 0;
+  }
+  .swiper-scrollbar.swiper-scrollbar-horizontal {
+    display: none;
+  }
+  ul.collection_tab_heading::-webkit-scrollbar {
+    height:3px;
+  }
+  ul.collection_tab_heading::-webkit-scrollbar-thumb  {
+     background:#4F872E;
+  }
+  .collectionsProducts a.green-btn:hover{
+    text-decoration:underline;
+  }
+  svg.placeholder-svg {
+    width: 100%;
+  }
+  .collectionImg img {
+    width: 100%;
+        display: flex;
+  }
+  
+   .CollectionP-content{
+     line-height: 18px;
+    padding:1.2rem 1.5rem 2.5rem;
+  }
+    .CollectionP-content > h3 {
+    line-height: 2.7rem;
+    font-size: 1.8rem;  
+    min-height: 54px;   
+  }
+    .CollectionP-content h3 a {
+    font-size: 1.8rem;   
+  }
+  .CollectionP-content span.f-p-description {
+    font-size: 1.4rem;
+    line-height: 18px;
+    display:block;
+    padding:1rem 0;
+  }
+  .price-with-btn{
+   display:block;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0.5rem 0 0rem;
+    width:100%;
+   }
+  .price-with-btn .price{
+  text-align: center;
+   }
+    .CollectionProduct .price-with-btn .price-item{
+     font-size:1.8rem;
+   }
+  .CollectionProduct .price--on-sale .price__sale{
+    gap:0.6rem;
+  } 
+ .CollectionProduct .compare-price, .CollectionProduct s.price-item.price-item--regular {
+    font-size: 1.1rem;
+}
+  .CollectionProduct span.discount-label.font-heading{
+    display:none;
+ }
+
+  .price-with-btn > div{
+    flex:50%;
+  }
+  @media screen and (min-width:768px) {
+    .CollectionProduct:hover .card__media a.green-btn,
+  .CollectionProduct:focus .card__media a.green-btn{
+    display:flex;
+  }
+    .collection_tab_heading li.activeTab a,
+  .collection_tab_heading li a:hover {
+   border-bottom: 1.9px solid #4F872E;
+  }
+    .price-with-btn > div {
+        flex: 100%;
+        display: flex;
+        justify-content: center;
+  }   
+    .home-tab {
+      padding: 50px 0 50px;
+    }
+    .collectionsProducts ul {
+      padding-bottom: 4rem;
+      justify-content: space-between;
+    }
+    .collectionsProducts a.green-btn {
+      width: 150px;
+    }
+    ul.collection_tab_heading {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+      align-items: center;
+      padding-bottom:0;
+    }
+    .collection_tab_heading li a {
+      font-size:2rem;
+    }
+    h3.card__heading.h5 a.full-unstyled-link{
+     font-family: Jost,sans-serif;
+      font-size:1.8rem;
+      font-weight:600;
+      line-height:27px;
+      letter-spacing: 0.36px;
+      color: #000000;
+      text-transform: uppercase;
+      text-align:center;
+    }
+    CollectionProduct{
+      margin:0;
+    }
+    .CollectionProduct .price-with-btn .price-item{
+     font-size:2rem;
+     }   
+     .CollectionProduct .compare-price, .CollectionProduct s.price-item.price-item--regular {
+        font-size: 1.2rem;
+    }
+    .CollectionProduct .card__information {
+       min-height: 100px;
+      justify-content:space-between;
+    }
+    .collectionsProducts ul li {
+      width:24% !important;
+      margin-right: 0px !important;
+    }
+    .collectionsProducts  ul li:hover  .CollectionProduct .quick-add {
+      display:flex;
+    }
+  }
+.collectionsProducts ul li {
+  box-shadow: 0 3px 10px #eee;
+  border: 1px solid #eee;
+}
+@media screen and (max-width: 767px){
+  .collectionsProducts ul {
+    padding: 1rem;
+  }
+}
+/* End Collection product page css */
