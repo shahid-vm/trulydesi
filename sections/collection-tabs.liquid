@@ -116,7 +116,7 @@
         </h2>
         <div class="tab">
           {% for block in section.blocks %}
-              <button class="tablinks {% if forloop.first %} active{% endif %}" onclick="openCity(event, '{{ block.id }}')">{{ block.settings.collection.title }}</button>
+              <button class="tablinks {% if forloop.first %} active{% endif %}" onclick="openCity(event, 'Slide-{{ section.id }}-{{ forloop.index }}')">{{ block.settings.collection.title }}</button>
           {% endfor %}
         </div>
       {%- endif -%}
@@ -137,7 +137,7 @@
               {%- for product in block.settings.collection.products limit: section.settings.products_to_show -%}
                 <li
                   id="Slide-{{ section.id }}-{{ forloop.index }}"
-                  class="{{ block.id }} grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                  class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
                   {% if settings.animations_reveal_on_scroll %}
                     data-cascade
                     style="--animation-order: {{ forloop.index }};"
@@ -249,7 +249,7 @@
       tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
     document.getElementByClassName(blockid).style.display = "block";
-    document.getElementByClassName(blockid).classList.toggle("custom-layout");
+    document.getElementById(blockid).classList.toggle("custom-layout");
     evt.currentTarget.className += " active";
   }
 </script>
