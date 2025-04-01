@@ -13,7 +13,7 @@ a, a:hover, .header__active-menu-item, .header__menu-item:hover .header__active-
 }
 
 .header__inline-menu .list-menu__item {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
 }
 .header__inline-menu .list-menu__item:hover, .header__menu-item:hover span{
