@@ -131,8 +131,8 @@
         "color_scheme": "",
         "title": "Discover",
         "coll-desc": "",
-        "show_rating": false,
-        "enable_quick_add": false
+        "show_rating": true,
+        "enable_quick_add": true
       }
     },
     "image_banner_TDV7Vi": {
