@@ -71,6 +71,11 @@
         <h2 class="title inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {{ section.settings.title }}
         </h2>
+        <div class="tab">
+          {% for block in section.blocks %}
+              <button class="tablinks" onclick="openCity(event, '{{ block.id }}')">{{ block.settings.collection.title }}</button>
+          {% endfor %}
+        </div>
       {%- endif -%}
     </div>
 
