@@ -137,3 +137,6 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   h3.card__heading.h5 a.full-unstyled-link {
       text-align: left !important;
   }
+  .product-verient{
+    font-size: 14px;
+  }
