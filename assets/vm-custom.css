@@ -128,6 +128,6 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 }
 /* card css */
 .card.card--standard.card--media {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
