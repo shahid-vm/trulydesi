@@ -69,77 +69,16 @@ function openCity(evt, cityName) {
   {
     "name": "Collection-Tabs",
      "settings": [
-           {
-          "type": "select",
-          "id": "announcement_bar_position",
-          "label": "Position",
-          "options": [
-            {
-              "value": "non_sticky",
-              "label": "Non sticky"
-            },
-            {
-              "value": "sticky_desktop",
-              "label": "Sticky on desktop only"
-            },
-            {
-              "value": "sticky_mobile",
-              "label": "Sticky on mobile only"
-            },
-            {
-              "value": "sticky",
-              "label": "Sticky everywhere"
-            }
-          ],
-          "default": "non_sticky"
-        },
-       	{
-           "type": "image_picker",
-           "id": "image",
-           "label": "Image"
-         },
-         {
-            "type": "range",
-            "id": "image_width",
-            "min": 0,
-            "max": 36,
-            "step": 1,
-            "unit": "px",
-            "label": "Image Width",
-            "default": 10
-          },
-         {
-            "type": "range",
-            "id": "announcement_text_size",
-            "min": 0,
-            "max": 72,
-            "step": 1,
-            "unit": "px",
-            "label": "Text Size",
-            "default": 12
-          },
-         {
-            "type": "color",
-            "id": "background",
-            "label": "Background",
-            "default": "#1e2d7d"
-          },
-          {
-            "type": "color",
-            "id": "text_color",
-            "label": "Text",
-            "default": "#ffffff"
-          }
       ],
     	"blocks": [
        {
-         "name": "Anouncement",
-         "type": "slide",
+         "name": "Collections",
+         "type": "collection",
          "settings": [
            {
-             "type": "text",
-             "id": "anouncement",
-             "label": "Announcement"
+             "type": "collection",
+             "id": "collection",
+             "label": "collection"
            }
          ]
        }
