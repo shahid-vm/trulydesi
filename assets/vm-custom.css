@@ -132,5 +132,5 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     text-align: left;
 }
 .card .card__heading {
-    text-align-last: left;
+    text-align: left !important;
 }
