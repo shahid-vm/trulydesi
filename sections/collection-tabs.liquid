@@ -234,7 +234,7 @@
     <div class="collectionTabLabel">
       <ul class="collection_tab_heading">
         {% for block in section.blocks %}
-          <li class="{% if forloop.index == 1 %}activeTab{% endif %}">
+          <li class="tab-title {% if forloop.index == 1 %}activeTab{% endif %}">
             <a href="#tab{{ forloop.index }}">{{ block.settings.tabLabel }}</a>
           </li>
         {% endfor %}
