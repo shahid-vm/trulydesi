@@ -126,3 +126,8 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
         flex: 0 !important;
     }
 }
+/* card css */
+.card.card--standard.card--media {
+    padding: 20px;
+    text-align: center;
+}
