@@ -238,31 +238,20 @@
   </div>
 </div>
 <script>
-function openCity(evt, blockClass) {
+  function openCity(evt, blockid) {
     var i, tabcontent, tablinks;
-    
-    // Hide all tab contents
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+      tabcontent[i].style.display = "none";
     }
-
-    // Remove "active" class from all tab links
     tablinks = document.getElementsByClassName("tablinks");
     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].classList.remove("active");
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-
-    // Show all elements with the specified class name
-    var elements = document.getElementsByClassName(blockClass);
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.display = "block";
-        elements[i].classList.toggle("custom-layout"); // Toggle custom layout
-    }
-
-    // Add active class to clicked tab
-    evt.currentTarget.classList.add("active");
-}
+    document.getElementByClassName(blockid).style.display = "block";
+    document.getElementById(blockid).classList.toggle("custom-layout");
+    evt.currentTarget.className += " active";
+  }
 </script>
 {% schema %}
 {
