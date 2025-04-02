@@ -134,15 +134,15 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   .card .card__heading {
       text-align-last: left;
   }
-  h3.card__heading.h5 a.full-unstyled-link {
+   .card h3.card__heading.h5 a.full-unstyled-link {
       text-align: left !important;
       font-size: 1.5rem !important;
       font-weight: 500 !important;
   }
-  .product-verient{
+   .card .product-verient{
     font-size: 14px;
   }
-  .card-information {
+   .card .card-information {
     margin-bottom: 10px;
   }
   .card .product-form__submit{
@@ -161,5 +161,8 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
       font-size: 18px;
       font-weight: 600;
       color: #0F481A;
+  }
+  .card s.price-item.price-item--regular {
+      font-size: 13px !important;
   }
 
