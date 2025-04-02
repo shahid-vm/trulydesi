@@ -248,11 +248,6 @@
             {%- endfor -%}
           </ul>
           <div class="swiper-scrollbar"></div>
-          {% if block.settings.Collection-url != blank  %}
-            <a class="green-btn" href="{{ block.settings.Collection-url }}">View All</a>
-          {% else %}
-            <a class="green-btn" href="{{ block.settings.collection.url }}">View All</a>
-          {% endif %}
         </div>
 
       {%- endfor -%}
