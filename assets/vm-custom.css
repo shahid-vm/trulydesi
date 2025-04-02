@@ -168,7 +168,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   .card--media .card__inner .card__content{
     padding: 0px !important;
   }
-.badge {
-    border-radius: 20px 0px 0px 20px !important;
-}
+  .card .badge {
+      border-radius: 20px 0px 0px 20px !important;
+  }
 
