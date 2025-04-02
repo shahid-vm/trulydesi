@@ -199,6 +199,63 @@
         "coll-desc": ""
       }
     },
+    "usp_section_kQwdyR": {
+      "type": "usp-section",
+      "blocks": {
+        "block_qy3V3B": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_1.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        },
+        "block_mApPX7": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_1.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        },
+        "block_MWhkUG": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_1.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        },
+        "block_j76HbY": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_1.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        },
+        "block_jLLpVP": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_1.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_qy3V3B",
+        "block_mApPX7",
+        "block_MWhkUG",
+        "block_j76HbY",
+        "block_jLLpVP"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title": "",
+        "coll-desc": ""
+      }
+    },
     "image_banner_MaX7RJ": {
       "type": "image-banner",
       "blocks": {
@@ -391,6 +448,7 @@
     "collection_tabs_iVx6Lz",
     "image_banner_TDV7Vi",
     "icon_with_title_text_qRQTzn",
+    "usp_section_kQwdyR",
     "image_banner_MaX7RJ",
     "image_with_text_iLpMXV",
     "multicolumn_MTkBJb",
