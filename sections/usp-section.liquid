@@ -48,9 +48,9 @@
     <div class="organic-container">
        {% for block in section.blocks %}
           <div class="organic-item">
-            <div class="icon">
-              <img src="{{ block.settings.image | img_url:'master' }}" class="color-{{ section.settings.color_scheme }}" alt="block-img">
-            </div>
+            <!-- <div class="icon"> -->
+              <img src="{{ block.settings.image | img_url:'master' }}" class="icon color-{{ section.settings.color_scheme }}" alt="block-img">
+            <!-- </div> -->
             <p>{{ block.settings.title }}</p>
           </div>
       {% endfor %}
