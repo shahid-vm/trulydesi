@@ -4,7 +4,6 @@
             max-width: 100%;
             margin: 50px auto;
             padding: 20px 40px;
-            background-color: white
         }
 
         .{{ section.id }}-container h2 {
@@ -47,7 +46,7 @@
     </style>
 
 
-    <div class="{{ section.id }}-container">
+    <div class="{{ section.id }}-container color-{{ section.settings.color_scheme }}">
         <h2>{{ section.settings.title }}</h2>
         <div class="grid">
           {% for block in section.blocks %}
