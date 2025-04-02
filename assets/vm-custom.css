@@ -165,7 +165,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   .card s.price-item.price-item--regular {
       font-size: 13px !important;
   }
-  .card .card--media .card__inner .card__content{
+  .card--media .card__inner .card__content{
     padding: 0px !important;
   }
 
