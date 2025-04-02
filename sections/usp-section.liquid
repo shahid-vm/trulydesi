@@ -1,6 +1,111 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+  <style>
+      .organic-section {
+          background-color: #114b4b;
+          padding: 60px 20px;
+          clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0% 100%);
+          color: #fff;
+        }
+        
+        .organic-container {
+          max-width: 1200px;
+          margin: 0 auto;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          text-align: center;
+          gap: 30px;
+        }
+        
+        .organic-item {
+          flex: 1 1 160px;
+          color: #e6f2f2;
+        }
+        
+        .icon {
+          background-color: #f1dc47;
+          border-radius: 50%;
+          width: 100px;
+          height: 100px;
+          margin: 0 auto 20px auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .icon img {
+          width: 40px;
+          height: 40px;
+        }
+        
+        .organic-item p {
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 1.5;
+        }
+  </style>
+
+  <div class="organic-section color-{{ section.settings.color_scheme }}">
+    <div class="organic-container">
+       {% for block in section.blocks %}
+          <div class="organic-item">
+            <div class="icon">
+              <img src="{{ block.settings.image | img_url:'master' }}" class="color-{{ section.settings.color_scheme }}" alt="block-img">
+            </div>
+            <p>{{ block.settings.title }}</p>
+          </div>
+      {% endfor %}
+    </div>
+  </div>
+
+    {% schema %}
+{
+    "name": "USP Section",
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-1"
+      }, 
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "coll-desc",
+        "label": "Description"
+      },
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }, 
+          {
+            "type": "text",
+            "id": "sub-title",
+            "label": "Sub Title"
+          }, 
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "USP Section"
+
+      }
+    ]
   }
 {% endschema %}
