@@ -157,4 +157,9 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   .card .product-form__buttons{
     text-align: center;
   }
+   .card span.price-item.price-item--sale.price-item--last {
+      font-size: 18px;
+      font-weight: 600;
+      color: #0F481A;
+  }
 
