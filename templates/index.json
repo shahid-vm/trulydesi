@@ -151,6 +151,54 @@
         "show_text_below": false
       }
     },
+    "icon_with_title_text_qRQTzn": {
+      "type": "icon-with-title-text",
+      "blocks": {
+        "block_3dA9ew": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/authenticity.jpg",
+            "title": "AUTHENTICITY",
+            "sub-title": "Bringing purest form of food direct from the farms"
+          }
+        },
+        "block_ji8MW7": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/tradition-culture.jpg",
+            "title": "TRADITION",
+            "sub-title": "Harnessing age-old wisdom passed down by Grandmas"
+          }
+        },
+        "block_4NgwEJ": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/brutal-honesty.jpg",
+            "title": "TRUST",
+            "sub-title": "Being 100% transparent & thoroughly lab-tested"
+          }
+        },
+        "block_mNpxDi": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/purpose.jpg",
+            "title": "PURPOSE",
+            "sub-title": "Empowering rural India with employment & fair trade"
+          }
+        }
+      },
+      "block_order": [
+        "block_3dA9ew",
+        "block_ji8MW7",
+        "block_4NgwEJ",
+        "block_mNpxDi"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title": "Truly Desi Promises",
+        "coll-desc": ""
+      }
+    },
     "image_banner_MaX7RJ": {
       "type": "image-banner",
       "blocks": {
@@ -342,6 +390,7 @@
     "scrolling_announcement_bar_UAEhwn",
     "collection_tabs_iVx6Lz",
     "image_banner_TDV7Vi",
+    "icon_with_title_text_qRQTzn",
     "image_banner_MaX7RJ",
     "image_with_text_iLpMXV",
     "multicolumn_MTkBJb",
