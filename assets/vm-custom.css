@@ -145,7 +145,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   .card-information {
     margin-bottom: 10px;
   }
-  .product-form__submit{
+  .card .product-form__submit{
     padding: 0px 20px;
     height: 0px;
     max-height: 0px;
@@ -153,7 +153,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     border-radius: 20px;
     z-index: 10;
   }
-  .product-form__buttons{
+  .card .product-form__buttons{
     text-align: center;
   }
 
