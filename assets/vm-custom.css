@@ -128,7 +128,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 }
   /* card css */
   .card.card--standard.card--media {
-      padding: 10px;
+      padding: 15px;
       text-align: left;
   }
   .card .card__heading {
