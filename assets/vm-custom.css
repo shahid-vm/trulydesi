@@ -171,4 +171,9 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   .card .badge {
       border-radius: 20px 0px 0px 20px !important;
   }
-
+  .predictive-search__item-query-result *:not(mark) {
+      font-weight: normal !important;
+  }
+  .predictive-search__item-heading {
+      font-weight: normal !important;
+  }
