@@ -1,0 +1,192 @@
+<div class="product-card-wrapper">
+    <div class="card__media">
+        <a href="{{ product.url }}">
+            <img src="{{ product.featured_image | img_url: '533x' }}" alt="{{ product.title }}">
+        </a>
+        {% if product.compare_at_price > product.price %}
+            <span class="card__badge discount-badge">Save {{ product.compare_at_price | minus: product.price | money }}</span>
+        {% endif %}
+        <span class="card__badge best-seller">Best Seller</span>
+        <button class="wishlist-button">♥</button>
+    </div>
+    
+    <div class="card__information">
+        <h3 class="product-title"><a href="{{ product.url }}">{{ product.title }}</a></h3>
+
+        <div class="savings-label">
+            Your Savings: {{ product.compare_at_price | minus: product.price | money }}
+        </div>
+
+        <select class="select-box">
+            {% for variant in product.variants %}
+                <option value="{{ variant.id }}">{{ variant.title }} - {{ variant.price | money }}</option>
+            {% endfor %}
+        </select>
+
+        <div class="reviews">
+            {% if product.metafields.reviews.rating %}
+                <span class="rating-stars">⭐⭐⭐⭐⭐</span>
+                <span>({{ product.metafields.reviews.count }} Reviews)</span>
+            {% endif %}
+        </div>
+
+        <div class="card__price">
+            <span class="price">{{ product.price | money }}</span>
+            {% if product.compare_at_price > product.price %}
+                <s class="compare-price">{{ product.compare_at_price | money }}</s>
+            {% endif %}
+        </div>
+
+        <button class="add-to-cart" data-product-id="{{ product.id }}">Add to Cart</button>
+    </div>
+</div>
+<style>
+  /* Product Card Wrapper */
+.product-card-wrapper {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    padding: 15px;
+}
+
+.product-card-wrapper:hover {
+    transform: scale(1.02);
+}
+
+/* Product Image Section */
+.card__media {
+    position: relative;
+    background: url('your-background-image.jpg') no-repeat center;
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card__media img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Discount and Bestseller Badges */
+.card__badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #a00;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.card__badge.best-seller {
+    background: #b00;
+    right: 10px;
+    left: auto;
+}
+
+/* Wishlist Button */
+.wishlist-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 5px 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Product Title */
+.product-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Price Section */
+.card__price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d7c0b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card__price s {
+    font-size: 16px;
+    color: #999;
+    margin-left: 10px;
+}
+
+/* Savings Label */
+.savings-label {
+    display: inline-block;
+    background: #f5f5f5;
+    color: #444;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Variant Selector */
+.select-box {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    background: white;
+    font-size: 14px;
+}
+
+/* Reviews */
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.reviews span {
+    color: #f5b301;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+/* Add to Cart Button */
+.add-to-cart {
+    display: block;
+    width: 100%;
+    background: #2d7c0b;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background: #255a07;
+}
+
+</style>
