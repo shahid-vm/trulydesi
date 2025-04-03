@@ -256,6 +256,35 @@
         "coll-desc": ""
       }
     },
+    "image_description_blocks_gFzhHN": {
+      "type": "image-description-blocks",
+      "blocks": {
+        "block_jkzhmm": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Group.png",
+            "title": "Purely Advanced Milking"
+          }
+        },
+        "block_CrRFr7": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Group_1_b4c801bc-771f-4d8c-a755-5c0f37343b6d.png",
+            "title": "natural fertilizers"
+          }
+        }
+      },
+      "block_order": [
+        "block_jkzhmm",
+        "block_CrRFr7"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "main-img": "shopify://shop_images/image.png",
+        "title": "SUSTAINABILITY & CONSERVATION",
+        "coll-desc": "<h4><strong>Milk pouch Recycling</strong></h4><p>Did you know that daily around 5 crore milk pouches turn into waste in India?To overcome the waste generation and support to reduce the plastic pollution, we are trying to put in an organized system of collection and recycling of our pouches. Once these pouches are collected and sent to the recycling unit these packets are thoroughly washed, dried and then cut into small pieces by a machine and processed into plastic granules which will be further processed.</p><p>This way one can save a large amount of plastic bits from littering the land and be a part of an initiative and contribute to save this planet.</p>"
+      }
+    },
     "brand_section_eHygHB": {
       "type": "brand-section",
       "blocks": {
@@ -338,35 +367,6 @@
         "coll-desc": ""
       }
     },
-    "image_description_blocks_gFzhHN": {
-      "type": "image-description-blocks",
-      "blocks": {
-        "block_jkzhmm": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Group.png",
-            "title": "Purely Advanced Milking"
-          }
-        },
-        "block_CrRFr7": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Group_1_b4c801bc-771f-4d8c-a755-5c0f37343b6d.png",
-            "title": "natural fertilizers"
-          }
-        }
-      },
-      "block_order": [
-        "block_jkzhmm",
-        "block_CrRFr7"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "main-img": "shopify://shop_images/image.png",
-        "title": "SUSTAINABILITY & CONSERVATION",
-        "coll-desc": "<h4><strong>Milk pouch Recycling</strong></h4><p>Did you know that daily around 5 crore milk pouches turn into waste in India?To overcome the waste generation and support to reduce the plastic pollution, we are trying to put in an organized system of collection and recycling of our pouches. Once these pouches are collected and sent to the recycling unit these packets are thoroughly washed, dried and then cut into small pieces by a machine and processed into plastic granules which will be further processed.</p><p>This way one can save a large amount of plastic bits from littering the land and be a part of an initiative and contribute to save this planet.</p>"
-      }
-    },
     "video_e6VkhE": {
       "type": "video",
       "settings": {
@@ -406,9 +406,9 @@
     "collection_tabs_iVx6Lz",
     "image_banner_TDV7Vi",
     "icon_with_title_text_qRQTzn",
+    "image_description_blocks_gFzhHN",
     "usp_section_kQwdyR",
     "brand_section_eHygHB",
-    "image_description_blocks_gFzhHN",
     "video_e6VkhE",
     "featured_blog_dC8T9G"
   ]
