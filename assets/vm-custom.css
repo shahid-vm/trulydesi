@@ -160,7 +160,8 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 }
 .price-btn-container {
     display: flex;
-    justify-content: space-around;
+    padding: 0px 10px;
+    justify-content: space-between;
     align-items: center;
 }
 span.price-item.price-item--sale.price-item--last {
