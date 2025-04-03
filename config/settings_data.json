@@ -12,7 +12,7 @@
     "logo": "{{ shop.brand.logo }}",
     "logo_width": 100,
     "favicon": "shopify://shop_images/Untitled_design_64.png",
-    "type_header_font": "assistant_n7",
+    "type_header_font": "poppins_n7",
     "heading_scale": 150,
     "type_body_font": "poppins_n4",
     "body_scale": 100,
