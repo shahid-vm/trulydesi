@@ -132,7 +132,7 @@
         "title": "Discover",
         "coll-desc": "",
         "show_rating": true,
-        "enable_quick_add": true
+        "quick_add": "standard"
       }
     },
     "image_banner_TDV7Vi": {
