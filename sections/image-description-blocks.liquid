@@ -75,7 +75,9 @@
           <p>
               {{ section.settings.coll-desc }}
           </p>
-          <a class="know-more-btn button" href="{{ section.settings.btn-url }}">{{ section.settings.btn-text }}</a>
+          {% if section.settings.btn-url != blank %}
+            <a class="know-more-btn button" href="{{ section.settings.btn-url }}">{{ section.settings.btn-text }}</a>
+          {% endif %}
           <div class="icons-container">
             {% for block in section.blocks %}
               <div class="icon">
