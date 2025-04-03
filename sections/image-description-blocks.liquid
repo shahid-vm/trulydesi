@@ -1,6 +1,142 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+    <style> 
+        .container-{{ section.id }} {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .container-{{ section.id }} .text-content {
+            max-width: 50%;
+        }
+
+        .container-{{ section.id }} .text-content h1 {
+            font-size: 42px;
+            color: #394634;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .container-{{ section.id }} .text-content p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .container-{{ section.id }} .icons-container {
+            display: flex;
+            gap: 50px;
+            margin-top: 30px;
+        }
+
+        .container-{{ section.id }} .icon {
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .container-{{ section.id }} .icon img {
+            width: 60px;
+            height: auto;
+        }
+
+        .container-{{ section.id }} .image-content {
+            max-width: 45%;
+        }
+
+        .container-{{ section.id }} .image-content img {
+            width: 100%;
+            border-radius: 50% 0 50% 50%;
+            object-fit: cover;
+        }
+
+        @media (max-width: 900px) {
+           .container-{{ section.id }} {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .container-{{ section.id }} .text-content, .image-content {
+                max-width: 100%;
+            }
+
+            .container-{{ section.id }} .image-content img {
+                border-radius: 20px;
+            }
+        }
+    </style>
+
+    <div class="container-{{ section.id }} color-{{ section.settings.color_scheme }}">
+      <div class="text-content">
+          <h1>{{ section.settings.title }}</h1>
+          <p>
+              {{ section.settings.coll-desc }}
+          </p>
+          <div class="icons-container">
+            {% for block in section.blocks %}
+              <div class="icon">
+                  <img src="{{ block.settings.image }}" alt="block-img">
+                  <p>{{ block.settings.title }}</p>
+              </div>
+            {% endfor %}
+          </div>
+      </div>
+      
+      <div class="image-content">
+          <img src="{{ section.settings.main-img | img_url:'master' }}" alt="main-img">
+      </div>
+    </div>
+
+    {% schema %}
+{
+    "name": "Image with Discription",
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-1"
+      },
+      {
+        "type": "image_picker",
+        "id": "main-img",
+        "label": "Main Image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "coll-desc",
+        "label": "Description"
+      },
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id":"title",
+            "label":"Title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image with Discription"
+      }
+    ]
   }
 {% endschema %}
