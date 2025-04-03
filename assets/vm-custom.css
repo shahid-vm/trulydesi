@@ -208,3 +208,6 @@ li.grid__item {
     border: 1px solid #eee;
     border-radius: 7px;
 }
+.quick-add__submit {
+    text-transform: capitalize;
+}
