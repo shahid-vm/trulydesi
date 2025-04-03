@@ -144,3 +144,12 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   a.know-more-btn.button {
       margin-bottom: 50px;
   }
+/* Card css */
+.card__heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: normal;
+    color: #14341E;
+    text-align: center;
+}
