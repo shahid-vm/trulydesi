@@ -103,7 +103,7 @@
       <div class="{{ section.id }} color-{{ section.settings.color_scheme }}">
          <div class="testimonial-section color-{{ section.settings.color_scheme }}">
            {% for block in section.blocks %}
-            <div class="mySlides">
+            <div class="mySlides" {% if forloop.index != 1 %}style="display:none"{% endif %}>
             <div class="stars">⭐⭐⭐⭐⭐</div>
             <p class="testimonial-text" id="testimonial-text">
                 "{{ block.settings.content }}"
