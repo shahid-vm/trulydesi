@@ -137,13 +137,12 @@
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
                 class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
               >
-                <!-- its for sale badge -->
-                {% comment %}
+              {% comment %}
                 {{- 'products.product.on_sale' | t -}}
-                {% endcomment %}
-                {% if card_product.compare_at_price_max > card_product.price %}
-                  {{ card_product.compare_at_price_max | minus: card_product.price | times: 100.0 | divided_by: card_product.compare_at_price_max | money_without_currency | times: 100 | remove: '.0'}}% OFF
-                {% endif %}
+              {% endcomment %}
+              {% if card_product.compare_at_price_max > card_product.price %}
+                {{ card_product.compare_at_price_max | minus: card_product.price | times: 100.0 | divided_by: card_product.compare_at_price_max | money_without_currency | times: 100 | remove: '.0'}}% OFF
+              {% endif %}
               </span>
             {%- endif -%}
           </div>
@@ -151,7 +150,6 @@
       </div>
       <div class="card__content">
         <div class="card__information">
-          <span class="product-verient">{{ card_product.selected_or_first_available_variant.title }}</span>
           <h3
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
@@ -210,8 +208,9 @@
                 </span>
               </p>
             {%- endif -%}
-
+            <div style="display:none;">
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+            </div>
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants_count == 1 and quick_add == 'bulk' %}
                 {% liquid
@@ -294,14 +293,13 @@
               {% endif %}
             {%- endif -%}
           </div>
-           {%- render 'buy-buttons-custom',
-              block: block,
-              product: card_product,
-              product_form_id: product_form_id,
-              section_id: section.id,
-              show_pickup_availability: true
-            -%}
         </div>
+
+
+
+  <div class="price-btn-container" >   
+  {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
+  <!-- Button Module -->
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
           <div class="quick-add no-js-hidden">
@@ -383,7 +381,7 @@
                   >
                     <span>
                       {%- if card_product.selected_or_first_available_variant.available -%}
-                        {{ 'products.product.add_to_cart' | t }}
+                       ADD
                       {%- else -%}
                         {{ 'products.product.sold_out' | t }}
                       {%- endif -%}
@@ -402,6 +400,7 @@
               </product-form>
             {%- endif -%}
           </div>
+  <!-- Button Module -->
         {% elsif quick_add == 'bulk' %}
           {% if card_product.variants_count == 1 %}
             <quick-add-bulk
@@ -562,6 +561,11 @@
             </div>
           {% endif %}
         {% endif %}
+  <!-- Button Module -->
+  </div>
+
+
+        
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
             <span
