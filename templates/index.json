@@ -340,6 +340,26 @@
     },
     "image_description_blocks_gFzhHN": {
       "type": "image-description-blocks",
+      "blocks": {
+        "block_jkzhmm": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Group.png",
+            "title": "Purely Advanced Milking"
+          }
+        },
+        "block_CrRFr7": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Group_1_b4c801bc-771f-4d8c-a755-5c0f37343b6d.png",
+            "title": "natural fertilizers"
+          }
+        }
+      },
+      "block_order": [
+        "block_jkzhmm",
+        "block_CrRFr7"
+      ],
       "settings": {
         "color_scheme": "",
         "main-img": "shopify://shop_images/image.png",
