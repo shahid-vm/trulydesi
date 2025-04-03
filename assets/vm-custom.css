@@ -153,3 +153,8 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     color: #14341E;
     text-align: center;
 }
+.card__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
