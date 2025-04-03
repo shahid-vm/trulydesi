@@ -411,22 +411,12 @@
             "title": "Akshay Kumar",
             "sub-title": "Actor"
           }
-        },
-        "block_CrRc3X": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Akshay-Kumar_1_small_96cc8125-5404-426d-84bc-37c0e3093aeb.png",
-            "content": "Their dedication to organic farming is truly inspiring. The quality of their products speaks volumes about the hard work and love they put into it.",
-            "title": "Akshay Kumar",
-            "sub-title": "Actor"
-          }
         }
       },
       "block_order": [
         "block_96WBE9",
         "block_nbUc9p",
-        "block_UWHpLi",
-        "block_CrRc3X"
+        "block_UWHpLi"
       ],
       "settings": {
         "color_scheme": "",
