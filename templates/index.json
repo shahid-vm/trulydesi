@@ -338,157 +338,13 @@
         "coll-desc": ""
       }
     },
-    "image_banner_MaX7RJ": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_K99npB": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_zn3Bgw": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_T9pfCM": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_K99npB",
-        "text_zn3Bgw",
-        "buttons_T9pfCM"
-      ],
-      "disabled": true,
+    "image_description_blocks_gFzhHN": {
+      "type": "image-description-blocks",
       "settings": {
-        "image": "shopify://shop_images/Web-Desk_Banner_1899_x_500_px_1899_x_400_px_3.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
         "color_scheme": "",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
-      }
-    },
-    "image_with_text_iLpMXV": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_nbjVJX": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Summer Special - A2 Buttermilk</strong>",
-            "heading_size": "h2"
-          }
-        },
-        "text_DCUMmW": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Explore the delightful world of benefits of buttermilk consumption.</strong></p><ul><li><strong>Rich in Probiotics.</strong></li><li><strong>Natural Coolant.</strong></li><li><strong>Prevents Dehydration and Boosts Energy.</strong></li><li><strong>High in Calcium.</strong></li><li><strong>Chemical free Antacid.</strong></li><li><strong>Rich in Antioxidants.</strong></li></ul><p></p><p></p><p></p>",
-            "text_style": "body"
-          }
-        },
-        "button_3XUTg3": {
-          "type": "button",
-          "settings": {
-            "button_label": "Order Now",
-            "button_link": "shopify://products/buttermilk",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_nbjVJX",
-        "text_DCUMmW",
-        "button_3XUTg3"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/2_4.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "image_first",
-        "image_behavior": "zoom-in",
-        "content_layout": "no-overlap",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "mobile_content_alignment": "left",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "padding_top": 8,
-        "padding_bottom": 16
-      }
-    },
-    "multicolumn_MTkBJb": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_3xRPmX": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/3.png",
-            "title": "<strong>Milk pouch Recycling</strong>",
-            "text": "<p><strong>Did you know that daily around 5 crore milk pouches turn into waste in India?</strong></p><p><strong>To overcome the waste generation and support to reduce the plastic pollution, we are trying to put in an organized system of collection and recycling of our pouches. Once these pouches are collected and sent to the recycling unit these packets are thoroughly washed, dried and then cut into small pieces by a machine and processed into plastic granules which will be further processed.</strong></p><p><strong> This way one can save a large amount of plastic bits from littering the land and be a part of an initiative and contribute to save this planet.</strong></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_arhyHL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/1.png",
-            "title": "<strong>Breeding of Indian Breeds of Cows</strong>",
-            "text": "<p><strong>Our cows are free grazing and they get a whole array of natural choices of food and herbs which complete their dietary requirements resulting in correspondingly healthy milk.</strong></p><p></p><p><strong>- Each cow has its own choice depending on its requirements and grazes accordingly.</strong></p><p></p><p><strong>- All our cows conceive while grazing and in a natural setting. No artificial insemination.</strong></p><p></p><p><strong>- All these have resulted in fear-free and stress-free cows which have been tested through cortisol tests of their blood.</strong></p><p></p><p><strong>- One of the lowest scores of cortisol anywhere resulting in correspondingly healthy milk.</strong></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_6TCiPK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/2.png",
-            "title": "<strong>Conservation of Soil</strong>",
-            "text": "<p><strong>Did you know that if we continue conventional farming practices, no crops could be grown after 45 to 50 years as no fertile land will be left?</strong></p><p></p><p><strong>At our farm we carry out sustainable farming practices for improving soil fertily.</strong></p><p></p><p><strong>- Use of Desi Cow Based Organic Fertilizers</strong></p><p><strong>- Mulching</strong></p><p><strong>- Crop Rotation</strong></p><p><strong>- Multi Cropping/Intercropping</strong></p><p><strong>- Vermicomposting</strong></p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_3xRPmX",
-        "column_arhyHL",
-        "column_6TCiPK"
-      ],
-      "settings": {
-        "title": "<strong>SUSTAINABILITY & CONSERVATION</strong>",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "button_label": "",
-        "button_link": "",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 0
+        "main-img": "shopify://shop_images/image.png",
+        "title": "SUSTAINABILITY & CONSERVATION",
+        "coll-desc": "<h4><strong>Milk pouch Recycling</strong></h4><p>Did you know that daily around 5 crore milk pouches turn into waste in India?To overcome the waste generation and support to reduce the plastic pollution, we are trying to put in an organized system of collection and recycling of our pouches. Once these pouches are collected and sent to the recycling unit these packets are thoroughly washed, dried and then cut into small pieces by a machine and processed into plastic granules which will be further processed.</p><p>This way one can save a large amount of plastic bits from littering the land and be a part of an initiative and contribute to save this planet.</p>"
       }
     },
     "video_e6VkhE": {
@@ -532,9 +388,7 @@
     "icon_with_title_text_qRQTzn",
     "usp_section_kQwdyR",
     "brand_section_eHygHB",
-    "image_banner_MaX7RJ",
-    "image_with_text_iLpMXV",
-    "multicolumn_MTkBJb",
+    "image_description_blocks_gFzhHN",
     "video_e6VkhE",
     "featured_blog_dC8T9G"
   ]
