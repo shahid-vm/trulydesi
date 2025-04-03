@@ -198,3 +198,8 @@ span.price-item.price-item--regular {
     padding: 10px;
     font-weight: 600;
 }
+.card__badge.top {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
