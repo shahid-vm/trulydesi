@@ -77,7 +77,7 @@
           <div class="icons-container">
             {% for block in section.blocks %}
               <div class="icon">
-                  <img src="{{ block.settings.image }}" alt="block-img">
+                  <img src="{{ block.settings.image | img_url:'master' }}" alt="block-img">
                   <p>{{ block.settings.title }}</p>
               </div>
             {% endfor %}
