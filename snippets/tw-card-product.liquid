@@ -574,7 +574,12 @@
               id="Badge-{{ section_id }}-{{ card_product.id }}"
               class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
             >
+              {% comment %}
               {{- 'products.product.on_sale' | t -}}
+            {% endcomment %}
+              {% if card_product.compare_at_price_max > card_product.price %}
+                {{ card_product.compare_at_price_max | minus: card_product.price | times: 100.0 | divided_by: card_product.compare_at_price_max | money_without_currency | times: 100 | remove: '.0'}}% OFF
+              {% endif %}
             </span>
           {%- endif -%}
         </div>
