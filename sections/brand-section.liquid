@@ -1,6 +1,99 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+    <style> 
+        .spotlight-container {
+            padding: 50px 20px;
+        }
+    
+        .spotlight-container .spotlight-title {
+            font-size: 32px;
+            font-weight: bold;
+            color: #2D4829;
+            position: relative;
+            display: inline-block;
+        }
+    
+        .spotlight-container .spotlight-title::after {
+            content: "";
+            width: 20px;
+            height: 20px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            top: -10px;
+            right: -15px;
+        }
+    
+        .spotlight-container .logos-container {
+            background-color: white;
+            border-radius: 20px;
+            padding: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: 30px auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    
+        .spotlight-container .logo {
+            max-width: 100px;
+            margin: auto;
+        }
+    
+        @media (max-width: 600px) {
+            .spotlight-container .logos-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+
+    <div class="spotlight-container color-{{ section.settings.color_scheme }}">
+        <h2 class="spotlight-title">{{ section.settings.title}}</h2>
+        <div class="logos-container">
+          {% for block in section.blocks %}
+            <img class="logo" src="{{ block.settings.image }}" alt="The Economic Times">
+          {% endfor %}
+        </div>
+    </div>
+
+    {% schema %}
+{
+    "name": "Brand Section",
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-1"
+      }, 
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "coll-desc",
+        "label": "Description"
+      },
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Brand Section"
+
+      }
+    ]
   }
 {% endschema %}
