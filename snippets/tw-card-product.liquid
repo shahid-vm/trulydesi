@@ -288,6 +288,7 @@
             {%- endif -%}
           </div>
         </div>
+  <!-- Button Module -->
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
           <div class="quick-add no-js-hidden">
@@ -388,6 +389,7 @@
               </product-form>
             {%- endif -%}
           </div>
+  <!-- Button Module -->
         {% elsif quick_add == 'bulk' %}
           {% if card_product.variants_count == 1 %}
             <quick-add-bulk
@@ -548,6 +550,7 @@
             </div>
           {% endif %}
         {% endif %}
+  <!-- Button Module -->
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
             <span
