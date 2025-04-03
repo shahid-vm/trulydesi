@@ -209,3 +209,9 @@ li.grid__item {
     border: 1px solid #eee;
     border-radius: 7px;
 }
+.card__content {
+    padding: 20px 10px !important;
+}
+.card__information {
+    padding-top: 0px !important;
+}
