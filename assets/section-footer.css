@@ -1,5 +1,7 @@
 /* VM */
-
+.footer a{
+  color: #174117;
+}
 .footer p, ul.policies a {
     font-size: 14px;
     line-height: 22px;
