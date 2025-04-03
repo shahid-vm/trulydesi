@@ -105,7 +105,6 @@
       <div class="{{ section.id }} color-{{ section.settings.color_scheme }}">
          <div class="testimonial-section">
            {% for block in section.blocks %}
-             {% if forloop.first %}
             <div class="stars">⭐⭐⭐⭐⭐</div>
             <p class="testimonial-text" id="testimonial-text">
                 "{{ block.settings.content }}"
@@ -118,41 +117,9 @@
                 <button class="nav-btn left" onclick="prevTestimonial()">&#10094;</button>
                 <button class="nav-btn right" onclick="nextTestimonial()">&#10095;</button>
             </div>
-           {% endif %}
            {% endfor %}
         </div>
       </div>
-      <script>
-        const testimonials = [
-          {% for block in section.blocks %}
-            {
-                text: "{{ block.settings.content }}",
-                img: "{{ block.settings.image | img_url:'master' }}",
-                name: "{{ block.settings.title }}",
-                role: "{{ block.settings.sub-title }}"
-            }
-          {% endfor %}
-        ];
-
-        let currentIndex = 0;
-
-        function updateTestimonial(index) {
-            document.getElementById("testimonial-text").textContent = testimonials[index].text;
-            document.getElementById("testimonial-img").src = testimonials[index].img;
-            document.getElementById("testimonial-name").textContent = testimonials[index].name;
-            document.getElementById("testimonial-role").textContent = testimonials[index].role;
-        }
-
-        function prevTestimonial() {
-            currentIndex = (currentIndex === 0) ? testimonials.length - 1 : currentIndex - 1;
-            updateTestimonial(currentIndex);
-        }
-
-        function nextTestimonial() {
-            currentIndex = (currentIndex === testimonials.length - 1) ? 0 : currentIndex + 1;
-            updateTestimonial(currentIndex);
-        }
-    </script>
   {% schema %}
   {
       "name": "Customer Testinomial",
