@@ -164,3 +164,8 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     justify-content: space-around;
     align-items: center;
 }
+span.price-item.price-item--sale.price-item--last {
+    font-size: 16px !important;
+    color: #174117;
+    font-weight: 600;
+}
