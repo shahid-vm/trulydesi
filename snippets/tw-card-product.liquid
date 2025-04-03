@@ -293,7 +293,7 @@
 
 
   <div class="price-btn-container" >   
-    
+  {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
   <!-- Button Module -->
         {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
         {% if quick_add == 'standard' %}
@@ -376,7 +376,7 @@
                   >
                     <span>
                       {%- if card_product.selected_or_first_available_variant.available -%}
-                        {{ 'products.product.add_to_cart' | t }}
+                       ADD
                       {%- else -%}
                         {{ 'products.product.sold_out' | t }}
                       {%- endif -%}
