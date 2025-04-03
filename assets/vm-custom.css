@@ -156,6 +156,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 .card__content {
     display: flex !important;
     flex-direction: column;
+    padding: 20px 10px !important;
 }
 .price-btn-container {
     display: flex;
@@ -207,9 +208,6 @@ li.grid__item, li.swiper-slide {
     box-shadow: 0 3px 10px #eee;
     border: 1px solid #eee;
     border-radius: 7px;
-}
-.card__content {
-    padding: 20px 10px !important;
 }
 .card__information {
     padding-top: 0px !important;
