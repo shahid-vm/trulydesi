@@ -120,6 +120,39 @@
            {% endfor %}
         </div>
       </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const testimonials = document.querySelectorAll(".testimonial-section > .testimonial-text");
+        const images = document.querySelectorAll(".testimonial-section > .testimonial-img");
+        const names = document.querySelectorAll(".testimonial-section > .testimonial-name");
+        const roles = document.querySelectorAll(".testimonial-section > .testimonial-role");
+    
+        let currentIndex = 0;
+    
+        function updateTestimonial(index) {
+            testimonials.forEach((el, i) => el.style.display = i === index ? "block" : "none");
+            images.forEach((el, i) => el.style.display = i === index ? "block" : "none");
+            names.forEach((el, i) => el.style.display = i === index ? "block" : "none");
+            roles.forEach((el, i) => el.style.display = i === index ? "block" : "none");
+        }
+    
+        function prevTestimonial() {
+            currentIndex = currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1;
+            updateTestimonial(currentIndex);
+        }
+    
+        function nextTestimonial() {
+            currentIndex = currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1;
+            updateTestimonial(currentIndex);
+        }
+    
+        document.querySelectorAll(".left").forEach(btn => btn.addEventListener("click", prevTestimonial));
+        document.querySelectorAll(".right").forEach(btn => btn.addEventListener("click", nextTestimonial));
+    
+        // Show the first testimonial by default
+        updateTestimonial(currentIndex);
+    });
+  </script>
   {% schema %}
   {
       "name": "Customer Testinomial",
