@@ -75,7 +75,7 @@
           <p>
               {{ section.settings.coll-desc }}
           </p>
-          <a class="know-more-btn button">Know More</a>
+          <a class="know-more-btn button" href="{{ section.settings.btn-url }}">{{ section.settings.btn-text }}</a>
           <div class="icons-container">
             {% for block in section.blocks %}
               <div class="icon">
@@ -116,6 +116,16 @@
         "id": "coll-desc",
         "label": "Description"
       },
+      {
+        "type": "text",
+        "id": "btn-text",
+        "label": "Button Text"
+      },
+      {
+        "type": "url",
+        "id": "btn-url",
+        "label": "Button Url"
+      }
     ],
     "blocks": [
       {
