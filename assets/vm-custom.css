@@ -180,14 +180,15 @@ span.price-item.price-item--regular {
     color: #174117;
 }
 .quick-add__submit {
-    padding: 5px 40px !important;
+    padding: 5px 0px !important;
     min-width: 100%;
     box-sizing: border-box;
     min-height: 33px;
-    font-size: 16px;
+    font-size: 12px;
     background-color: #174117;
     color: #fff;
-    font-weight: bold;
+    font-weight: 700;
+    width: 120px;
 }
 .badge {
     top: 10px !important;
@@ -207,7 +208,4 @@ li.grid__item {
     box-shadow: 0 3px 10px #eee;
     border: 1px solid #eee;
     border-radius: 7px;
-}
-.quick-add__submit {
-    text-transform: capitalize;
 }
