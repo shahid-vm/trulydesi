@@ -189,3 +189,12 @@ span.price-item.price-item--regular {
     color: #fff;
     font-weight: bold;
 }
+.badge {
+    top: 10px !important;
+    border-radius: 0px;
+    height: 45px;
+    width: 52px;
+    border-radius: 0px 25px 3px 25px;
+    padding: 10px;
+    font-weight: 600;
+}
