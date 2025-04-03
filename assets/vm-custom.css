@@ -156,7 +156,6 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 .card__content {
     display: flex !important;
     flex-direction: column;
-    text-align: center;
 }
 .price-btn-container {
     display: flex;
