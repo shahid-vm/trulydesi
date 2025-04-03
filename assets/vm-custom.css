@@ -169,3 +169,8 @@ span.price-item.price-item--sale.price-item--last {
     color: #174117;
     font-weight: 600;
 }
+s.price-item.price-item--regular {
+    font-size: 16px;
+    font-weight: 600;
+    color: #b5b5b58a;
+}
