@@ -203,3 +203,8 @@ span.price-item.price-item--regular {
     top: 0px;
     left: 0px;
 }
+li.grid__item {
+    box-shadow: 0 3px 10px #eee;
+    border: 1px solid #eee;
+    border-radius: 7px;
+}
