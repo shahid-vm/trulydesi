@@ -425,6 +425,7 @@
     },
     "featured_blog_dC8T9G": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "blog": "truly-desi-blogs",
         "post_limit": 4,
