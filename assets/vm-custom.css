@@ -179,3 +179,13 @@ span.price-item.price-item--regular {
     font-weight: 600;
     color: #174117;
 }
+.quick-add__submit {
+    padding: 0.4rem;
+    min-width: 100%;
+    box-sizing: border-box;
+    min-height: 33px;
+    font-size: 16px;
+    background-color: #174117;
+    color: #fff;
+    font-weight: bold;
+}
