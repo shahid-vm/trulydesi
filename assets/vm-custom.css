@@ -165,12 +165,17 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     align-items: center;
 }
 span.price-item.price-item--sale.price-item--last {
-    font-size: 16px !important;
+    font-size: 14px !important;
     color: #174117;
     font-weight: 600;
 }
 s.price-item.price-item--regular {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     color: #b5b5b58a;
+}
+span.price-item.price-item--regular {
+    font-size: 14px;
+    font-weight: 600;
+    color: #174117;
 }
