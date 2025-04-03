@@ -177,3 +177,6 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
   .predictive-search__item-heading {
       font-weight: normal !important;
   }
+  p.predictive-search__item-heading.predictive-search__item-query-result.h5 {
+      font-size: 14px;
+  }
