@@ -180,7 +180,7 @@ span.price-item.price-item--regular {
     color: #174117;
 }
 .quick-add__submit {
-    padding: 0.4rem;
+    padding: 5px 40px !important;
     min-width: 100%;
     box-sizing: border-box;
     min-height: 33px;
