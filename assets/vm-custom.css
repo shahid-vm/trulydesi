@@ -158,3 +158,9 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     flex-direction: column;
     text-align: center;
 }
+.price-btn-container {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-around;
+    align-items: center;
+}
