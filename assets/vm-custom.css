@@ -145,7 +145,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
       margin-bottom: 50px;
   }
 /* Card css */
-.card__heading {
+.product-card-wrapper  .card__heading {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 15px;
@@ -153,33 +153,33 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     color: #14341E;
     text-align: center;
 }
-.card__content {
+.product-card-wrapper .card__content {
     display: flex !important;
     flex-direction: column;
     padding: 20px 10px !important;
 }
-.price-btn-container {
+.product-card-wrapper .price-btn-container {
     display: flex;
     padding: 0px 10px;
     justify-content: space-between;
     align-items: center;
 }
-span.price-item.price-item--sale.price-item--last {
+.product-card-wrapper  span.price-item.price-item--sale.price-item--last {
     font-size: 14px !important;
     color: #174117;
     font-weight: 600;
 }
-s.price-item.price-item--regular {
+.product-card-wrapper  s.price-item.price-item--regular {
     font-size: 14px;
     font-weight: 600;
     color: #b5b5b58a;
 }
-span.price-item.price-item--regular {
+.product-card-wrapper  span.price-item.price-item--regular {
     font-size: 14px;
     font-weight: 600;
     color: #174117;
 }
-.quick-add__submit {
+.product-card-wrapper  .quick-add__submit {
     padding: 5px 0px !important;
     min-width: 100%;
     box-sizing: border-box;
@@ -190,7 +190,7 @@ span.price-item.price-item--regular {
     font-weight: 700;
     width: 120px;
 }
-.badge {
+.product-card-wrapper  .badge {
     top: 10px !important;
     border-radius: 0px;
     height: 45px;
@@ -199,17 +199,17 @@ span.price-item.price-item--regular {
     padding: 10px;
     font-weight: 600;
 }
-.card__badge.top {
+.product-card-wrapper  .card__badge.top {
     position: absolute;
     top: 0px;
     left: 0px;
 }
-li.grid__item, li.swiper-slide {
+.product-card-wrapper  li.grid__item, li.swiper-slide {
     box-shadow: 0 3px 10px #eee;
     border: 1px solid #eee;
     border-radius: 7px;
 }
-.card__information {
+.product-card-wrapper .card__information {
     padding-top: 0px !important;
 }
 .footer-gif-img{
