@@ -282,4 +282,7 @@ span.custom-total-reviews {
     margin-top: 5px;
     margin-bottom: -12px;
 }
+.card .jdgm-star {
+    margin-right: 5px !important;
+}
 /* End review */
