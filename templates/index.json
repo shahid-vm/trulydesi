@@ -132,6 +132,7 @@
         "title": "Discover",
         "coll-desc": "",
         "show_rating": true,
+        "enable_quick_add": false,
         "quick_add": "standard"
       }
     },
@@ -369,19 +370,15 @@
         "coll-desc": ""
       }
     },
-    "video_e6VkhE": {
-      "type": "video",
+    "index_video_jGRhDF": {
+      "type": "index-video",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/Enjoy a few peaceful hours in the lap of nature along with your kids, friends and family!.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "full_width": true,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/f60d7d58145e4c9e89915ab9785727e0.mp4",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "customer_testimonial_T7fWbG": {
@@ -452,7 +449,7 @@
     "image_description_blocks_gFzhHN",
     "usp_section_kQwdyR",
     "brand_section_eHygHB",
-    "video_e6VkhE",
+    "index_video_jGRhDF",
     "customer_testimonial_T7fWbG",
     "featured_blog_dC8T9G"
   ]
