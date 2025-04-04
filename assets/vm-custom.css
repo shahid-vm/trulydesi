@@ -279,6 +279,7 @@ span.custom-total-reviews {
     position: relative;
 }
 .card .review_rating_wrapper {
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: -12px;
 }
 /* End review */
