@@ -1,4 +1,7 @@
 /* VM */
+  .footer-block.grid__item {
+      width: 250px;
+  }
 .footer a{
   color: #174117;
 }
