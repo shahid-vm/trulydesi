@@ -175,7 +175,9 @@
 
             {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
               <div class="review_rating_wrapper">
+                {% comment %}
                 {% unless card_product.metafields.reviews.rating_count == blank %}
+                {% endcomment %}
                   <span data-score="5.00" class="rating jdgm-all-reviews-rating">
                     <span class="jdgm-star jdgm--on"></span><font>{{ card_product.metafields.reviews.rating.value }}</font>
                   </span>
@@ -195,7 +197,9 @@
                       Reviews</span
                     >
                   </span>
-                {% endunless %}
+                  {% comment %}
+                  {% endunless %}
+                  {% endcomment %}
               </div>
             {%- endif -%}
             <div style="display:none;">
