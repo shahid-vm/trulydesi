@@ -641,3 +641,8 @@
   p.article-card__excerpt.rte-width {
       font-size: 14px;
   }
+  .article-card  li.grid__item, li.swiper-slide {
+    box-shadow: 0 3px 10px #eee;
+    border: 1px solid #eee;
+    border-radius: 7px;
+  }
