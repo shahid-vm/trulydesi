@@ -618,10 +618,11 @@
   }
   .time-sub-block-time{
     display: flex;
-    gap: 11px;
+    gap: 7px;
     justify-content: right;
     margin-bottom: 10px;
     margin-right: 10px;
+    align-items: center;
   }
   .time-sub-block-time img{
     width: 20px;
