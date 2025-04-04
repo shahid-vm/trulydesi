@@ -595,7 +595,7 @@
 }
 /* vm css */
   .custom-card-{{ section.id }} .card__content{
-    border: 1px solid #e2e2e2;
+    /* border: 1px solid #e2e2e2; */
     border-radius: 20px;
   }
   .section-{{ section.id }} .card__information .card__heading{
