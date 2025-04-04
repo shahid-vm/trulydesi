@@ -227,3 +227,6 @@ h2.homepage_h2 {
     border: 1px solid #eee;
     border-radius: 7px;
 }
+.article-card .card__information {
+    padding: 2rem 2rem !important;
+}
