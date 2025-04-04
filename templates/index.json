@@ -426,7 +426,7 @@
       "type": "featured-blog",
       "settings": {
         "blog": "truly-desi-blogs",
-        "post_limit": 4,
+        "post_limit": 3,
         "heading": "<strong>Blog Posts</strong>",
         "heading_size": "h2",
         "columns_desktop": 4,
