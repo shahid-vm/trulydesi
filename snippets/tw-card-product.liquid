@@ -173,8 +173,8 @@
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
 
-            <div class='jdgm-widget jdgm-preview-badge' data-id='{{ product.id }}'>
-              {{ product.metafields.judgeme.badge }}
+            <div class='jdgm-widget jdgm-preview-badge' data-id='{{ card_product.id }}'>
+              {{ card_product.metafields.judgeme.badge }}
             </div>
             <div style="display:none;">
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
