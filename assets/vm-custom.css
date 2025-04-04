@@ -278,4 +278,7 @@ span.custom-total-reviews {
     top: -2px;
     position: relative;
 }
+.card .review_rating_wrapper {
+    margin-top: 10px;
+}
 /* End review */
