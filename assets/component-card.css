@@ -635,4 +635,6 @@
   .card--standard .card__inner {
     border-radius: 7px !important;
   }
-
+  .article-card .card__heading {
+      margin-bottom: 1.6rem;
+  }
