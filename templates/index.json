@@ -109,16 +109,16 @@
         "collection_A3PxXQ": {
           "type": "Collection",
           "settings": {
-            "tabLabel": "All",
-            "collection": "all",
+            "tabLabel": "Best Seller",
+            "collection": "best-seller",
             "Collection-url": ""
           }
         },
         "collection_4UtbtR": {
           "type": "Collection",
           "settings": {
-            "tabLabel": "Our Products",
-            "collection": "truly-desi-product-list",
+            "tabLabel": "New Arrival",
+            "collection": "new-arrival",
             "Collection-url": ""
           }
         }
