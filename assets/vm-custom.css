@@ -215,3 +215,8 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
 .footer-gif-img{
   width: 100%;
 }
+.product-grid-container li.grid__item {
+    box-shadow: 0 3px 10px #eee;
+    border: 1px solid #eee;
+    border-radius: 7px;
+}
