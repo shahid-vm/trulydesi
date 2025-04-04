@@ -175,7 +175,7 @@
 
             {%- if show_rating-%}
               <div class="review_rating_wrapper">
-                {% unless product.metafields.reviews.rating_count == blank %}
+             
                   <span data-score="5.00" class="rating jdgm-all-reviews-rating">
                     <span class="jdgm-star jdgm--on"></span><font>{{ product.metafields.reviews.rating.value }}</font>
                   </span>
@@ -195,7 +195,7 @@
                       Reviews</span
                     >
                   </span>
-                {% endunless %}
+
               </div>
             {%- endif -%}
             <div style="display:none;">
