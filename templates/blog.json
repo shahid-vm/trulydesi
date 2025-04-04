@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-blog",
+      "custom_css": [
+        "h1.title--primary {font-size: 42px; font-weight: bold; color: #2d4829; position: relative; /* text-align: center; */ width: 100%;}"
+      ],
       "settings": {
         "layout": "grid",
         "show_image": true,
