@@ -230,6 +230,7 @@ h2.homepage_h2 {
 .article-card .card__information {
     padding: 2rem 2rem !important;
 }
+/* Review */
 .review_rating_wrapper .rating_count:before {
     content: "";
     width: 14px;
@@ -278,9 +279,3 @@ span.custom-total-reviews {
     position: relative;
 }
 /* End review */
-
-
-
-
-
-
