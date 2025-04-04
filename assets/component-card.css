@@ -593,3 +593,46 @@
     clip-path: polygon(var(--shape--blob-5));
   }
 }
+/* vm css */
+  .custom-card-{{ section.id }} .card__content{
+    border: 1px solid #e2e2e2;
+    border-radius: 20px;
+  }
+  .section-{{ section.id }} .card__information .card__heading{
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  .section-{{ section.id }} .card__information .article-card__excerpt{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .time-block{
+    display: flex;
+    justify-content: space-between;
+  }
+  .time-block .time-sub-block{
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    align-items: center;
+  }
+  .time-sub-block-time{
+    display: flex;
+    gap: 11px;
+    justify-content: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .time-sub-block-time img{
+    width: 20px;
+  }
+  .time-sub-block-time .circle-divider{
+    font-size: 16px;
+  }
+  .card .media {
+    border-radius: 7px !important;
+  }
+  .card--standard .card__inner {
+    border-radius: 7px !important;
+  }
+
