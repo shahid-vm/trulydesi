@@ -638,3 +638,6 @@
   .article-card .card__heading {
       margin-bottom: 1.6rem !important;
   }
+  p.article-card__excerpt.rte-width {
+      font-size: 14px;
+  }
