@@ -143,6 +143,7 @@ svg.feather.feather-chevron-left {
 
 .footer__content-bottom {
     border: 0 !important;
+    margin-top: -10px;
 }
 
 ul.policies {
