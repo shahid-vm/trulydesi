@@ -429,7 +429,7 @@
         "post_limit": 3,
         "heading": "<strong>Blog Posts</strong>",
         "heading_size": "h2",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "show_view_all": true,
         "show_image": true,
         "show_date": false,
