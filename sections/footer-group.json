@@ -38,6 +38,13 @@
             "menu": "main-menu"
           }
         },
+        "link_list_JGfLTd": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Quick links",
+            "menu": "footer"
+          }
+        },
         "newsletter_MipJFz": {
           "type": "newsletter",
           "settings": {
@@ -50,6 +57,7 @@
         "brand_information_9LPawE",
         "link_list_GHy3f7",
         "link_list_pQdPtb",
+        "link_list_JGfLTd",
         "newsletter_MipJFz"
       ],
       "settings": {
