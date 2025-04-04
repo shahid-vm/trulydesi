@@ -424,6 +424,9 @@
     },
     "featured_blog_dC8T9G": {
       "type": "featured-blog",
+      "custom_css": [
+        ".blog__title {font-size: 32px; font-weight: bold; color: #2d4829; position: relative; text-align: center; width: 100%;}"
+      ],
       "settings": {
         "blog": "truly-desi-blogs",
         "post_limit": 3,
