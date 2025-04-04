@@ -636,5 +636,5 @@
     border-radius: 7px !important;
   }
   .article-card .card__heading {
-      margin-bottom: 1.6rem;
+      margin-bottom: 1.6rem !important;
   }
