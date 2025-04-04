@@ -104,11 +104,7 @@ quick-add-modal .product__title>a, .cart-item__name:hover, .pagination__item:hov
     display:none;
   }
 }
-@media screen and (min-width: 749px) {
-  main#MainContent {
-    padding: 0px 20px;
-  }
-}
+
 
 @media screen and (max-width: 989px) {
   .vm-search-model{
