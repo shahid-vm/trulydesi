@@ -173,9 +173,31 @@
 
             <span class="caption-large light">{{ block.settings.description | escape }}</span>
 
-            <div class='jdgm-widget jdgm-preview-badge' data-id='{{ card_product.id }}'>
-              {{ card_product.metafields.judgeme.badge }}
-            </div>
+            {%- if show_rating and card_product.metafields.reviews.rating.value != blank -%}
+              <div class="review_rating_wrapper">
+                {% unless card_product.metafields.reviews.rating_count == blank %}
+                  <span data-score="5.00" class="rating jdgm-all-reviews-rating">
+                    <span class="jdgm-star jdgm--on"></span><font>{{ card_product.metafields.reviews.rating.value }}</font>
+                  </span>
+                  <span
+                    class="rating_count jdgm-all-reviews-text__text"
+                    data-score="{{ shop.metafields.judgeme.all_reviews_rating }}"
+                    data-number-of-reviews="{{ shop.metafields.judgeme.all_reviews_count }}"
+                    data-locale="en"
+                  >
+                    <span class="custom-avg-rating"></span>
+                    <span class="custom-total-reviews">
+                      {%- if card_product.metafields.reviews.rating_count != blank -%}
+                        {{- card_product.metafields.reviews.rating_count }}
+                      {% else %}
+                        0
+                      {%- endif %}
+                      Reviews</span
+                    >
+                  </span>
+                {% endunless %}
+              </div>
+            {%- endif -%}
             <div style="display:none;">
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
             </div>
