@@ -230,3 +230,57 @@ h2.homepage_h2 {
 .article-card .card__information {
     padding: 2rem 2rem !important;
 }
+.review_rating_wrapper .rating_count:before {
+    content: "";
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url('https://cdn.shopify.com/s/files/1/0791/7784/2872/files/Vector_6.png?v=1731314185') 0 0 / 12px no-repeat;
+    position: relative;
+    top: 1px;
+}
+.rating {
+    position: relative;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 15px;
+    color: #FBCD0A;
+    padding: 0 20px 0 0;
+}
+.review_rating_wrapper span.rating.jdgm-all-reviews-rating:after {
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 20%;
+    width: 1px;
+    height: 60%;
+    background: #7D7D7D;
+}
+.review_rating_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #7D7D7D;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    margin: 0px;
+    min-height: 27px;
+}
+span.rating.jdgm-all-reviews-rating font {
+    color: #7D7D7D;
+}
+span.custom-total-reviews {
+    font-size: 15px;
+    top: -2px;
+    position: relative;
+}
+/* End review */
+
+
+
+
+
+
