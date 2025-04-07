@@ -1561,5 +1561,5 @@ span.varient-name-custom {
     }
 }
 .product__info-container variant-selects fieldset label:hover {
-  border: 2px solid #F1C679;
+  border: 2px solid #F1C679 !important;
 }
