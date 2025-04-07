@@ -1514,9 +1514,9 @@ a.product__text {
     background: #0F481D;
 }
 .product__info-container variant-selects fieldset label{
-    border-radius: 10px;
-    font-size: 17px;
-    background: #F1C679;
-    border: 1px solid #F1C679;
-    color: #000;
+    border-radius: 10px !important;
+    font-size: 17px !important;
+    background: #F1C679 !important;
+    border: 1px solid #F1C679 !important;
+    color: #000 !important;
 }
