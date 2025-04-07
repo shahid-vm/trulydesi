@@ -1513,10 +1513,12 @@ a.product__text {
     font-weight: 600;
     background: #0F481D;
 }
+.product-form__input--pill input[type=radio]:checked+label {
+    background: #F1C679 !important;
+}
 .product__info-container variant-selects fieldset label{
     border-radius: 10px !important;
     font-size: 17px !important;
-    background: #F1C679 !important;
     border: 1px solid #F1C679 !important;
     color: #000 !important;
 }
