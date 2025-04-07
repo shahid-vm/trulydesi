@@ -285,13 +285,6 @@
                           {{- 'icon-plus.svg' | inline_asset_content -}}
                         </span>
                       </button>
-                      {%- render 'buy-buttons',
-                        block: block,
-                        product: product,
-                        product_form_id: product_form_id,
-                        section_id: section.id,
-                        show_pickup_availability: true
-                      -%}
                     </quantity-input>
                     
                     {%- liquid
@@ -449,6 +442,13 @@
                     </volume-pricing>
                   {%- endif -%}
                 </div>
+                {%- render 'buy-buttons',
+                  block: block,
+                  product: product,
+                  product_form_id: product_form_id,
+                  section_id: section.id,
+                  show_pickup_availability: true
+                -%}
               </div>
               {%- when 'popup' -%}
                 <modal-opener
