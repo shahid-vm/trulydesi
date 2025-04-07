@@ -45,6 +45,20 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
           }
+        },
+        "icon_with_text_gzbGWV": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "heart",
+            "heading_1": "Heading",
+            "icon_2": "return",
+            "heading_2": "Heading",
+            "icon_3": "truck",
+            "heading_3": "Heading",
+            "icon_4": "truck",
+            "heading_4": "image 4 label"
+          }
         }
       },
       "block_order": [
@@ -54,7 +68,8 @@
         "variant_picker",
         "usp_qr9Vi8",
         "quantity_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "icon_with_text_gzbGWV"
       ],
       "settings": {
         "enable_sticky_info": true,
