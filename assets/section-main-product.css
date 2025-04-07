@@ -1563,7 +1563,6 @@ span.varient-name-custom {
 }
 .product-usp-icons {
     display: flex;
-    gap: 11px;
 }
 .product-usp-icons img {
     width: calc(23% - 8.25px);
