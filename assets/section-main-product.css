@@ -1530,3 +1530,7 @@ a.product__text {
 span.price-item.price-item--sale.price-item--last.custom-price {
     font-size: 15px !important;
 }
+s.price-item.price-item--regular.custom-compair-price {
+    font-size: 15px !important;
+    margin-left: 10px;
+}
