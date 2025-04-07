@@ -1502,3 +1502,8 @@ a.product__text {
     color: #174117;
     font-weight: 600;
 }
+.product__info-container s.price-item.price-item--regular {
+    font-size: 18px !important;
+    font-weight: 600;
+    color: #736868fc;
+}
