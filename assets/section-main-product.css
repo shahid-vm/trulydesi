@@ -1497,3 +1497,8 @@ a.product__text {
 .product__title h1 {
     font-size: 28px;
 }
+.product__info-container span.price-item.price-item--sale.price-item--last {
+    font-size: 20px !important;
+    color: #174117;
+    font-weight: 600;
+}
