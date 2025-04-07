@@ -54,37 +54,23 @@
 
 <div class="tabs-container-{{ section.id}}">
   <div class="tabs">
-    <button class="tab active" data-tab="details">Product Details</button>
-    <button class="tab" data-tab="care">Product Care</button>
-    <button class="tab" data-tab="fit">Size and Fit</button>
+    {% if product.description != blank %}
+      <button class="tab active" data-tab="details">Description</button>
+    {% endif %}
+    {% for block in section.blocks %}
+      <button class="tab" data-tab="{{ block.id }}">{{ block.settings.title }}</button>
+    {% endfor %}
   </div>
-
-  <div class="tab-content active" id="details">
-    <p>Experience a sense of edge, luxury, and sophistication with our denim pieces, perfect for this festive season.
-    This denim piece made with cotton denim is perfect to offer a sense of style and comfort. It has thread detailing
-    around the dress which gives it a great look, along with adjusters and a centre zip for ultimate comfort. This
-    dress is a perfect fit for a fun night out this season.</p>
-
-    <p><strong>Product detail</strong></p>
-    <ul>
-      <li>Cotton denim</li>
-      <li>Washed denim</li>
-      <li>Comfort stretch denim</li>
-      <li>Blue colour</li>
-      <li>Ankle length</li>
-      <li>Square neck</li>
-      <li>Straps with adjusters</li>
-      <li>Fastener zipper on centre back with hook and eye and H & O ring on straps</li>
-    </ul>
-  </div>
-
-  <div class="tab-content" id="care">
-    <p>Hand wash separately in cold water. Do not bleach. Iron on low heat. Dry in shade.</p>
-  </div>
-
-  <div class="tab-content" id="fit">
-    <p>Model is wearing size S. Model height: 5'8". Fit: Relaxed.</p>
-  </div>
+  {% if product.description != blank %}
+    <div class="tab-content active" id="details">
+      {{ product.description }}
+    </div>
+  {% endif %}
+  {% for block in section.blocks %}
+    <div class="tab-content" id="{{ block.id }}">
+      {{ block.discription }}
+    </div>
+  {% endfor %}
 </div>
 <script>
   document.querySelectorAll(".tab").forEach((tab) => {
