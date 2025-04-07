@@ -1561,3 +1561,14 @@ span.varient-name-custom {
 .product__info-container variant-selects fieldset label:hover {
   border: 2px solid #F1C679 !important;
 }
+.product-usp-icons {
+    display: flex;
+    gap: 11px;
+}
+.product-usp-icons img {
+    width: calc(23% - 8.25px);
+    height: 100%;
+    object-fit: contain;
+    padding-bottom: 5px;
+    padding: 18px;
+}
