@@ -1,6 +1,136 @@
+<style>
+.tabs-container-{{ section.id}} {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.tabs-container-{{ section.id}}  .tabs {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 15px;
+}
+
+.tabs-container-{{ section.id}}  .tab {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #999;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.tabs-container-{{ section.id}} .tab.active {
+  color: #000;
+  border-bottom: 2px solid #ff5722;
+  font-weight: 500;
+}
+
+.tabs-container-{{ section.id}} .tab-content {
+  display: none;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.tabs-container-{{ section.id}}  .tab-content.active {
+  display: block;
+}
+
+.tabs-container-{{ section.id}}  ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.tabs-container-{{ section.id}}  ul li {
+  list-style-type: disc;
+  margin-bottom: 5px;
+}
+</style>
+
+<div class="tabs-container">
+  <div class="tabs">
+    <button class="tab active" data-tab="details">Product Details</button>
+    <button class="tab" data-tab="care">Product Care</button>
+    <button class="tab" data-tab="fit">Size and Fit</button>
+  </div>
+
+  <div class="tab-content active" id="details">
+    <p>Experience a sense of edge, luxury, and sophistication with our denim pieces, perfect for this festive season.
+    This denim piece made with cotton denim is perfect to offer a sense of style and comfort. It has thread detailing
+    around the dress which gives it a great look, along with adjusters and a centre zip for ultimate comfort. This
+    dress is a perfect fit for a fun night out this season.</p>
+
+    <p><strong>Product detail</strong></p>
+    <ul>
+      <li>Cotton denim</li>
+      <li>Washed denim</li>
+      <li>Comfort stretch denim</li>
+      <li>Blue colour</li>
+      <li>Ankle length</li>
+      <li>Square neck</li>
+      <li>Straps with adjusters</li>
+      <li>Fastener zipper on centre back with hook and eye and H & O ring on straps</li>
+    </ul>
+  </div>
+
+  <div class="tab-content" id="care">
+    <p>Hand wash separately in cold water. Do not bleach. Iron on low heat. Dry in shade.</p>
+  </div>
+
+  <div class="tab-content" id="fit">
+    <p>Model is wearing size S. Model height: 5'8". Fit: Relaxed.</p>
+  </div>
+</div>
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{
+    "name": "Product Tabs",
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-1"
+      }, 
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "coll-desc",
+        "label": "Description"
+      },
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "discription",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Product Tabs"
+
+      }
+    ]
   }
 {% endschema %}
