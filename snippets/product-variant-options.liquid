@@ -95,7 +95,7 @@
       
       <span>{{ value -}}
       {{ label_unavailable }}</span>
-      <span class="custom-price"> {{ value.variant.price | money }}<span class="custom-compair-price">{{ value.variant.compare_price | money }}</span></span>
+      <span class="custom-price"> {{ value.variant.price | money }}<span class="custom-compair-price">{{ value.variant.compare_at_price | money }}</span></span>
     </label>
   {%- elsif picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
     <option
