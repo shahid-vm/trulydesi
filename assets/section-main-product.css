@@ -1503,8 +1503,8 @@ a.product__text {
     font-weight: 600;
 }
 .product__info-container s.price-item.price-item--regular {
-    font-size: 20px !important;
-    font-weight: 600;
+    font-size: 16px !important;
+    font-weight: 500;
     color: #736868fc;
 }
 .product__info-container .price__badge-sale{
