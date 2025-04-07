@@ -92,8 +92,9 @@
       {{ input_dataset }}
     >
     <label for="{{ input_id }}" class="custom-varient">
-      {{ value -}}
-      {{ label_unavailable }}
+      
+      <span>{{ value -}}
+      {{ label_unavailable }}</span>
       <span class="custom-price">Hii</span>
     </label>
   {%- elsif picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
