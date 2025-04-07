@@ -1612,3 +1612,6 @@ span.h4.inline-richtext {
     font-size: 24px !important;
     font-weight: 600;
 }
+img.image-magnify-lightbox {
+    border-radius: 10px;
+}
