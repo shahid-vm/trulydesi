@@ -509,6 +509,12 @@
                     </p>
                   </div>
                 {%- endif -%}
+              {%- when 'usp' -%}
+              <div class="product-usp-icons">
+                {% for img in product.metafields.custom.usp.value %}
+                  <img src="{{ img | img_url:'master' }}" width="200" height="200">
+                {% endfor %}
+              </div>
               {%- when 'complementary' -%}
                 <product-recommendations
                   class="complementary-products quick-add-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}{% if block.settings.enable_quick_add %} complementary-products-contains-quick-add{% endif %}"
