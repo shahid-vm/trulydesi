@@ -35,6 +35,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "usp_qr9Vi8": {
+          "type": "usp",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -49,6 +53,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "usp_qr9Vi8",
         "buy_buttons"
       ],
       "settings": {
