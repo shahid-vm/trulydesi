@@ -92,6 +92,14 @@
         "padding_bottom": 36
       }
     },
+    "custom_tab_product_details_D8yrb4": {
+      "type": "custom-tab-product-details",
+      "settings": {
+        "color_scheme": "",
+        "title": "",
+        "coll-desc": ""
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -128,6 +136,7 @@
   },
   "order": [
     "main",
+    "custom_tab_product_details_D8yrb4",
     "related-products",
     "174376134133908ce3"
   ]
