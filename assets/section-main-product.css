@@ -1513,3 +1513,10 @@ a.product__text {
     font-weight: 600;
     background: #0F481D;
 }
+variant-selects fieldset label{
+    border-radius: 10px;
+    font-size: 17px;
+    background: #F1C679;
+    border: 1px solid #F1C679;
+    color: #000;
+}
