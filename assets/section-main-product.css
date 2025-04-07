@@ -1584,6 +1584,7 @@ span.h4.inline-richtext {
 }
 .qty-and-buy-container .product-form__input {
     flex: none !important;
+    align-self:center;
 }
 .qty-and-buy-container button.product-form__submit  {
     max-width: 100% !important;
