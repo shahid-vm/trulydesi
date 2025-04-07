@@ -1560,7 +1560,7 @@ span.varient-name-custom {
 }
 .product__info-container variant-selects fieldset label:hover {
     border: 1px solid #efa237 !important;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 .product-usp-icons {
     display: flex;
