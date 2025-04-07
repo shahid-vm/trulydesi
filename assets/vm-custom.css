@@ -301,3 +301,6 @@ span.custom-total-reviews {
   {
     width: 0rem;
   }
+.thumbnail {
+  border-radius: 7px;
+}
