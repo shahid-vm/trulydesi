@@ -1560,3 +1560,6 @@ span.varient-name-custom {
         max-width: 100% !important;
     }
 }
+.product__info-container variant-selects fieldset label:hover {
+  border: 2px solid #F1C679;
+}
