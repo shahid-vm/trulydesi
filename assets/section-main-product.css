@@ -1608,3 +1608,7 @@ span.h4.inline-richtext {
     margin-bottom: 12px;
     border-radius: 10px;
 }
+.qty-and-buy-container .quantity__input {
+    font-size: 24px !important;
+    font-weight: 600;
+}
