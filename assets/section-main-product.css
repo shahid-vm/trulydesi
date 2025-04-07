@@ -1571,3 +1571,9 @@ span.varient-name-custom {
     padding-bottom: 5px;
     padding: 18px;
 }
+span.h4.inline-richtext {
+    font-size: 14px;
+    line-height: 18px;
+    color: #4c4c4c;
+    letter-spacing: 0px;
+}
