@@ -114,6 +114,9 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        ".product-card-wrapper .price-btn-container {justify-content: center;}"
+      ],
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
