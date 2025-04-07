@@ -1578,3 +1578,6 @@ span.h4.inline-richtext {
     color: #4c4c4c;
     letter-spacing: 0px;
 }
+.qty-and-buy-container {
+    display: flex;
+}
