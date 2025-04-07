@@ -1599,3 +1599,11 @@ span.h4.inline-richtext {
     background: transparent;
     margin-left: 26px !important;
 }
+.qty-and-buy-container quantity-input.quantity {
+    height: 100%;
+    min-height: 6.4rem;
+    border: none;
+    background: #f3f3f3;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
