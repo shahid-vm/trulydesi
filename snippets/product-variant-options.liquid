@@ -77,7 +77,6 @@
       additional_props: input_dataset
     %}
   {%- elsif picker_type == 'button' -%}
-    hii
     <input
       type="radio"
       id="{{ input_id }}"
@@ -92,9 +91,10 @@
       {% endif %}
       {{ input_dataset }}
     >
-    <label for="{{ input_id }}">
+    <label for="{{ input_id }}" class="custom-varient">
       {{ value -}}
       {{ label_unavailable }}
+      <span class="custom-price">Hii</span>
     </label>
   {%- elsif picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
     <option
