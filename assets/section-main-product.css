@@ -1521,10 +1521,9 @@ a.product__text {
     color: #000 !important;
 }
 .product__info-container variant-selects fieldset label{
-  display: flex;
-  flex-direction: column;
-  width: 100px;
-  float: left;
-  text-align: left;
-  gap: 10px;
+    display: flex !important;
+    flex-direction: column;
+    float: left;
+    text-align: left !important;
+    gap: 10px;
 }
