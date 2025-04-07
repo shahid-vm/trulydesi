@@ -31,12 +31,12 @@
             "swatch_shape": "circle"
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
         "usp_qr9Vi8": {
           "type": "usp",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
           "settings": {}
         },
         "buy_buttons": {
@@ -52,8 +52,8 @@
         "judge_me_reviews_preview_badge_8xGirq",
         "price",
         "variant_picker",
-        "quantity_selector",
         "usp_qr9Vi8",
+        "quantity_selector",
         "buy_buttons"
       ],
       "settings": {
