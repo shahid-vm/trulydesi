@@ -1534,3 +1534,8 @@ s.price-item.price-item--regular.custom-compair-price {
     font-size: 15px !important;
     margin-left: 10px;
 }
+legend.form__label.size-title {
+    font-size: 18px;
+    color: #0F481D;
+    font-weight: 600;
+}
