@@ -86,7 +86,22 @@
     <p>Model is wearing size S. Model height: 5'8". Fit: Relaxed.</p>
   </div>
 </div>
-
+<script>
+  document.querySelectorAll(".tab").forEach((tab) => {
+    tab.addEventListener("click", function () {
+      // Toggle active tab
+      document.querySelectorAll(".tab").forEach((el) => el.classList.remove("active"));
+      this.classList.add("active");
+  
+      // Show matching tab content
+      const target = this.getAttribute("data-tab");
+      document.querySelectorAll(".tab-content").forEach((content) => {
+        content.classList.remove("active");
+      });
+      document.getElementById(target).classList.add("active");
+    });
+  });
+</script>
 {% schema %}
 {
     "name": "Product Tabs",
