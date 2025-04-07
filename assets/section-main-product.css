@@ -1527,3 +1527,6 @@ a.product__text {
     text-align: left !important;
     gap: 10px;
 }
+span.price-item.price-item--sale.price-item--last.custom-price {
+    font-size: 15px !important;
+}
