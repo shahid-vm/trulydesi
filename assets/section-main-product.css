@@ -1580,4 +1580,5 @@ span.h4.inline-richtext {
 }
 .qty-and-buy-container {
     display: flex;
+    align-self: center;
 }
