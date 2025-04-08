@@ -631,7 +631,7 @@
     font-size: 10px;
   }
   .card .media {
-    border-radius: 7px !important;
+    border-radius: 7px 7px 0px 0px !important;
   }
   .card--standard .card__inner {
     border-radius: 7px !important;
