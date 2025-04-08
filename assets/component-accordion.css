@@ -45,6 +45,9 @@
 .accordion details[open] > summary .icon-caret {
   display: none;
 }
+.accordion details[open] > summary .icon-minus {
+  display: block !important;
+}
 
 .accordion__content {
   margin-bottom: 1.5rem;
