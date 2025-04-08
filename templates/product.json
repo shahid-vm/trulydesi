@@ -141,7 +141,6 @@
     "related-products": {
       "type": "related-products",
       "custom_css": [
-        ".product-card-wrapper .price-btn-container {justify-content: center;}",
         "h2.related-products__heading.inline-richtext.h2 {color: #064f32; font-size: 32px; font-weight: bold; text-align: center; text-transform: capitalize; margin: 0px 0px 25px 0px;}"
       ],
       "settings": {
