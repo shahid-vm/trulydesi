@@ -1511,7 +1511,7 @@ a.product__text {
     border-radius: 7px;
     font-size: 14px;
     font-weight: 600;
-    background: #F1C679;
+    background: ##377753;
 }
 .product-form__input--pill input[type=radio]:checked+label {
     background: #F1C679 !important;
