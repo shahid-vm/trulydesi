@@ -125,12 +125,11 @@
       </small>
     </div>
     {%- if show_badges -%}
-     <div style="display:flex;">
       <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}">
          {{ product.compare_at_price_max | minus: product.price | times: 100.0 | divided_by: product.compare_at_price_max | money_without_currency | times: 100 | remove: '.0'}}% OFF
       </span>
       {%- if cart.taxes_included or cart.duties_included or shop.shipping_policy.body != blank -%}
-        <span class="product__tax caption rte">
+        <div class="product__tax caption rte">
           {%- if cart.duties_included and cart.taxes_included -%}
             {{ 'products.product.duties_and_taxes_included' | t }}
           {%- elsif cart.taxes_included -%}
@@ -141,9 +140,8 @@
           {%- if shop.shipping_policy.body != blank -%}
             {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
           {%- endif -%}
-        </span>
+        </div>
       {%- endif -%}
-      </div>
       <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
         {{ 'products.product.sold_out' | t }}
       </span>
