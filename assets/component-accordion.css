@@ -43,7 +43,7 @@
 }
 
 .accordion details[open] > summary .icon-caret {
-  transform: rotate(180deg);
+  display: none;
 }
 
 .accordion__content {
