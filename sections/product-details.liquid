@@ -110,12 +110,7 @@
                     </div>
                   </details>
                 </div>
-               {% assign faq_title = product.metafields.custom.faq_question.value %}
-               {% assign faq_content = product.metafields.custom.faq_answer.value %}      
-                {% for title in faq_title %}
-                {% assign final_index  = forloop.index  %}
-                    {% for content in faq_content %}
-                       {% if final_index == forloop.index %}
+               {% for block in section.blocks %}
                         <div
                           class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
                           {{ block.shopify_attributes }}
@@ -128,7 +123,7 @@
                           >
                             <summary id="Summary-{{ block.id }}-{{ section.id }}">
                               <h3 class="accordion__title inline-richtext h4">
-                                {{ title }}
+                                {{ block.settings.title }}
                               </h3>
                               <svg aria-hidden="true" focusable="false" class="icon icon-caret" viewBox="0 0 10 6">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M9.354.646a.5.5 0 00-.708 0L5 4.293 1.354.646a.5.5 0 00-.708.708l4 4a.5.5 0 00.708 0l4-4a.5.5 0 000-.708z" fill="currentColor">
@@ -140,12 +135,10 @@
                               role="region"
                               aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                             >
-                              {{ content }}
+                              {{ block.settings.discription }}
                             </div>
                           </details>
                         </div>
-                  {% endif %}
-                {% endfor %}
               {% endfor %}
             </div>
           </div>
