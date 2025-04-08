@@ -1501,6 +1501,7 @@ a.product__text {
     font-size: 20px !important;
     color: #174117;
     font-weight: 600;
+    margin-right: 0px !important;
 }
 .product__info-container s.price-item.price-item--regular {
     font-size: 18px !important;
