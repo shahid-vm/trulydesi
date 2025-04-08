@@ -660,6 +660,12 @@ summary .icon-caret {
   right: 1.5rem;
   top: calc(50% - 0.2rem);
 }
+summary .icon-plus {
+  position: absolute;
+  height: 1.6rem;
+  right: 1.5rem;
+  top: calc(50% - 0.2rem);
+}
 summary .icon-minus {
   position: absolute;
   height: 1.6rem;
