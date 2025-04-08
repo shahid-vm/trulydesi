@@ -649,8 +649,8 @@
     padding: 0px 0px 15px 0px;
   }
   .product__tax.caption.rte {
-      vertical-align: -webkit-baseline-middle;
-      margin-left: 8px;
-      color: #847575;
-      font-weight: 600;
+    margin-left: 10px;
+    color: #847575;
+    font-weight: 600;
+    margin-top: 5px;
   }
