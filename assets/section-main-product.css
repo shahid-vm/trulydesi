@@ -1585,7 +1585,6 @@ span.h4.inline-richtext {
 .qty-and-buy-container {
     display: flex;
     align-self: center;
-    gap: 20px;
 }
 .qty-and-buy-container .product-form__input {
     flex: none !important;
