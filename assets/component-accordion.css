@@ -42,7 +42,7 @@
   width: calc(var(--font-heading-scale) * 2rem);
 }
 
-.accordion details[open] > summary .icon-caret {
+.accordion details[open] > summary .icon-plus {
   display: none;
 }
 .accordion details[open] > summary .icon-minus {
