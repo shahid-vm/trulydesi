@@ -1610,10 +1610,10 @@ span.h4.inline-richtext {
 .qty-and-buy-container quantity-input.quantity {
     height: 100%;
     min-height: 6.4rem;
-    border: none;
-    background: #c9ecd2;
     overflow: hidden;
     border-radius: 10px;
+    padding: 0px !important;
+    border: 1px solid #2C562D;
 }
 .qty-and-buy-container .quantity__input {
     font-size: 24px !important;
