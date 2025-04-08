@@ -508,7 +508,7 @@
               {%- when 'usp' -%}
               <div class="product-usp-icons">
                 {% for img in product.metafields.custom.usp.value %}
-                  <img src="{{ img | img_url:'master' }}" width="200" height="200">
+                  <img src="{{ img | img_url:'master' }}" {% if forloop.first %} style="padding-left:0px;"{% endif %} width="200" height="200">
                 {% endfor %}
               </div>
               {%- when 'complementary' -%}
