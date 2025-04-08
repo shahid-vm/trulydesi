@@ -107,7 +107,7 @@
               width: max-content;
           ">
         <span class="var-badge" data-price-off-amount="">{{ value.variant.compare_at_price_max | minus: value.variant.price | times: 100.0 | divided_by: value.variant.compare_at_price_max | money_without_currency | times: 100 | remove: '.0'}}% OFF
-      </span>
+        </span>
       </div>
       {% endif %}
      <span class="varient-name-custom">{{ value -}}
