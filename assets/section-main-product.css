@@ -1530,6 +1530,7 @@ a.product__text {
     float: left;
     text-align: left !important;
     gap: 10px;
+    background: #fafafa !important;
 }
 span.price-item.price-item--sale.price-item--last.custom-price {
     font-size: 15px !important;
