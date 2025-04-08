@@ -84,16 +84,15 @@
               </div>
             {% endif %}
             <div class="grid__item">
-              {% if product.discription != blank %}
-              <div
+               <div
                   class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
                   {{ block.shopify_attributes }}
                 >
                   <details
-                    id="Details-discription"
+                    id="Details-{{ block.id }}-{{ section.id }}"
                       open
                   >
-                    <summary id="Summary-discription">
+                    <summary id="Summary-{{ block.id }}-{{ section.id }}">
                       <h3 class="accordion__title inline-richtext h4">
                         Discription
                       </h3>
@@ -103,15 +102,14 @@
                     </summary>
                     <div
                       class="accordion__content rte"
-                      id="CollapsibleAccordion-discription"
+                      id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
                       role="region"
-                      aria-labelledby="Summary-discription"
+                      aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                     >
-                      {{ product.discription }}
+                      {{ product.description }}
                     </div>
                   </details>
                 </div>
-                {% endif %}
                {% assign faq_title = product.metafields.custom.faq_question.value %}
                {% assign faq_content = product.metafields.custom.faq_answer.value %}      
                 {% for title in faq_title %}
