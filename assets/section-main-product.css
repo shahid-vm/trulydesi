@@ -1571,7 +1571,7 @@ span.varient-name-custom {
     display: flex;
 }
 .product-usp-icons img {
-    width: calc(23% - 8.25px);
+    width: 120px;
     height: 100%;
     object-fit: contain;
     padding-bottom: 5px;
