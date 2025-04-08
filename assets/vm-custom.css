@@ -304,7 +304,7 @@ span.custom-total-reviews {
 .thumbnail {
   border-radius: 7px;
 }
-li.grid__item {
+product-recommendations li.grid__item {
     box-shadow: 0 3px 10px #eee;
     border: 1px solid #eee;
     border-radius: 7px;
