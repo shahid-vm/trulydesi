@@ -117,7 +117,7 @@
                         >
                           <details
                             id="Details-{{ block.id }}-{{ section.id }}"
-                            {% if section.settings.open_first_collapsible_row and forloop.first %}
+                            {% if section.settings.open_first_collapsible_row and forloop.first and product.description == blank %}
                               open
                             {% endif %}
                           >
