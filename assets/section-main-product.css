@@ -1218,10 +1218,10 @@ a.product__text {
 }
 
 .icon-with-text--horizontal {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
   justify-content: center;
   column-gap: 3rem;
-  flex-direction: row;
 }
 
 .icon-with-text--vertical {
