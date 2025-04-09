@@ -434,6 +434,7 @@ ul.policies {
   .footer-block__newsletter {
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 
   .footer-block__newsletter {
