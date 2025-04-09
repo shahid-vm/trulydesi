@@ -1,4 +1,4 @@
-    <div class="container-{{ section.id }} color-{{ section.settings.color_scheme }}">
+    <div class="container-{{ section.id }} color-{{ section.settings.color_scheme }} page-width">
       <div class="text-content">
           <h1>{{ section.settings.title }}</h1>
           <p>
@@ -88,6 +88,8 @@
             display: flex;
             justify-content: space-between;
             padding: 50px;
+            padding-left: 0px;
+            padding-right: 0px;
             max-width: 90%;
             margin: auto;
         }
