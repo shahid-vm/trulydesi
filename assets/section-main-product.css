@@ -1647,3 +1647,6 @@ slider-component svg.icon.icon-caret {
     align-items: center;
     gap: 10px;
 }
+.qty-and-buy-container product-form.product-form {
+    margin: 0px !important;
+}
