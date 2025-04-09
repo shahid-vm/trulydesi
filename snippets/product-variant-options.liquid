@@ -92,7 +92,7 @@
       {{ input_dataset }}
     >
     <label for="{{ input_id }}" class="custom-varient">
-      {% if value.variant.compare_at_price_max > value.variant.price %}
+
       <div class="price__badge-sale" style="
               position: absolute;
               top: -10px;
@@ -109,7 +109,7 @@
         <span class="var-badge" data-price-off-amount="">{{ value.variant.compare_at_price_max | minus: value.variant.price | times: 100.0 | divided_by: value.variant.compare_at_price_max | money_without_currency | times: 100 | remove: '.0'}}% OFF
         </span>
       </div>
-      {% endif %}
+
      <span class="varient-name-custom">{{ value -}}
       {{ label_unavailable }}</span>
       <span class="price-item price-item--sale price-item--last custom-price"> {{ value.variant.price | money }}<s class="price-item price-item--regular custom-compair-price"> {{ value.variant.compare_at_price | money }}</s></span>
