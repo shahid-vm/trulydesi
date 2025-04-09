@@ -1570,13 +1570,14 @@ span.varient-name-custom {
 .product-usp-icons {
     display: flex;
     width: 100%;
+    gap: 20px;
+    margin: 10px 0px 10px 25px;
+
 }
 .product-usp-icons img {
     width: 15%;
     height: 100%;
     object-fit: contain;
-    padding-bottom: 5px;
-    padding: 18px;
 }
 span.h4.inline-richtext {
     font-size: 14px;
