@@ -1,74 +1,3 @@
-    <style> 
-        .container-{{ section.id }} {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 50px;
-            max-width: 90%;
-            margin: auto;
-        }
-
-        .container-{{ section.id }} .text-content {
-            max-width: 50%;
-        }
-
-        .container-{{ section.id }} .text-content h1 {
-            font-size: 42px;
-            color: #394634;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-
-        .container-{{ section.id }} .text-content p {
-            font-size: 18px;
-            color: #555;
-            line-height: 1.6;
-        }
-
-        .container-{{ section.id }} .icons-container {
-            display: flex;
-            gap: 50px;
-            margin-top: 30px;
-            align-items: center;
-        }
-
-        .container-{{ section.id }} .icon {
-            text-align: center;
-            font-size: 16px;
-            color: #333;
-        }
-
-        .container-{{ section.id }} .icon img {
-          width: auto;
-          height: 60px;
-        }
-
-        .container-{{ section.id }} .image-content {
-            max-width: 45%;
-        }
-
-        .container-{{ section.id }} .image-content img {
-            width: 100%;
-            border-radius: 50% 0 50% 50%;
-            object-fit: cover;
-        }
-
-        @media (max-width: 900px) {
-           .container-{{ section.id }} {
-                flex-direction: column-reverse;
-                text-align: center;
-            }
-
-            .container-{{ section.id }} .text-content, .image-content {
-                max-width: 100%;
-            }
-
-            .container-{{ section.id }} .image-content img {
-                border-radius: 20px;
-            }
-        }
-    </style>
-
     <div class="container-{{ section.id }} color-{{ section.settings.color_scheme }}">
       <div class="text-content">
           <h1>{{ section.settings.title }}</h1>
@@ -154,3 +83,73 @@
     ]
   }
 {% endschema %}
+    <style> 
+        .container-{{ section.id }} {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            max-width: 90%;
+            margin: auto;
+        }
+
+        .container-{{ section.id }} .text-content {
+            max-width: 50%;
+        }
+
+        .container-{{ section.id }} .text-content h1 {
+            font-size: 42px;
+            color: #394634;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .container-{{ section.id }} .text-content p {
+            font-size: 18px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .container-{{ section.id }} .icons-container {
+            display: flex;
+            gap: 50px;
+            margin-top: 30px;
+            align-items: center;
+        }
+
+        .container-{{ section.id }} .icon {
+            text-align: center;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .container-{{ section.id }} .icon img {
+          width: auto;
+          height: 60px;
+        }
+
+        .container-{{ section.id }} .image-content {
+            max-width: 45%;
+        }
+
+        .container-{{ section.id }} .image-content img {
+            width: 100%;
+            border-radius: 50% 0 50% 50%;
+            object-fit: cover;
+        }
+
+        @media (max-width: 900px) {
+           .container-{{ section.id }} {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+
+            .container-{{ section.id }} .text-content, .image-content {
+                max-width: 100%;
+            }
+
+            .container-{{ section.id }} .image-content img {
+                border-radius: 20px;
+            }
+        }
+    </style>
