@@ -1656,6 +1656,6 @@ slider-component svg.icon.icon-caret {
     grid-template-columns: auto auto;
   }
   .qty-and-buy-container button.product-form__submit {
-    padding: 1rem 2rem;
+    padding: 1rem 3rem;
   }
 }
