@@ -1570,7 +1570,7 @@ span.varient-name-custom {
 }
 .product-usp-icons {
     display: flex;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 .product-usp-icons img {
     width: 120px;
