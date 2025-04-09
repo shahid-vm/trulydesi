@@ -1534,6 +1534,7 @@ a.product__text {
     flex-direction: column;
     float: left;
     text-align: left !important;
+    margin: 7px 7px !important;
     gap: 10px;
     background: #fafafa !important;
 }
