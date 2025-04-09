@@ -1585,7 +1585,7 @@ span.h4.inline-richtext {
 .qty-and-buy-container {
     display: flex;
     align-self: center;
-    border: 1px solid #00000099;
+    border: 1px solid #e2e2e2;
     padding: 20px 0px;
     border-width: 1px 0px 1px 0px;
     margin: 10px 0px;
