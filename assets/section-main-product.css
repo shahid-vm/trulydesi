@@ -1594,12 +1594,12 @@ span.h4.inline-richtext {
           max-width: 100% !important;
           margin: 0 !important;
           color: #fff;
-          border: 2px solid #2C562D;
+          border: 2px solid #104823;
           padding: 1rem 10rem 1rem;
           font-size: 24px;
           text-transform: capitalize;
           font-weight: 700;
-          background: #2C562D;
+          background: #104823;
       
       }
 .qty-and-buy-container button.product-form__submit:hover  {
