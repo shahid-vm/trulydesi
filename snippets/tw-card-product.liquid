@@ -124,6 +124,9 @@
               </a>
             </h3>
           </div>
+          <div class="card__badge custom-badge-meta">
+            <span>{{ product.metafields.custom.custom_badge }}</span>
+          </div>
           <div class="card__badge {{ settings.badge_position }}">
             {%- if card_product.available == false -%}
               <span
