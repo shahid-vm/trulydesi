@@ -1651,3 +1651,8 @@ slider-component svg.icon.icon-caret {
 .qty-and-buy-container product-form.product-form {
     margin: 0px !important;
 }
+@media screen and (max-width: 949px) {
+  .icon-with-text--horizontal {
+    grid-template-columns: auto auto;
+  }
+}
