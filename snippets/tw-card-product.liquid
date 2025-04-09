@@ -142,7 +142,7 @@
               {% comment %}
                 {{- 'products.product.on_sale' | t -}}
               {% endcomment %}
-                {{ discount }}% OFF
+                {{ discount | round }}% OFF
               </span>
               {% endif %}
             {%- endif -%}
