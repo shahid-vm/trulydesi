@@ -1,6 +1,6 @@
-    <div class="spotlight-container color-{{ section.settings.color_scheme }} page-width">
+    <div class="spotlight-container color-{{ section.settings.color_scheme }}">
         <h2 class="spotlight-title">{{ section.settings.title}}</h2>
-        <div class="logos-container">
+        <div class="logos-container page-width">
           {% for block in section.blocks %}
             <img class="logo" src="{{ block.settings.image | img_url:'master' }}" alt="Brand Logo">
           {% endfor %}
