@@ -1552,6 +1552,7 @@ legend.form__label.size-title {
 label.quantity__label.form__label {
     font-size: 16px;
     color: #0f481d;
+    margin-bottom: 10px;
 }
 span.varient-name-custom {
     font-size: 15px;
