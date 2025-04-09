@@ -326,3 +326,13 @@ h2.jdgm-rev-widg__title {
     text-transform: capitalize;
     margin: 0px 0px 25px 0px;
 }
+.card__badge.custom-badge {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.custom-badge-meta{
+    left: 0;
+    position: absolute;
+    top: 0;
+}
