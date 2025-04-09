@@ -92,12 +92,14 @@
       {{ input_dataset }}
     >
     <label for="{{ input_id }}" class="custom-varient">
+      {% comment %}
       {% if value.variant.compare_at_price > value.variant.price %}
       <div class="custom-varient-price__badge-sale">
         <span class="var-badge" data-price-off-amount="">{{ value.variant.compare_at_price | minus: value.variant.price | times: 100.0 | divided_by: value.variant.compare_at_price | money_without_currency | times: 100 | remove: '.0'}}% OFF
         </span>
       </div>
       {% endif %}
+    {% endcomment %}
      <span class="varient-name-custom">{{ value -}}
       {{ label_unavailable }}</span>
       <span class="price-item price-item--sale price-item--last custom-price"> {{ value.variant.price | money }}<s class="price-item price-item--regular custom-compair-price"> {{ value.variant.compare_at_price | money }}</s></span>
