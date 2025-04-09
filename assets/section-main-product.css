@@ -1568,6 +1568,7 @@ span.varient-name-custom {
 }
 .product-usp-icons {
     display: flex;
+    overflow: scroll;
 }
 .product-usp-icons img {
     width: 120px;
