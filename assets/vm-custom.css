@@ -335,4 +335,10 @@ h2.jdgm-rev-widg__title {
     left: 0;
     position: absolute;
     top: 0;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: yellow;
+    padding: 5px 16px;
+    border-radius: 7px 0px 22px 0px;
 }
