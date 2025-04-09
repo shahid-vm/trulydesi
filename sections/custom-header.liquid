@@ -97,8 +97,13 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    .header:not(.drawer-menu).page-width {
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+    }
   }
 {%- endstyle -%}
+
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
 
