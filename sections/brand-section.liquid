@@ -1,4 +1,4 @@
-    <div class="spotlight-container color-{{ section.settings.color_scheme }}">
+    <div class="spotlight-container color-{{ section.settings.color_scheme }} page-width">
         <h2 class="spotlight-title">{{ section.settings.title}}</h2>
         <div class="logos-container">
           {% for block in section.blocks %}
@@ -70,7 +70,6 @@
             display: grid;
            grid-template-columns: auto auto auto auto auto;
             gap: 20px;
-            max-width: 90%;
             margin: 30px auto;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
