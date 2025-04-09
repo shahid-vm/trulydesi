@@ -1221,7 +1221,7 @@ a.product__text {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: center;
-  column-gap: 3rem;
+  column-gap: 1rem;
 }
 
 .icon-with-text--vertical {
