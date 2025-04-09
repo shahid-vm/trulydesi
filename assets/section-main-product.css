@@ -1597,16 +1597,15 @@ span.h4.inline-richtext {
     align-self:center;
 }
   .qty-and-buy-container button.product-form__submit  {
-          max-width: 100% !important;
-          margin: 0 !important;
-          color: #fff;
-          border: 2px solid #104823;
-          padding: 1rem 10rem 1rem;
-          font-size: 24px;
-          text-transform: capitalize;
-          font-weight: 700;
-          background: #104823;
-      
+      max-width: 100% !important;
+      margin: 0 !important;
+      color: #fff;
+      border: 2px solid #104823;
+      padding: 1rem 10rem;
+      font-size: 18px;
+      text-transform: capitalize;
+      font-weight: 500;
+      background: #104823;
       }
 .qty-and-buy-container button.product-form__submit:hover  {
    color: #fff;
