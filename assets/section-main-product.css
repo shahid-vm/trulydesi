@@ -1568,8 +1568,8 @@ span.varient-name-custom {
     }
 }
 .product-usp-icons {
-    display: flex;
-    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
 }
 .product-usp-icons img {
     width: 120px;
@@ -1652,6 +1652,9 @@ slider-component svg.icon.icon-caret {
 }
 @media screen and (max-width: 949px) {
   .icon-with-text--horizontal {
+    grid-template-columns: auto auto;
+  }
+  .product-usp-icons {
     grid-template-columns: auto auto;
   }
 }
