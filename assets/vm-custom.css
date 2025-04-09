@@ -206,11 +206,11 @@ h2.homepage_h2 {
     padding: 10px;
     font-weight: 600;
 }
-/* .product-card-wrapper  .card__badge.top {
+.product-card-wrapper  .card__badge.top {
     position: absolute;
     top: 0px;
-    left: 0px;
-} */
+    right: 0px;
+}
 .product-card-wrapper  li.grid__item, li.swiper-slide {
     box-shadow: 0 3px 10px #eee;
     border: 1px solid #eee;
