@@ -1637,3 +1637,6 @@ img.image-magnify-lightbox {
   font-weight: 600;
   width: max-content;
 }
+slider-component svg.icon.icon-caret {
+    height: 14px;
+}
