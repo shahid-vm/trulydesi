@@ -127,6 +127,7 @@
         "collection_A3PxXQ",
         "collection_4UtbtR"
       ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "",
         "title": "Discover",
@@ -225,7 +226,7 @@
       "settings": {
         "color_scheme": "",
         "main-img": "shopify://shop_images/image.png",
-        "title": "SUSTAINABILITY & CONSERVATION",
+        "title": "Sustainability & Conservation",
         "coll-desc": "<h4><strong>Milk pouch Recycling</strong></h4><p>Did you know that daily around 5 crore milk pouches turn into waste in India?To overcome the waste generation and support to reduce the plastic pollution, we are trying to put in an organized system of collection and recycling of our pouches. Once these pouches are collected and sent to the recycling unit these packets are thoroughly washed, dried and then cut into small pieces by a machine and processed into plastic granules which will be further processed.</p><p>This way one can save a large amount of plastic bits from littering the land and be a part of an initiative and contribute to save this planet.</p>",
         "btn-text": "Know More",
         "btn-url": "shopify://pages/about-us"
