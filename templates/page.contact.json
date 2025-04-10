@@ -34,8 +34,8 @@
         "address_W8kRAt": {
           "type": "address",
           "settings": {
-            "address_title": "Address Title",
-            "address": "Pune, Maharastra, India."
+            "address_title": "Address",
+            "address": "501, Abhipreet Residency near Krushna medical, Pancard Club Rd, 411045, Baner, Pune, Maharashtra 411045"
           }
         },
         "email_CMLbVc": {
@@ -49,7 +49,7 @@
           "type": "phone",
           "settings": {
             "contact_title": "Toll Free Number",
-            "contact_no": "1234567890"
+            "contact_no": "+91 9881009622"
           }
         },
         "social_Jh6Gca": {
