@@ -78,6 +78,7 @@
                       {% else %}
                         {% assign meta_key = block.settings.metafield_key %}
                         {% assign content_field = product.metafields.custom[meta_key] %}
+                        {% assign content = content_field | metafield_tag %}
                         {% assign flag = true %}
 
                         {% if flag %}
@@ -85,7 +86,7 @@
                             {{ metafield }}
                           {% endfor %}
                         {% else %}
-                          {{ content_field.value | metafield_tag }}
+                          {{ content }}
                         {% endif %}
                       {% endif %}
                     </div>
