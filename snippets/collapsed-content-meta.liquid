@@ -25,11 +25,9 @@
       role="region"
       aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
     >
-      <ul>
       {% for con_list in content.value  %}
-        <li>{{ con_list }}</li>
+        {{ con_list }}<br>
       {% endfor %}
-      </ul>
     </div>
   </details>
 </div>
