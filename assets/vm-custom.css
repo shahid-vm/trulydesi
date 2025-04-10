@@ -345,3 +345,9 @@ h2.jdgm-rev-widg__title {
     width: 100% !important;
     max-width: 100%;
 }
+.shopify-policy__container h1 {
+    color: #064f32;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
