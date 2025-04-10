@@ -84,9 +84,11 @@
               {%- if show_date -%}
                 <span class="circle-divider">{{ article.published_at | time_tag: format: 'date' }}</span>
               {%- endif -%}
+              {% comment %}
               {%- if show_author -%}
                 <span>{{ article.author }}</span>
               {%- endif -%}
+              {% endcomment %}
             </div>
             {%- if show_excerpt -%}
               {%- if article.excerpt.size > 0 or article.content.size > 0 -%}
