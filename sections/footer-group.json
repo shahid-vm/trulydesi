@@ -28,7 +28,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Quick links",
-            "menu": "main-menu"
+            "menu": "new-main-menu"
           }
         },
         "link_list_pQdPtb": {
@@ -36,13 +36,6 @@
           "settings": {
             "heading": "Help",
             "menu": "help"
-          }
-        },
-        "link_list_JGfLTd": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Quick links",
-            "menu": "main-menu"
           }
         },
         "newsletter_MipJFz": {
@@ -57,7 +50,6 @@
         "brand_information_9LPawE",
         "link_list_GHy3f7",
         "link_list_pQdPtb",
-        "link_list_JGfLTd",
         "newsletter_MipJFz"
       ],
       "settings": {
