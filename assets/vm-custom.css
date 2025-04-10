@@ -21,7 +21,7 @@ a, a:hover, .header__active-menu-item, .header__menu-item:hover .header__active-
 }
 
 #ContactForm button.button[type="submit"] {
-    background: #ed3237;
+    background: ##0C4A1C;
     border-radius: 200px;
     font-weight: 600;
     text-transform: uppercase;
