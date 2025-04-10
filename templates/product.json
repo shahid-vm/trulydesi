@@ -95,32 +95,26 @@
     "product_details_Wc7gtf": {
       "type": "product-details",
       "blocks": {
-        "block_DgjEx9": {
-          "type": "Block",
+        "content_Vkighx": {
+          "type": "content",
           "settings": {
-            "title": "Test",
-            "discription": "<p>Test</p><p>test</p>"
+            "title": "Description",
+            "content": "",
+            "metafield_key": "description"
           }
         },
-        "meta_block_JTcLpq": {
-          "type": "meta_block",
+        "content_maRjLE": {
+          "type": "content",
           "settings": {
-            "title": "Helth Benifits",
-            "metafield": "health_benefits"
-          }
-        },
-        "meta_block_ggt4QU": {
-          "type": "meta_block",
-          "settings": {
-            "title": "Why Truly Desi",
-            "metafield": "why_truly_desi"
+            "title": "Health Benefits",
+            "content": "",
+            "metafield_key": "health_benefits"
           }
         }
       },
       "block_order": [
-        "block_DgjEx9",
-        "meta_block_JTcLpq",
-        "meta_block_ggt4QU"
+        "content_Vkighx",
+        "content_maRjLE"
       ],
       "settings": {
         "caption": "",
