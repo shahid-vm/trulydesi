@@ -124,25 +124,22 @@
                     </div>
                   </details>
                 </div>
-                <!-- Helth Benefits -->
-                {% if product.metafields.custom.health_benefits != blank %}
-                  {% assign title = "Helth Benefits" %}
-                  {% assign flag = true %}
-                  {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:product.metafields.custom.health_benefits %}
+                {% for block in section.blocks %}
+                  <!-- Helth Benefits -->
+                {% if block.type == 'meta_block' %}
+                  {% assign content = block.settings.metafield %}
+                    {% if content.type != blank %}
+                      {% assign title = block.settings.title %}
+                        {% if content.type == 'list.single_line_text_field' %}
+                          {% assign flag = true %}
+                        {% else %}
+                          {% assign flag = false %}
+                        {% endif %}
+                        {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:content %}
+                      {% endif %}
+                {% else %}
+                      {% render 'collapsed-content' with section:section, block:block %}
                 {% endif %}
-                <!-- Why Truly Desi -->
-                {% if product.metafields.custom.why_truly_desi != blank %}
-                  {% assign title = "Why Truly Desi" %}
-                  {% assign flag = true %}
-                  {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:product.metafields.custom.why_truly_desi %}
-                {% endif %}
-                {% if product.metafields.custom.serviceable_areas != blank %}
-                  {% assign title = "Serviceable Areas" %}
-                  {% assign flag = false %}
-                  {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:product.metafields.custom.serviceable_areas %}
-                {% endif %}
-               {% for block in section.blocks %}
-                  {% render 'collapsed-content' with section:section, block:block %}
               {% endfor %}
             </div>
           </div>
