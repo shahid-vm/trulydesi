@@ -125,8 +125,8 @@
                   </details>
                 </div>
                 <!-- Helth Benefits -->
-                {% if product.metafields.custom.custom.health_benefits != blank %}
-                  {% render 'collapsed-content-meta' with section:section, block:block, content:product.metafields.custom.custom.health_benefits %}
+                {% if product.metafields.custom.health_benefits != blank %}
+                  {% render 'collapsed-content-meta' with section:section, block:block, content:product.metafields.custom.health_benefits %}
                 {% endif %}
                {% for block in section.blocks %}
                   {% render 'collapsed-content' with section:section, block:block %}
