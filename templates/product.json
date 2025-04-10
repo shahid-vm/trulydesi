@@ -111,7 +111,7 @@
         "heading": "",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "scheme-054a3b84-2490-4fc2-aee0-f64f5776242e",
         "container_color_scheme": "scheme-2",
         "open_first_collapsible_row": true,
