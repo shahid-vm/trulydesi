@@ -196,7 +196,7 @@
                     <span class="custom-avg-rating"></span>
                     <span class="custom-total-reviews">
                       {%- if card_product.metafields.reviews.rating_count != blank -%}
-                        {{- card_product.metafields.reviews.rating_count }}
+                        ({{- card_product.metafields.reviews.rating_count }})
                       {% else %}
                         No
                       {%- endif %}
