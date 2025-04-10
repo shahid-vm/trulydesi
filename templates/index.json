@@ -477,6 +477,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "vm_certifications_eLDR6z": {
+      "type": "vm-certifications",
+      "blocks": {
+        "icon_box_Cpjdgj": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/iso-logo_1.png",
+            "heading": "ISO Certified",
+            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
+          }
+        },
+        "icon_box_BHdY7A": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/ayush-logo.png",
+            "heading": "MINISTRY OF AYUSH CERTIFIED",
+            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
+          }
+        },
+        "icon_box_MEjTXr": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/gmp-logo_1.png",
+            "heading": "GMP CERTIFIED",
+            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
+          }
+        },
+        "icon_box_RRQWGU": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/fssai-logo.png",
+            "heading": "FSSAI",
+            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_Cpjdgj",
+        "icon_box_BHdY7A",
+        "icon_box_MEjTXr",
+        "icon_box_RRQWGU"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
@@ -490,6 +537,7 @@
     "brand_section_eHygHB",
     "index_video_jGRhDF",
     "customer_testimonial_T7fWbG",
-    "featured_blog_dC8T9G"
+    "featured_blog_dC8T9G",
+    "vm_certifications_eLDR6z"
   ]
 }
