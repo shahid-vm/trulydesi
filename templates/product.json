@@ -118,12 +118,21 @@
             "content": "",
             "metafield_key": "why_truly_desi"
           }
+        },
+        "content_km7tkH": {
+          "type": "content",
+          "settings": {
+            "title": "Serviceable Areas",
+            "content": "",
+            "metafield_key": "custom.serviceable_areas"
+          }
         }
       },
       "block_order": [
         "content_Vkighx",
         "content_maRjLE",
-        "content_PWbxnD"
+        "content_PWbxnD",
+        "content_km7tkH"
       ],
       "settings": {
         "caption": "",
