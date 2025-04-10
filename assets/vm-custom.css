@@ -341,3 +341,7 @@ h2.jdgm-rev-widg__title {
     padding: 3px 13px;
     border-radius: 7px 0 22px;
 }
+.shopify-policy__container {
+    width: 100% !important;
+    max-width: 100%;
+}
