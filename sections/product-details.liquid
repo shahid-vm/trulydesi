@@ -125,7 +125,7 @@
                   </details>
                 </div>
                 <!-- Helth Benefits -->
-              {% for block in section.block %}
+              {% for block in section.blocks %}
                 {% if block.type == 'metafield' %}
                     {% assign meta_field = 'product.metafields.custom.' | append: meta_key %}
                     {% assign title = block.title %}
