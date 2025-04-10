@@ -94,6 +94,18 @@
     },
     "product_details_Wc7gtf": {
       "type": "product-details",
+      "blocks": {
+        "meta_block_y8KTd9": {
+          "type": "meta_block",
+          "settings": {
+            "title": "Health Benefits",
+            "metafield": "product.metafields.custom.health_benefits"
+          }
+        }
+      },
+      "block_order": [
+        "meta_block_y8KTd9"
+      ],
       "settings": {
         "caption": "",
         "heading": "",
