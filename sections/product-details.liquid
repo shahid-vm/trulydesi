@@ -128,6 +128,10 @@
                 {% if product.metafields.custom.health_benefits != blank %}
                   {% render 'collapsed-content-meta' with section:section, block:block, content:product.metafields.custom.health_benefits %}
                 {% endif %}
+                <!-- Why Truly Desi -->
+                {% if product.metafields.custom.why_truly_desi != blank %}
+                  {% render 'collapsed-content-meta' with section:section, block:block, content:product.metafields.custom.why_truly_desi %}
+                {% endif %}
                {% for block in section.blocks %}
                   {% render 'collapsed-content' with section:section, block:block %}
               {% endfor %}
