@@ -85,7 +85,7 @@
                             {{ metafield }}
                           {% endfor %}
                         {% else %}
-                          {{ content_field.value }}
+                          {{ content_field.value | metafield_tag }}
                         {% endif %}
                       {% endif %}
                     </div>
