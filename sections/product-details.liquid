@@ -128,15 +128,14 @@
                   <!-- Helth Benefits -->
                 {% if block.type == 'meta_block' %}
                   {% assign content = block.settings.metafield %}
-                    {% if content.type != blank %}
+                    {% if content != blank and content.value != blank %}
                       {% assign title = block.settings.title %}
-                        {% if content.type == 'list.single_line_text_field' %}
-                          {% assign flag = true %}
-                        {% else %}
-                          {% assign flag = false %}
-                        {% endif %}
-                        {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:content %}
-                      {% endif %}
+                    
+                      {% assign metafield_type = content.type %}
+                      {% assign flag = true %}
+                    
+                      {% render 'collapsed-content-meta', section: section, block: block, title: title, flag: flag, content: content %}
+                    {% endif %}
                 {% else %}
                       {% render 'collapsed-content' with section:section, block:block %}
                 {% endif %}
