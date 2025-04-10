@@ -110,11 +110,20 @@
             "content": "",
             "metafield_key": "health_benefits"
           }
+        },
+        "content_PWbxnD": {
+          "type": "content",
+          "settings": {
+            "title": "Why Choose Us?",
+            "content": "",
+            "metafield_key": "why_truly_desi"
+          }
         }
       },
       "block_order": [
         "content_Vkighx",
-        "content_maRjLE"
+        "content_maRjLE",
+        "content_PWbxnD"
       ],
       "settings": {
         "caption": "",
