@@ -128,8 +128,8 @@
               {% for block in section.blocks %}
                 {% if block.type == 'meta_block' %}
                   {% assign meta_key = block.settings.metafield %}
-                    {% assign meta_field = 'product.metafields.custom.' | append: meta_key | append: '.value' %}
-                    {% assign meta_field_content = meta_field %}
+                    {% assign meta_field = 'product.metafields.custom.' | append: meta_key %}
+                    {% assign meta_field_content = meta_field | append: '.value' %}
                   {{ meta_field_content }}
                     {% assign title = block.settings.title %}
                     {% assign flag = true %}
