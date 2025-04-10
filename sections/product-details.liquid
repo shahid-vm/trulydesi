@@ -129,8 +129,8 @@
                 {% if block.type == 'meta_block' %}
                   {% assign meta_key = block.settings.metafield %}
                     {% assign meta_field = 'product.metafields.custom.' | append: meta_key | append: '.value' %}
-
-                  {{ meta_field }}
+                    {% assign meta_field_content = meta_field %}
+                  {{ meta_field_content }}
                     {% assign title = block.settings.title %}
                     {% assign flag = true %}
                     {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:meta_field %}
