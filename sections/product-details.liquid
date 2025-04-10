@@ -52,54 +52,16 @@
             {% endif %}
           </div>
           <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-            {%- if section.settings.image != blank -%}
-              <div class="grid__item collapsible-content__grid-item">
-                <div
-                  class="collapsible-content__media collapsible-content__media--{{ section.settings.image_ratio }} media global-media-settings gradient"
-                  {% if section.settings.image_ratio == 'adapt' %}
-                    style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
-                  {% endif %}
-                >
-                  {%- liquid
-                    assign padding_multiplier = 1
-                    if section.settings.layout == 'section'
-                      assign padding_multiplier = 2
-                    endif
-                    assign desktop_tablet_padding = 100 | times: padding_multiplier | append: 'px'
-                    assign mobile_padding = 30 | times: padding_multiplier | append: 'px'
-                  -%}
-                  {%- capture sizes -%}
-                    (min-width: {{ settings.page_width }}px) calc(({{ settings.page_width }}px - {{ desktop_tablet_padding }}) / 2),
-                    (min-width: 750px) calc((100vw - {{ desktop_tablet_padding }}) / 2),
-                    calc(100vw - {{ mobile_padding }})
-                  {%- endcapture -%}
-                  {{
-                    section.settings.image
-                    | image_url: width: 3200
-                    | image_tag:
-                      sizes: sizes,
-                      widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200'
-                  }}
-                </div>
-              </div>
-            {% endif %}
             <div class="grid__item color-{{ section.settings.container_color_scheme }}">
-              {% if product.metafields.custom.description != blank %}
-                {% assign product_desc = product.metafields.custom.description %}
-              {% else %}
-                 {% assign product_desc = product.description %}
-              {% endif %}
+              {% for block in section.blocks %}
                <div
                   class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
                   {{ block.shopify_attributes }}
                 >
-                  <details
-                    id="Details-{{ block.id }}-{{ section.id }}"
-                      open
-                  >
+                  <details id="Details-{{ block.id }}-{{ section.id }}" open>
                     <summary id="Summary-{{ block.id }}-{{ section.id }}">
                       <h3 class="accordion__title inline-richtext h4">
-                        Description
+                        {{ block.settings.title }}
                       </h3>
                       <svg class="icon icon-plus" fill="currentColor" height="30px" width="30px" viewBox="0 0 20 20">
                         <path d="M16,10c0,0.553-0.048,1-0.601,1H11v4.399C11,15.951,10.553,16,10,16c-0.553,0-1-0.049-1-0.601V11H4.601
@@ -110,21 +72,27 @@
                         <path d="M16,10c0,0.553-0.048,1-0.601,1H4.601C4.049,11,4,10.553,4,10c0-0.553,0.049-1,0.601-1h10.799C15.952,9,16,9.447,16,10z"></path>
                       </svg>
                     </summary>
-                    <div
-                      class="accordion__content rte"
-                      id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
-                      role="region"
-                      aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
-                    >
-                      {% if product.metafields.custom.description != blank %}
-                        {{ product_desc | metafield_tag }}
+                    <div class="accordion__content rte" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}">
+                      {% if block.settings.content != blank %}
+                        {{ block.settings.content }}
                       {% else %}
-                        {{ product_desc }}
+                        {% assign meta_key = block.settings.metafield_key %}
+                        {% assign content_field = product.metafields.custom[meta_key] %}
+                        {% assign flag = true %}
+
+                        {% if flag %}
+                          {% for metafield in content_field.value %}
+                            {{ metafield }}
+                          {% endfor %}
+                        {% else %}
+                          {{ content_field.value }}
+                        {% endif %}
                       {% endif %}
                     </div>
                   </details>
                 </div>
-                <!-- Helth Benefits -->
+              {% endfor %}
+              
               {% for block in section.blocks %}
                 {% if block.type == 'meta_block' %}
                   {% assign meta_key = block.settings.metafield %}
@@ -320,37 +288,28 @@
     }
   ],
   "blocks": [
-      {
-        "name": "Block",
-        "type": "Block",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Title"
-          },
-          {
-            "type": "richtext",
-            "id": "discription",
-            "label": "Content"
-          }
-        ]
-      },
     {
-      "name":"Meta Block",
-      "type":"meta_block",
+      "name": "Content",
+      "type": "content",
       "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Title"
-          },
-          {
-            "type": "text",
-            "id": "metafield",
-            "label": "Metafield"
-          }
-        ]
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "info": "Static Content"
+        },
+        {
+          "type": "text",
+          "id": "metafield_key",
+          "label": "Metafield Key",
+          "info": "Dynamic Content"
+        }
+      ]
     }
   ],
   "presets": [
