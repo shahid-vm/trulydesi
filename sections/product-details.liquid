@@ -128,19 +128,9 @@
               {% for block in section.blocks %}
                 {% if block.type == 'meta_block' %}
                   {% assign meta_key = block.settings.metafield %}
-                  
-                  {% assign meta_key = block.settings.metafield %}
-{% assign meta_namespace = 'custom' %}
-
-{% for metafield in product.metafields[meta_namespace][meta_key].value %}
-  {{ metafield }}
-{% endfor %}
-
-
-                  {{ meta_field_content }}
-                    {% assign title = block.settings.title %}
-                    {% assign flag = true %}
-                    {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:meta_field %}
+                  {% assign title = block.settings.title %}
+                  {% assign flag = true %}
+                    {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content: product.metafields.custom.[meta_key].value %}
                   {% else %}
                      {% render 'collapsed-content' with section:section, block:block %}
                   {% endif %}
