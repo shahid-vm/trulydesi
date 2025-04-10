@@ -96,13 +96,13 @@
                       <h3 class="accordion__title inline-richtext h4">
                         Description
                       </h3>
-                      <svg class="icon icon-plus" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
-                        <rect x="6" y="0.61377" width="1" height="12" fill="black"></rect>
-                        <rect x="0.5" y="6.11377" width="12" height="1" fill="black"></rect>
+                      <svg class="icon icon-plus" fill="currentColor" height="30px" width="30px" viewBox="0 0 20 20">
+                        <path d="M16,10c0,0.553-0.048,1-0.601,1H11v4.399C11,15.951,10.553,16,10,16c-0.553,0-1-0.049-1-0.601V11H4.601
+                        C4.049,11,4,10.553,4,10c0-0.553,0.049-1,0.601-1H9V4.601C9,4.048,9.447,4,10,4c0.553,0,1,0.048,1,0.601V9h4.399
+                        C15.952,9,16,9.447,16,10z"></path>
                       </svg>
-                      <svg class="icon-minus" style="display:none" xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13" fill="none">
-                        <rect x="12" y="6.25256" width="1" height="12" transform="rotate(90 12 6.25256)" fill="black"></rect>
-                        <rect y="6.25256" width="12" height="1" fill="black"></rect>
+                      <svg fill="currentColor" height="30px" width="30px" viewBox="0 0 20 20" class="icon-minus" style="display:none">
+                        <path d="M16,10c0,0.553-0.048,1-0.601,1H4.601C4.049,11,4,10.553,4,10c0-0.553,0.049-1,0.601-1h10.799C15.952,9,16,9.447,16,10z"></path>
                       </svg>
                     </summary>
                     <div
@@ -369,5 +369,17 @@
   }
   .{{ section.id }} .accordion__content {
     padding: 16px;
+  }
+  .{{ section.id }} summary .icon-plus {
+    position: absolute;
+    height: 2rem;
+    right: 1.5rem;
+    top: 0px;
+  }
+  .{{ section.id }} summary .icon-minus {
+    position: absolute;
+    height: 2rem;
+    right: 1.5rem;
+    top: 0px;
   }
 </style>
