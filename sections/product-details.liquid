@@ -80,14 +80,11 @@
                         {% assign content_field = product.metafields.custom[meta_key] %}
                         {% assign content = content_field | metafield_tag %}
                         {% assign flag = true %}
-
-                        {% if flag %}
+                        
                           {% for metafield in content_field.value %}
                             {{ metafield }}
                           {% endfor %}
-                        {% else %}
                           {{ content }}
-                        {% endif %}
                       {% endif %}
                     </div>
                   </details>
