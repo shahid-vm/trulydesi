@@ -128,7 +128,7 @@
               {% for block in section.block %}
                 {% if block.type == 'meta_block' %}
                   <h1>{{ block.settings.metafield }}</h1>
-                  {% endif %}
+                {% endif %}
               {% endfor %}
                 {% if product.metafields.custom.health_benefits != blank %}
                   {% assign title = "Helth Benefits" %}
