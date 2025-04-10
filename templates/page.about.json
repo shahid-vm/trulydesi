@@ -53,7 +53,7 @@
       ],
       "settings": {
         "title": "What’s your idea of perfection?",
-        "content": "After gone through an intensive research acquiring knowledge and guidance from the highly qualified Doctors & Vedacharyas in profession, the company Jolly Pharma has launched its Jolly Fat Go Slimming Capsules and Anti cellulite Oil and other products. Jolly Pharma company is one of the best herbal medicines trader of wide range of herbal ayurvedic medicine. These products are hygienically processed and safe to use. These medicine are supplied in bulk to meet the requirements of the pharmaceutical industry. These medicines are packed efficiently to ensure that their quality and medicinal properties remain intact.\n\nAfter gone through an intensive research, acquiring knowledge and guidance from the highly qualified Doctors & Vedacharyas in profession, the company Jolly Pharma has launched ayurvedic medicines which are now highly popular OTC brands in common households.\n\nJolly Pharma (India), is dedicated to the research and development of the finest and most innovative botanical health care products available today. Our company provides the consumers with potent, standardized Herbal & Ayurvedic Products backed by Good Manufacturing Practices.",
+        "content": "Truly Desi came into existence in June 2018 as a means to bridge the gap that has been prevailing in the Indian dairy and farming industry. The story behind our brand is that of love, care, and the need to do the right thing.\n\nSeven years ago, as her young daughter battled a disease caused by adulterated milk, Rupali Kakade (Founder. Truly Desi) was frantically surfing the internet to find out from where major dairy brands were sourcing their milk. What she realized was that most big brands did not make their sources known publicly-which raised questions in her mind. Meanwhile, her daughter's condition was getting worse. She decided to buy cows for her farm in Junnar for milk and dairy products. It worked and thus she went on to set up Truly Desi to bring farm fresh, adulteration-free dairy products to a market that lacked such options.",
         "desktop_content_position": "center",
         "desktop_text_align": "center",
         "mobile_content_position": "center",
@@ -65,18 +65,6 @@
         "color_scheme": ""
       }
     },
-    "single_image_banner_zQRLPi": {
-      "type": "single-image-banner",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "desktop-image": "shopify://shop_images/abut_us_bnr.png",
-        "mobile-image": "shopify://shop_images/about_us_banner_mobile.jpg",
-        "link": "",
-        "padding-top": 10,
-        "padding-bottom": 0
-      }
-    },
     "text_with_img_cWY9bd": {
       "type": "text-with-img",
       "blocks": {
@@ -84,18 +72,18 @@
           "type": "column",
           "settings": {
             "show_right_content": true,
-            "image": "shopify://shop_images/WhatsApp_Image_2025-03-28_at_10.31.23_689328dc.jpg",
-            "title": "Our Quality",
-            "content": "<p>We deeply focus & concentrate on each of our product’s quality. This is the reason we don’t have hundreds of products in our kitty & the list is very limited, So that we can properly take care of every single product’s quality. Our product’s efficacy shows the expertise we have in producing result oriented ayurvedic products.<br/><br/>Also, we have in-house manufacturing for all of our products and we don’t go for third party manufacturing like others do. This ensures the self monitoring & control on entire quality control process.<br/><br/>All of our products are hygienically processed & are safe to use. They are processed & packed efficiently to ensure that their quality & medicinal properties remain intact.</p>"
+            "image": "shopify://shop_images/12.png",
+            "title": "Vision",
+            "content": "<p>Truly Desi comes with a vision to bring a unique experience to our customers with their choice of dairy products. We want to support sustainable organic farming on a greater scale with comprehensive traceability, seamless service, and quality assurance. Our aim also constitutes the conservation and breeding of Indian cow breeds.</p>"
           }
         },
         "column_hraDcC": {
           "type": "column",
           "settings": {
             "show_right_content": false,
-            "image": "shopify://shop_images/WhatsApp_Image_2025-03-28_at_10.31.23_a0a8d393.jpg",
-            "title": "Vision & Mission",
-            "content": "<p>Primary motto of Jolly Pharma (India) is to make the world healthy and disease free. We aim to take Ayurveda on a next level and produce highly efficient ayurvedic products in affordable prices so that people of every pocket size can take benefits of AYURVEDA. We want to unveil the great potentials and the rich natural treasures of Ayurveda – The Divine Healer, for the global world.<br/><br/>Company’s sole mission is to promote Ayurveda for care & cure from nature’s own creations, using the rich expertise of hi-tech professionals who have successfully combined the Ancestral Wisdom, taken from the Ancient Epics, with updated, advanced, automatized & computerized technologies.</p>"
+            "image": "shopify://shop_images/3_f291c844-efa7-4f1e-a8da-0722907df8cb.png",
+            "title": "Mission",
+            "content": "<p>Our mission is to offer farm-fresh milk and milk products directly to consumers at the best possible prices with 100% quality assurance.<br/></p>"
           }
         }
       },
@@ -113,77 +101,12 @@
         "padding_top": 30,
         "padding_bottom": 30
       }
-    },
-    "vm_features_9VK4yt": {
-      "type": "vm-features",
-      "blocks": {
-        "icon_box_9rBQ4T": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/clean_ingredients.svg",
-            "heading": "Clean Ingredients"
-          }
-        },
-        "icon_box_VHxUC6": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/100_ayurvedic_8a38d0bc-832b-45fe-aef1-891f48110789.svg",
-            "heading": "100% Ayurvedic"
-          }
-        },
-        "icon_box_7ycCtL": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/no_added_chemical.svg",
-            "heading": "No Added Chemical"
-          }
-        },
-        "icon_box_qdeqa3": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/no_side_eddects.svg",
-            "heading": "No Side Effects"
-          }
-        },
-        "icon_box_CRfTgr": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/Asset_strong_formulation_17.svg",
-            "heading": "Strong Formulation"
-          }
-        },
-        "icon_box_YTwQqE": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/cruelty_free.svg",
-            "heading": "Cruelty Free"
-          }
-        }
-      },
-      "block_order": [
-        "icon_box_9rBQ4T",
-        "icon_box_VHxUC6",
-        "icon_box_7ycCtL",
-        "icon_box_qdeqa3",
-        "icon_box_CRfTgr",
-        "icon_box_YTwQqE"
-      ],
-      "custom_css": [
-        ".custom-width {width: 100%; margin: auto; background: #fff; padding: 30px; padding-top: 0px; max-width: 100% !important; padding-bottom: 0px;}",
-        "@media (max-width: 768px) {.custom-width {padding: 10px; }}"
-      ],
-      "settings": {
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
     }
   },
   "order": [
     "main",
     "rich_text_K7c3B3",
     "main_content_3UgAC4",
-    "single_image_banner_zQRLPi",
-    "text_with_img_cWY9bd",
-    "vm_features_9VK4yt"
+    "text_with_img_cWY9bd"
   ]
 }
