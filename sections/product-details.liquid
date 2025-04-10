@@ -127,7 +127,7 @@
                 <!-- Helth Benefits -->
               {% for block in section.block %}
                 {% if block.type == 'meta_block' %}
-                  {{ block.settings.metafield }}
+                  <h1>{{ block.settings.metafield }}</h1>
                   {% endif %}
               {% endfor %}
                 {% if product.metafields.custom.health_benefits != blank %}
