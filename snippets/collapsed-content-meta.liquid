@@ -23,7 +23,7 @@
       aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
     >
       {% if flag %}
-        {{ content | json }}
+        {{ flag | json }}
       {% for con_list in content.value  %}
         {{ con_list }}<br>
       {% endfor %}
