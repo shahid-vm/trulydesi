@@ -84,11 +84,7 @@
               </div>
             {% endif %}
             <div class="grid__item color-{{ section.settings.container_color_scheme }}">
-              {% if product.metafields.custom.description != blank %}
-                {% assign product_desc = product.metafields.custom.description %}
-              {% else %}
-                 {% assign product_desc = product.description %}
-              {% endif %}
+              {% for block in section.blocks %}
                <div
                   class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
                   {{ block.shopify_attributes }}
@@ -99,7 +95,7 @@
                   >
                     <summary id="Summary-{{ block.id }}-{{ section.id }}">
                       <h3 class="accordion__title inline-richtext h4">
-                        Description
+                        {{ block.settings.title }}
                       </h3>
                       <svg class="icon icon-plus" fill="currentColor" height="30px" width="30px" viewBox="0 0 20 20">
                         <path d="M16,10c0,0.553-0.048,1-0.601,1H11v4.399C11,15.951,10.553,16,10,16c-0.553,0-1-0.049-1-0.601V11H4.601
@@ -116,14 +112,13 @@
                       role="region"
                       aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                     >
-                      {% if product.metafields.custom.description != blank %}
-                        {{ product_desc | metafield_tag }}
-                      {% else %}
-                        {{ product_desc }}
-                      {% endif %}
+                      {% assign meta_key = block.settings.metafield %}
+                      {% assign meta_field = 'product.metafields.custom' | append: meta_key %}
+                      {{ meta_field }}
                     </div>
                   </details>
                 </div>
+                {% endfor %}
                 <!-- Helth Benefits -->
               {% for block in section.blocks %}
                 {% if block.type == 'meta_block' %}
