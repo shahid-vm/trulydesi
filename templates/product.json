@@ -108,11 +108,19 @@
             "title": "Helth Benifits",
             "metafield": "health_benefits"
           }
+        },
+        "meta_block_ggt4QU": {
+          "type": "meta_block",
+          "settings": {
+            "title": "Why Truly Desi",
+            "metafield": "why_truly_desi"
+          }
         }
       },
       "block_order": [
         "block_DgjEx9",
-        "meta_block_JTcLpq"
+        "meta_block_JTcLpq",
+        "meta_block_ggt4QU"
       ],
       "settings": {
         "caption": "",
