@@ -22,9 +22,10 @@
       role="region"
       aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
     >
+      {{ flag }}
       {% if flag %}
-      {% for con_list in content.value  %}
-        {{ con_list }}<br>
+      {% for content in content  %}
+        {{ content }}<br>
       {% endfor %}
       {% else %}
         {{ content }}
