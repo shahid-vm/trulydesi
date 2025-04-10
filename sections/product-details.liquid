@@ -116,7 +116,11 @@
                       role="region"
                       aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                     >
-                      {{ product_desc | meta_tag }}
+                      {% if product.metafields.custom.description != blank %}
+                        {{ product_desc | metafield_tag }}
+                      {% else %}
+                        {{ product_desc }}
+                      {% endif %}
                     </div>
                   </details>
                 </div>
