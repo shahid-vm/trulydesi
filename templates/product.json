@@ -94,18 +94,6 @@
     },
     "product_details_Wc7gtf": {
       "type": "product-details",
-      "blocks": {
-        "block_iLwiJJ": {
-          "type": "Block",
-          "settings": {
-            "title": "Test",
-            "discription": "<p><strong>Serviceable Areas:</strong></p><p><strong>Pune</strong> - Magarpatta City, Baner, Balewadi, Sus, Wakad, Aundh, Karvenagar, Sangavi, Shivaji Nagar, Shivaji Housing Society, Kalewadi, Yerwada, Mundva, NIBM, Khadki, Range Hills, Vidya Nagar, Vadgoan Sheri, Camp, Viman Nagar, Thathawade, Pimple Saudaghar, Pimple Nilakh, Pimple Gurav, Rahatni, Thergoan, bavdhan, modern colony, gokhalenagar, Koregoan Park, Mhalunge, </p><p><strong>Mumbai</strong> - Powai, Ghatkopar west, Ghatkopar east, Vikhroli east, Vikhroli west, Vasant vihar, Thane, Chembur  BARC, Chembur,  Kharghar,   Nerul, Vashi, Ghansoli,  Koparkhairane,  Sanpada</p>"
-          }
-        }
-      },
-      "block_order": [
-        "block_iLwiJJ"
-      ],
       "settings": {
         "caption": "",
         "heading": "",
