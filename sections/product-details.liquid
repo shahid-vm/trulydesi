@@ -81,10 +81,7 @@
                         {% assign content = content_field | metafield_tag %}
                         {% assign flag = true %}
                         
-                          {% for metafield in content_field.value %}
-                            {{ metafield }}
-                          {% endfor %}
-                          {{ content }}
+                        {{ content }}
                       {% endif %}
                     </div>
                   </details>
