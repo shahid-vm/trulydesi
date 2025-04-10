@@ -128,7 +128,7 @@
               {% for block in section.blocks %}
                 {% if block.type == 'meta_block' %}
                   {% assign meta_key = block.settings.metafield %}
-                    {% assign meta_field = 'product.metafields.custom.' | append: meta_key | append: '' %}
+                    {% assign meta_field = 'product.metafields.custom.' | append: meta_key | append: '.value' %}
                     {% for field in meta_field %}
                       {{ field }}
                       {% endfor %}
