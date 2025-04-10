@@ -132,10 +132,8 @@
                   {% assign meta_key = block.settings.metafield %}
 {% assign meta_namespace = 'custom' %}
 
-{% for metafield in product.metafields[meta_namespace] %}
-  {% if metafield.key == meta_key %}
-    {{ metafield.value }}
-  {% endif %}
+{% for metafield in product.metafields[meta_namespace][meta_key].value %}
+  {{ metafield }}
 {% endfor %}
 
 
