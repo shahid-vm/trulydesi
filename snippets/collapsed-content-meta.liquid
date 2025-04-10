@@ -26,7 +26,7 @@
       aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
     >
       <ul>
-      {% for con_list in content  %}
+      {% for con_list in content.values  %}
         <li>{{ con_list }}</li>
       {% endfor %}
       </ul>
