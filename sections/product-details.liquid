@@ -126,7 +126,7 @@
                 </div>
                 <!-- Helth Benefits -->
                 {% if product.metafields.custom.health_benefits != blank %}
-                  {% assign title = " Helth Benefits" %}
+                  {% assign title = "Helth Benefits" %}
                   {% assign flag = true %}
                   {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:product.metafields.custom.health_benefits %}
                 {% endif %}
