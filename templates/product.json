@@ -94,6 +94,26 @@
     },
     "product_details_Wc7gtf": {
       "type": "product-details",
+      "blocks": {
+        "block_DgjEx9": {
+          "type": "Block",
+          "settings": {
+            "title": "Test",
+            "discription": "<p>Test</p><p>test</p>"
+          }
+        },
+        "meta_block_JTcLpq": {
+          "type": "meta_block",
+          "settings": {
+            "title": "Helth Benifits",
+            "metafield": "health_benefits"
+          }
+        }
+      },
+      "block_order": [
+        "block_DgjEx9",
+        "meta_block_JTcLpq"
+      ],
       "settings": {
         "caption": "",
         "heading": "",
