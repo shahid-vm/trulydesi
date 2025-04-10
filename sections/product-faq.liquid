@@ -91,7 +91,7 @@
                     {% for content in faq_content %}
                        {% if final_index == forloop.index %}
                         <div
-                          class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
+                          class="accordion color-{{ section.settings.container_color_scheme }} {% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
                           {{ block.shopify_attributes }}
                         >
                           <details
