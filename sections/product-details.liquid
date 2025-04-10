@@ -135,21 +135,6 @@
                      {% render 'collapsed-content' with section:section, block:block %}
                   {% endif %}
               {% endfor %} 
-
-                <!-- Why Truly Desi -->
-                {% if product.metafields.custom.why_truly_desi != blank %}
-                  {% assign title = "Why Truly Desi" %}
-                  {% assign flag = true %}
-                  {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:product.metafields.custom.why_truly_desi %}
-                {% endif %}
-                {% if product.metafields.custom.serviceable_areas != blank %}
-                  {% assign title = "Serviceable Areas" %}
-                  {% assign flag = false %}
-                  {% render 'collapsed-content-meta' with section:section, block:block, title:title, flag:flag, content:product.metafields.custom.serviceable_areas %}
-                {% endif %}
-               {% for block in section.blocks %}
-                 
-                {% endfor %}
             </div>
           </div>
         </div>
