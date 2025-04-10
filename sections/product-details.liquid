@@ -113,7 +113,7 @@
                       aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
                     >
                       {% assign meta_key = block.settings.metafield %}
-                      {% assign meta_field = 'product.metafields.custom' | append: meta_key %}
+                      {% assign meta_field = 'product.metafields.custom.' | append: meta_key %}
                       {{ meta_field }}
                     </div>
                   </details>
