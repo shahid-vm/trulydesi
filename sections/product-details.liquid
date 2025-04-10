@@ -125,7 +125,7 @@
                   </details>
                 </div>
                {% for block in section.blocks %}
-                  {% render 'collapsed-content' %}
+                  {% render 'collapsed-content' with section:section, block:block %}
               {% endfor %}
             </div>
           </div>
