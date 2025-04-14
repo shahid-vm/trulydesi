@@ -65,6 +65,9 @@
         "phone_798XC3",
         "social_Jh6Gca"
       ],
+      "custom_css": [
+        "h2 {color: #064f32; font-size: 28px; font-weight: 600;}"
+      ],
       "settings": {
         "heading": "Contact",
         "heading_alignment": "center",
