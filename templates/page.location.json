@@ -197,7 +197,8 @@
     "featured_collection_dgfBmJ": {
       "type": "featured-collection",
       "custom_css": [
-        "h2.title.inline-richtext.h1 {color: #064f32; font-size: 28px; font-weight: bold; text-align: center;}"
+        "h2.title.inline-richtext.h1 {color: #064f32; font-size: 28px; font-weight: bold; text-align: center;}",
+        "@media screen and (min-width: 990px) {.slider--desktop .slider__slide:first-child {margin-left: 20px !important;}}"
       ],
       "settings": {
         "collection": "all",
