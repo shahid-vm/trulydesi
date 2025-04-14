@@ -433,7 +433,7 @@ ul.policies {
   .footer__follow-on-shop,
   .footer-block__newsletter {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     width: 100%;
   }
 
