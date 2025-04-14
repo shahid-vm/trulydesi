@@ -148,9 +148,9 @@ h2.homepage_h2 {
       font-size: 14px;
       font-weight: normal !important;
   }
-  a.know-more-btn.button {
+  /* a.know-more-btn.button {
       margin-bottom: 50px;
-  }
+  } */
 /* Card css */
 .product-card-wrapper  .card__heading {
     margin-top: 0;
