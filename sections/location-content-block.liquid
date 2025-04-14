@@ -5,14 +5,14 @@
       {% for block in section.blocks %}
      {% if forloop.index == 1 %}
       <div class="benefit top-left">
-        <img src="{{ block.settings.image| img_url:'master' }}" alt="Block-image">
+        <img src="{{ block.settings.icon_image| img_url:'master' }}" alt="Block-image">
         <h3>{{ block.settings.heading }}</h3>
         <p>{{ block.settings.content }}</p>
       </div>
       {% endif %}
       {% if forloop.index == 2 %}
           <div class="benefit top-right">
-            <img src="{{ block.settings.image| img_url:'master' }}" alt="Block-image">
+            <img src="{{ block.settings.icon_image| img_url:'master' }}" alt="Block-image">
             <h3>{{ block.settings.heading }}</h3>
             <p>{{ block.settings.content }}</p>
           </div>
@@ -25,14 +25,14 @@
 
       {% if forloop.index == 3 %}
           <div class="benefit bottom-left">
-            <img src="{{ block.settings.image| img_url:'master' }}" alt="Block-image">
+            <img src="{{ block.settings.icon_image| img_url:'master' }}" alt="Block-image">
             <h3>{{ block.settings.heading }}</h3>
             <p>{{ block.settings.content }}</p>
           </div>
       {% endif %}
        {% if forloop.index == 4 %}
           <div class="benefit bottom-right">
-            <img src="{{ block.settings.image| img_url:'master' }}" alt="Block-image">
+            <img src="{{ block.settings.icon_image| img_url:'master' }}" alt="Block-image">
             <h3>{{ block.settings.heading }}</h3>
             <p>{{ block.settings.content }}</p>
           </div>
