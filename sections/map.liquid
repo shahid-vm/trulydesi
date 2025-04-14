@@ -1,6 +1,25 @@
+<div class="custom-map">
+  <div class="container-full">
+    <div class="block-content">
+      {{ section.settings.map_iframe }}
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Map",
+    "settings": [
+      {
+        "type": "html",
+        "id": "map_iframe",
+        "label": "Map - Iframe"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Map"
+      }
+    ]
   }
 {% endschema %}
