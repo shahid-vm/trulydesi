@@ -1,5 +1,5 @@
 <section class="a2milk-section">
-    <h1 class="heading">A2 Milk In Pune</h1>
+    <h1 class="heading">{{ section.settings.title }}</h1>
 
     <div class="benefits-grid">
       <div class="benefit top-left">
@@ -15,7 +15,7 @@
       </div>
 
       <div class="center-image">
-        <img src="center-milk-image.png" alt="A2 Milk Bottles">
+        <img src="{{ section.settings.main_image| img_url:'master' }}" alt="Main Image">
       </div>
 
       <div class="benefit bottom-left">
@@ -98,7 +98,7 @@
 {% endschema %}
 
 <style>
-  .features-section-{{ section.id }} {
+  .a2milk-section {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
   }
@@ -106,14 +106,14 @@
     padding: 40px 20px;
   }
   
-  .heading {
+  .a2milk-section .heading {
     font-family: 'Pacifico', cursive;
     font-size: 40px;
     color: #1c1c1c;
     margin-bottom: 50px;
   }
   
-  .benefits-grid {
+  .a2milk-section .benefits-grid {
     display: grid;
     grid-template-areas:
       "top-left center top-right"
@@ -124,41 +124,41 @@
     position: relative;
   }
   
-  .benefit {
+  .a2milk-section .benefit {
     max-width: 250px;
     padding: 10px;
   }
   
-  .benefit img {
+  .a2milk-section .benefit img {
     width: 50px;
     margin-bottom: 10px;
   }
   
-  .benefit h3 {
+  .a2milk-section .benefit h3 {
     font-size: 18px;
     margin: 10px 0;
     color: #2d2d2d;
   }
   
-  .benefit p {
+  .a2milk-section .benefit p {
     font-size: 14px;
     color: #555;
     line-height: 1.5;
   }
   
-  .top-left { grid-area: top-left; }
-  .top-right { grid-area: top-right; }
-  .bottom-left { grid-area: bottom-left; }
-  .bottom-right { grid-area: bottom-right; }
+  .a2milk-section .top-left { grid-area: top-left; }
+  .a2milk-section .top-right { grid-area: top-right; }
+  .a2milk-section .bottom-left { grid-area: bottom-left; }
+  .a2milk-section .bottom-right { grid-area: bottom-right; }
   
-  .center-image {
+  .a2milk-section .center-image {
     grid-area: center;
     position: relative;
     max-width: 300px;
     margin: auto;
   }
   
-  .center-image img {
+  .a2milk-section .center-image img {
     width: 100%;
     border-radius: 50%;
     border: 5px solid #ddd;
