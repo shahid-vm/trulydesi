@@ -300,27 +300,6 @@
             "heading": "Bavdhan Budruk",
             "link": ""
           }
-        },
-        "icon_box_dQCQVy": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Balewadi",
-            "link": ""
-          }
-        },
-        "icon_box_mcAtN7": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Shivajinagar",
-            "link": ""
-          }
-        },
-        "icon_box_LLjRwc": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Bibvewadi",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -328,13 +307,10 @@
         "icon_box_EBcCPM",
         "icon_box_WhmC64",
         "icon_box_wmjiwn",
-        "icon_box_cyjEXR",
-        "icon_box_dQCQVy",
-        "icon_box_mcAtN7",
-        "icon_box_LLjRwc"
+        "icon_box_cyjEXR"
       ],
       "settings": {
-        "title": "Fresh A2 Milk Delivered in Pune",
+        "title": "Fresh A2 Milk Delivered in Mumbai",
         "padding_top": 40,
         "padding_bottom": 40
       }
