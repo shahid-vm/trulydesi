@@ -138,9 +138,26 @@
         "text_color": "#6d832c"
       }
     },
+     "image_banner_TDV7Vi": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/Frame_1000011713_1_1.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_behavior": "none",
+        "desktop_content_position": "middle-center",
+        "desktop_content_alignment": "center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
+        "show_text_below": false
+      }
+    },
   },
   "order": [
     "slideshow_eWVBwE",
-    "scrolling_announcement_bar_UAEhwn"
+    "scrolling_announcement_bar_UAEhwn",
+    "image_banner_TDV7Vi"
   ]
 }
