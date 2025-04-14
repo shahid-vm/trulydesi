@@ -343,8 +343,9 @@ h2.jdgm-rev-widg__title {
     border-radius: 7px 0 22px;
 }
 .shopify-policy__container {
-    width: 100% !important;
-    max-width: 100%;
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
 }
 .shopify-policy__container h1 {
     color: #064f32;
