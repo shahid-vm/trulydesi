@@ -1,16 +1,107 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
-
+<style>
+  .article-template__hero-container {
+    max-width: 100% !important;
+  }
+ @media screen and (min-width: 768px){
+  article.article-template {
+    padding: 10px 0px;
+    padding-bottom: 30px;
+    margin-right: 10px;
+    width: 70%; 
+  }
+  .blog-sec {
+    display: flex;
+    gap: 1rem;
+  }
+  .cust-related-sec {
+        width: 30%;
+        margin-left: 10px;
+        margin-top: 10px;
+   }
+}
+@media screen and (max-width: 767px){
+  .related-products, .blog-related-product, .author_blog_identity_meta{
+    margin-top: 20px;
+    margin-left: 0px !important;
+  }
+}
+.blog-sec a.read-more-btn {
+    padding: 7px 10px;
+}
+.related-products, .blog-related-product, .author_blog_identity_meta {
+    background: #efefef;
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+.related-post ul li {
+    display: flex;
+    gap: 15px;
+    padding-bottom: 1.5rem;
+}
+.related-products h2, .related-post h2{
+  margin-left: 0px !important;
+  width: 100% !important;
+}
+.cust-blog-img {
+    width: 40%;
+}
+.cust-blog-info {
+    width: 60%;
+}
+.cust-blog-info h4 {
+    font-size: 14px;
+  margin:0;
+}
+.related-post ul li:last-child {
+    padding-bottom: 0rem;
+}
+.related-post ul{
+    margin: 5px;
+  margin: 0;
+    padding: 0 10px;
+}
+.view-post a{
+  color: #fff;
+}
+.view-post a,.blog-sec a.read-more-btn {
+        background: #000;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #fff;
+  font-size:12px;
+} 
+.related-products h2, .related-post h2 {
+    display: flex;
+    grid-gap: 15px;
+    align-items: center;
+    border-left: 5px solid #ED3236;
+    padding: 8px 20px 8px 13px;
+    background: #FAFAFA;
+    margin-bottom: 20px;
+    font-size: 18px !important;
+    font-weight: 600;
+    letter-spacing: 1px;
+  margin:0 0 10px;
+}
+.cust-blog-img img
+{
+  width:100%;
+}
+</style>
+ <div class="blog-sec page-width">
 <article class="article-template">
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
-        <div class="page-width page-width--narrow">
+        <div class="page-width">
           {% render block %}
         </div>
       {%- when 'featured_image' -%}
         {%- if article.image -%}
           <div
-            class="article-template__hero-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+            class="article-template__hero-container  {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
             {{ block.shopify_attributes }}
           >
             <div
@@ -43,7 +134,7 @@
 
       {%- when 'title' -%}
         <header
-          class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          class="{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
           <h1
@@ -65,7 +156,7 @@
 
       {%- when 'content' -%}
         <div
-          class="article-template__content page-width page-width--narrow rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="article-template__content   rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {{ block.shopify_attributes }}
         >
           {{ article.content }}
@@ -73,7 +164,7 @@
 
       {%- when 'share' -%}
         <div
-          class="article-template__social-sharing page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          class="article-template__social-sharing page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {{ block.shopify_attributes }}
         >
           {% assign share_url = request.origin | append: article.url %}
@@ -96,7 +187,7 @@
     <div class="article-template__comment-wrapper background-secondary">
       <div
         id="comments"
-        class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        class="page-width {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
       >
         {%- if article.comments_count > 0 -%}
           {%- assign anchorId = '#Comments-' | append: article.id -%}
@@ -287,6 +378,18 @@
     </div>
   {%- endif -%}
 </article>
+<div class="cust-related-sec">
+            {% if article.metafields.custom.related_products != blank  %}
+              <div class="related-products">
+                {% render 'cust-related-product' %}
+              </div>
+            {% endif %}
+           
+              <div class="blog-related-product">
+               {% render 'new-blog-post-card' %} 
+              </div> 
+          </div> 
+          </div>
 
 <script type="application/ld+json">
   {{ article | structured_data }}
@@ -328,7 +431,8 @@
             }
           ],
           "default": "adapt",
-          "label": "t:sections.main-article.blocks.featured_image.settings.image_height.label"
+          "label": "t:sections.main-article.blocks.featured_image.settings.image_height.label",
+          "info": "t:sections.main-article.blocks.featured_image.settings.image_height.info"
         }
       ]
     },
@@ -366,6 +470,14 @@
           "id": "share_label",
           "label": "t:sections.main-article.blocks.share.settings.text.label",
           "default": "t:sections.main-article.blocks.share.settings.text.default"
+        },
+        {
+          "type": "paragraph",
+          "content": "t:sections.main-article.blocks.share.settings.featured_image_info.content"
+        },
+        {
+          "type": "paragraph",
+          "content": "t:sections.main-article.blocks.share.settings.title_info.content"
         }
       ]
     }
