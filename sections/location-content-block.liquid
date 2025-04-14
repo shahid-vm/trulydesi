@@ -2,33 +2,42 @@
     <h1 class="heading">{{ section.settings.title }}</h1>
 
     <div class="benefits-grid">
+      {% for block in section.blocks %}
+     {% if forloop.index == 1 %}
       <div class="benefit top-left">
-        <img src="fresh-icon.png" alt="Always Fresh">
-        <h3>Always Fresh</h3>
-        <p>Milk delivers fresh daily by maintaining supply and cold chain management at 4°C. All process is Automated so hygienic. Its pure, natural & fresh milk.</p>
+        <img src="{{ block.settings.image| img_url:'master' }}" alt="Block-image">
+        <h3>{{ block.settings.heading }}</h3>
+        <p>{{ block.settings.content }}</p>
       </div>
+      {% endif %}
+      {% if forloop.index == 2 %}
+          <div class="benefit top-right">
+            <img src="{{ block.settings.image| img_url:'master' }}" alt="Block-image">
+            <h3>{{ block.settings.heading }}</h3>
+            <p>{{ block.settings.content }}</p>
+          </div>
+      {% endif %}
+      {% if forloop.first %}
+        <div class="center-image">
+          <img src="{{ section.settings.main_image| img_url:'master' }}" alt="Main Image">
+        </div>
+      {% endif %}
 
-      <div class="benefit top-right">
-        <img src="quality-icon.png" alt="Best Quality">
-        <h3>Best Quality</h3>
-        <p>We care our cows on high priority to keep them happy always. Automated milking and packaging makes our milk Premium quality and valuable Standards.</p>
-      </div>
-
-      <div class="center-image">
-        <img src="{{ section.settings.main_image| img_url:'master' }}" alt="Main Image">
-      </div>
-
-      <div class="benefit bottom-left">
-        <img src="natural-icon.png" alt="100% Natural">
-        <h3>100% Natural</h3>
-        <p>Nothing is removed from milk and added to milk. Its natural in kind so pure that retain its nutritional value. It tastes sweet and Delicious.</p>
-      </div>
-
-      <div class="benefit bottom-right">
-        <img src="{{ section.settings.main_image| img_url:'master' }}" alt="Main Image">
-        <h3>Complete Food For Family</h3>
-        <p>We have Genuine breed of Desi Gir Cows on our farm. It naturally contains pure A2 protein which is easy to digest and colostrum so its like Mother's milk.</p>
-      </div>
+      {% if forloop.index == 3 %}
+          <div class="benefit bottom-left">
+            <img src="{{ block.settings.image| img_url:'master' }}" alt="Block-image">
+            <h3>{{ block.settings.heading }}</h3>
+            <p>{{ block.settings.content }}</p>
+          </div>
+      {% endif %}
+       {% if forloop.index == 4 %}
+          <div class="benefit bottom-right">
+            <img src="{{ block.settings.image| img_url:'master' }}" alt="Block-image">
+            <h3>{{ block.settings.heading }}</h3>
+            <p>{{ block.settings.content }}</p>
+          </div>
+      {% endif %}
+    {% endfor %}
     </div>
 </section>
 {% schema %}
@@ -70,6 +79,7 @@
     {
       "type": "icon_box",
       "name": "Icon Box",
+      "limit": 4,
       "settings": [
         {
           "type": "image_picker",
