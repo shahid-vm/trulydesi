@@ -25,7 +25,7 @@
       </div>
 
       <div class="benefit bottom-right">
-        <img src="family-icon.png" alt="Complete Food For Family">
+        <img src="{{ section.settings.main_image| img_url:'master' }}" alt="Main Image">
         <h3>Complete Food For Family</h3>
         <p>We have Genuine breed of Desi Gir Cows on our farm. It naturally contains pure A2 protein which is easy to digest and colostrum so its like Mother's milk.</p>
       </div>
@@ -40,9 +40,14 @@
       "content": "Section Padding",
     },
     {
-          "type": "image_picker",
-          "id": "main_image",
-          "label": "Main Image"
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "main_image",
+      "label": "Main Image"
     },
     {
       "type": "range",
