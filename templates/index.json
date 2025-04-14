@@ -169,7 +169,9 @@
         "coll-desc": "",
         "show_rating": true,
         "enable_quick_add": false,
-        "quick_add": "standard"
+        "quick_add": "standard",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "image_banner_TDV7Vi": {
