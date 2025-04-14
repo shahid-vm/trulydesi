@@ -9,68 +9,138 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "custom_css": [
-        "body {overflow-x: hidden !important;}"
-      ],
-      "settings": {
-        "padding_top": 12,
-        "padding_bottom": 40
-      }
-    },
-    "image_banner_P4kbPi": {
-      "type": "image-banner",
+    "slideshow_eWVBwE": {
+      "type": "slideshow",
       "blocks": {
-        "heading_tmQcMr": {
-          "type": "heading",
+        "slide_rHcdYg": {
+          "type": "slide",
           "settings": {
+            "image": "shopify://shop_images/Web-Desk_Banner_87106d0c-2145-45aa-85e0-55e7dcf8a196.png",
+            "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         },
-        "text_9xmHG3": {
-          "type": "text",
+        "slide_xtWBYn": {
+          "type": "slide",
           "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_k46KRh": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify://shop_images/Web-Desk_Banner_87106d0c-2145-45aa-85e0-55e7dcf8a196.png",
+            "mob_image": "shopify://shop_images/1st_April_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading_tmQcMr",
-        "text_9xmHG3",
-        "buttons_k46KRh"
+        "slide_rHcdYg",
+        "slide_xtWBYn"
       ],
-      "disabled": true,
+      "custom_css": [],
       "settings": {
-        "image": "shopify://shop_images/June_2018.svg",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "image_behavior": "none",
-        "desktop_content_position": "middle-center",
-        "desktop_content_alignment": "center",
-        "show_text_box": false,
-        "color_scheme": "",
-        "stack_images_on_mobile": false,
-        "mobile_content_alignment": "center",
-        "show_text_below": false
+        "show_text_below": false,
+        "accessibility_info": ""
       }
-    }
+    },
+    "scrolling_announcement_bar_UAEhwn": {
+      "type": "scrolling-announcement-bar",
+      "blocks": {
+        "slide_GQ8EX6": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Delivered within 12 hours of Milking"
+          }
+        },
+        "slide_DaqYf9": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Assured Delivery before 7 am daily"
+          }
+        },
+        "slide_NMjXFT": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Controlled Supply Chain"
+          }
+        },
+        "slide_Aciz4J": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Comprehensive Traceability"
+          }
+        },
+        "slide_ekiVAw": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Hormones and Antibiotics free"
+          }
+        },
+        "slide_hg34Yz": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Preservatives and Adulterants free"
+          }
+        },
+        "slide_dMh6tL": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Cruelty free Animal rearing"
+          }
+        },
+        "slide_KFhcTW": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Conservation of Indian cow Breeds"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GQ8EX6",
+        "slide_DaqYf9",
+        "slide_NMjXFT",
+        "slide_Aciz4J",
+        "slide_ekiVAw",
+        "slide_hg34Yz",
+        "slide_dMh6tL",
+        "slide_KFhcTW"
+      ],
+      "settings": {
+        "announcement_bar_position": "non_sticky",
+        "image": "shopify://shop_images/star.svg",
+        "image_width": 25,
+        "announcement_text_size": 24,
+        "background": "#f9f7eb",
+        "text_color": "#6d832c"
+      }
+    },
   },
   "order": [
-    "main",
-    "image_banner_P4kbPi"
+    "slideshow_eWVBwE",
+    "scrolling_announcement_bar_UAEhwn"
   ]
 }
