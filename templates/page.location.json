@@ -196,6 +196,9 @@
     },
     "featured_collection_dgfBmJ": {
       "type": "featured-collection",
+      "custom_css": [
+        "h2.title.inline-richtext.h1 {color: #064f32; font-size: 28px; font-weight: bold; text-align: center;}"
+      ],
       "settings": {
         "collection": "all",
         "products_to_show": 9,
