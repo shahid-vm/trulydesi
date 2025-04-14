@@ -189,7 +189,76 @@
     },
     "location_areas_CARJpf": {
       "type": "location-areas",
+      "blocks": {
+        "icon_box_mzN7WT": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Ambegaon Budruk",
+            "link": ""
+          }
+        },
+        "icon_box_CGdyVA": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Aundh",
+            "link": ""
+          }
+        },
+        "icon_box_nr8eLE": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Baner",
+            "link": ""
+          }
+        },
+        "icon_box_rHjxth": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bavdhan Khurd",
+            "link": ""
+          }
+        },
+        "icon_box_FVQzix": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bavdhan Budruk",
+            "link": ""
+          }
+        },
+        "icon_box_Y6XAaw": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Balewadi",
+            "link": ""
+          }
+        },
+        "icon_box_JqVBHT": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Shivajinagar",
+            "link": ""
+          }
+        },
+        "icon_box_YV9kwW": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bibvewadi",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_mzN7WT",
+        "icon_box_CGdyVA",
+        "icon_box_nr8eLE",
+        "icon_box_rHjxth",
+        "icon_box_FVQzix",
+        "icon_box_Y6XAaw",
+        "icon_box_JqVBHT",
+        "icon_box_YV9kwW"
+      ],
       "settings": {
+        "title": "Areas we serve",
         "padding_top": 40,
         "padding_bottom": 40
       }
