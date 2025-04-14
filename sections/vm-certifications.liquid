@@ -131,12 +131,13 @@
 
 @media screen and (max-width: 749px) {
 #shopify-section-{{ section.id }} .features_inner {
-    overflow-x: auto;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: auto auto;
 }
   
 #shopify-section-{{ section.id }} .icon-box {
-     min-width: 250px;
+     min-width: 165px;
 }
+  
 }
 </style>
