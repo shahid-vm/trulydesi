@@ -144,7 +144,7 @@
         "collection_A3PxXQ": {
           "type": "Collection",
           "settings": {
-            "tabLabel": "Best Seller",
+            "tabLabel": "Best Seller's",
             "collection": "best-seller",
             "Collection-url": ""
           }
@@ -152,7 +152,7 @@
         "collection_4UtbtR": {
           "type": "Collection",
           "settings": {
-            "tabLabel": "New Arrival",
+            "tabLabel": "New Arrival's",
             "collection": "new-arrival",
             "Collection-url": ""
           }
