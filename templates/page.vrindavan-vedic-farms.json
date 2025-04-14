@@ -67,10 +67,22 @@
         "mobile_content_alignment": "center",
         "show_text_below": false
       }
+    },
+    "index_video_jGRhDF": {
+      "type": "index-video",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "full_width": true,
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/f60d7d58145e4c9e89915ab9785727e0.mp4",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_P4kbPi"
+    "image_banner_P4kbPi",
+    "index_video_jGRhDF"
   ]
 }
