@@ -138,7 +138,45 @@
         "text_color": "#6d832c"
       }
     },
-     "image_banner_TDV7Vi": {
+    "location_content_block_TKrKwA": {
+      "type": "location-content-block",
+      "blocks": {
+        "icon_box_UX9bmN": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/Natural.png",
+            "heading": "Natural",
+            "content": "<p><strong>Desi Gir Cows in our farms are not injected with antibiotics or synthetic hormones like Oxytocin</strong></p>"
+          }
+        },
+        "icon_box_3N8dLM": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/Fresh.png",
+            "heading": "Fresh",
+            "content": "<p><strong>Fresh A2 milk from Gir Cows is delivered from Farms to your home everyday within few hours of milking</strong></p>"
+          }
+        },
+        "icon_box_yWki47": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/Hygiene.png",
+            "heading": "Hygiene",
+            "content": "<p><strong>Enhanced levels of quality assurance with Special 3 layer aseptic packing to retain freshness and to give you safe nutritious A2 milk</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_UX9bmN",
+        "icon_box_3N8dLM",
+        "icon_box_yWki47"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_banner_TDV7Vi": {
       "type": "image-banner",
       "settings": {
         "image": "shopify://shop_images/Frame_1000011713_1_1.webp",
@@ -330,6 +368,7 @@
   "order": [
     "slideshow_eWVBwE",
     "scrolling_announcement_bar_UAEhwn",
+    "location_content_block_TKrKwA",
     "image_banner_TDV7Vi",
     "icon_with_title_text_qRQTzn",
     "usp_section_kQwdyR",
