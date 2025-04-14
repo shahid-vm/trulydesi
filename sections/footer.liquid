@@ -121,21 +121,25 @@
                     </div>
                   {%- when 'newsletter' -%}
                       {% render 'newsletter', block: block %}
+                   {%- when 'siteapp' -%}
                       <div class="footer__block--mobile">
-                      <div class="footer__title">
-                        Get the App Now
+                        <div class="footer__title">
+                         {{ block.settings.title }}
+                        </div>
+                        
+                        <div>
+                          {% if block.settings.play-store-link != blank %}
+                          <a href="{{ block.settings.play-store-link }}" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/app-down-app-store.png?v=1744615507" loading="lazy" alt="Apple app: Download from the App Store" width="130" height="45">
+                          </a>
+                          {% endif %}
+                          {% if block.settings.apple-store-link != blank %}
+                          <a href="{{ block.settings.apple-store-link }}" target="_blank">
+                            <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/app-down-google-play.png?v=1744615508" loading="lazy" alt="Android app: Get it on Google Play" width="130" height="45">
+                          </a>
+                          {% endif  %}
+                        </div>
                       </div>
-                      
-                      <div>
-                        <a href="https://apps.apple.com/in/app/truly-desi/id1666204942" target="_blank">
-                          <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/app-down-app-store.png?v=1744615507" loading="lazy" alt="Apple app: Download from the App Store" width="130" height="45">
-                        </a>
-                        <a href="https://play.google.com/store/apps/details?id=app.krishnaayurveda.android" target="_blank">
-                          <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/app-down-google-play.png?v=1744615508" loading="lazy" alt="Android app: Get it on Google Play" width="130" height="45">
-                        </a>
-                      </div>
-                      
-                    </div>
                   {%- endcase -%}
               </div>
             {%- endfor -%}
@@ -344,7 +348,28 @@
           "label": "Content"
         }
       ]
-    }
+    },
+    {
+        "type": "siteapp",
+        "name": "App Links",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "url",
+            "id":"play-store-link",
+            "label":"Play Store Link"
+          },
+          {
+            "type": "url",
+            "id":"apple-store-link",
+            "label":"Apple Store Link"
+          }
+        ]
+      }
   ],
   "settings": [
     {
