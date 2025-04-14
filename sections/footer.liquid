@@ -120,6 +120,7 @@
                       {% endif %}
                     </div>
                   {%- when 'newsletter' -%}
+                  <div class="newsletter-app">
                       {% render 'newsletter', block: block %}
                    {%- when 'siteapp' -%}
                    {% if block.settings.apple-store-link != blank or  block.settings.play-store-link != blank %}
@@ -142,6 +143,7 @@
                         </div>
                       </div>
                     {% endif %}
+                  </div>
                   {%- endcase -%}
               </div>
             {%- endfor -%}
