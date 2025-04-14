@@ -196,6 +196,7 @@ h2.homepage_h2 {
     color: #fff;
     font-weight: 700;
     width: 120px;
+    text-transform: uppercase;
 }
 .product-card-wrapper  .badge {
     top: 10px !important;
