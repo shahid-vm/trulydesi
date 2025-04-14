@@ -258,7 +258,83 @@
         "icon_box_YV9kwW"
       ],
       "settings": {
-        "title": "Areas we serve",
+        "title": "Fresh A2 Milk Delivered in Pune",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "location_areas_kpQJ47": {
+      "type": "location-areas",
+      "blocks": {
+        "icon_box_DYjwqP": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Ambegaon Budruk",
+            "link": ""
+          }
+        },
+        "icon_box_EBcCPM": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Aundh",
+            "link": ""
+          }
+        },
+        "icon_box_WhmC64": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Baner",
+            "link": ""
+          }
+        },
+        "icon_box_wmjiwn": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bavdhan Khurd",
+            "link": ""
+          }
+        },
+        "icon_box_cyjEXR": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bavdhan Budruk",
+            "link": ""
+          }
+        },
+        "icon_box_dQCQVy": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Balewadi",
+            "link": ""
+          }
+        },
+        "icon_box_mcAtN7": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Shivajinagar",
+            "link": ""
+          }
+        },
+        "icon_box_LLjRwc": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bibvewadi",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_DYjwqP",
+        "icon_box_EBcCPM",
+        "icon_box_WhmC64",
+        "icon_box_wmjiwn",
+        "icon_box_cyjEXR",
+        "icon_box_dQCQVy",
+        "icon_box_mcAtN7",
+        "icon_box_LLjRwc"
+      ],
+      "settings": {
+        "title": "Fresh A2 Milk Delivered in Pune",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -489,6 +565,7 @@
     "scrolling_announcement_bar_UAEhwn",
     "location_content_block_TKrKwA",
     "location_areas_CARJpf",
+    "location_areas_kpQJ47",
     "featured_collection_dgfBmJ",
     "image_banner_TDV7Vi",
     "icon_with_title_text_qRQTzn",
