@@ -1,13 +1,35 @@
-<section class="features-section-{{ section.id }}">
-  {% for block in section.blocks %}
-    <div class="feature">
-      <img src="{{ block.settings.icon_image | img_url:'master' }}" alt="Natural" class="icon" />
-      <h3 class="title">{{ block.settings.heading }}</h3>
-      <div class="desc">
-        {{ block.settings.content }}
+<section class="a2milk-section">
+    <h1 class="heading">A2 Milk In Pune</h1>
+
+    <div class="benefits-grid">
+      <div class="benefit top-left">
+        <img src="fresh-icon.png" alt="Always Fresh">
+        <h3>Always Fresh</h3>
+        <p>Milk delivers fresh daily by maintaining supply and cold chain management at 4°C. All process is Automated so hygienic. Its pure, natural & fresh milk.</p>
+      </div>
+
+      <div class="benefit top-right">
+        <img src="quality-icon.png" alt="Best Quality">
+        <h3>Best Quality</h3>
+        <p>We care our cows on high priority to keep them happy always. Automated milking and packaging makes our milk Premium quality and valuable Standards.</p>
+      </div>
+
+      <div class="center-image">
+        <img src="center-milk-image.png" alt="A2 Milk Bottles">
+      </div>
+
+      <div class="benefit bottom-left">
+        <img src="natural-icon.png" alt="100% Natural">
+        <h3>100% Natural</h3>
+        <p>Nothing is removed from milk and added to milk. Its natural in kind so pure that retain its nutritional value. It tastes sweet and Delicious.</p>
+      </div>
+
+      <div class="benefit bottom-right">
+        <img src="family-icon.png" alt="Complete Food For Family">
+        <h3>Complete Food For Family</h3>
+        <p>We have Genuine breed of Desi Gir Cows on our farm. It naturally contains pure A2 protein which is easy to digest and colostrum so its like Mother's milk.</p>
       </div>
     </div>
-  {% endfor %}
 </section>
 {% schema %}
 {
@@ -16,6 +38,11 @@
     {
       "type": "header",
       "content": "Section Padding",
+    },
+    {
+          "type": "image_picker",
+          "id": "main_image",
+          "label": "Main Image"
     },
     {
       "type": "range",
@@ -70,37 +97,66 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
   }
-  .features-section-{{ section.id }} {
-    display: flex;
+ .a2milk-section {
+    padding: 40px 20px;
+  }
+  
+  .heading {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #1c1c1c;
+    margin-bottom: 50px;
+  }
+  
+  .benefits-grid {
+    display: grid;
+    grid-template-areas:
+      "top-left center top-right"
+      "bottom-left center bottom-right";
+    gap: 20px;
+    align-items: center;
     justify-content: center;
-    gap: 40px;
-    padding: 60px 20px;
-    flex-wrap: wrap;
-    text-align: center;
+    position: relative;
   }
   
-  .features-section-{{ section.id }} .feature {
-    max-width: 380px;
-    padding: 20px;
-    border: 2px solid #e2e2e269;
+  .benefit {
+    max-width: 250px;
+    padding: 10px;
   }
   
-  .features-section-{{ section.id }} .icon {
-    width: 100px;
-    /* margin-bottom: 20px; */
+  .benefit img {
+    width: 50px;
+    margin-bottom: 10px;
   }
   
-  .features-section-{{ section.id }} .title {
-    color: #4CAF50;
-    font-size: 16px;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+  .benefit h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #2d2d2d;
   }
   
-  .features-section-{{ section.id }} .desc p{
-    font-size: 22px;
-    font-weight: 500;
-    color: #000;
-    line-height: 1.6;
+  .benefit p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .top-left { grid-area: top-left; }
+  .top-right { grid-area: top-right; }
+  .bottom-left { grid-area: bottom-left; }
+  .bottom-right { grid-area: bottom-right; }
+  
+  .center-image {
+    grid-area: center;
+    position: relative;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .center-image img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
   }
 </style>
