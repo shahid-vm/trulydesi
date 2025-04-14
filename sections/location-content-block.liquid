@@ -1,6 +1,104 @@
+<section class="features-section-{{ section.id }}">
+  {% for block in section.blocks %}
+    <div class="feature">
+      <img src="{{ block.settings.image | img_url:'master' }}" alt="Natural" class="icon" />
+      <h3 class="title">{{ block.settings.title }}</h3>
+      <p class="desc">
+        {{ block.settings.content }}
+      </p>
+    </div>
+  {% endfor %}
+</section>
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Certifications",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section Padding",
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Padding Top",
+      "default": 40,
+      "min": 0,
+      "max": 100
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Padding Bottom",
+      "default": 40,
+      "min": 0,
+      "max": 100
+    }
+  ],
+  "blocks": [
+    {
+      "type": "icon_box",
+      "name": "Icon Box",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_image",
+          "label": "Icon Image"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Certifications"
+    }
+  ]
+}
 {% endschema %}
+
+<style>
+  .features-section-{{ section.id }} {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+  .features-section-{{ section.id }} {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .features-section-{{ section.id }} .feature {
+    max-width: 300px;
+  }
+  
+  .features-section-{{ section.id }} .icon {
+    width: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .features-section-{{ section.id }} .title {
+    color: #4CAF50;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+  
+  .features-section-{{ section.id }} .desc {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    line-height: 1.6;
+  }
+</style>
