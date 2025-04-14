@@ -1,0 +1,75 @@
+{%- if article.metafields.custom.related_products != blank  -%}
+<h2>Related Products</h2>
+<div class="section-pro">
+  {% assign item = article.metafields.custom.related_products.value %}               
+  {% for pro_item in item %}
+    <div class="usp-item">
+      <div class="pro-item">
+        <img src="{{ pro_item.featured_image | image_url }}">
+      </div>
+      <div class="pro-details">
+         <p>{{ pro_item.title }}</p>
+         <a href="{{ pro_item.url }}" class="read-more-btn">View Product</a>
+      </div>
+    </div> 
+  {% endfor %}
+</div>
+{%- endif -%}
+
+<style>
+@media screen and (min-width: 768px){
+  .cust-related-sec{
+    width: 30%;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .section-pro img {
+    height: auto;
+    padding-right: 10px;
+  }
+}
+.section-pro img {
+    width: 100%;
+    padding-right: 10px;
+}
+.pro-details {
+   width: 70%;
+   text-align: left;
+}
+.pro-details p{
+  margin-bottom: 10px;
+  margin-top: 0px;
+  font-size: 14px;
+}
+.pro-item {
+    width: 30%;
+}
+.usp-item {
+    display: flex;
+    margin-bottom: 12px;
+  padding:0 10px;
+}
+.usp-item:last-child {
+    margin-bottom: 0px !important;
+}
+.related-products, .author_blog_identity_meta {
+    margin-bottom: 20px;
+}
+.related-products h2, .related-post h2 {
+    display: flex;
+    grid-gap: 15px;
+    align-items: center;
+    border-left: 5px solid #ED3236;
+    padding: 8px 20px 8px 13px;
+    background: #FAFAFA;
+    margin-bottom: 20px;
+    font-size: 18px !important;
+    font-weight: 600;
+}
+  
+@media screen and (max-width: 768px) {
+.blog-sec {
+    padding-bottom: 40px;
+}
+}
+</style>
