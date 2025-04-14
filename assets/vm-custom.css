@@ -351,4 +351,11 @@ h2.jdgm-rev-widg__title {
     font-weight: 700;
     text-align: center;
 }
+@media screen and (max-width: 449px) {
+  .product-card-wrapper .price-btn-container {
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+  }
+}
 
