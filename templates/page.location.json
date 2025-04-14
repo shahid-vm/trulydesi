@@ -149,6 +149,14 @@
             "content": "<p>Desi Gir Cows in our farms are not injected with antibiotics or synthetic hormones like Oxytocin</p>"
           }
         },
+        "icon_box_nzheYE": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/Natural.png",
+            "heading": "Natural",
+            "content": "<p>Desi Gir Cows in our farms are not injected with antibiotics or synthetic hormones like Oxytocin</p>"
+          }
+        },
         "icon_box_3N8dLM": {
           "type": "icon_box",
           "settings": {
@@ -168,6 +176,7 @@
       },
       "block_order": [
         "icon_box_UX9bmN",
+        "icon_box_nzheYE",
         "icon_box_3N8dLM",
         "icon_box_yWki47"
       ],
