@@ -145,7 +145,7 @@
           "type": "icon_box",
           "settings": {
             "icon_image": "shopify://shop_images/Natural.png",
-            "heading": "Natural",
+            "heading": "Pure",
             "content": "<p>Desi Gir Cows in our farms are not injected with antibiotics or synthetic hormones like Oxytocin</p>"
           }
         },
@@ -183,7 +183,7 @@
       "settings": {
         "title": "A2 Milk In Pune",
         "main_image": "shopify://shop_images/urbanf.jpg",
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 20
       }
     },
