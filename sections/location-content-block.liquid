@@ -3,9 +3,9 @@
     <div class="feature">
       <img src="{{ block.settings.icon_image | img_url:'master' }}" alt="Natural" class="icon" />
       <h3 class="title">{{ block.settings.heading }}</h3>
-      <p class="desc">
+      <div class="desc">
         {{ block.settings.content }}
-      </p>
+      </div>
     </div>
   {% endfor %}
 </section>
@@ -95,7 +95,7 @@
     margin-bottom: 15px;
   }
   
-  .features-section-{{ section.id }} .desc {
+  .features-section-{{ section.id }} .desc p{
     font-size: 20px;
     font-weight: 500;
     color: #000;
