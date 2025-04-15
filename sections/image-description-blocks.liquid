@@ -204,6 +204,9 @@
           .sub-container-{{ section.id }} .text-content h1 {
               font-size: 28px;
           }
+          .sub-container-{{ section.id }} .text-content{
+            max-width: 100% !important;
+          }
            .sub-container-{{ section.id }} {
                 flex-direction: column;
                 padding: 0px;
@@ -220,6 +223,9 @@
                 max-width: 80%;
                 margin: 20px auto;
             }
+            .sub-container-{{ section.id }} .image-content img {
+              height: 330px;
+          }
         }
       @media (max-width: 600px) {
       .spotlight-container .logos-container {
