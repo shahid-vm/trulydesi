@@ -434,10 +434,16 @@ a.product__title h2 {
 .city-selector-custom .city-dropdown li:hover {
   background-color: #f2f2f2;
 }
-
+.city-link{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #000;
+  font-size: 16px;
+}
 .city-link img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 
