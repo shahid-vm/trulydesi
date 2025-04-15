@@ -417,7 +417,7 @@ a.product__title h2 {
   z-index: 999;
 }
 
-..city-selector-custom:hover .city-dropdown {
+.city-selector-custom:hover .city-dropdown {
   display: block;
 }
 
