@@ -491,3 +491,15 @@ h2.drawer__heading {
     border: 1px solid #eee;
     border-radius: 7px;
 }
+p.totals__total-value {
+    font-size: 20px;
+    font-weight: bold;
+    color: #064f32;
+}
+small.tax-note.caption-large.rte {
+    font-size: 14px;
+    line-height: 20px;
+}
+small.tax-note.caption-large.rte a{
+  color: #064f32;
+}
