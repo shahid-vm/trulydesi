@@ -375,12 +375,11 @@ a.product__title h2 {
     font-size: 28px;
 }
 
+/* custom dropdown css */
 .city-selector-custom {
   position: relative;
   display: inline-block;
-  font-family: 'Segoe UI', sans-serif;
 }
-/* custom dropdown css */
 .city-selector-custom .city-button {
   background: none;
   border: none;
