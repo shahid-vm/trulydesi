@@ -136,7 +136,7 @@
         "heading_alignment": "center",
         "layout": "none",
         "color_scheme": "scheme-1",
-        "container_color_scheme": "scheme-2",
+        "container_color_scheme": "scheme-1",
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
