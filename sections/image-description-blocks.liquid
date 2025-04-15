@@ -1,7 +1,7 @@
-  <div class="container-{{ section.id }} page-width color-{{ section.settings.color_scheme }}">
+  <div class="container-{{ section.id }} page-width js-swiper-navigation swiper color-{{ section.settings.color_scheme }}">
     {% for block in section.blocks %}
-        <div class="sub-container-{{ section.id }}">
-          <div class="text-content">
+        <div class="sub-container-{{ section.id }} swiper-wrapper">
+          <div class="text-content swiper-slide">
               <h2>{{ block.settings.main-title }}</h2>
               <p>
                   {{ block.settings.coll-desc }}
@@ -21,7 +21,22 @@
           </div>
         </div>
     {% endfor %}
+    <!-- Arrows -->
+        <div class="js-swiper-navigation-button-next"></div>
+        <div class="js-swiper-navigation-button-prev"></div>
     </div>
+    <script>
+    (function() {
+    // INITIALIZATION OF SWIPER
+    // =======================================================
+        var navigation = new Swiper('.js-swiper-navigation', {
+          navigation: {
+            nextEl: '.js-swiper-navigation-button-next',
+            prevEl: '.js-swiper-navigation-button-prev',
+          },
+        });
+      })()
+    </script>
     {% schema %}
     {
     "name": "Image with Discription",
