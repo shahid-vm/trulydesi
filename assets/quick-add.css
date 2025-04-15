@@ -215,7 +215,7 @@
   display: flex;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: var(--modal-padding);
+  padding: 10px;
   height: 100%;
 }
 
