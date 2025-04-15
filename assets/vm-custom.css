@@ -371,5 +371,7 @@ h2.footer__title {
       gap: 10px;
   }
 }
-
+a.product__title h2 {
+    font-size: 28px;
+}
 
