@@ -333,7 +333,7 @@
    <div class="large-hide custom-m-serch-button-ctn">
     {% render 'custom-search-form', input_id: 'Search-In-Modal' %}
     <div class="city-selector-custom">
-      {% if page_title == 'Mumbai' %}
+      {% if page.metafields.custom.location == 'Mumbai' %}
       <button class="city-button">
         <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/mumbai-city-icon.png?v=1744693644" alt="Mumbai" class="city-icon" />
           Mumbai
