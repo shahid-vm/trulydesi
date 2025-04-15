@@ -2095,8 +2095,8 @@ input[type='checkbox'] {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.9rem;
-  bottom: 0.8rem;
+  font-size: 2.5rem;
+  bottom: 2.5rem;
   left: 2.2rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
 }
