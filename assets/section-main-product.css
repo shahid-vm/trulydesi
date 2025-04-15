@@ -1529,14 +1529,15 @@ a.product__text {
     box-shadow: 3px 3px 10px #c5c5c5;
     -webkit-border-radius: 4px;
 }
-.product__info-container variant-selects fieldset label{
+.product__info-container variant-selects fieldset label {
     display: flex !important;
     flex-direction: column;
     float: left;
     text-align: left !important;
-    margin: 7px 7px !important;
+    margin: 11px !important;
     gap: 10px;
     background: #fafafa !important;
+    margin-left: 5px !important;
 }
 span.price-item.price-item--sale.price-item--last.custom-price {
     font-size: 15px !important;
