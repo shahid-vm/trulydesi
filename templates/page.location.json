@@ -266,47 +266,15 @@
     "location_areas_kpQJ47": {
       "type": "location-areas",
       "blocks": {
-        "icon_box_DYjwqP": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Ambegaon Budruk",
-            "link": ""
-          }
-        },
-        "icon_box_EBcCPM": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Aundh",
-            "link": ""
-          }
-        },
-        "icon_box_WhmC64": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Baner",
-            "link": ""
-          }
-        },
-        "icon_box_wmjiwn": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Bavdhan Khurd",
-            "link": ""
-          }
-        },
         "icon_box_cyjEXR": {
           "type": "icon_box",
           "settings": {
-            "heading": "Bavdhan Budruk",
+            "heading": "Vasai",
             "link": ""
           }
         }
       },
       "block_order": [
-        "icon_box_DYjwqP",
-        "icon_box_EBcCPM",
-        "icon_box_WhmC64",
-        "icon_box_wmjiwn",
         "icon_box_cyjEXR"
       ],
       "settings": {
