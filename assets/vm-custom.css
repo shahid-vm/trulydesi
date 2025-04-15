@@ -444,7 +444,7 @@ a.product__title h2 {
   width: 20px;
   height: 20px;
 }
-custom-d-serch-button-ctn{
-  display: flex !important;
-  align-items:center;
+.small-hide.medium-hide.custom-d-serch-button-ctn {
+    display: flex;
+    align-items: center;
 }
