@@ -22,6 +22,43 @@
         </div>
     {% endfor %}
     </div>
+    <script>
+        $(document).ready(function() {
+          var swiper = new Swiper(".container-{{ section.id }}", {
+            slidesPerView: 1,
+            freeMode: false,
+            rewind: false,
+            spaceBetween: 20,
+            scrollbar: {
+              el: '.swiper-scrollbar',
+              hide: true
+            },
+            breakpoints: {
+              320: {
+                rewind: false,
+                slidesPerView: 1.3,
+                spaceBetween: 10
+              },
+              640: {
+                rewind: false,
+                slidesPerView: 1.3,
+                spaceBetween: 10
+              },
+              768: {
+                rewind: false,
+                slidesPerView: 2,
+                spaceBetween: 20
+              },
+              1024: {
+                rewind: false,
+                slidesPerView: 4,
+                spaceBetween: 60
+              }
+            }
+          });
+      
+        });
+    </script>
     {% schema %}
     {
     "name": "Image with Discription",
