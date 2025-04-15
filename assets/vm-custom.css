@@ -503,3 +503,8 @@ small.tax-note.caption-large.rte {
 small.tax-note.caption-large.rte a{
   color: #FBC879;
 }
+.drawer__cart-items-wrapper .cart-items thead tr th{
+    padding-bottom: 0px;
+    font-weight: 600;
+    font-size: 12px;
+}
