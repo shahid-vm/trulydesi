@@ -455,4 +455,27 @@ a.product__title h2 {
     top: 60%;
     left: -50px;
 }
+/* cart css */
+h2.cart__empty-text {
+    font-size: 25px;
+    font-weight: bold;
+    color: #064f32;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+p.cart__login-title.h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #064f32;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+a.cart-item__name.h4.break {
+    font-size: 16px;
+    font-weight: bold;
+    color: #064f32;
+    text-align: left;
+}
 
