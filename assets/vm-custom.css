@@ -523,3 +523,7 @@ dl {
     font-size: 14px;
     color: #4D4D4D;
 }
+.cart-count-bubble span{
+  font-size: 12px;
+  font-weight: 600;
+}
