@@ -12,13 +12,22 @@
                   {{ block.settings.btn-text }}
                 </a>
               {% endif %}
-    
+              {% if block.settings.image != blank and block.settings.title != blank %}
               <div class="icons-container">
                 <div class="icon">
                   <img src="{{ block.settings.image | img_url: 'master' }}" alt="block-img" />
                   <p>{{ block.settings.title }}</p>
                 </div>
               </div>
+            {% endif %}
+            {% if block.settings.image2 != blank and block.settings.title2 != blank %}
+              <div class="icons-container">
+                <div class="icon">
+                  <img src="{{ block.settings.image2 | img_url: 'master' }}" alt="block-img" />
+                  <p>{{ block.settings.title2 }}</p>
+                </div>
+              </div>
+            {% endif %}
             </div>
     
             <div class="image-content">
@@ -95,6 +104,16 @@
             "type": "text",
             "id":"title",
             "label":"Title 1"
+          },
+          {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Image 2"
+          },
+          {
+            "type": "text",
+            "id":"title2",
+            "label":"Title 2"
           }
         ]
       }
