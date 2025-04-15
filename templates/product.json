@@ -31,10 +31,6 @@
           "type": "usp",
           "settings": {}
         },
-        "zipcode_validator_by_cc_star_rating_rPdGpK": {
-          "type": "shopify://apps/zipcode-validator-by-cc/blocks/star_rating/5e30242c-f9b7-44c6-8319-f87b43734781",
-          "settings": {}
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -71,7 +67,6 @@
         "price",
         "variant_picker",
         "usp_qr9Vi8",
-        "zipcode_validator_by_cc_star_rating_rPdGpK",
         "quantity_selector",
         "buy_buttons",
         "icon_with_text_gzbGWV"
@@ -140,7 +135,7 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "scheme-054a3b84-2490-4fc2-aee0-f64f5776242e",
+        "color_scheme": "scheme-1",
         "container_color_scheme": "scheme-2",
         "open_first_collapsible_row": true,
         "image_ratio": "adapt",
