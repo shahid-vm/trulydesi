@@ -195,6 +195,24 @@
         endif
       endif
     %}
+    <style>.city-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  margin-top: 5px;
+  list-style: none;
+  min-width: 160px;
+  z-index: 999;
+}
+
+.city-dropdown.show {
+  display: block;
+}</style>
     <div class="city-selector">
       <button id="cityToggleBtn" class="city-button">
         <img src="city-icon.svg" alt="City Icon" class="city-icon" />
