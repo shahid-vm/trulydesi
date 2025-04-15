@@ -375,9 +375,9 @@ a.product__title h2 {
     font-size: 28px;
 }
 
-/* custom dropdown css */
 .city-selector-custom {
   position: relative;
+/* custom dropdown css */
   display: inline-block;
 }
 .city-selector-custom .city-button {
@@ -444,5 +444,7 @@ a.product__title h2 {
   width: 20px;
   height: 20px;
 }
-
-
+custom-d-serch-button-ctn{
+  display: flex;
+  align-items:center;
+}
