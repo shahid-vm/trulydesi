@@ -252,10 +252,23 @@
             "image": "shopify://shop_images/Group.png",
             "title": "Purely Advanced Milking"
           }
+        },
+        "block_6Van7a": {
+          "type": "Block",
+          "settings": {
+            "main-img": "shopify://shop_images/image.png",
+            "main-title": "Sustainable Farming Is The Way Ahead",
+            "coll-desc": "<p>At GirOrganic, we blend tradition with modernity, ensuring hygiene and quality. Our farm is free from chemical fertilizers, using cow dung and urine as natural alternatives. Healthy cows are milked hygienically with untouched technology, providing pure A2 milk daily. Calves always receive 40-50% of their mother’s milk first, ensuring care for every life.<br/><br/></p>",
+            "btn-text": "About Us",
+            "btn-url": "shopify://pages/about-us-new",
+            "image": "shopify://shop_images/Group.png",
+            "title": "Purely Advanced Milking"
+          }
         }
       },
       "block_order": [
-        "block_jkzhmm"
+        "block_jkzhmm",
+        "block_6Van7a"
       ],
       "settings": {
         "color_scheme": ""
