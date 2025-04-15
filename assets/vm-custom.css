@@ -508,3 +508,8 @@ small.tax-note.caption-large.rte a{
     font-weight: 600;
     font-size: 12px;
 }
+span.price.price--end {
+    font-weight: 600;
+    font-size: 14px;
+    color: #064f32;
+}
