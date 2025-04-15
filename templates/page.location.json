@@ -290,7 +290,7 @@
         "@media screen and (min-width: 990px) {.slider--desktop .slider__slide:first-child {margin-left: 20px !important; }}"
       ],
       "settings": {
-        "collection": "all",
+        "collection": "location-collection",
         "products_to_show": 9,
         "title": "Available Products",
         "heading_size": "h1",
