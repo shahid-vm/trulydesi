@@ -1,29 +1,29 @@
-    <div class="container-{{ section.id }} color-{{ section.settings.color_scheme }} page-width">
-      <div class="text-content">
-          <h1>{{ section.settings.title }}</h1>
-          <p>
-              {{ section.settings.coll-desc }}
-          </p>
-          {% if section.settings.btn-url != blank %}
-            <a class="know-more-btn button" href="{{ section.settings.btn-url }}">{{ section.settings.btn-text }}</a>
-          {% endif %}
-          <div class="icons-container">
-            {% for block in section.blocks %}
-              <div class="icon">
-                  <img src="{{ block.settings.image | img_url:'master' }}" alt="block-img">
-                  <p>{{ block.settings.title }}</p>
+  <div class="container-{{ section.id }} page-width color-{{ section.settings.color_scheme }}">
+    {% for block in section.blocks %}
+        <div class="sub-container-{{ section.id }}">
+          <div class="text-content">
+              <h2>{{ block.settings.main-title }}</h2>
+              <p>
+                  {{ block.settings.coll-desc }}
+              </p>
+              {% if block.settings.btn-url != blank %}
+                <a class="know-more-btn button" href="{{ block.settings.btn-url }}">{{ block.settings.btn-text }}</a>
+              {% endif %}
+              <div class="icons-container">
+                  <div class="icon">
+                      <img src="{{ block.settings.image | img_url:'master' }}" alt="block-img">
+                      <p>{{ block.settings.title }}</p>
+                  </div>
               </div>
-            {% endfor %}
           </div>
-      </div>
-      
-      <div class="image-content">
-          <img src="{{ section.settings.main-img | img_url:'master' }}" alt="main-img">
-      </div>
+          <div class="image-content">
+              <img src="{{ block.settings.main-img | img_url:'master' }}" alt="main-img">
+          </div>
+        </div>
+    {% endfor %}
     </div>
-
     {% schema %}
-{
+    {
     "name": "Image with Discription",
     "settings": [
       {
@@ -32,31 +32,6 @@
         "label": "t:sections.all.colors.label",
         "default": "background-1"
       },
-      {
-        "type": "image_picker",
-        "id": "main-img",
-        "label": "Main Image"
-      },
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Heading"
-      },
-      {
-        "type": "richtext",
-        "id": "coll-desc",
-        "label": "Description"
-      },
-      {
-        "type": "text",
-        "id": "btn-text",
-        "label": "Button Text"
-      },
-      {
-        "type": "url",
-        "id": "btn-url",
-        "label": "Button Url"
-      }
     ],
     "blocks": [
       {
@@ -65,13 +40,38 @@
         "settings": [
           {
             "type": "image_picker",
+            "id": "main-img",
+            "label": "Main Image"
+          },
+          {
+            "type": "text",
+            "id": "main-title",
+            "label": "Heading"
+          },
+          {
+            "type": "richtext",
+            "id": "coll-desc",
+            "label": "Description"
+          },
+          {
+            "type": "text",
+            "id": "btn-text",
+            "label": "Button Text"
+          },
+          {
+            "type": "url",
+            "id": "btn-url",
+            "label": "Button Url"
+          },
+          {
+            "type": "image_picker",
             "id": "image",
-            "label": "Image"
+            "label": "Image 1"
           },
           {
             "type": "text",
             "id":"title",
-            "label":"Title"
+            "label":"Title 1"
           }
         ]
       }
