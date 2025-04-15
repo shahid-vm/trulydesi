@@ -513,3 +513,13 @@ span.price.price--end {
     font-size: 14px;
     color: #064f32;
 }
+.product-option{
+  font-weight: 600;
+  font-size: 14px;
+  color: #064f32;
+}
+dl {
+    font-weight: 600;
+    font-size: 14px;
+    color: #064f32;
+}
