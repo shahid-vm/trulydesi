@@ -375,3 +375,63 @@ a.product__title h2 {
     font-size: 28px;
 }
 
+.city-selector-custom {
+  position: relative;
+  display: inline-block;
+  font-family: 'Segoe UI', sans-serif;
+}
+/* custom dropdown css */
+.city-selector-custom .city-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px;
+}
+
+.city-selector-custom .city-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.city-selector-custom .arrow {
+  font-size: 12px;
+}
+
+.city-selector-custom .city-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  margin-top: 5px;
+  list-style: none;
+  min-width: 160px;
+  display: none;
+  z-index: 999;
+}
+
+..city-selector-custom:hover .city-dropdown {
+  display: block;
+}
+
+.city-selector-custom .city-dropdown li {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #444;
+  cursor: pointer;
+}
+
+.city-selector-custom .city-dropdown li:hover {
+  background-color: #f2f2f2;
+}
+
