@@ -195,8 +195,35 @@
         endif
       endif
     %}
-    <style>.city-dropdown {
-  display: none;
+<style>
+.city-selector {
+  position: relative;
+  display: inline-block;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.city-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px;
+}
+
+.city-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.arrow {
+  font-size: 12px;
+}
+
+.city-dropdown {
   position: absolute;
   top: 100%;
   left: 0;
@@ -207,20 +234,36 @@
   margin-top: 5px;
   list-style: none;
   min-width: 160px;
+  display: none;
   z-index: 999;
 }
 
-.city-dropdown.show {
+.city-selector:hover .city-dropdown {
   display: block;
-}</style>
-    <div class="city-selector">
-      <button id="cityToggleBtn" class="city-button">
+}
+
+.city-dropdown li {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  color: #444;
+  cursor: pointer;
+}
+
+.city-dropdown li:hover {
+  background-color: #f2f2f2;
+}
+</style>
+   <div class="city-selector">
+      <button class="city-button">
         <img src="city-icon.svg" alt="City Icon" class="city-icon" />
         Mumbai
         <span class="arrow">▼</span>
       </button>
     
-      <ul id="cityDropdown" class="city-dropdown">
+      <ul class="city-dropdown">
         <li><img src="pune-icon.svg" alt=""> Pune</li>
         <li><img src="mumbai-icon.svg" alt=""> Mumbai</li>
         <li><img src="hyderabad-icon.svg" alt=""> Hyderabad</li>
