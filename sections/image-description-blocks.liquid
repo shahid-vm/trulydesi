@@ -1,65 +1,70 @@
-  <div class="container-{{ section.id }} page-width color-{{ section.settings.color_scheme }}">
-    {% for block in section.blocks %}
-        <div class="sub-container-{{ section.id }} swiper-slide ">
-          <div class="text-content">
+<!-- Swiper HTML Structure -->
+    <div class="swiper container-{{ section.id }} page-width color-{{ section.settings.color_scheme }}">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="swiper-slide sub-container-{{ section.id }}">
+            <div class="text-content">
               <h2>{{ block.settings.main-title }}</h2>
-              <p>
-                  {{ block.settings.coll-desc }}
-              </p>
+              <p>{{ block.settings.coll-desc }}</p>
+    
               {% if block.settings.btn-url != blank %}
-                <a class="know-more-btn button" href="{{ block.settings.btn-url }}">{{ block.settings.btn-text }}</a>
+                <a class="know-more-btn button" href="{{ block.settings.btn-url }}">
+                  {{ block.settings.btn-text }}
+                </a>
               {% endif %}
+    
               <div class="icons-container">
-                  <div class="icon">
-                      <img src="{{ block.settings.image | img_url:'master' }}" alt="block-img">
-                      <p>{{ block.settings.title }}</p>
-                  </div>
+                <div class="icon">
+                  <img src="{{ block.settings.image | img_url: 'master' }}" alt="block-img" />
+                  <p>{{ block.settings.title }}</p>
+                </div>
               </div>
+            </div>
+    
+            <div class="image-content">
+              <img src="{{ block.settings.main-img | img_url: 'master' }}" alt="main-img" />
+            </div>
           </div>
-          <div class="image-content">
-              <img src="{{ block.settings.main-img | img_url:'master' }}" alt="main-img">
-          </div>
-        </div>
+        {% endfor %}
+      </div>
+    
+      <!-- Swiper scrollbar -->
       <div class="swiper-scrollbar"></div>
-    {% endfor %}
     </div>
-    <script>
-        $(document).ready(function() {
-          var swiper = new Swiper(".container-{{ section.id }}", {
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var swiper = new Swiper(".container-{{ section.id }}", {
+        slidesPerView: 1,
+        freeMode: false,
+        rewind: false,
+        spaceBetween: 20,
+        scrollbar: {
+          el: '.swiper-scrollbar',
+          hide: true
+        },
+        breakpoints: {
+          320: {
             slidesPerView: 1,
-            freeMode: false,
-            rewind: false,
-            spaceBetween: 20,
-            scrollbar: {
-              el: '.swiper-scrollbar',
-              hide: true
-            },
-            breakpoints: {
-              320: {
-                rewind: false,
-                slidesPerView: 1,
-                spaceBetween: 10
-              },
-              640: {
-                rewind: false,
-                slidesPerView: 1,
-                spaceBetween: 10
-              },
-              768: {
-                rewind: false,
-                slidesPerView: 1,
-                spaceBetween: 20
-              },
-              1024: {
-                rewind: false,
-                slidesPerView: 1,
-                spaceBetween: 60
-              }
-            }
-          });
-      
-        });
-    </script>
+            spaceBetween: 10
+          },
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10
+          },
+          768: {
+            slidesPerView: 1,
+            spaceBetween: 20
+          },
+          1024: {
+            slidesPerView: 1,
+            spaceBetween: 60
+          }
+        }
+      });
+    });
+  </script>
     {% schema %}
     {
     "name": "Image with Discription",
