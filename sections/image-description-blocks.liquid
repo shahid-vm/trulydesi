@@ -12,7 +12,6 @@
                   {{ block.settings.btn-text }}
                 </a>
               {% endif %}
-              <div style="display:flex;">
               {% if block.settings.image != blank and block.settings.title != blank %}
               <div class="icons-container">
                 <div class="icon">
@@ -29,7 +28,6 @@
                 </div>
               </div>
             {% endif %}
-              </div>
             </div>
     
             <div class="image-content">
@@ -173,8 +171,6 @@
             gap: 50px;
             margin-top: 30px;
             align-items: center;
-            width:200px;
-            margin-right: 20px;
         }
 
         .sub-container-{{ section.id }} .icon {
@@ -204,17 +200,13 @@
           .sub-container-{{ section.id }} .text-content h1 {
               font-size: 28px;
           }
-          .sub-container-{{ section.id }} .text-content{
-            max-width: 100% !important;
-          }
            .sub-container-{{ section.id }} {
                 flex-direction: column;
                 padding: 0px;
             }
 
-            .sub-container-{{ section.id }} .image-content {
-                max-width: 100% !important;
-                width: 100% !important;
+            .sub-container-{{ section.id }} .text-content, .image-content {
+                max-width: 100%;
             }
 
             .sub-container-{{ section.id }} .image-content img {
@@ -224,9 +216,6 @@
                 max-width: 80%;
                 margin: 20px auto;
             }
-            .sub-container-{{ section.id }} .image-content img {
-              height: 330px;
-          }
         }
       @media (max-width: 600px) {
       .spotlight-container .logos-container {
