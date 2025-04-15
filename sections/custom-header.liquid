@@ -67,6 +67,7 @@
     padding-top: 1rem;
     line-height: calc(1 + 0.8 / var(--font-body-scale));
   }
+  
 
   @media screen and (min-width: 750px) {
     .list-menu__item--link {
@@ -194,7 +195,21 @@
         endif
       endif
     %}
-
+    <div class="city-selector">
+      <button id="cityToggleBtn" class="city-button">
+        <img src="city-icon.svg" alt="City Icon" class="city-icon" />
+        Mumbai
+        <span class="arrow">▼</span>
+      </button>
+    
+      <ul id="cityDropdown" class="city-dropdown">
+        <li><img src="pune-icon.svg" alt=""> Pune</li>
+        <li><img src="mumbai-icon.svg" alt=""> Mumbai</li>
+        <li><img src="hyderabad-icon.svg" alt=""> Hyderabad</li>
+        <li><img src="jaipur-icon.svg" alt=""> Jaipur</li>
+        <li><img src="delhi-icon.svg" alt=""> Delhi NCR</li>
+      </ul>
+    </div>
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
