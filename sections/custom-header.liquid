@@ -195,80 +195,16 @@
         endif
       endif
     %}
-<style>
-.city-selector {
-  position: relative;
-  display: inline-block;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.city-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  color: #333;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  padding: 10px;
-}
-
-.city-icon {
-  width: 20px;
-  height: 20px;
-}
-
-.arrow {
-  font-size: 12px;
-}
-
-.city-dropdown {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  padding: 10px 0;
-  margin-top: 5px;
-  list-style: none;
-  min-width: 160px;
-  display: none;
-  z-index: 999;
-}
-
-.city-selector:hover .city-dropdown {
-  display: block;
-}
-
-.city-dropdown li {
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 15px;
-  color: #444;
-  cursor: pointer;
-}
-
-.city-dropdown li:hover {
-  background-color: #f2f2f2;
-}
-</style>
-   <div class="city-selector">
+   <div class="city-selector-custom">
       <button class="city-button">
-        <img src="city-icon.svg" alt="City Icon" class="city-icon" />
-        Mumbai
+        <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/pune-city-icon.png?v=1744693644" alt="pune" class="city-icon" />
+        Pune
         <span class="arrow">▼</span>
       </button>
     
       <ul class="city-dropdown">
-        <li><img src="pune-icon.svg" alt=""> Pune</li>
-        <li><img src="mumbai-icon.svg" alt=""> Mumbai</li>
-        <li><img src="hyderabad-icon.svg" alt=""> Hyderabad</li>
-        <li><img src="jaipur-icon.svg" alt=""> Jaipur</li>
-        <li><img src="delhi-icon.svg" alt=""> Delhi NCR</li>
+        <li><img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/pune-city-icon.png?v=1744693644" alt="pune"> Pune</li>
+        <li><img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/mumbai-city-icon.png?v=1744693644" alt="mumbai"> Mumbai</li>
       </ul>
     </div>
     {%- if section.settings.logo_position == 'middle-center' -%}
