@@ -1,6 +1,6 @@
   <div class="container-{{ section.id }} page-width color-{{ section.settings.color_scheme }}">
     {% for block in section.blocks %}
-        <div class="sub-container-{{ section.id }}">
+        <div class="sub-container-{{ section.id }} swiper-slide ">
           <div class="text-content">
               <h2>{{ block.settings.main-title }}</h2>
               <p>
@@ -20,6 +20,7 @@
               <img src="{{ block.settings.main-img | img_url:'master' }}" alt="main-img">
           </div>
         </div>
+      <div class="swiper-scrollbar"></div>
     {% endfor %}
     </div>
     <script>
