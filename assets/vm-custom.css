@@ -527,3 +527,15 @@ dl {
   font-size: 12px;
   font-weight: 600;
 }
+.product-short-dis .metafield-rich_text_field {
+    margin-top: -13px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding: 0px 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #2c2b2d;
+}
