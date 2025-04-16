@@ -414,6 +414,31 @@
     },
     "never_ever_section_gXK9rN": {
       "type": "never-ever-section",
+      "blocks": {
+        "block_heWa8X": {
+          "type": "Block",
+          "settings": {
+            "title": "Suger"
+          }
+        },
+        "block_Fqg7ii": {
+          "type": "Block",
+          "settings": {
+            "title": "Preservatives"
+          }
+        },
+        "block_Y9hYAj": {
+          "type": "Block",
+          "settings": {
+            "title": "Flavour Colour"
+          }
+        }
+      },
+      "block_order": [
+        "block_heWa8X",
+        "block_Fqg7ii",
+        "block_Y9hYAj"
+      ],
       "name": "Never Ever Section",
       "settings": {
         "color_scheme": "",
