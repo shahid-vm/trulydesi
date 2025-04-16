@@ -13,7 +13,7 @@
               <!-- <a href="#">Read more</a> -->
             </div>
             <div class="profile">
-              <div>
+              <div class="user-details">
                 <img src="{{ block.settings.image2 | img_url:'master' }}" alt="profile{{ forloop.index }}">
                 <strong>{{ block.settings.title }}</strong>
               </div>
@@ -175,6 +175,8 @@
       border-top: 1px solid #ddd;
       margin-top: 20px;
       padding-top: 10px;
+      padding-top: 8px !important;
+      padding: 20px;
     }
     
     .testimonials-{{ section.id }} .profile img {
