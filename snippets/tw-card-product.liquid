@@ -295,9 +295,9 @@
           </div>
         </div>
           {% if card_product.metafields.custom.sub-title != blank %}
-            <div class="product-short-dis">{{ card_product.metafields.custom.sub-title | strip_html | truncatewords: 30 }}</div>
+            <div class="product-short-dis">{{ card_product.metafields.custom.sub-title | strip_html | truncatewords: 15 }}</div>
           {% else %}
-            <div class="product-short-dis">{{ card_product.metafields.custom.description | metafield_tag | truncatewords: 30 }}</div>
+            <div class="product-short-dis">{{ card_product.metafields.custom.description | metafield_tag | truncatewords: 15 }}</div>
           {% endif %}
   <div class="price-btn-container" >   
   {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
