@@ -27,8 +27,8 @@
     </div>
 
     <!-- Arrows -->
-    <div class="swiper-button-prev custom-nav">Prev</div>
-    <div class="swiper-button-next custom-nav">next</div>
+    <div class="swiper-button-prev custom-nav"></div>
+    <div class="swiper-button-next custom-nav"></div>
     <div class="swiper-pagination"></div>
   </div>
 </div>
@@ -215,5 +215,15 @@
     
     .testimonials-{{ section.id }} .swiper-pagination-bullet-active {
       background: black;
+    }
+    .arrow-cut {
+      font-size: 0px;
+      background-color: #0E4825;
+      padding: 20px;
+      color: #fff;
+      border-radius: 50%;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+      font-size: 20px !important;
     }
 </style>
