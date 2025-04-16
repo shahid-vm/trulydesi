@@ -1,4 +1,4 @@
-<div class="testimonials-{{ section.id }}">
+<div class="testimonials-{{ section.id }} color-{{ section.settings.color_scheme }}">
   <h2>{{ section.settings.title }}<span> ♥ </span></h2>
 
   <div class="swiper mySwiper">
@@ -125,12 +125,10 @@
       font-size: 28px;
       font-weight: 700;
       margin-bottom: 40px;
-      color: #fff;
     }
     
     .testimonials-{{ section.id }} h2 span {
       font-size: 28px;
-      color: white;
     }
     
     .testimonials-{{ section.id }} .testimonial-card {
