@@ -462,6 +462,14 @@
         "padding_bottom": 0
       }
     },
+    "franke_testinomial_section_WzX4yC": {
+      "type": "franke-testinomial-section",
+      "name": "Franke Testinomial",
+      "settings": {
+        "color_scheme": "",
+        "title": ""
+      }
+    },
     "customer_testimonial_T7fWbG": {
       "type": "customer-testimonial",
       "blocks": {
@@ -582,6 +590,7 @@
     "brand_section_eHygHB",
     "never_ever_section_gXK9rN",
     "index_video_jGRhDF",
+    "franke_testinomial_section_WzX4yC",
     "customer_testimonial_T7fWbG",
     "featured_blog_dC8T9G",
     "vm_certifications_eLDR6z"
