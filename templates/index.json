@@ -244,30 +244,21 @@
         "block_jkzhmm": {
           "type": "Block",
           "settings": {
-            "main-img": "shopify://shop_images/image.png",
-            "main-title": "Sustainable Farming Is The Way Ahead",
-            "coll-desc": "<p>At GirOrganic, we blend tradition with modernity, ensuring hygiene and quality. Our farm is free from chemical fertilizers, using cow dung and urine as natural alternatives. Healthy cows are milked hygienically with untouched technology, providing pure A2 milk daily. Calves always receive 40-50% of their mother’s milk first, ensuring care for every life.<br/><br/></p>",
             "image": "shopify://shop_images/Group.png",
-            "title": "Purely Advanced Milking",
-            "image2": "shopify://shop_images/Group_1_b4c801bc-771f-4d8c-a755-5c0f37343b6d.png",
-            "title2": "Organic"
+            "title": "Purely Advanced Milking"
           }
         },
-        "block_6Van7a": {
+        "block_CrRFr7": {
           "type": "Block",
           "settings": {
-            "main-img": "shopify://shop_images/image.png",
-            "main-title": "Sustainable Farming Is The Way Ahead",
-            "coll-desc": "<p>At GirOrganic, we blend tradition with modernity, ensuring hygiene and quality. Our farm is free from chemical fertilizers, using cow dung and urine as natural alternatives. Healthy cows are milked hygienically with untouched technology, providing pure A2 milk daily. Calves always receive 40-50% of their mother’s milk first, ensuring care for every life.<br/><br/></p>",
-            "image": "shopify://shop_images/Group.png",
-            "title": "Purely Advanced Milking",
-            "title2": ""
+            "image": "shopify://shop_images/Group_1_b4c801bc-771f-4d8c-a755-5c0f37343b6d.png",
+            "title": "natural fertilizers"
           }
         }
       },
       "block_order": [
         "block_jkzhmm",
-        "block_6Van7a"
+        "block_CrRFr7"
       ],
       "settings": {
         "color_scheme": ""
@@ -412,6 +403,15 @@
         "coll-desc": ""
       }
     },
+    "never_ever_section_gXK9rN": {
+      "type": "never-ever-section",
+      "name": "Never Ever Section",
+      "settings": {
+        "color_scheme": "",
+        "title": "",
+        "coll-desc": ""
+      }
+    },
     "index_video_jGRhDF": {
       "type": "index-video",
       "settings": {
@@ -541,6 +541,7 @@
     "image_description_blocks_gFzhHN",
     "usp_section_kQwdyR",
     "brand_section_eHygHB",
+    "never_ever_section_gXK9rN",
     "index_video_jGRhDF",
     "customer_testimonial_T7fWbG",
     "featured_blog_dC8T9G",
