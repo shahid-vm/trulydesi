@@ -8,15 +8,20 @@
   <p class="subtitle">{{ section.settings.sub-title }}</p>
   <div class="item-list">
     <ul>
-      <li>❌ Sugar</li>
-      <li>❌ Preservatives</li>
-      <li>❌ Flavour</li>
-      <li>❌ Colour</li>
+    {% for block in section.blocks %}
+      {% assign mod = forloop.index | modulo: 2 %}
+      {% if  mod != 0 %}
+      <li>❌ {{ block.settings.title }}</li>
+      {% endif %}
+    {% endfor %}
     </ul>
     <ul>
-      <li>❌ Sugar Alcohols</li>
-      <li>❌ Soy or Gluten</li>
-      <li>❌ Artificial Sweeteners</li>
+    {% for block in section.blocks %}
+      {% assign mod = forloop.index | modulo: 2 %}
+        {% if  mod == 0 %}
+        <li>❌ {{ block.settings.title }}</li>
+        {% endif %}
+    {% endfor %}
     </ul>
   </div>
   </div>
@@ -87,12 +92,7 @@
             "type": "text",
             "id": "title",
             "label": "Title"
-          }, 
-          {
-            "type": "text",
-            "id": "sub-title",
-            "label": "Sub Title"
-          }, 
+          }
         ]
       }
     ],
