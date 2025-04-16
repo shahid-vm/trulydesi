@@ -294,7 +294,7 @@
             {%- endif -%}
           </div>
         </div>
-          {% if card_product.metafields.custom.sub-title %}
+          {% if card_product.metafields.custom.sub-title != blank %}
             <div class="product-short-dis">{{ card_product.metafields.custom.sub-title | strip_html | truncatewords: 30 }}</div>
           {% else %}
             <div class="product-short-dis">{{ card_product.metafields.custom.description | strip_html | truncatewords: 30 }}</div>
