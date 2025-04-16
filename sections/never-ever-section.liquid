@@ -1,6 +1,186 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<div class="never-have-i-ever {{ section.id }} color-{{ section.settings.color_scheme }}">
+  <div class="title-bubble">
+    <h2>Never have I ever</h2>
+  </div>
+
+  <p class="subtitle">Added any of these:</p>
+
+  <div class="item-list">
+    <ul>
+      <li>❌ Sugar</li>
+      <li>❌ Preservatives</li>
+      <li>❌ Flavour</li>
+      <li>❌ Colour</li>
+    </ul>
+    <ul>
+      <li>❌ Sugar Alcohols</li>
+      <li>❌ Soy or Gluten</li>
+      <li>❌ Artificial Sweeteners</li>
+    </ul>
+  </div>
+
+  <div class="bottom-box">
+    <div class="text">
+      <p>No half-truths. No false-claims.<br>And def no * marks.</p>
+    </div>
+    <div class="btn-wrap">
+      <a href="#" class="our-story-btn">OUR STORY</a>
+    </div>
+  </div>
+
+  <img class="character" src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/download.svg?v=1744779887" alt="character" />
+</div>
+  </div>
+
+    {% schema %}
+{
+    "name": "Never Ever Section",
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-1"
+      }, 
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "coll-desc",
+        "label": "Description"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      },
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "Block",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }, 
+          {
+            "type": "text",
+            "id": "sub-title",
+            "label": "Sub Title"
+          }, 
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Never Ever Section"
+
+      }
+    ]
   }
 {% endschema %}
+  <style>
+      .{{ section.id }} .never-have-i-ever {
+        text-align: center;
+        background: #fff6f5;
+        padding: 60px 20px;
+        font-family: 'Poppins', sans-serif;
+        position: relative;
+      }
+      
+      .{{ section.id }} .title-bubble {
+        background-color: #8a2c4b;
+        display: inline-block;
+        padding: 15px 40px;
+        border-radius: 50px;
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+        position: relative;
+        margin-bottom: 20px;
+      }
+      
+      .{{ section.id }} .title-bubble::after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-top: 20px solid #8a2c4b;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+      }
+      
+      .{{ section.id }} .subtitle {
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+      
+      .{{ section.id }} .item-list {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+      }
+      
+      .{{ section.id }} .item-list ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .{{ section.id }} .item-list li {
+        font-weight: bold;
+        font-size: 16px;
+        margin: 8px 0;
+        color: #000;
+      }
+      
+      .{{ section.id }} .bottom-box {
+        background-color: #fceeee;
+        border: 1px solid #8a2c4b;
+        border-radius: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        max-width: 700px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .{{ section.id }} .bottom-box .text {
+        font-weight: bold;
+        font-size: 16px;
+        text-align: left;
+        color: #000;
+      }
+      
+      .{{ section.id }} .our-story-btn {
+        background-color: #fff;
+        padding: 12px 30px;
+        border-radius: 12px;
+        font-weight: bold;
+        color: #000;
+        border: none;
+        text-decoration: none;
+        box-shadow: 5px 5px 0 #8a2c4b;
+      }
+      
+      .{{ section.id }} .character {
+        position: absolute;
+        right: 15%;
+        bottom: 90px;
+        width: 120px;
+        max-width: 25vw;
+        z-index: 0;
+      }
+  </style>
