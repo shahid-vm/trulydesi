@@ -417,8 +417,9 @@
       "name": "Never Ever Section",
       "settings": {
         "color_scheme": "",
-        "title": "",
-        "coll-desc": ""
+        "title": "Never have I ever",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "index_video_jGRhDF": {
