@@ -93,17 +93,19 @@
       }
       
       .{{ section.id }} .title-bubble {
-        background-color: #8a2c4b;
-        display: inline-block;
         padding: 15px 40px;
         border-radius: 50px;
         color: #fff;
         font-size: 28px;
         font-weight: bold;
-        position: relative;
         margin-bottom: 20px;
+        background-image: url(https://cdn.shopify.com/s/files/1/0579/7557/0520/files/bg-img.png?v=1744780447);
+        background-repeat: no-repeat;
+        display: flex;
       }
-      
+      .{{ section.id }} .title-bubble h2{
+        margin: 0px;
+      }
       .{{ section.id }} .title-bubble::after {
         content: "";
         position: absolute;
