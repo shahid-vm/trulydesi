@@ -443,6 +443,10 @@
       "settings": {
         "color_scheme": "",
         "title": "Never have I ever",
+        "sub-title": "",
+        "discription": "No half-truths. No false-claims.\nAnd def no * marks.",
+        "button-text": "About Us",
+        "button-link": "shopify://pages/about-us-new",
         "padding_top": 36,
         "padding_bottom": 36
       }
