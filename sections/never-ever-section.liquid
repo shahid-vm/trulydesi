@@ -28,11 +28,13 @@
 
   <div class="bottom-box">
     <div class="text">
-      <p>No half-truths. No false-claims.<br>And def no * marks.</p>
+      <p>{{ section.settings.discription }}</p>
     </div>
+    {% if section.settings.button-link!= blank and section.settings.button-text != blank %}
     <div class="btn-wrap">
-      <a href="#" class="our-story-btn">OUR STORY</a>
+      <a href="{{ section.settings.button-link }}" class="our-story-btn">{{ section.settings.button-text }}</a>
     </div>
+    {% endif %}
     <img class="character" src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/download.svg?v=1744779887" alt="character" />
   </div>
 
@@ -56,6 +58,22 @@
         "type": "text",
         "id": "sub-title",
         "label": "Sub Title"
+      },
+      {
+        "type": "textarea",
+        "id": "discription",
+        "label": "Discription"
+      },
+      {
+        "type": "text",
+        "id": "button-text",
+        "label": "Button Label",
+        "default":"Know More"
+      },
+      {
+        "type": "url",
+        "id": "button-link",
+        "label": "Button Url"
       },
       {
         "type": "image_picker",
