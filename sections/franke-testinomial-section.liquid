@@ -1,6 +1,51 @@
-{% schema %}
+  {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+      "name": "Franke Testinomial",
+      "settings": [
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "background-1"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading"
+        }
+      ],
+      "blocks": [
+        {
+          "name": "Block",
+          "type": "Block",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Customer Image"
+            },
+            {
+              "type": "text",
+              "id":"content",
+              "label":"Discription"
+            },
+            {
+              "type": "text",
+              "id":"title",
+              "label":"Customer Name"
+            },
+            {
+              "type": "text",
+              "id":"sub-title",
+              "label":"Sub Title"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Franke Testinomial"
+        }
+      ]
+    }
+  {% endschema %}
