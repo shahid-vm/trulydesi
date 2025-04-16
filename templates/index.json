@@ -464,6 +464,54 @@
     },
     "franke_testinomial_section_WzX4yC": {
       "type": "franke-testinomial-section",
+      "blocks": {
+        "block_tefzDq": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/raj-insta.png",
+            "content": "If The Whole Truth Foods were a person, it would be that elder sibling—straight-talking, trustwor",
+            "image2": "shopify://shop_images/rachi-twitter.jpg",
+            "title": "Ranjana Devi",
+            "image3": "shopify://shop_images/linkedin.png"
+          }
+        },
+        "block_GHWEDh": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Ranjana-Devi-01.png",
+            "content": "If The Whole Truth Foods were a person, it would be that elder sibling—straight-talking, trustwor",
+            "image2": "shopify://shop_images/aashna-twitter.jpg",
+            "title": "Ranjana Devi",
+            "image3": "shopify://shop_images/twitter.png"
+          }
+        },
+        "block_zhVA38": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/raj-insta.png",
+            "content": "If The Whole Truth Foods were a person, it would be that elder sibling—straight-talking, trustwor",
+            "image2": "shopify://shop_images/rachi-twitter.jpg",
+            "title": "Ranjana Devi",
+            "image3": "shopify://shop_images/linkedin.png"
+          }
+        },
+        "block_gTqxXC": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Ranjana-Devi-01.png",
+            "content": "If The Whole Truth Foods were a person, it would be that elder sibling—straight-talking, trustwor",
+            "image2": "shopify://shop_images/aashna-twitter.jpg",
+            "title": "Ranjana Devi",
+            "image3": "shopify://shop_images/twitter.png"
+          }
+        }
+      },
+      "block_order": [
+        "block_tefzDq",
+        "block_GHWEDh",
+        "block_zhVA38",
+        "block_gTqxXC"
+      ],
       "name": "Franke Testinomial",
       "settings": {
         "color_scheme": "",
