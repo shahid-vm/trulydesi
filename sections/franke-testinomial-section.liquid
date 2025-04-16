@@ -1,4 +1,95 @@
-  {% schema %}
+<section class="testimonials">
+  <h2>Real People. Real Reviews <span>♥</span></h2>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img class="headshot" src="person1.png" alt="Person 1">
+          <div class="text">
+            <p>Look what just arrived 😎 All six flavours of The Whole Truth Foods chocolate bars.</p>
+            <a href="#">Read more</a>
+          </div>
+          <div class="profile">
+            <img src="profile1.jpg" alt="profile1">
+            <div>
+              <strong>Gurudev Prasad</strong>
+            </div>
+            <img class="social-icon" src="linkedin-icon.png" alt="LinkedIn">
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img class="headshot" src="person2.png" alt="Person 2">
+          <div class="text">
+            <p>If there’s one thing I can without guilt other than my mom’s homemade food is @</p>
+            <a href="#">Read more</a>
+          </div>
+          <div class="profile">
+            <img src="profile2.jpg" alt="profile2">
+            <div>
+              <strong>Neha Rajesh</strong><br>
+              <span>@neharajesh24</span>
+            </div>
+            <img class="social-icon" src="twitter-icon.png" alt="Twitter">
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="testimonial-card">
+          <img class="headshot" src="person3.png" alt="Person 3">
+          <div class="text">
+            <p>If your business/product claims to be something, your messaging should reflect the same. R</p>
+            <a href="#">Read more</a>
+          </div>
+          <div class="profile">
+            <img src="profile3.jpg" alt="profile3">
+            <div>
+              <strong>Seema Singh</strong>
+            </div>
+            <img class="social-icon" src="linkedin-icon.png" alt="LinkedIn">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Arrows -->
+    <div class="swiper-button-prev custom-nav"></div>
+    <div class="swiper-button-next custom-nav"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      }
+    }
+  });
+</script>
+{% schema %}
   {
       "name": "Franke Testinomial",
       "settings": [
@@ -49,3 +140,94 @@
       ]
     }
   {% endschema %}
+<style>
+    .testimonials {
+      background-color: #8a2c4b;
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+      font-family: 'Poppins', sans-serif;
+    }
+    
+    .testimonials h2 {
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 40px;
+    }
+    
+    .testimonials h2 span {
+      font-size: 28px;
+      color: white;
+    }
+    
+    .testimonial-card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      color: black;
+      position: relative;
+      overflow: hidden;
+      text-align: left;
+      min-height: 360px;
+    }
+    
+    .testimonial-card .headshot {
+      position: absolute;
+      top: -70px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 120px;
+      z-index: 1;
+    }
+    
+    .testimonial-card .text {
+      margin-top: 80px;
+      font-size: 15px;
+    }
+    
+    .testimonial-card .text a {
+      display: inline-block;
+      margin-top: 10px;
+      font-weight: bold;
+      text-decoration: underline;
+      color: #8a2c4b;
+    }
+    
+    .testimonial-card .profile {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-top: 1px solid #ddd;
+      margin-top: 20px;
+      padding-top: 10px;
+    }
+    
+    .profile img {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+    }
+    
+    .profile .social-icon {
+      width: 20px;
+      height: 20px;
+    }
+    
+    .swiper-button-prev, .swiper-button-next {
+      background-color: white;
+      color: #8a2c4b;
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    
+    .swiper-pagination-bullet {
+      background: white;
+      opacity: 1;
+    }
+    
+    .swiper-pagination-bullet-active {
+      background: black;
+    }
+</style>
