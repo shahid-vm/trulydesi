@@ -255,6 +255,7 @@
       <!-- Custom Serch form for Desktop -->
       <div class="small-hide medium-hide custom-d-serch-button-ctn">
       {% render 'custom-search-form', input_id: 'Search-In-Modal' %}
+      {% comment %}
         <div class="city-selector-custom">
           {% if page.metafields.custom.location == 'Mumbai' %}
           <button class="city-button">
@@ -274,8 +275,8 @@
             <li><a href="https://www.trulydesi.in/pages/mumbai" class="city-link"><img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/mumbai-city-icon.png?v=1744693644" alt="mumbai"> Mumbai</a></li>
           </ul>
         </div>
+      {% endcomment %}
       </div>
-      
       {%- if shop.customer_accounts_enabled -%}
         <a
           href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"
@@ -332,6 +333,7 @@
   </header>
    <div class="large-hide custom-m-serch-button-ctn">
     {% render 'custom-search-form', input_id: 'Search-In-Modal' %}
+     {% comment %}
     <div class="city-selector-custom">
       {% if page.metafields.custom.location == 'Mumbai' %}
       <a class="city-button" href="https://www.trulydesi.in/pages/mumbai">
@@ -351,6 +353,7 @@
         <li><a href="https://www.trulydesi.in/pages/mumbai" class="city-link"><img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/mumbai-city-icon.png?v=1744693644" alt="mumbai"> Mumbai</a></li>
       </ul>
     </div>
+     {% endcomment %}
   </div>
 </{{ header_tag }}>
 
