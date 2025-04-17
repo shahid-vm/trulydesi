@@ -539,3 +539,7 @@ dl {
     font-weight: 300;
     color: #2c2b2d;
 }
+.product-short-dis .metafield-rich_text_field p{
+  margin: 0px;
+  margin-top:10px !important;
+}
