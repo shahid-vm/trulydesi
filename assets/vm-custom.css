@@ -152,11 +152,11 @@ h2.homepage_h2 {
       margin-bottom: 50px;
   } */
 /* Card css */
-.product-card-wrapper  .card__heading {
+.product-card-wrapper .card__heading {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 15px;
-    font-weight: normal;
+    font-weight: 600;
     color: #14341E;
     text-align: center;
 }
