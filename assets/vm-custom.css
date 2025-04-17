@@ -535,9 +535,10 @@ dl {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     padding: 0px 10px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 300;
     color: #2c2b2d;
+    line-height: 20px;
 }
 .product-short-dis .metafield-rich_text_field p{
   margin: 0px;
