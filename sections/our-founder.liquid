@@ -196,6 +196,24 @@
       color: #444;
       line-height: 1.6;
     }
+      .testimonials-{{ section.id }} .swiper-pagination-bullet {
+      background: white;
+      opacity: 1;
+    }
+    
+    .testimonials-{{ section.id }} .swiper-pagination-bullet-active {
+      background: black;
+    }
+    .custom-nav {
+      font-size: 0px;
+      background-color: #579a72 !important;
+      padding: 20px;
+      color: #fff !important;
+      border-radius: 50%;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+      font-size: 20px !important;
+    }
     @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
