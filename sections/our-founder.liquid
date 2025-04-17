@@ -1,6 +1,196 @@
+<div class="section-{{ section.id }}-padding founders-{{ section.id }} color-{{ section.settings.color_scheme }}">
+  <h2>Our Founders</h2>
+  <p class="founders-intro">
+    Young and agile graduates from IIT Guwahati wanted to use their technical skills in the food and agriculture industry.
+    They have the vision to bring food processing to the farm level and provide traditional superfoods to everyone.
+  </p>
+    <div class="swiper mySwiper">
+    <div class="founders-container swiper-wrapper">
+      <div class="founder-card">
+        <img src="kuldeep.jpg" alt="Kuldeep Parewa" class="founder-img" />
+        <h3>Kuldeep Parewa</h3>
+        <p>Being from a farming family, I know the hardships they face. Equipping them with technology, financial aid, and food-processing machines will generate more value for them. And in turn, this leads to healthy and traceable food for consumers.</p>
+      </div>
+  
+      <div class="founder-card">
+        <img src="aayushi.jpg" alt="Aayushi Khandelwal" class="founder-img" />
+        <h3>Aayushi Khandelwal</h3>
+        <p>I have always missed my nani's recipes and nuskhe in this modern lifestyle. I have the vision to preserve these with India's lost superfoods and connect modern consumers with traditional food.</p>
+      </div>
+  
+      <div class="founder-card">
+        <img src="akhil.jpg" alt="Akhil Kansal" class="founder-img" />
+        <h3>Akhil Kansal</h3>
+        <p>Using technology to assess food quality and create a direct-from-farm supply chain excites me the most. In this era of rising diseases, consumers need access to quality food, and farmers need to be empowered.</p>
+      </div>
+    </div>
+      <!-- Arrows -->
+    <div class="swiper-button-prev custom-nav">prev</div>
+    <div class="swiper-button-next custom-nav">next</div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: false,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      }
+    }
+  });
+</script>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
-  }
-{% endschema %}
+      "name": "Our Founder",
+      "settings": [
+        {
+          "type": "color_scheme",
+          "id": "color_scheme",
+          "label": "t:sections.all.colors.label",
+          "default": "background-1"
+        },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "text",
+        "id":"discription",
+        "label":"Discription"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
+      ],
+      "blocks": [
+        {
+          "name": "Block",
+          "type": "Block",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "image",
+              "label": "Founder Image"
+            },
+            {
+              "type": "text",
+              "id":"title",
+              "label":"Customer Name"
+            },
+            {
+              "type": "text",
+              "id":"content",
+              "label":"Discription"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "Our Founder"
+        }
+      ]
+    }
+  {% endschema %}
+<style>
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    .founders-{{ section.id }} {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    
+    .founders-{{ section.id }} h2 {
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .founders-{{ section.id }} .founders-intro {
+      max-width: 800px;
+      margin: 0 auto 50px;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #555;
+    }
+    
+    .founders-{{ section.id }} .founders-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    
+    .founders-{{ section.id }} .founder-card {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      padding: 30px 20px;
+      max-width: 320px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+    
+    .founders-{{ section.id }} .founder-card:hover {
+      transform: translateY(-5px);
+    }
+    
+    .founders-{{ section.id }} .founder-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    
+    .founders-{{ section.id }} .founder-card h3 {
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+    
+    .founders-{{ section.id }} .founder-card p {
+      font-size: 15px;
+      color: #444;
+      line-height: 1.6;
+    }
+    @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+</style>
