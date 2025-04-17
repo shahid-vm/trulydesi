@@ -187,82 +187,6 @@
         "padding_bottom": 20
       }
     },
-    "location_areas_CARJpf": {
-      "type": "location-areas",
-      "blocks": {
-        "icon_box_mzN7WT": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Ambegaon Budruk",
-            "link": "shopify://pages/milk-delivery-in-ambegaon-budruk"
-          }
-        },
-        "icon_box_CGdyVA": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Aundh",
-            "link": ""
-          }
-        },
-        "icon_box_nr8eLE": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Baner",
-            "link": ""
-          }
-        },
-        "icon_box_rHjxth": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Bavdhan Khurd",
-            "link": ""
-          }
-        },
-        "icon_box_FVQzix": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Bavdhan Budruk",
-            "link": ""
-          }
-        },
-        "icon_box_Y6XAaw": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Balewadi",
-            "link": ""
-          }
-        },
-        "icon_box_JqVBHT": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Shivajinagar",
-            "link": ""
-          }
-        },
-        "icon_box_YV9kwW": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Bibvewadi",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "icon_box_mzN7WT",
-        "icon_box_CGdyVA",
-        "icon_box_nr8eLE",
-        "icon_box_rHjxth",
-        "icon_box_FVQzix",
-        "icon_box_Y6XAaw",
-        "icon_box_JqVBHT",
-        "icon_box_YV9kwW"
-      ],
-      "settings": {
-        "title": "Fresh A2 Milk Delivered in Pune",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "location_areas_kpQJ47": {
       "type": "location-areas",
       "blocks": {
@@ -436,6 +360,82 @@
         "coll-desc": ""
       }
     },
+    "location_areas_CARJpf": {
+      "type": "location-areas",
+      "blocks": {
+        "icon_box_mzN7WT": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Ambegaon Budruk",
+            "link": "shopify://pages/milk-delivery-in-ambegaon-budruk"
+          }
+        },
+        "icon_box_CGdyVA": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Aundh",
+            "link": ""
+          }
+        },
+        "icon_box_nr8eLE": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Baner",
+            "link": ""
+          }
+        },
+        "icon_box_rHjxth": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bavdhan Khurd",
+            "link": ""
+          }
+        },
+        "icon_box_FVQzix": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bavdhan Budruk",
+            "link": ""
+          }
+        },
+        "icon_box_Y6XAaw": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Balewadi",
+            "link": ""
+          }
+        },
+        "icon_box_JqVBHT": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Shivajinagar",
+            "link": ""
+          }
+        },
+        "icon_box_YV9kwW": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bibvewadi",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_mzN7WT",
+        "icon_box_CGdyVA",
+        "icon_box_nr8eLE",
+        "icon_box_rHjxth",
+        "icon_box_FVQzix",
+        "icon_box_Y6XAaw",
+        "icon_box_JqVBHT",
+        "icon_box_YV9kwW"
+      ],
+      "settings": {
+        "title": "Fresh A2 Milk Delivered in Pune",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "featured_blog_dC8T9G": {
       "type": "featured-blog",
       "custom_css": [
@@ -508,12 +508,12 @@
     "slideshow_eWVBwE",
     "scrolling_announcement_bar_UAEhwn",
     "location_content_block_TKrKwA",
-    "location_areas_CARJpf",
-    "location_areas_kpQJ47",
     "featured_collection_dgfBmJ",
     "image_banner_TDV7Vi",
     "icon_with_title_text_qRQTzn",
     "usp_section_kQwdyR",
+    "location_areas_CARJpf",
+    "location_areas_kpQJ47",
     "featured_blog_dC8T9G",
     "vm_certifications_eLDR6z"
   ]
