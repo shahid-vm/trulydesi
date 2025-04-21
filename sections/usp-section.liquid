@@ -1,8 +1,8 @@
 
   <div class="organic-section color-{{ section.settings.color_scheme }}">
+    <h2>{{ section.settings.title }}</h2>
+    <p class="sub-title">{{ section.settings.coll-desc }}</p>
     <div class="organic-container page-width">
-      <h2>{{ section.settings.title }}</h2>
-      <p class="sub-title">{{ section.settings.coll-desc }}</p>
        {% for block in section.blocks %}
           <div class="organic-item">
             <!-- <div class="icon"> -->
