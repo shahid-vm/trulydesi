@@ -68,6 +68,18 @@
         "show_text_below": false
       }
     },
+    "activity_section_fbGc73": {
+      "type": "activity-section",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/Rectangle_1_copy.png",
+        "title": "Activities",
+        "coll-desc": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "index_video_jGRhDF": {
       "type": "index-video",
       "settings": {
@@ -83,6 +95,7 @@
   "order": [
     "main",
     "image_banner_P4kbPi",
+    "activity_section_fbGc73",
     "index_video_jGRhDF"
   ]
 }
