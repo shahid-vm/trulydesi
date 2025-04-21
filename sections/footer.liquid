@@ -142,6 +142,26 @@
                         </div>
                       </div>
                     {% endif %}
+                    {% when 'platform' %}
+                    <div class="footer__block--mobile">
+                        <h2 class="footer__title">
+                         {{ block.settings.title }}
+                        </h2>
+                        <div class="footer-applink-container">
+                          {% if block.settings.img1 != blank %}
+                            <img src="{{ block.settings.img1 | img_url:'small' }}" loading="lazy" alt="platform" width="130" height="45">
+                          {% endif %}
+                          {% if block.settings.img2 != blank %}
+                            <img src="{{ block.settings.img2 | img_url:'small' }}" loading="lazy" alt="platform" width="130" height="45">
+                          {% endif %}
+                          {% if block.settings.img3 != blank %}
+                            <img src="{{ block.settings.img3 | img_url:'small' }}" loading="lazy" alt="platform" width="130" height="45">
+                          {% endif %}
+                          {% if block.settings.img4 != blank %}
+                            <img src="{{ block.settings.img4 | img_url:'small' }}" loading="lazy" alt="platform" width="130" height="45">
+                          {% endif %}
+                        </div>
+                      </div>
                   </div>
                   {%- endcase -%}
               </div>
@@ -370,6 +390,38 @@
             "type": "url",
             "id":"apple-store-link",
             "label":"Apple Store Link"
+          }
+        ]
+      },
+      {
+        "type": "platform",
+        "name": "Platform",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id":"img1",
+            "label": "Platform Image 1"
+          },
+          {
+            "type": "image_picker",
+            "id":"img2",
+            "label": "Platform Image 2"
+          },
+          {
+            "type": "image_picker",
+            "id":"img3",
+            "label": "Platform Image 3"
+          },
+          {
+            "type": "image_picker",
+            "id":"img4",
+            "label": "Platform Image 4"
           }
         ]
       }
