@@ -160,6 +160,12 @@
                           {% if block.settings.img4 != blank %}
                             <img src="{{ block.settings.img4 | img_url:'small' }}" loading="lazy" alt="platform" width="130" height="45">
                           {% endif %}
+                          {% if block.settings.img5 != blank %}
+                            <img src="{{ block.settings.img5 | img_url:'small' }}" loading="lazy" alt="platform" width="130" height="45">
+                          {% endif %}
+                          {% if block.settings.img6 != blank %}
+                            <img src="{{ block.settings.img6 | img_url:'small' }}" loading="lazy" alt="platform" width="130" height="45">
+                          {% endif %}
                         </div>
                       </div>
                   </div>
@@ -422,6 +428,16 @@
             "type": "image_picker",
             "id":"img4",
             "label": "Platform Image 4"
+          },
+          {
+            "type": "image_picker",
+            "id":"img5",
+            "label": "Platform Image 5"
+          },
+          {
+            "type": "image_picker",
+            "id":"img6",
+            "label": "Platform Image 6"
           }
         ]
       }
