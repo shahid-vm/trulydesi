@@ -68,38 +68,6 @@
         "show_text_below": false
       }
     },
-    "meet_our_cow_pfqcPC": {
-      "type": "meet-our-cow",
-      "blocks": {
-        "block_3eqHPW": {
-          "type": "Block",
-          "settings": {
-            "show_right_content": true,
-            "main-img": "shopify://shop_images/Sustainability_Conservation_Section.png",
-            "main-title": "The Gir Cow – The Elixir of A2 Milk",
-            "coll-desc": "<p>Originating from <strong>Gujarat</strong>, the <strong>Gir cow</strong> is known for its <strong>high-quality A2 milk</strong>, which is easier to digest and packed with essential nutrients.<br/> ✔ <strong>Hump Advantage</strong> – The Gir cow’s distinctive <strong>hump contains the Surya Ketu Nadi</strong>, believed to enhance the nutritional value of its milk.<br/> ✔ <strong>Superior A2 Beta-Casein</strong> – A2 milk is known to support <strong>better digestion, heart health, and immunity</strong> compared to A1 milk.<br/> ✔ <strong>Docile & Loving Nature</strong> – Gir cows are naturally calm, adapting well to our free-grazing, open-farm environment.</p>"
-          }
-        },
-        "block_6hdGB4": {
-          "type": "Block",
-          "settings": {
-            "show_right_content": false,
-            "main-img": "shopify://shop_images/Sustainability_Conservation_Section.png",
-            "main-title": "The Gir Cow – The Elixir of A2 Milk",
-            "coll-desc": "<p>Originating from <strong>Gujarat</strong>, the <strong>Gir cow</strong> is known for its <strong>high-quality A2 milk</strong>, which is easier to digest and packed with essential nutrients.<br/> ✔ <strong>Hump Advantage</strong> – The Gir cow’s distinctive <strong>hump contains the Surya Ketu Nadi</strong>, believed to enhance the nutritional value of its milk.<br/> ✔ <strong>Superior A2 Beta-Casein</strong> – A2 milk is known to support <strong>better digestion, heart health, and immunity</strong> compared to A1 milk.<br/> ✔ <strong>Docile & Loving Nature</strong> – Gir cows are naturally calm, adapting well to our free-grazing, open-farm environment.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "block_3eqHPW",
-        "block_6hdGB4"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "title": "Meet Our Cows",
-        "content": "<p>At <strong>Truly Desi</strong>, we take immense pride in nurturing two of India's most revered indigenous cow breeds—<strong>Gir and Punganur</strong>. Their superior genetics, natural diet, and stress-free environment make them the backbone of our <strong>pure, nutrient-rich dairy products</strong>.</p>"
-      }
-    },
     "usp_section_kQwdyR": {
       "type": "usp-section",
       "blocks": {
@@ -174,7 +142,6 @@
   "order": [
     "main",
     "image_banner_P4kbPi",
-    "meet_our_cow_pfqcPC",
     "usp_section_kQwdyR",
     "index_video_jGRhDF"
   ]
