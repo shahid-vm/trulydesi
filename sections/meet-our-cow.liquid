@@ -7,6 +7,7 @@
   <div class="truly-desi-content">
     <!-- Block 1 -->
     {% for block in section.blocks %}
+      {% if block.settings.show_right_content == true %}
       <div class="truly-desi-block block-left">
         <div class="number">{{ forloop.index }}</div>
         <div class="text">
@@ -17,7 +18,7 @@
         </div>
         <img src="{{ block.settings.main-img | img_url:'master' }}" alt="Leaf Left" class="leaf-left" />
       </div>
-  
+      {% else %}
       <!-- Block 2 -->
       <div class="truly-desi-block block-right">
         <div class="number">{{ forloop.index }}</div>
@@ -29,6 +30,7 @@
         </div>
         <img src="{{ block.settings.main-img | img_url:'master' }}" alt="Leaf Right" class="leaf-right" />
       </div>
+      {% endif %}
     {% endfor %}
   </div>
 </section>
@@ -48,6 +50,13 @@
         "name": "Block",
         "type": "Block",
         "settings": [
+          {
+            "type": "checkbox",
+            "id": "show_right_content",
+            "default": false,
+            "label": "Show Second Content",
+            "info": "Show Second Content"
+          },
           {
             "type": "image_picker",
             "id": "main-img",
