@@ -75,40 +75,40 @@
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/Background_1.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "title": "Cow Therapy",
+            "sub-title": "Cuddle, feed, and bond with our gentle cows."
           }
         },
         "block_mApPX7": {
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/Background_2.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "title": "Orchard Walk",
+            "sub-title": "Stroll through lush coconut & papaya groves"
           }
         },
         "block_MWhkUG": {
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/Background_3.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "title": "Hand Milking",
+            "sub-title": "Try your hand at milking, only after calves are fully fed."
           }
         },
         "block_j76HbY": {
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/Background_4.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "title": "Sustainable Living",
+            "sub-title": "Learn how our biogas plant powers the farm and enriches the soil."
           }
         },
         "block_jLLpVP": {
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/Background_5.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "title": "Farm to Table",
+            "sub-title": "Get hands-on with sowing, harvesting, and organic farming."
           }
         }
       },
