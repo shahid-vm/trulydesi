@@ -110,7 +110,9 @@
             <p class="testimonial-text" id="testimonial-text">
                 "{{ block.settings.content }}"
             </p>
-            <img src="{{ block.settings.image | img_url:'master' }}" alt="customer-profile-image" class="testimonial-img" id="testimonial-img">
+            {% if   block.settings.image != blank %}
+              <img src="{{ block.settings.image | img_url:'master' }}" alt="customer-profile-image" class="testimonial-img" id="testimonial-img">
+            {% endif %}
             <p class="testimonial-name" id="testimonial-name">{{ block.settings.title }}</p>
             <p class="testimonial-role" id="testimonial-role">{{ block.settings.sub-title }}</p>
     
