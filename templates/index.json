@@ -273,6 +273,49 @@
         "color_scheme": ""
       }
     },
+    "home_journey_z4QLLy": {
+      "type": "home-journey",
+      "blocks": {
+        "text_tQPU3f": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/A1-Quality-Ingredients-Are-Handpicked-min.png",
+            "step-title": "A1 Quality Ingredients Are Handpicked"
+          }
+        },
+        "text_GUw7BY": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Steamed-_-Packed-To-Perfection-min.png",
+            "step-title": "Steamed & Packed To Perfection"
+          }
+        },
+        "text_nGrBPP": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Delivered-At-Your-Doorstep-min.png",
+            "step-title": "Delivered At Your Doorstep"
+          }
+        }
+      },
+      "block_order": [
+        "text_tQPU3f",
+        "text_GUw7BY",
+        "text_nGrBPP"
+      ],
+      "settings": {
+        "background-image": "shopify://shop_images/Mask-Group-1.webp",
+        "title": "Journey From Farm To Plate",
+        "btn_text": "",
+        "btn_url": "",
+        "arrow-1": "shopify://shop_images/Path-33215.png",
+        "arrow-2": "shopify://shop_images/Path-33214.png",
+        "color_scheme": "scheme-4adbd562-2f1b-4a1c-9166-2e1989fcdc6a",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "usp_section_kQwdyR": {
       "type": "usp-section",
       "blocks": {
@@ -324,6 +367,7 @@
         "block_j76HbY",
         "block_jLLpVP"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "title": "",
@@ -460,7 +504,6 @@
         "block_Y9hYAj",
         "block_Qx69bt"
       ],
-      "name": "Never Ever Section",
       "settings": {
         "color_scheme": "",
         "title": "Never have I ever",
@@ -533,10 +576,11 @@
         "block_zhVA38",
         "block_gTqxXC"
       ],
-      "name": "Franke Testinomial",
       "settings": {
         "color_scheme": "scheme-054a3b84-2490-4fc2-aee0-f64f5776242e",
-        "title": "Real People. Real Reviews"
+        "title": "Real People. Real Reviews",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "customer_testimonial_T7fWbG": {
@@ -656,6 +700,7 @@
     "image_banner_TDV7Vi",
     "icon_with_title_text_qRQTzn",
     "image_description_blocks_gFzhHN",
+    "home_journey_z4QLLy",
     "usp_section_kQwdyR",
     "brand_section_eHygHB",
     "never_ever_section_gXK9rN",
