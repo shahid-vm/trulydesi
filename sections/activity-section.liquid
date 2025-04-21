@@ -1,6 +1,138 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<div class="aim-section-{{ section.id }}">
+  <div class="aim-image">
+    <img src="your-image-path.png" alt="Organic Product Packaging">
+  </div>
+  <div class="aim-content">
+    <h2>Our Aim</h2>
+    <ul class="aim-list">
+      <li>
+        <span class="icon">💖</span>
+        <span class="text">May All Be Healthy</span>
+      </li>
+      <li>
+        <span class="icon">🧑‍🤝‍🧑</span>
+        <span class="text">Our Products To Be Health Enriching</span>
+      </li>
+      <li>
+        <span class="icon">🌿</span>
+        <span class="text">Excellence In Providing Organic Products</span>
+      </li>
+      <li>
+        <span class="icon">😊</span>
+        <span class="text">Spread Happiness In An Organic Way</span>
+      </li>
+      <li>
+        <span class="icon">🌍</span>
+        <span class="text">To Be A Global Leader In Creating Healthy Environment</span>
+      </li>
+    </ul>
+  </div>
+</div>
+   {% schema %}
+{
+    "name": "Activity Section",
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "background-1"
+      }, 
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+      {
+        "type": "richtext",
+        "id": "coll-desc",
+        "label": "Description"
+      },
+    ],
+    "blocks": [
+      {
+        "name": "Block",
+        "type": "Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }, 
+          {
+            "type": "text",
+            "id": "sub-title",
+            "label": "Sub Title"
+          }, 
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Activity Section"
+
+      }
+    ]
   }
 {% endschema %}
+<style>
+  .aim-section-{{ section.id }} {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f8f8f0;
+  border-radius: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.aim-section-{{ section.id }} .aim-image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.aim-section-{{ section.id }}  .aim-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 30px;
+}
+
+.aim-section-{{ section.id }}  .aim-content {
+  flex: 1 1 300px;
+  padding: 1rem 2rem;
+}
+
+.aim-section-{{ section.id }}  .aim-content h2 {
+  font-size: 2rem;
+  color: #134E4A;
+  margin-bottom: 1.5rem;
+}
+
+.aim-section-{{ section.id }}  .aim-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.aim-section-{{ section.id }}  .aim-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+.aim-section-{{ section.id }}  .icon {
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+  color: #1E3A8A;
+}
+
+.aim-section-{{ section.id }}  .text {
+  font-weight: 600;
+  color: #1E3A8A;
+}
+</style>
