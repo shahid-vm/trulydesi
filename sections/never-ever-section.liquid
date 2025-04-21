@@ -124,8 +124,8 @@
 {% endschema %}
   <style>
       .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+        padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px !important;
       }
      .never-have-i-ever {
         text-align: center;
@@ -192,6 +192,8 @@
         margin: 0 auto;
         position: relative;
         z-index: 1;
+        flex-wrap: wrap;
+        place-content: center;
       }
       
       .{{ section.id }} .bottom-box .text {
@@ -223,7 +225,7 @@
 
       @media screen and (min-width: 750px) {
       .section-{{ section.id }}-padding {
-        padding-top: {{ section.settings.padding_top }}px;
-        padding-bottom: {{ section.settings.padding_bottom }}px;
+        padding-top: {{ section.settings.padding_top }}px !important;
+        padding-bottom: {{ section.settings.padding_bottom }}px !important;
       }
   </style>

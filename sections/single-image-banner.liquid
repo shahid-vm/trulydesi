@@ -1,6 +1,105 @@
+<div class="single-image-banner">
+  <div class="image-wrapper {% unless section.settings.full_width %}page-width{% endunless %}">
+    {% if section.settings.desktop-image and section.settings.mobile-image %}
+      {% if section.settings.url != blank %}<a href="{{ section.settings.url }}">{% endif %}
+        <div class="single-img-main-div">
+          <img src="{{ section.settings.desktop-image | img_url: 'master' }}" alt="{{ section.settings.desktop-imag.alt }}" class=" single-img-desk">
+          <img src="{{ section.settings.mobile-image | img_url: 'master' }}" alt="{{ section.settings.mobile-image.alt }}" class="single-img-mob">
+        </div>
+       {% if section.settings.url != blank %}</a>{% endif %}
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Single Image Banner",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Layout"
+      },
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Make it Full Width",
+        "default": false
+      },
+      {
+        "type": "image_picker",
+        "id": "desktop-image",
+        "label": "Desktop Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile-image",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "url",
+        "id": "link",
+        "label": "Banner Link"
+      },
+      {
+        "type": "header",
+        "content": "Section Padding"
+      },
+      {
+        "type": "range",
+        "id": "padding-top",
+        "label": "Padding Top",
+        "min": 10,
+        "max": 100,
+        "step": 10,
+        "default": 40
+      },
+      {
+        "type": "range",
+        "id": "padding-bottom",
+        "label": "Padding Bottom",
+        "min": 0,
+        "max": 100,
+        "step": 10,
+        "default": 40
+      }
+    ],
+    "presets": [
+      {
+        "name": "Single - Image Banner"
+      }
+    ]
   }
 {% endschema %}
+
+<style>
+#shopify-section-{{ section.id }} {
+    padding-top: {{ section.settings.padding-top }}px;
+    padding-bottom: {{ section.settings.padding-bottom }}px;
+}
+  
+#shopify-section-{{ section.id }} .single-img-desk {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.page-width .single-img-desk, .page-width .single-img-mob {
+      border-radius: 7px;
+}
+  
+#shopify-section-{{ section.id }} .single-img-mob {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 750px) {
+#shopify-section-{{ section.id }} .single-img-desk {
+    display: none;
+}
+
+#shopify-section-{{ section.id }} .single-img-mob {
+    display: block;
+}
+}
+</style>

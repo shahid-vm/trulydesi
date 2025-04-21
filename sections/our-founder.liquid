@@ -1,39 +1,19 @@
 <div class="section-{{ section.id }}-padding founders-{{ section.id }} color-{{ section.settings.color_scheme }}">
-  <h2>Our Founders</h2>
+  <h2>{{ section.settings.title }}</h2>
   <p class="founders-intro">
-    Young and agile graduates from IIT Guwahati wanted to use their technical skills in the food and agriculture industry.
-    They have the vision to bring food processing to the farm level and provide traditional superfoods to everyone.
+   {{ section.settings.discription }}
   </p>
     <div class="swiper mySwiper">
     <div class="swiper-wrapper">
+      {% for block in section.blocks %}
       <div class="swiper-slide">
         <div class="founder-card">
-          <img src="kuldeep.jpg" alt="Kuldeep Parewa" class="founder-img" />
-          <h3>Kuldeep Parewa</h3>
-          <p>Being from a farming family, I know the hardships they face. Equipping them with technology, financial aid, and food-processing machines will generate more value for them. And in turn, this leads to healthy and traceable food for consumers.</p>
+          <img src="{{ block.settings.image | img_url:'master' }}" alt="Founder Image" class="founder-img" />
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.content }}</p>
         </div>
       </div>
-      <div class="swiper-slide">
-        <div class="founder-card">
-          <img src="kuldeep.jpg" alt="Kuldeep Parewa" class="founder-img" />
-          <h3>Kuldeep Parewa</h3>
-          <p>Being from a farming family, I know the hardships they face. Equipping them with technology, financial aid, and food-processing machines will generate more value for them. And in turn, this leads to healthy and traceable food for consumers.</p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="founder-card">
-          <img src="kuldeep.jpg" alt="Kuldeep Parewa" class="founder-img" />
-          <h3>Kuldeep Parewa</h3>
-          <p>Being from a farming family, I know the hardships they face. Equipping them with technology, financial aid, and food-processing machines will generate more value for them. And in turn, this leads to healthy and traceable food for consumers.</p>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="founder-card">
-          <img src="kuldeep.jpg" alt="Kuldeep Parewa" class="founder-img" />
-          <h3>Kuldeep Parewa</h3>
-          <p>Being from a farming family, I know the hardships they face. Equipping them with technology, financial aid, and food-processing machines will generate more value for them. And in turn, this leads to healthy and traceable food for consumers.</p>
-        </div>
-      </div>
+      {% endfor %}
     </div>
       <!-- Arrows -->
     <div class="swiper-button-prev custom-nav">prev</div>
@@ -108,8 +88,8 @@
       ],
       "blocks": [
         {
-          "name": "Block",
-          "type": "Block",
+          "name": "Founder",
+          "type": "Founder",
           "settings": [
             {
               "type": "image_picker",
@@ -160,8 +140,10 @@
       color: #555;
     }
     
-  .founders-{{ section.id }} .swiper-wrapper {
-      margin:0px auto;
+    .founders-{{ section.id }} .swiper-wrapper {
+      padding: 10px 0px;
+      display: flex;
+      justify-content: center;
     } 
     
     .founders-{{ section.id }} .founder-card {
@@ -172,6 +154,8 @@
       max-width: 320px;
       text-align: center;
       transition: transform 0.3s;
+      margin: 0px auto;
+      min-height: 400px;
     }
     
     .founders-{{ section.id }} .founder-card:hover {
@@ -214,6 +198,9 @@
     .swiper-button-next:after, .swiper-button-prev:after {
       font-size: 20px !important;
     }
+  .swiper-slide{
+    margin-right: 0px !important;
+  }
     @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
