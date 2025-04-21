@@ -90,6 +90,9 @@
         "heading_NBNte8",
         "text_VwLEtD"
       ],
+      "custom_css": [
+        "h2.rich-text__heading.rte.inline-richtext.h1 {color: #064f32; font-size: 28px; font-weight: 700; margin: 0px; margin-bottom: 5px; text-align: center;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "center",
