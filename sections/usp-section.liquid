@@ -1,7 +1,7 @@
 
   <div class="organic-section color-{{ section.settings.color_scheme }}" section-{{ section.id }}-padding>
     <h2>{{ section.settings.title }}</h2>
-    <p class="sub-title">{{ section.settings.coll-desc }}</p>
+    <div class="sub-title">{{ section.settings.coll-desc }}</div>
     <div class="organic-container page-width">
        {% for block in section.blocks %}
           <div class="organic-item">
@@ -100,7 +100,7 @@
             margin-bottom: 20px;
             text-align: center;
         }
-        .organic-section .sub-title{
+        .organic-section .sub-title p{
           padding: 0px;
           margin: 0px;
           text-align: center;
