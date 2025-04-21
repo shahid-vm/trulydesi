@@ -1,5 +1,6 @@
 <!-- Swiper HTML Structure -->
-    <div class="swiper container-{{ section.id }} page-width color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
+<div class="section-{{ section.id }} page-width section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
+    <div class="swiper container-{{ section.id }}">
       <h2>{{ section.settings.title }}</h2>
       <p class="content-{{ section.id }}">{{ section.settings.content }}</p>
       <div class="swiper-wrapper">
@@ -49,7 +50,7 @@
         <div class="swiper-button-next arrow-cut">next</div>
         <div class="swiper-pagination"></div>
     </div>
-
+</div>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
