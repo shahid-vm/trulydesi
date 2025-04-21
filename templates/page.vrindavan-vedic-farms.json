@@ -68,7 +68,7 @@
         "show_text_below": false
       }
     },
-   "usp_section_kQwdyR": {
+    "usp_section_kQwdyR": {
       "type": "usp-section",
       "blocks": {
         "block_qy3V3B": {
@@ -119,7 +119,6 @@
         "block_j76HbY",
         "block_jLLpVP"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "title": "",
