@@ -175,6 +175,9 @@
     },
     "single_image_banner_LAUbP9": {
       "type": "single-image-banner",
+      "custom_css": [
+        ".single-img-desk {display: block; width: 60%; height: auto; margin: 0px auto;}"
+      ],
       "settings": {
         "full_width": false,
         "desktop-image": "shopify://shop_images/Timeline-02.jpg",
