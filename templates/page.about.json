@@ -187,8 +187,8 @@
         "desktop-image": "shopify://shop_images/Timeline-02.jpg",
         "mobile-image": "shopify://shop_images/Timeline-02.jpg",
         "link": "",
-        "padding-top": 40,
-        "padding-bottom": 40
+        "padding-top": 10,
+        "padding-bottom": 0
       }
     }
   },
