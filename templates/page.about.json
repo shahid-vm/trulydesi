@@ -166,7 +166,7 @@
       ],
       "custom_css": [
         "h2.rich-text__heading.rte.inline-richtext.h2 {color: #064f32; font-size: 28px; font-weight: bold; text-align: center;}",
-        "p{max-width: 800px; margin: 0 auto 50px; font-size: 16px; line-height: 1.6; color: #555;}"
+        "p {max-width: 800px; font-size: 16px; color: #555;}"
       ],
       "settings": {
         "desktop_content_position": "center",
