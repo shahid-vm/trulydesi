@@ -707,9 +707,9 @@ ul.policies {
 .footer-platform-container
 {
   display:flex;
+  gap:10px;
 }
-.footer-platform-container img
-{
+.footer-platform-container img{
   width: 70px;
   height: auto;
 }
