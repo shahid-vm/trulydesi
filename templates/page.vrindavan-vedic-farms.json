@@ -68,16 +68,62 @@
         "show_text_below": false
       }
     },
-    "activity_section_fbGc73": {
-      "type": "activity-section",
+   "usp_section_kQwdyR": {
+      "type": "usp-section",
+      "blocks": {
+        "block_qy3V3B": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_1.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        },
+        "block_mApPX7": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_2.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        },
+        "block_MWhkUG": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_3.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        },
+        "block_j76HbY": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_4.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        },
+        "block_jLLpVP": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_5.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_qy3V3B",
+        "block_mApPX7",
+        "block_MWhkUG",
+        "block_j76HbY",
+        "block_jLLpVP"
+      ],
       "disabled": true,
       "settings": {
         "color_scheme": "",
-        "image": "shopify://shop_images/Rectangle_1_copy.png",
-        "title": "Activities",
-        "coll-desc": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "",
+        "coll-desc": ""
       }
     },
     "index_video_jGRhDF": {
@@ -95,7 +141,7 @@
   "order": [
     "main",
     "image_banner_P4kbPi",
-    "activity_section_fbGc73",
+    "usp_section_kQwdyR",
     "index_video_jGRhDF"
   ]
 }
