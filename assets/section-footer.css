@@ -703,3 +703,13 @@ ul.policies {
     }
   }
 }
+
+.footer-platform-container
+{
+  display:flex;
+}
+.footer-platform-container img
+{
+  width: 70px;
+  height: auto;
+}
