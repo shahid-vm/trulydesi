@@ -708,6 +708,7 @@ ul.policies {
 {
   display:flex;
   gap:10px;
+  flex-flow: wrap;
 }
 .footer-platform-container img{
   width: 70px;
