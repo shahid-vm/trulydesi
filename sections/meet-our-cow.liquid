@@ -1,7 +1,7 @@
 <section class="why-truly-desi-section page-width">
   <div class="section-header">
-    <h2>Why Kapiva?</h2>
-    <p class="tagline">HEALTHY INSIDE, HAPPY OUTSIDE</p>
+    <h2>{{ section.settings.title }}</h2>
+    <p class="tagline">{{ section.settings.content }}</p>
   </div>
 
   <div class="truly-desi-content">
@@ -44,6 +44,16 @@
         "label": "t:sections.all.colors.label",
         "default": "background-1"
       },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "label": "Description"
+      }
     ],
     "blocks": [
       {
