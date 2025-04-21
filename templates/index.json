@@ -272,13 +272,22 @@
       "settings": {
         "color_scheme": "",
         "title": "",
-        "content": ""
+        "content": "",
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     },
     "home_journey_z4QLLy": {
       "type": "home-journey",
       "blocks": {
         "text_tQPU3f": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/A1-Quality-Ingredients-Are-Handpicked-min.png",
+            "step-title": "A1 Quality Ingredients Are Handpicked"
+          }
+        },
+        "text_7bmHeX": {
           "type": "text",
           "settings": {
             "step-image": "shopify://shop_images/A1-Quality-Ingredients-Are-Handpicked-min.png",
@@ -298,12 +307,21 @@
             "step-image": "shopify://shop_images/Delivered-At-Your-Doorstep-min.png",
             "step-title": "Delivered At Your Doorstep"
           }
+        },
+        "text_B3wDkC": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Delivered-At-Your-Doorstep-min.png",
+            "step-title": "Delivered At Your Doorstep"
+          }
         }
       },
       "block_order": [
         "text_tQPU3f",
+        "text_7bmHeX",
         "text_GUw7BY",
-        "text_nGrBPP"
+        "text_nGrBPP",
+        "text_B3wDkC"
       ],
       "settings": {
         "background-image": "shopify://shop_images/Mask-Group-1.webp",
