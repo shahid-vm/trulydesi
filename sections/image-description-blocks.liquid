@@ -1,5 +1,5 @@
 <!-- Swiper HTML Structure -->
-    <div class="swiper container-{{ section.id }} page-width color-{{ section.settings.color_scheme }}">
+    <div class="swiper container-{{ section.id }} page-width color-{{ section.settings.color_scheme }} section-{{ section.id }}-padding">
       <h2>{{ section.settings.title }}</h2>
       <p class="content-{{ section.id }}">{{ section.settings.content }}</p>
       <div class="swiper-wrapper">
@@ -145,6 +145,10 @@
   }
 {% endschema %}
     <style> 
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+          padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+        }
        .container-{{ section.id }} h2{
           color: #064f32;
           font-size: 28px;
@@ -280,4 +284,11 @@
       .swiper-button-next:after, .swiper-button-prev:after {
         font-size: 20px !important;
       }
+   @media screen and (min-width: 750px) {
+        .section-{{ section.id }}-padding {
+          padding-top: {{ section.settings.padding_top }}px;
+          padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+     }
+      
     </style>
