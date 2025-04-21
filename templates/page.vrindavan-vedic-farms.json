@@ -192,7 +192,9 @@
       "settings": {
         "color_scheme": "",
         "title": "Meet Our Cows",
-        "content": "At Truly Desi, we take immense pride in nurturing two of India's most revered indigenous cow breeds—Gir and Punganur. Their superior genetics, natural diet, and stress-free environment make them the backbone of our pure, nutrient-rich dairy products."
+        "content": "At Truly Desi, we take immense pride in nurturing two of India's most revered indigenous cow breeds—Gir and Punganur. Their superior genetics, natural diet, and stress-free environment make them the backbone of our pure, nutrient-rich dairy products.",
+        "padding_top": 30,
+        "padding_bottom": 60
       }
     },
     "index_video_jGRhDF": {
