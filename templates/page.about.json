@@ -176,8 +176,9 @@
     "single_image_banner_LAUbP9": {
       "type": "single-image-banner",
       "settings": {
-        "full_width": true,
+        "full_width": false,
         "desktop-image": "shopify://shop_images/Timeline-02.jpg",
+        "mobile-image": "shopify://shop_images/Timeline-02.jpg",
         "link": "",
         "padding-top": 40,
         "padding-bottom": 40
