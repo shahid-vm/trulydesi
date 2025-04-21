@@ -1,9 +1,9 @@
-<div class="aim-section-{{ section.id }}">
+<div class="aim-section-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
   <div class="aim-image">
-    <img src="your-image-path.png" alt="Organic Product Packaging">
+    <img src="{{ section.settings.image | img_url:'master' }}" alt="Organic Product Packaging">
   </div>
   <div class="aim-content">
-    <h2>Our Aim</h2>
+    <h2>{{ section.settings.title }}</h2>
     <ul class="aim-list">
       <li>
         <span class="icon">💖</span>
@@ -39,6 +39,11 @@
         "default": "background-1"
       }, 
       {
+       "type": "image_picker",
+        "id": "image",
+        "label": "Main Image"
+      },
+      {
         "type": "text",
         "id": "title",
         "label": "Heading"
@@ -48,6 +53,26 @@
         "id": "coll-desc",
         "label": "Description"
       },
+            {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
     ],
     "blocks": [
       {
@@ -81,6 +106,10 @@
   }
 {% endschema %}
 <style>
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
   .aim-section-{{ section.id }} {
   display: flex;
   flex-wrap: wrap;
@@ -135,4 +164,9 @@
   font-weight: 600;
   color: #1E3A8A;
 }
+@media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
 </style>
