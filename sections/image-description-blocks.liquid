@@ -1,5 +1,7 @@
 <!-- Swiper HTML Structure -->
     <div class="swiper container-{{ section.id }} page-width color-{{ section.settings.color_scheme }}">
+      <h2>{{ section.settings.title }}</h2>
+      <p class="content-{{ section.id }}">{{ section.settings.content }}</p>
       <div class="swiper-wrapper">
         {% for block in section.blocks %}
           <div class="swiper-slide sub-container-{{ section.id }}">
@@ -81,6 +83,16 @@
         "label": "t:sections.all.colors.label",
         "default": "background-1"
       },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+      },
+      {
+        "type": "text",
+        "id": "content",
+        "label": "Description"
+      }
     ],
     "blocks": [
       {
