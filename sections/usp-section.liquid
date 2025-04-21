@@ -92,6 +92,20 @@
           padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
           padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
         }
+       .organic-section h2 {
+            color: #064f32;
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .organic-section .sub-title{
+          padding: 0px;
+          margin: 0px;
+          text-align: center;
+          margin-bottom: 20px;
+        }
         .organic-section .organic-container {
           margin: 0 auto;
           display: flex;
@@ -125,13 +139,6 @@
           font-size: 16px;
           font-weight: 500;
           line-height: 1.5;
-        }
-       .organic-section h2 {
-            color: #064f32;
-            font-size: 28px;
-            font-weight: 700;
-            margin-top: 20px;
-            text-align: center;
         }
         @media screen and (max-width: 749px) {
           .organic-section .organic-container {
