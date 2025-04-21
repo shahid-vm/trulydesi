@@ -67,7 +67,10 @@
             "title": "We also available on",
             "img1": "shopify://shop_images/image_1.png",
             "img2": "shopify://shop_images/image_2.png",
-            "img3": "shopify://shop_images/image_3.png"
+            "img3": "shopify://shop_images/image_3.png",
+            "img4": "shopify://shop_images/image_2.png",
+            "img5": "shopify://shop_images/image_3.png",
+            "img6": "shopify://shop_images/image_1.png"
           }
         }
       },
