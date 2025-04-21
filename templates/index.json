@@ -270,7 +270,9 @@
         "block_gXgDBH"
       ],
       "settings": {
-        "color_scheme": ""
+        "color_scheme": "",
+        "title": "",
+        "content": ""
       }
     },
     "home_journey_z4QLLy": {
@@ -310,7 +312,7 @@
         "btn_url": "",
         "arrow-1": "shopify://shop_images/Path-33215.png",
         "arrow-2": "shopify://shop_images/Path-33214.png",
-        "color_scheme": "scheme-4adbd562-2f1b-4a1c-9166-2e1989fcdc6a",
+        "color_scheme": "scheme-b358da23-ef12-42b0-9985-e6703f126c31",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -371,7 +373,9 @@
       "settings": {
         "color_scheme": "",
         "title": "",
-        "coll-desc": ""
+        "coll-desc": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "brand_section_eHygHB": {
