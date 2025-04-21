@@ -6,50 +6,30 @@
 
   <div class="truly-desi-content">
     <!-- Block 1 -->
-    <div class="truly-desi-block block-left">
-      <div class="number">01</div>
-      <div class="text">
-        <h4>FORMULATED BY EXPERTS<br>AT KAPIVA ACADEMY OF AYURVEDA</h4>
-        <p>
-          Experts at Kapiva Academy of Ayurveda, Ph.D.’s, and Ayurvedacharya
-          with over 50 years of cumulative experience build formulations with
-          scientifically and clinically tested ingredients, to make our
-          proprietary products that help you reach your health goals.
-        </p>
+    {% for block in section.blocks %}
+      <div class="truly-desi-block block-left">
+        <div class="number">{{ forloop.index }}</div>
+        <div class="text">
+          <h4>{{ block.settings.title }}</h4>
+          <p>
+           {{ block.settings.coll-desc }}
+          </p>
+        </div>
+        <img src="{{ block.settings.main-img | img_url:'master' }}" alt="Leaf Left" class="leaf-left" />
       </div>
-      <img src="your-leaf-left.png" alt="Decorative Leaf Left" class="leaf-left" />
-    </div>
-
-    <!-- Block 2 -->
-    <div class="truly-desi-block block-right">
-      <div class="number">02</div>
-      <div class="text">
-        <h4>THE BEST INGREDIENTS<br>PASSED THROUGH TOUGHEST PROCESS</h4>
-        <p>
-          We go the extra mile to source the best ingredients like Shilajit from
-          18000 Ft. in the Himalayas, Aloe Vera from the Thar Desert, and Noni
-          from Andamans. Our Hair Oils are made with herbs slowly heated with
-          Oil for days or Body butter with Ghee 100 times washed. We manufacture
-          our products in GMP-certified facilities, of which 8 are USFDA approved.
-        </p>
+  
+      <!-- Block 2 -->
+      <div class="truly-desi-block block-right">
+        <div class="number">{{ forloop.index }}</div>
+        <div class="text">
+          <h4>{{ block.settings.title }}</h4>
+          <p>
+           {{ block.settings.coll-desc }}
+          </p>
+        </div>
+        <img src="{{ block.settings.main-img | img_url:'master' }}" alt="Leaf Right" class="leaf-right" />
       </div>
-      <img src="your-leaf-right.png" alt="Decorative Leaf Right" class="leaf-right" />
-    </div>
-
-    <!-- Block 3 -->
-    <div class="truly-desi-block block-left">
-      <div class="number">03</div>
-      <div class="text">
-        <h4>HOLISTIC SOLUTIONS<br>FOR EVERY NEED</h4>
-        <p>
-          Be it acne, hair fall, or diabetes, we don’t stop at just giving you
-          products as that is just one element of solving your problem. We also
-          give free health expert advice, personalized diet plans, and lifestyle
-          recommendations including Yoga Asanas.
-        </p>
-      </div>
-      <img src="your-strawberry-leaf.png" alt="Decorative Strawberry Leaf" class="leaf-left" />
-    </div>
+    {% endfor %}
   </div>
 </section>
 {% schema %}
@@ -82,26 +62,6 @@
             "type": "richtext",
             "id": "coll-desc",
             "label": "Description"
-          },
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image 1"
-          },
-          {
-            "type": "text",
-            "id":"title",
-            "label":"Title 1"
-          },
-          {
-            "type": "image_picker",
-            "id": "image2",
-            "label": "Image 2"
-          },
-          {
-            "type": "text",
-            "id":"title2",
-            "label":"Title 2"
           }
         ]
       }
@@ -117,7 +77,6 @@
   .why-truly-desi-section {
   background: #fff;
   padding: 4rem 2rem;
-  font-family: 'Segoe UI', sans-serif;
   position: relative;
 }
 
