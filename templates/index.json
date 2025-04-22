@@ -244,34 +244,42 @@
         "block_jkzhmm": {
           "type": "Block",
           "settings": {
-            "main-img": "shopify://shop_images/image.png",
-            "main-title": "Sustainable Farming Is The Way Ahead",
-            "coll-desc": "<p>At GirOrganic, we blend tradition with modernity, ensuring hygiene and quality. Our farm is free from chemical fertilizers, using cow dung and urine as natural alternatives. Healthy cows are milked hygienically with untouched technology, providing pure A2 milk daily. Calves always receive 40-50% of their mother’s milk first, ensuring care for every life.<br/><br/></p>",
-            "image": "shopify://shop_images/Group.png",
-            "title": "Purely Advanced Milking",
+            "main-img": "shopify://shop_images/Milk_Pouch_Recycling.png",
+            "main-title": "Milk Pouch Recycling",
+            "coll-desc": "<p>Did you know that over 5 crore milk pouches are discarded every day in India?</p><p>To help combat this massive waste and reduce plastic pollution, we are building an organized system for the collection and recycling of our milk pouches.</p><p>Once collected, these pouches are sent to a recycling unit where they are thoroughly washed, dried, and shredded into small pieces. These pieces are then processed into plastic granules, which are reused to make other plastic products.</p><p>By simply returning used pouches, you can help prevent plastic waste from polluting our land and become a part of a meaningful movement to protect the planet.</p>",
+            "title": "",
             "title2": ""
           }
         },
-        "block_gXgDBH": {
+        "block_eG7NYi": {
           "type": "Block",
           "settings": {
-            "main-img": "shopify://shop_images/image.png",
-            "main-title": "Sustainable Farming Is The Way Ahead",
-            "coll-desc": "<p>At GirOrganic, we blend tradition with modernity, ensuring hygiene and quality. Our farm is free from chemical fertilizers, using cow dung and urine as natural alternatives. Healthy cows are milked hygienically with untouched technology, providing pure A2 milk daily. Calves always receive 40-50% of their mother’s milk first, ensuring care for every life.<br/><br/></p>",
-            "image": "shopify://shop_images/Group.png",
-            "title": "Purely Advanced Milking",
-            "image2": "shopify://shop_images/Group_1_b4c801bc-771f-4d8c-a755-5c0f37343b6d.png",
-            "title2": "Organic"
+            "main-img": "shopify://shop_images/Breeding_Indian_Indigenous_Cows.png",
+            "main-title": "Breeding Indian Indigenous Cows – Naturally and Respectfully",
+            "coll-desc": "<p>At our farm, we nurture Gir and Punganur cows in their natural habitat, allowing them to freely graze across lush pastures filled with a diverse range of grasses, herbs, and natural fodder. This diverse diet naturally fulfills their nutritional needs, resulting in wholesome, nutrient-rich milk.</p><ul><li>Each cow selects its own food based on instinctive needs, ensuring individualized nutrition.<br/></li><li>Natural breeding only – all our cows conceive naturally while grazing. We do not use artificial insemination.<br/></li><li>Our cows live without fear or confinement, leading to minimal stress levels – verified through cortisol tests, where our cows have recorded one of the lowest cortisol scores ever tested.</li></ul><p>This conscious approach to cow care results in happy, healthy cows and clean, high-quality milk that truly reflects the vitality of nature.</p>",
+            "title": "",
+            "title2": ""
+          }
+        },
+        "block_iMwCdt": {
+          "type": "Block",
+          "settings": {
+            "main-img": "shopify://shop_images/Breeding_Indian_Indigenous_Cows.png",
+            "main-title": "Conservation of Soil – Reviving the Foundation of Farming",
+            "coll-desc": "<p>Did you know that if conventional farming continues, we could lose all fertile soil within the next 45 to 50 years?</p><p>At our farm, we follow sustainable, soil-friendly practices to preserve and regenerate soil health for future generations:</p><ul><li>Desi Cow-Based Organic Fertilizers<br/> We use Jeevamrut, Ghanjeevamrut, and cow dung compost to naturally enrich the soil with essential microbes and nutrients.<br/></li><li>Mulching<br/> Organic mulching helps retain moisture, control weeds, and improve soil structure and microbial life.<br/></li><li>Crop Rotation<br/> We rotate crops seasonally to maintain nutrient balance in the soil and reduce the risk of pest buildup.<br/></li><li>Multi-Cropping / Intercropping<br/> Growing multiple crops together increases biodiversity, improves soil fertility, and maximizes land productivity.<br/></li><li>Vermicomposting<br/> Earthworms help decompose organic matter into rich humus, enhancing soil texture and nutrient content.<br/></li></ul><p>Through these practices, we are not just growing food—we are healing the earth from the roots up.</p>",
+            "title": "",
+            "title2": ""
           }
         }
       },
       "block_order": [
         "block_jkzhmm",
-        "block_gXgDBH"
+        "block_eG7NYi",
+        "block_iMwCdt"
       ],
       "settings": {
         "color_scheme": "",
-        "title": "",
+        "title": "Our Sustainable Practices",
         "content": "",
         "padding_top": 60,
         "padding_bottom": 60
