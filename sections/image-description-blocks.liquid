@@ -86,20 +86,24 @@
   </script>
   <script>
     $(document).ready(function () {
-    $('.see-more-btn').click(function (e) {
-      e.preventDefault();
-      $(this).hide(); // Hide "See More"
-      $('.see-less-btn').show(); // Show "See Less"
-      $('.less-content').hide(); // Hide truncated content
-      $('.more-content').show(); // Show full content
-    });
+    $('.all-content').each(function () {
+      const $container = $(this);
   
-    $('.see-less-btn').click(function (e) {
-      e.preventDefault();
-      $(this).hide(); // Hide "See Less"
-      $('.see-more-btn').show(); // Show "See More"
-      $('.more-content').hide(); // Hide full content
-      $('.less-content').show(); // Show truncated content
+      $container.find('.see-more-btn').click(function (e) {
+        e.preventDefault();
+        $container.find('.less-content').hide();
+        $container.find('.more-content').show();
+        $(this).hide();
+        $container.find('.see-less-btn').show();
+      });
+  
+      $container.find('.see-less-btn').click(function (e) {
+        e.preventDefault();
+        $container.find('.more-content').hide();
+        $container.find('.less-content').show();
+        $(this).hide();
+        $container.find('.see-more-btn').show();
+      });
     });
   });
   </script>
