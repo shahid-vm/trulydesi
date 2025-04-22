@@ -2,7 +2,7 @@
         <h2 class="spotlight-title">{{ section.settings.title}}</h2>
         <div class="logos-container page-width">
           {% for block in section.blocks %}
-            <a href="" class="brand-link"><img class="logo" src="{{ block.settings.image | img_url:'master' }}" alt="Brand Logo"></a>
+            <a href="{{ block.settings.link }}" class="brand-link"><img class="logo" src="{{ block.settings.image | img_url:'master' }}" alt="Brand Logo"></a>
           {% endfor %}
         </div>
     </div>
