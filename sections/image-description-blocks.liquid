@@ -27,21 +27,21 @@
               {% endif %}
               <div style="display:flex;">
               {% if block.settings.image != blank and block.settings.title != blank %}
-              <div class="icons-container">
-                <div class="icon">
-                  <img src="{{ block.settings.image | img_url: 'master' }}" alt="block-img" />
-                  <p>{{ block.settings.title }}</p>
+                <div class="icons-container">
+                  <div class="icon">
+                    <img src="{{ block.settings.image | img_url: 'master' }}" alt="block-img" />
+                    <p>{{ block.settings.title }}</p>
+                  </div>
                 </div>
-              </div>
-            {% endif %}
-            {% if block.settings.image2 != blank and block.settings.title2 != blank %}
-              <div class="icons-container">
-                <div class="icon">
-                  <img src="{{ block.settings.image2 | img_url: 'master' }}" alt="block-img" />
-                  <p>{{ block.settings.title2 }}</p>
+              {% endif %}
+              {% if block.settings.image2 != blank and block.settings.title2 != blank %}
+                <div class="icons-container">
+                  <div class="icon">
+                    <img src="{{ block.settings.image2 | img_url: 'master' }}" alt="block-img" />
+                    <p>{{ block.settings.title2 }}</p>
+                  </div>
                 </div>
-              </div>
-            {% endif %}
+              {% endif %}
               </div>
             </div>
     
