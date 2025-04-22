@@ -11,6 +11,9 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "h1.collection-hero__title {font-size: 30px; letter-spacing: 0; text-transform: capitalize; font-weight: 600; margin: 0px; margin-top: 20px; text-align: center; color: #2a5d34;}"
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
