@@ -3,7 +3,8 @@
   <p class="founders-intro">
    {{ section.settings.discription }}
   </p>
-    <div class="founder-container">
+    <div class="founder-container page-width">
+      <div class="all-cards">
       {% for block in section.blocks %}
         <div class="founder-card">
           <img src="{{ block.settings.image | img_url:'master' }}" alt="Founder Image" class="founder-img" />
@@ -11,6 +12,7 @@
           <p>{{ block.settings.content }}</p>
         </div>
       {% endfor %}
+      </div>
     </div>
 </div>
 
@@ -137,6 +139,13 @@
       display: flex;
       justify-content: center;
     } 
+    .founders-{{ section.id }} .founder-container .all-cards {
+        display: flex;
+        gap: 32px;
+        justify-content: center;
+        margin: 0px auto;
+        overflow: scroll;
+    }
     
     .founders-{{ section.id }} .founder-card {
       background-color: white;
