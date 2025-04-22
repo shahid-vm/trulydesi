@@ -14,7 +14,11 @@
     }
   }
 {%- endstyle -%}
-
+<style>
+  .video--wrapper {
+    height: 400px;
+}
+</style>
 {%- liquid
   assign video_id = section.settings.video.id | default: section.settings.video_url.id
   assign video_alt = section.settings.video.alt | default: section.settings.description
