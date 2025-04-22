@@ -209,6 +209,14 @@
             "sub-title": "We practice ethical, natural breeding with no artificial insemination."
           }
         },
+        "block_mNpxDi": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/PURPOSE.svg",
+            "title": "STRESS-FREE ENVIRONMENT",
+            "sub-title": "Our cows live in a clean, stress-free environment, groomed regularly with herbal care."
+          }
+        },
         "block_4NgwEJ": {
           "type": "Block",
           "settings": {
@@ -224,22 +232,14 @@
             "title": "CALF-FIRST APPROACH",
             "sub-title": "We ensure our calves are fed first before collecting milk."
           }
-        },
-        "block_mNpxDi": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/PURPOSE.svg",
-            "title": "STRESS-FREE ENVIRONMENT",
-            "sub-title": "Our cows live in a clean, stress-free environment, groomed regularly with herbal care."
-          }
         }
       },
       "block_order": [
         "block_3dA9ew",
         "block_ji8MW7",
+        "block_mNpxDi",
         "block_4NgwEJ",
-        "block_bYG66k",
-        "block_mNpxDi"
+        "block_bYG66k"
       ],
       "settings": {
         "color_scheme": "scheme-2",
