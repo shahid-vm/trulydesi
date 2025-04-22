@@ -69,6 +69,17 @@
         "show_text_below": false
       }
     },
+    "single_image_banner_KrjHHb": {
+      "type": "single-image-banner",
+      "settings": {
+        "full_width": false,
+        "desktop-image": "shopify://shop_images/about_us_banner.jpg",
+        "mobile-image": "shopify://shop_images/about_us_banner_mobile.jpg",
+        "link": "",
+        "padding-top": 10,
+        "padding-bottom": 0
+      }
+    },
     "rich_text_TRbVdK": {
       "type": "rich-text",
       "blocks": {
@@ -212,6 +223,7 @@
   "order": [
     "main",
     "image_banner_P4kbPi",
+    "single_image_banner_KrjHHb",
     "rich_text_TRbVdK",
     "image_description_blocks_4WBxKB",
     "usp_section_kQwdyR",
