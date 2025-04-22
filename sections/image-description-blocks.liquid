@@ -8,7 +8,17 @@
           <div class="swiper-slide sub-container-{{ section.id }}">
             <div class="text-content">
               <h3>{{ block.settings.main-title }}</h3>
-              <p>{{ block.settings.coll-desc }}</p>
+              
+              <div class="all-content">
+                <div class="less-content">
+                  {{ block.settings.coll-desc | truncate: 400 }}
+                </div>
+                <div class="more-content" style="display:none">
+                  {{ block.settings.coll-desc }}
+                </div>
+                <a href="#" class="see-more-btn">+ see more</a>
+                <a href="#" class="see-less-btn" style="display:none;">+ see less</a>
+              </div>
     
               {% if block.settings.btn-url != blank %}
                 <a class="know-more-btn button" href="{{ block.settings.btn-url }}">
