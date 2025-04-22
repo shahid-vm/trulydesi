@@ -422,13 +422,6 @@
             "link": "https://indianexpress.com/article/cities/pune/prudent-positive-progressive-industry-captains-pune-laud-budget-8419520/"
           }
         },
-        "block_3nJHwa": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/The_Better_India.png",
-            "link": "https://www.thebetterindia.com/297271/mother-launches-startup-truly-desi-sells-organic-milk-paneer-ghee-empowers-farmer/"
-          }
-        },
         "block_eg6D4H": {
           "type": "Block",
           "settings": {
@@ -450,6 +443,13 @@
             "link": "https://www.newsnownation.com/truly-desi-desi-dairy-organic-products-for-a-healthier-tomorrow/"
           }
         },
+        "block_3nJHwa": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/The_Better_India.png",
+            "link": "https://www.thebetterindia.com/297271/mother-launches-startup-truly-desi-sells-organic-milk-paneer-ghee-empowers-farmer/"
+          }
+        },
         "block_f9pNJJ": {
           "type": "Block",
           "settings": {
@@ -460,10 +460,10 @@
       },
       "block_order": [
         "block_y6eeLC",
-        "block_3nJHwa",
         "block_eg6D4H",
         "block_Wipm7M",
         "block_mAUq9c",
+        "block_3nJHwa",
         "block_f9pNJJ"
       ],
       "settings": {
