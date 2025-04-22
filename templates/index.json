@@ -196,33 +196,41 @@
         "block_3dA9ew": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/authenticity.jpg",
-            "title": "AUTHENTICITY",
-            "sub-title": "Bringing purest form of food direct from the farms"
+            "image": "shopify://shop_images/AUTHENTICITY.svg",
+            "title": "AUTHENTIC CARE",
+            "sub-title": "Our cows are raised naturally, free from antibiotics and growth hormones."
           }
         },
         "block_ji8MW7": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/tradition-culture.jpg",
-            "title": "TRADITION",
-            "sub-title": "Harnessing age-old wisdom passed down by Grandmas"
+            "image": "shopify://shop_images/PURPOSE.svg",
+            "title": "NATURAL BREEDING",
+            "sub-title": "We practice ethical, natural breeding with no artificial insemination."
           }
         },
         "block_4NgwEJ": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/brutal-honesty.jpg",
-            "title": "TRUST",
-            "sub-title": "Being 100% transparent & thoroughly lab-tested"
+            "image": "shopify://shop_images/trust.svg",
+            "title": "NATURAL GRAZING",
+            "sub-title": "Our cows graze freely on chemical-free, nutrient-rich pastures."
           }
         },
         "block_mNpxDi": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/purpose.jpg",
-            "title": "PURPOSE",
-            "sub-title": "Empowering rural India with employment & fair trade"
+            "image": "shopify://shop_images/PURPOSE.svg",
+            "title": "STRESS-FREE ENVIRONMENT",
+            "sub-title": "Our cows live in a clean, stress-free environment, groomed regularly with herbal care."
+          }
+        },
+        "block_bYG66k": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/PURPOSE.svg",
+            "title": "CALF-FIRST APPROACH",
+            "sub-title": "We ensure our calves are fed first before collecting milk."
           }
         }
       },
@@ -230,7 +238,8 @@
         "block_3dA9ew",
         "block_ji8MW7",
         "block_4NgwEJ",
-        "block_mNpxDi"
+        "block_mNpxDi",
+        "block_bYG66k"
       ],
       "settings": {
         "color_scheme": "scheme-2",
