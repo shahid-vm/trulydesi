@@ -72,7 +72,7 @@
     "single_image_banner_KrjHHb": {
       "type": "single-image-banner",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "desktop-image": "shopify://shop_images/about_us_banner.jpg",
         "mobile-image": "shopify://shop_images/about_us_banner_mobile.jpg",
         "link": "",
