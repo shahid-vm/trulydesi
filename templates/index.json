@@ -415,60 +415,6 @@
     "brand_section_eHygHB": {
       "type": "brand-section",
       "blocks": {
-        "block_afwc6i": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/The_economic_times_new_1.png"
-          }
-        },
-        "block_BWxndK": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/The_hindu_new_1.png"
-          }
-        },
-        "block_L9ELAh": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/My_Gov_new.png"
-          }
-        },
-        "block_Nrbg8C": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Untold_Story_new.png"
-          }
-        },
-        "block_Gb8qGy": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/GQ_new_1.png"
-          }
-        },
-        "block_6gLmPy": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Krishi_Jagran_new_1.png"
-          }
-        },
-        "block_mBKrbQ": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Hindustan_Times_New_1.png"
-          }
-        },
-        "block_wMV6RN": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Your_story_new_1.png"
-          }
-        },
-        "block_yc9F6t": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/The_Better_India_new_1.png"
-          }
-        },
         "block_y6eeLC": {
           "type": "Block",
           "settings": {
@@ -477,15 +423,6 @@
         }
       },
       "block_order": [
-        "block_afwc6i",
-        "block_BWxndK",
-        "block_L9ELAh",
-        "block_Nrbg8C",
-        "block_Gb8qGy",
-        "block_6gLmPy",
-        "block_mBKrbQ",
-        "block_wMV6RN",
-        "block_yc9F6t",
         "block_y6eeLC"
       ],
       "settings": {
