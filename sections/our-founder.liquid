@@ -140,11 +140,13 @@
       justify-content: center;
     } 
     .founders-{{ section.id }} .founder-container .all-cards {
-        display: flex;
-        gap: 32px;
-        justify-content: center;
-        margin: 0px auto;
-        overflow: scroll;
+      display: flex;
+      gap: 32px;
+      justify-content: center;
+      margin: 0px auto;
+      overflow: scroll;
+      width: 688px;
+      padding: 20px;
     }
     
     .founders-{{ section.id }} .founder-card {
@@ -209,8 +211,8 @@
     }
     }
    @media screen and (max-width: 750px) {
-      .founders-{{ section.id }} .swiper-wrapper {
-        justify-content: unset !important;
+      .founders-{{ section.id }} .founder-container {
+        overflow: auto;
       } 
    }
 </style>
