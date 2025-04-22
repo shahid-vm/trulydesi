@@ -113,14 +113,6 @@
             "content": "I have always missed my nani's recipes and nuskhe in this modern lifestyle. I have the vision to preserve these with India's lost superfoods and connect modern consumers with traditional food."
           }
         },
-        "founder_WaidfU": {
-          "type": "Founder",
-          "settings": {
-            "image": "shopify://shop_images/kuldeep-parewa.png",
-            "title": "Kuldeep Parewa",
-            "content": "Being from a farming family, I know the hardships they face. Equipping them with technology, financial aid, and food-processing machines will generate more value for them. And in turn, this leads to healthy and traceable food for consumers."
-          }
-        },
         "founder_wpnMaA": {
           "type": "Founder",
           "settings": {
@@ -132,7 +124,6 @@
       },
       "block_order": [
         "founder_gqeKEH",
-        "founder_WaidfU",
         "founder_wpnMaA"
       ],
       "settings": {
