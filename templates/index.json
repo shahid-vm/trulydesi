@@ -554,6 +554,24 @@
             "image3": "shopify://shop_images/linkedin.png"
           }
         },
+        "block_fcjm48": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Dr._Sharad_Kale.png",
+            "content": "Truly Desi is a genuine effort to deliver quality A2 dairy. It’s bound to inspire more people toward pure food choices.",
+            "title": "Dr. Sharad Kale",
+            "image3": "shopify://shop_images/download.png"
+          }
+        },
+        "block_r9jMBz": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Dr._Vijay_Bhatkar.png",
+            "content": "I’ve never tasted Gir Cow Ghee as rich and flavorful—Truly Desi truly sets the gold standard!",
+            "title": "Dr. Vijay Bhatkar",
+            "image3": "shopify://shop_images/profile_vrt_raw_bytes_1587515358_10512.png"
+          }
+        },
         "block_pHWjjM": {
           "type": "Block",
           "disabled": true,
@@ -574,6 +592,15 @@
             "image3": "shopify://shop_images/linkedin.png"
           }
         },
+        "block_gnjPwj": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Dr._Aishwarya_Bergale.png",
+            "content": "As a doctor, I trust and recommend Truly Desi’s A2 Ghee—pure, nutrient-rich, and great for overall health. Their ethical practices make all the difference.",
+            "title": "Dr. Aishwarya Bergale",
+            "image3": "shopify://shop_images/download.png"
+          }
+        },
         "block_bki8jX": {
           "type": "Block",
           "settings": {
@@ -591,44 +618,17 @@
             "title": "Mrs. Humsa Iyer",
             "image3": "shopify://shop_images/linkedin.png"
           }
-        },
-        "block_fcjm48": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Dr._Sharad_Kale.png",
-            "content": "Truly Desi is a genuine effort to deliver quality A2 dairy. It’s bound to inspire more people toward pure food choices.",
-            "title": "Dr. Sharad Kale",
-            "image3": "shopify://shop_images/download.png"
-          }
-        },
-        "block_r9jMBz": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Dr._Vijay_Bhatkar.png",
-            "content": "I’ve never tasted Gir Cow Ghee as rich and flavorful—Truly Desi truly sets the gold standard!",
-            "title": "Dr. Vijay Bhatkar",
-            "image3": "shopify://shop_images/profile_vrt_raw_bytes_1587515358_10512.png"
-          }
-        },
-        "block_gnjPwj": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Dr._Aishwarya_Bergale.png",
-            "content": "As a doctor, I trust and recommend Truly Desi’s A2 Ghee—pure, nutrient-rich, and great for overall health. Their ethical practices make all the difference.",
-            "title": "Dr. Aishwarya Bergale",
-            "image3": "shopify://shop_images/download.png"
-          }
         }
       },
       "block_order": [
         "block_tefzDq",
-        "block_pHWjjM",
-        "block_88CcH8",
-        "block_bki8jX",
-        "block_KaWP6w",
         "block_fcjm48",
         "block_r9jMBz",
-        "block_gnjPwj"
+        "block_pHWjjM",
+        "block_88CcH8",
+        "block_gnjPwj",
+        "block_bki8jX",
+        "block_KaWP6w"
       ],
       "settings": {
         "color_scheme": "scheme-054a3b84-2490-4fc2-aee0-f64f5776242e",
