@@ -15,10 +15,14 @@
             </div>
             <div class="profile">
               <div class="user-details">
-                <img class="user-img" src="{{ block.settings.image2 | img_url:'master' }}" alt="profile{{ forloop.index }}">
+                {% if block.settings.image2 != blank %}
+                  <img class="user-img" src="{{ block.settings.image2 | img_url:'master' }}" alt="profile{{ forloop.index }}">
+                {% endif %}
                 <strong>{{ block.settings.title }}</strong>
               </div>
-              <img class="social-icon" src="{{ block.settings.image3 | img_url:'master' }}" alt="platform-image">
+              {% if block.settings.image3 != blank %}
+                <img class="social-icon" src="{{ block.settings.image3 | img_url:'master' }}" alt="platform-image">
+              {% endif %}
             </div>
             </div>
           </div>
