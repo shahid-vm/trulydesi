@@ -76,7 +76,7 @@
         "desktop-image": "shopify://shop_images/about_us_banner.jpg",
         "mobile-image": "shopify://shop_images/about_us_banner_mobile.jpg",
         "link": "",
-        "padding-top": 10,
+        "padding-top": 0,
         "padding-bottom": 0
       }
     },
