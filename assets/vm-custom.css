@@ -544,3 +544,10 @@ dl {
   margin: 0px;
   margin-top:10px !important;
 }
+.product-short-dis {
+    padding: 0px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-size: 14px;
+}
