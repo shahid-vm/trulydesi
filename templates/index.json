@@ -196,7 +196,7 @@
         "block_3dA9ew": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/AUTHENTICITY.svg",
+            "image": "shopify://shop_images/AUTHENTIC_CARE.svg",
             "title": "AUTHENTIC CARE",
             "sub-title": "Our cows are raised naturally, free from antibiotics and growth hormones."
           }
@@ -204,7 +204,7 @@
         "block_ji8MW7": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/PURPOSE.svg",
+            "image": "shopify://shop_images/NATURAL_BREEDING.svg",
             "title": "NATURAL BREEDING",
             "sub-title": "We practice ethical, natural breeding with no artificial insemination."
           }
@@ -212,7 +212,7 @@
         "block_mNpxDi": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/PURPOSE.svg",
+            "image": "shopify://shop_images/STRESS-FREE_ENVIRONMENT.svg",
             "title": "STRESS-FREE ENVIRONMENT",
             "sub-title": "Our cows live in a clean, stress-free environment, groomed regularly with herbal care."
           }
@@ -220,7 +220,7 @@
         "block_4NgwEJ": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/trust.svg",
+            "image": "shopify://shop_images/NATURAL_GRAZING.svg",
             "title": "NATURAL GRAZING",
             "sub-title": "Our cows graze freely on chemical-free, nutrient-rich pastures."
           }
@@ -228,7 +228,7 @@
         "block_bYG66k": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/PURPOSE.svg",
+            "image": "shopify://shop_images/CALF-FIRST_APPROACH.svg",
             "title": "CALF-FIRST APPROACH",
             "sub-title": "We ensure our calves are fed first before collecting milk."
           }
