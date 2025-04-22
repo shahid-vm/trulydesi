@@ -84,6 +84,25 @@
       });
     });
   </script>
+  <script>
+    $(document).ready(function () {
+    $('.see-more-btn').click(function (e) {
+      e.preventDefault();
+      $(this).hide(); // Hide "See More"
+      $('.see-less-btn').show(); // Show "See Less"
+      $('.less-content').hide(); // Hide truncated content
+      $('.more-content').show(); // Show full content
+    });
+  
+    $('.see-less-btn').click(function (e) {
+      e.preventDefault();
+      $(this).hide(); // Hide "See Less"
+      $('.see-more-btn').show(); // Show "See More"
+      $('.more-content').hide(); // Hide full content
+      $('.less-content').show(); // Show truncated content
+    });
+  });
+  </script>
     {% schema %}
     {
     "name": "Image with Discription",
