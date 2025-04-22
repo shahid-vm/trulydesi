@@ -428,11 +428,43 @@
             "image": "shopify://shop_images/The_Better_India.png",
             "link": "https://www.thebetterindia.com/297271/mother-launches-startup-truly-desi-sells-organic-milk-paneer-ghee-empowers-farmer/"
           }
+        },
+        "block_eg6D4H": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/live_mint.png",
+            "link": "https://www.livemint.com/budget/budget-2023-reactions-business-leaders-respond-to-budget/amp-11675219981043.html"
+          }
+        },
+        "block_Wipm7M": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/her_stroy.png",
+            "link": "https://yourstory.com/herstory/2022/07/unadulterated-a2-milk-truly-desi-pune-dairy-startup-cow-farm"
+          }
+        },
+        "block_mAUq9c": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/newsnownation.png",
+            "link": "https://www.newsnownation.com/truly-desi-desi-dairy-organic-products-for-a-healthier-tomorrow/"
+          }
+        },
+        "block_f9pNJJ": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/The_Logical_Indian.png",
+            "link": "https://thelogicalindian.com/responsiblebusiness/pune-startup-takes-charge-to-fight-adulteration-36336"
+          }
         }
       },
       "block_order": [
         "block_y6eeLC",
-        "block_3nJHwa"
+        "block_3nJHwa",
+        "block_eg6D4H",
+        "block_Wipm7M",
+        "block_mAUq9c",
+        "block_f9pNJJ"
       ],
       "settings": {
         "color_scheme": "scheme-2",
