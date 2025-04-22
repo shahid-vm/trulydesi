@@ -140,9 +140,9 @@
 
 <style>
 #shopify-section-{{ section.id }} section.food-journey {
-    {% comment %}
+    {% if section.settings.background-image != blank %}
       background-image: url({{ section.settings.background-image | img_url: 'master' }});
-    {% endcomment %}
+    {% endif %}
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
