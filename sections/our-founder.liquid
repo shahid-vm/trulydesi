@@ -3,45 +3,47 @@
   <p class="founders-intro">
    {{ section.settings.discription }}
   </p>
-    <!-- <div class="swiper mySwiper"> -->
-    <div class="founder-container">
+    <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
       {% for block in section.blocks %}
+      <div class="swiper-slide">
         <div class="founder-card">
           <img src="{{ block.settings.image | img_url:'master' }}" alt="Founder Image" class="founder-img" />
           <h3>{{ block.settings.title }}</h3>
           <p>{{ block.settings.content }}</p>
         </div>
+      </div>
       {% endfor %}
     </div>
       <!-- Arrows -->
-    <!-- <div class="swiper-button-prev custom-nav">prev</div>
+    <div class="swiper-button-prev custom-nav">prev</div>
     <div class="swiper-button-next custom-nav">next</div>
-    <div class="swiper-pagination"></div> -->
-  <!-- </div> -->
+    <div class="swiper-pagination"></div>
+  </div>
 </div>
 
 <script>
-  // var swiper = new Swiper(".mySwiper", {
-  //   slidesPerView: 1,
-  //   spaceBetween: 30,
-  //   loop: false,
-  //   pagination: {
-  //     el: ".swiper-pagination",
-  //     clickable: true,
-  //   },
-  //   navigation: {
-  //     nextEl: ".swiper-button-next",
-  //     prevEl: ".swiper-button-prev",
-  //   },
-  //   breakpoints: {
-  //     768: {
-  //       slidesPerView: 2,
-  //     },
-  //     1024: {
-  //       slidesPerView: 3,
-  //     }
-  //   }
-  // });
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    loop: false,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+      }
+    }
+  });
 </script>
 {% schema %}
   {
@@ -139,9 +141,9 @@
     }
     
     .founders-{{ section.id }} .swiper-wrapper {
-      /* padding: 10px 0px;
+      padding: 10px 0px;
       display: flex;
-      justify-content: center; */
+      justify-content: center;
     } 
     
     .founders-{{ section.id }} .founder-card {
