@@ -255,7 +255,7 @@
           "settings": {
             "main-img": "shopify://shop_images/Milk_Pouch_Recycling.png",
             "main-title": "Milk Pouch Recycling",
-            "coll-desc": "<p>Did you know that over 5 crore milk pouches are discarded every day in India?</p><p>To help combat this massive waste and reduce plastic pollution, we are building an organized system for the collection and recycling of our milk pouches.</p><p>Once collected, these pouches are sent to a recycling unit where they are thoroughly washed, dried, and shredded into small pieces. These pieces are then processed into plastic granules, which are reused to make other plastic products.</p><p>By simply returning used pouches, you can help prevent plastic waste from polluting our land and become a part of a meaningful movement to protect the planet.</p>",
+            "coll-desc": "<p>Over 5 crore milk pouches are discarded daily in India, contributing to plastic pollution. To reduce this, we’ve set up a system for collecting and recycling our pouches. After washing and shredding, the pouches are transformed into plastic granules, which are reused to create new products. By returning used pouches, you help reduce waste and support environmental conservation.</p>",
             "title": "",
             "title2": ""
           }
@@ -264,8 +264,8 @@
           "type": "Block",
           "settings": {
             "main-img": "shopify://shop_images/Breeding_Indian_Indigenous_Cows.png",
-            "main-title": "Breeding Indian Indigenous Cows – Naturally and Respectfully",
-            "coll-desc": "<p>At our farm, we nurture Gir and Punganur cows in their natural habitat, allowing them to freely graze across lush pastures filled with a diverse range of grasses, herbs, and natural fodder. This diverse diet naturally fulfills their nutritional needs, resulting in wholesome, nutrient-rich milk.</p><ul><li>Each cow selects its own food based on instinctive needs, ensuring individualized nutrition.<br/></li><li>Natural breeding only – all our cows conceive naturally while grazing. We do not use artificial insemination.<br/></li><li>Our cows live without fear or confinement, leading to minimal stress levels – verified through cortisol tests, where our cows have recorded one of the lowest cortisol scores ever tested.</li></ul><p>This conscious approach to cow care results in happy, healthy cows and clean, high-quality milk that truly reflects the vitality of nature.</p>",
+            "main-title": "Breeding Indian Indigenous Cows",
+            "coll-desc": "<p>We raise Gir and Punganur cows in their natural habitat, allowing them to graze freely on nutrient-rich pastures. Our cows are bred naturally without artificial insemination, ensuring they remain healthy and stress-free. This approach results in clean, high-quality milk that reflects the vitality of nature.</p>",
             "title": "",
             "title2": ""
           }
@@ -274,8 +274,8 @@
           "type": "Block",
           "settings": {
             "main-img": "shopify://shop_images/Conservation_of_Soil.png",
-            "main-title": "Conservation of Soil – Reviving the Foundation of Farming",
-            "coll-desc": "<p>Did you know that if conventional farming continues, we could lose all fertile soil within the next 45 to 50 years?</p><p>At our farm, we follow sustainable, soil-friendly practices to preserve and regenerate soil health for future generations:</p><ul><li>Desi Cow-Based Organic Fertilizers<br/> We use Jeevamrut, Ghanjeevamrut, and cow dung compost to naturally enrich the soil with essential microbes and nutrients.<br/></li><li>Mulching<br/> Organic mulching helps retain moisture, control weeds, and improve soil structure and microbial life.<br/></li><li>Crop Rotation<br/> We rotate crops seasonally to maintain nutrient balance in the soil and reduce the risk of pest buildup.<br/></li><li>Multi-Cropping / Intercropping<br/> Growing multiple crops together increases biodiversity, improves soil fertility, and maximizes land productivity.<br/></li><li>Vermicomposting<br/> Earthworms help decompose organic matter into rich humus, enhancing soil texture and nutrient content.<br/></li></ul><p>Through these practices, we are not just growing food—we are healing the earth from the roots up.</p>",
+            "main-title": "Conservation of Soil",
+            "coll-desc": "<p>To protect fertile soil, we follow sustainable farming practices. Using organic fertilizers, crop rotation, mulching, and vermicomposting, we improve soil health and biodiversity. These methods help regenerate the earth, ensuring future generations can continue farming sustainably.</p><p>These versions are more concise while still conveying the key messages. Let me know if you need any further changes!</p>",
             "title": "",
             "title2": ""
           }
@@ -288,7 +288,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-2",
-        "title": "Our Sustainable Practices",
+        "title": "Sustainability & Conservation",
         "content": "",
         "padding_top": 0,
         "padding_bottom": 60
