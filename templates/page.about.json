@@ -175,8 +175,8 @@
       ],
       "settings": {
         "full_width": false,
-        "desktop-image": "shopify://shop_images/Timeline-02.jpg",
-        "mobile-image": "shopify://shop_images/Timeline-02.jpg",
+        "desktop-image": "shopify://shop_images/time-line.png",
+        "mobile-image": "shopify://shop_images/time-line.png",
         "link": "",
         "padding-top": 10,
         "padding-bottom": 0
