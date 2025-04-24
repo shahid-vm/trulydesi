@@ -144,7 +144,7 @@
         "block_qy3V3B": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_1.png",
+            "image": "shopify://shop_images/Cow_Therapy.svg",
             "title": "Cow Therapy",
             "sub-title": "Feed, cuddle, and connect with our calm, loving cows."
           }
@@ -152,7 +152,7 @@
         "block_mApPX7": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_2.png",
+            "image": "shopify://shop_images/Orchard_Walk.svg",
             "title": "Orchard Walk",
             "sub-title": "Take a peaceful stroll through our thriving coconut and papaya groves."
           }
@@ -160,7 +160,7 @@
         "block_MWhkUG": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_3.png",
+            "image": "shopify://shop_images/Hand_Milking.svg",
             "title": "Hand Milking",
             "sub-title": "Experience milking firsthand, only after the calves are fully nourished."
           }
@@ -168,7 +168,7 @@
         "block_j76HbY": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_4.png",
+            "image": "shopify://shop_images/Sustainable_Living__1.svg",
             "title": "Sustainable Living",
             "sub-title": "Discover how our biogas system powers the farm and restores the soil."
           }
@@ -176,7 +176,7 @@
         "block_jLLpVP": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_5.png",
+            "image": "shopify://shop_images/Ghee_Making.svg",
             "title": "Ghee Making",
             "sub-title": "Watch the traditional Bilona process of preparing Gir Cow Cultured Ghee."
           }
@@ -184,7 +184,7 @@
         "block_F9byXK": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_5.png",
+            "image": "shopify://shop_images/Farm_to_Table.svg",
             "title": "Farm to Table",
             "sub-title": "Get involved in sowing, harvesting, and learning the roots of organic farming."
           }
