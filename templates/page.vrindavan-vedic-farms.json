@@ -146,7 +146,7 @@
           "settings": {
             "image": "shopify://shop_images/Background_1.png",
             "title": "Cow Therapy",
-            "sub-title": "Cuddle, feed, and bond with our gentle cows."
+            "sub-title": "Feed, cuddle, and connect with our calm, loving cows."
           }
         },
         "block_mApPX7": {
@@ -154,7 +154,7 @@
           "settings": {
             "image": "shopify://shop_images/Background_2.png",
             "title": "Orchard Walk",
-            "sub-title": "Stroll through lush coconut & papaya groves"
+            "sub-title": "Take a peaceful stroll through our thriving coconut and papaya groves."
           }
         },
         "block_MWhkUG": {
@@ -162,7 +162,7 @@
           "settings": {
             "image": "shopify://shop_images/Background_3.png",
             "title": "Hand Milking",
-            "sub-title": "Try your hand at milking, only after calves are fully fed."
+            "sub-title": "Experience milking firsthand, only after the calves are fully nourished."
           }
         },
         "block_j76HbY": {
@@ -170,15 +170,23 @@
           "settings": {
             "image": "shopify://shop_images/Background_4.png",
             "title": "Sustainable Living",
-            "sub-title": "Learn how our biogas plant powers the farm and enriches the soil."
+            "sub-title": "Discover how our biogas system powers the farm and restores the soil."
           }
         },
         "block_jLLpVP": {
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/Background_5.png",
+            "title": "Ghee Making",
+            "sub-title": "Watch the traditional Bilona process of preparing Gir Cow Cultured Ghee."
+          }
+        },
+        "block_F9byXK": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Background_5.png",
             "title": "Farm to Table",
-            "sub-title": "Get hands-on with sowing, harvesting, and organic farming."
+            "sub-title": "Get involved in sowing, harvesting, and learning the roots of organic farming."
           }
         }
       },
@@ -187,7 +195,8 @@
         "block_mApPX7",
         "block_MWhkUG",
         "block_j76HbY",
-        "block_jLLpVP"
+        "block_jLLpVP",
+        "block_F9byXK"
       ],
       "settings": {
         "color_scheme": "scheme-1",
