@@ -103,6 +103,14 @@
             "metafield_key": "description"
           }
         },
+        "content_kBTnCT": {
+          "type": "content",
+          "settings": {
+            "title": "Ingredients",
+            "content": "",
+            "metafield_key": "ingredients"
+          }
+        },
         "content_maRjLE": {
           "type": "content",
           "settings": {
@@ -130,6 +138,7 @@
       },
       "block_order": [
         "content_Vkighx",
+        "content_kBTnCT",
         "content_maRjLE",
         "content_PWbxnD",
         "content_km7tkH"
