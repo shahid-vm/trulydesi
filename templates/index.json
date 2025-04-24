@@ -12,10 +12,10 @@
     "slideshow_eWVBwE": {
       "type": "slideshow",
       "blocks": {
-        "slide_xtWBYn": {
+        "slide_rHcdYg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/ghee_Banner.png",
+            "image": "shopify://shop_images/common_Banner.png",
             "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
             "heading_size": "h1",
@@ -31,10 +31,10 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_rHcdYg": {
+        "slide_xtWBYn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/common_Banner.png",
+            "image": "shopify://shop_images/ghee_Banner.png",
             "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
             "heading_size": "h1",
@@ -90,8 +90,8 @@
         }
       },
       "block_order": [
-        "slide_xtWBYn",
         "slide_rHcdYg",
+        "slide_xtWBYn",
         "slide_Xy4VWH",
         "slide_F9tHtQ"
       ],
