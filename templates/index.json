@@ -53,7 +53,7 @@
         "slide_Xy4VWH": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/paneer_Banner.png",
+            "image": "shopify://shop_images/milk_Banner.png",
             "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
             "heading_size": "h1",
@@ -72,7 +72,7 @@
         "slide_F9tHtQ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/milk_Banner.png",
+            "image": "shopify://shop_images/paneer_Banner.png",
             "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
             "heading_size": "h1",
