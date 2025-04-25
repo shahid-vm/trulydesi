@@ -15,7 +15,7 @@
         "slide_rHcdYg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Web-Desk_Banner_87106d0c-2145-45aa-85e0-55e7dcf8a196.png",
+            "image": "shopify://shop_images/common_Banner.png",
             "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
             "heading_size": "h1",
@@ -34,7 +34,45 @@
         "slide_xtWBYn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Web-Desk_Banner_87106d0c-2145-45aa-85e0-55e7dcf8a196.png",
+            "image": "shopify://shop_images/ghee_Banner.png",
+            "mob_image": "shopify://shop_images/1st_April_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Xy4VWH": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/milk_Banner.png",
+            "mob_image": "shopify://shop_images/1st_April_1.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_F9tHtQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/paneer_Banner.png",
             "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
             "heading_size": "h1",
@@ -53,7 +91,9 @@
       },
       "block_order": [
         "slide_rHcdYg",
-        "slide_xtWBYn"
+        "slide_xtWBYn",
+        "slide_Xy4VWH",
+        "slide_F9tHtQ"
       ],
       "custom_css": [],
       "settings": {
@@ -91,31 +131,13 @@
         "slide_Aciz4J": {
           "type": "slide",
           "settings": {
-            "anouncement": "Comprehensive Traceability"
+            "anouncement": "Hormones and Antibiotics free"
           }
         },
         "slide_ekiVAw": {
           "type": "slide",
           "settings": {
-            "anouncement": "Hormones and Antibiotics free"
-          }
-        },
-        "slide_hg34Yz": {
-          "type": "slide",
-          "settings": {
-            "anouncement": "Preservatives and Adulterants free"
-          }
-        },
-        "slide_dMh6tL": {
-          "type": "slide",
-          "settings": {
-            "anouncement": "Cruelty free Animal rearing"
-          }
-        },
-        "slide_KFhcTW": {
-          "type": "slide",
-          "settings": {
-            "anouncement": "Conservation of Indian cow Breeds"
+            "anouncement": "Conservation of Indian Cow Breeds"
           }
         }
       },
@@ -124,10 +146,7 @@
         "slide_DaqYf9",
         "slide_NMjXFT",
         "slide_Aciz4J",
-        "slide_ekiVAw",
-        "slide_hg34Yz",
-        "slide_dMh6tL",
-        "slide_KFhcTW"
+        "slide_ekiVAw"
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
@@ -261,46 +280,113 @@
         "block_3dA9ew": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/authenticity.jpg",
-            "title": "AUTHENTICITY",
-            "sub-title": "Bringing purest form of food direct from the farms"
+            "image": "shopify://shop_images/AUTHENTIC_CARE.svg",
+            "title": "AUTHENTIC CARE",
+            "sub-title": "Our cows are raised naturally, free from antibiotics and growth hormones."
           }
         },
         "block_ji8MW7": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/tradition-culture.jpg",
-            "title": "TRADITION",
-            "sub-title": "Harnessing age-old wisdom passed down by Grandmas"
-          }
-        },
-        "block_4NgwEJ": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/brutal-honesty.jpg",
-            "title": "TRUST",
-            "sub-title": "Being 100% transparent & thoroughly lab-tested"
+            "image": "shopify://shop_images/NATURAL_BREEDING.svg",
+            "title": "NATURAL BREEDING",
+            "sub-title": "We practice ethical, natural breeding with no artificial insemination."
           }
         },
         "block_mNpxDi": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/purpose.jpg",
-            "title": "PURPOSE",
-            "sub-title": "Empowering rural India with employment & fair trade"
+            "image": "shopify://shop_images/STRESS-FREE_ENVIRONMENT.svg",
+            "title": "STRESS-FREE ENVIRONMENT",
+            "sub-title": "Our cows live in a clean, stress-free environment, groomed regularly with herbal care."
+          }
+        },
+        "block_4NgwEJ": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/NATURAL_GRAZING.svg",
+            "title": "NATURAL GRAZING",
+            "sub-title": "Our cows graze freely on chemical-free, nutrient-rich pastures."
+          }
+        },
+        "block_bYG66k": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/CALF-FIRST_APPROACH.svg",
+            "title": "CALF-FIRST APPROACH",
+            "sub-title": "We ensure our calves are fed first before collecting milk."
           }
         }
       },
       "block_order": [
         "block_3dA9ew",
         "block_ji8MW7",
+        "block_mNpxDi",
         "block_4NgwEJ",
-        "block_mNpxDi"
+        "block_bYG66k"
       ],
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-1",
         "title": "Truly Desi Promises",
         "coll-desc": ""
+      }
+    },
+    "home_journey_z4QLLy": {
+      "type": "home-journey",
+      "blocks": {
+        "text_tQPU3f": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Asset_1_8786dacf-32bb-4d8d-b99c-49ef4174fc75.svg",
+            "step-title": "Milk sourced from DNA-certified, ethically raised Gir cows"
+          }
+        },
+        "text_7bmHeX": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Asset_2.svg",
+            "step-title": "Cows graze freely, with no hormones or artificial insemination"
+          }
+        },
+        "text_GUw7BY": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Asset_3_7968cf1a-b3a0-4265-834a-a43aeb9cef29.svg",
+            "step-title": "Each batch is tested for purity, safety, and nutrition"
+          }
+        },
+        "text_nGrBPP": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Asset_4_9f57676c-9f37-4651-9eff-d1d771e09bcc.svg",
+            "step-title": "Lightly processed to retain its natural richness"
+          }
+        },
+        "text_B3wDkC": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Asset_5.svg",
+            "step-title": "Delivered within 12 hours of milking, straight to your doorstep"
+          }
+        }
+      },
+      "block_order": [
+        "text_tQPU3f",
+        "text_7bmHeX",
+        "text_GUw7BY",
+        "text_nGrBPP",
+        "text_B3wDkC"
+      ],
+      "settings": {
+        "title": "Journey From Farm To Plate",
+        "btn_text": "",
+        "btn_url": "",
+        "arrow-1": "shopify://shop_images/Path-33215.png",
+        "arrow-2": "shopify://shop_images/Path-33214.png",
+        "color_scheme": "scheme-b358da23-ef12-42b0-9985-e6703f126c31",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "usp_section_kQwdyR": {
@@ -309,41 +395,49 @@
         "block_qy3V3B": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_1.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "image": "shopify://shop_images/Cow_Therapy.svg",
+            "title": "Cow Therapy",
+            "sub-title": "Feed, cuddle, and connect with our calm, loving cows."
           }
         },
         "block_mApPX7": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_2.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "image": "shopify://shop_images/Orchard_Walk.svg",
+            "title": "Orchard Walk",
+            "sub-title": "Take a peaceful stroll through our thriving coconut and papaya groves."
           }
         },
         "block_MWhkUG": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_3.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "image": "shopify://shop_images/Hand_Milking.svg",
+            "title": "Hand Milking",
+            "sub-title": "Experience milking firsthand, only after the calves are fully nourished."
           }
         },
         "block_j76HbY": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_4.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "image": "shopify://shop_images/Sustainable_Living__1.svg",
+            "title": "Sustainable Living",
+            "sub-title": "Discover how our biogas system powers the farm and restores the soil."
           }
         },
         "block_jLLpVP": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Background_5.png",
-            "title": "500+ Acres of Certified Organic FarmSources",
-            "sub-title": ""
+            "image": "shopify://shop_images/Ghee_Making.svg",
+            "title": "Ghee Making",
+            "sub-title": "Watch the traditional Bilona process of preparing Gir Cow Cultured Ghee."
+          }
+        },
+        "block_F9byXK": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Farm_to_Table.svg",
+            "title": "Farm to Table",
+            "sub-title": "Get involved in sowing, harvesting, and learning the roots of organic farming."
           }
         }
       },
@@ -352,12 +446,15 @@
         "block_mApPX7",
         "block_MWhkUG",
         "block_j76HbY",
-        "block_jLLpVP"
+        "block_jLLpVP",
+        "block_F9byXK"
       ],
       "settings": {
-        "color_scheme": "",
-        "title": "",
-        "coll-desc": ""
+        "color_scheme": "scheme-1",
+        "title": "Activities",
+        "coll-desc": "<p>Experience farm life up close with these enriching activities</p>",
+        "padding_top": 52,
+        "padding_bottom": 36
       }
     },
     "location_areas_CARJpf": {
@@ -511,6 +608,7 @@
     "featured_collection_dgfBmJ",
     "image_banner_TDV7Vi",
     "icon_with_title_text_qRQTzn",
+    "home_journey_z4QLLy",
     "usp_section_kQwdyR",
     "location_areas_CARJpf",
     "location_areas_kpQJ47",
