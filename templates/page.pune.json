@@ -206,26 +206,6 @@
         "padding_bottom": 20
       }
     },
-    "location_areas_kpQJ47": {
-      "type": "location-areas",
-      "blocks": {
-        "icon_box_cyjEXR": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Vasai",
-            "link": "shopify://pages/milk-delivery-in-vasai"
-          }
-        }
-      },
-      "block_order": [
-        "icon_box_cyjEXR"
-      ],
-      "settings": {
-        "title": "Fresh A2 Milk Delivered in Mumbai",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "featured_collection_dgfBmJ": {
       "type": "featured-collection",
       "custom_css": [
@@ -599,6 +579,26 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "location_areas_kpQJ47": {
+      "type": "location-areas",
+      "blocks": {
+        "icon_box_cyjEXR": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Vasai",
+            "link": "shopify://pages/milk-delivery-in-vasai"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_cyjEXR"
+      ],
+      "settings": {
+        "title": "Fresh A2 Milk Delivered in Mumbai",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
@@ -610,9 +610,9 @@
     "icon_with_title_text_qRQTzn",
     "home_journey_z4QLLy",
     "usp_section_kQwdyR",
-    "location_areas_CARJpf",
-    "location_areas_kpQJ47",
     "featured_blog_dC8T9G",
-    "vm_certifications_eLDR6z"
+    "vm_certifications_eLDR6z",
+    "location_areas_CARJpf",
+    "location_areas_kpQJ47"
   ]
 }
