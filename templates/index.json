@@ -131,31 +131,13 @@
         "slide_Aciz4J": {
           "type": "slide",
           "settings": {
-            "anouncement": "Comprehensive Traceability"
+            "anouncement": "Hormones and Antibiotics free"
           }
         },
         "slide_ekiVAw": {
           "type": "slide",
           "settings": {
-            "anouncement": "Hormones and Antibiotics free"
-          }
-        },
-        "slide_hg34Yz": {
-          "type": "slide",
-          "settings": {
-            "anouncement": "Preservatives and Adulterants free"
-          }
-        },
-        "slide_dMh6tL": {
-          "type": "slide",
-          "settings": {
-            "anouncement": "Cruelty free Animal rearing"
-          }
-        },
-        "slide_KFhcTW": {
-          "type": "slide",
-          "settings": {
-            "anouncement": "Conservation of Indian cow Breeds"
+            "anouncement": "Conservation of Indian Cow Breeds"
           }
         }
       },
@@ -164,10 +146,7 @@
         "slide_DaqYf9",
         "slide_NMjXFT",
         "slide_Aciz4J",
-        "slide_ekiVAw",
-        "slide_hg34Yz",
-        "slide_dMh6tL",
-        "slide_KFhcTW"
+        "slide_ekiVAw"
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
@@ -340,35 +319,35 @@
         "text_tQPU3f": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/A1-Quality-Ingredients-Are-Handpicked-min.png",
-            "step-title": "A1 Quality Ingredients Are Handpicked"
+            "step-image": "shopify://shop_images/Asset_1_8786dacf-32bb-4d8d-b99c-49ef4174fc75.svg",
+            "step-title": "Step 1"
           }
         },
         "text_7bmHeX": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/A1-Quality-Ingredients-Are-Handpicked-min.png",
+            "step-image": "shopify://shop_images/Asset_2.svg",
             "step-title": "A1 Quality Ingredients Are Handpicked"
           }
         },
         "text_GUw7BY": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Steamed-_-Packed-To-Perfection-min.png",
+            "step-image": "shopify://shop_images/Asset_3_7968cf1a-b3a0-4265-834a-a43aeb9cef29.svg",
             "step-title": "Steamed & Packed To Perfection"
           }
         },
         "text_nGrBPP": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Delivered-At-Your-Doorstep-min.png",
+            "step-image": "shopify://shop_images/Asset_4_9f57676c-9f37-4651-9eff-d1d771e09bcc.svg",
             "step-title": "Delivered At Your Doorstep"
           }
         },
         "text_B3wDkC": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Delivered-At-Your-Doorstep-min.png",
+            "step-image": "shopify://shop_images/Asset_5.svg",
             "step-title": "Delivered At Your Doorstep"
           }
         }
