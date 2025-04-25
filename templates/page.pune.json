@@ -163,7 +163,7 @@
         "icon_box_UX9bmN": {
           "type": "icon_box",
           "settings": {
-            "icon_image": "shopify://shop_images/Natural.png",
+            "icon_image": "shopify://shop_images/Pure.svg",
             "heading": "Pure",
             "content": "<p>Desi Gir Cows in our farms are not injected with antibiotics or synthetic hormones like Oxytocin</p>"
           }
@@ -171,7 +171,7 @@
         "icon_box_nzheYE": {
           "type": "icon_box",
           "settings": {
-            "icon_image": "shopify://shop_images/Natural.png",
+            "icon_image": "shopify://shop_images/Natural.svg",
             "heading": "Natural",
             "content": "<p>Desi Gir Cows in our farms are not injected with antibiotics or synthetic hormones like Oxytocin</p>"
           }
@@ -179,7 +179,7 @@
         "icon_box_3N8dLM": {
           "type": "icon_box",
           "settings": {
-            "icon_image": "shopify://shop_images/Fresh.png",
+            "icon_image": "shopify://shop_images/Fresh.svg",
             "heading": "Fresh",
             "content": "<p>Fresh A2 milk from Gir Cows is delivered from Farms to your home everyday within few hours of milking</p>"
           }
@@ -187,7 +187,7 @@
         "icon_box_yWki47": {
           "type": "icon_box",
           "settings": {
-            "icon_image": "shopify://shop_images/Hygiene.png",
+            "icon_image": "shopify://shop_images/Hygiene.svg",
             "heading": "Hygiene",
             "content": "<p>Enhanced levels of quality assurance with Special 3 layer aseptic packing to retain freshness and to give you safe nutritious A2 milk</p>"
           }
@@ -201,7 +201,7 @@
       ],
       "settings": {
         "title": "A2 Milk In",
-        "main_image": "shopify://shop_images/urbanf.jpg",
+        "main_image": "shopify://shop_images/Benifts_Section_images.png",
         "padding_top": 20,
         "padding_bottom": 20
       }
@@ -437,6 +437,73 @@
         "padding_bottom": 36
       }
     },
+    "featured_blog_dC8T9G": {
+      "type": "featured-blog",
+      "custom_css": [
+        ".blog__title {font-size: 28px; font-weight: bold; color: #2d4829; position: relative; text-align: center; width: 100%;}"
+      ],
+      "settings": {
+        "blog": "truly-desi-blogs",
+        "post_limit": 3,
+        "heading": "<strong>Blog Posts</strong>",
+        "heading_size": "h2",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": true,
+        "color_scheme": "scheme-1",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "vm_certifications_eLDR6z": {
+      "type": "vm-certifications",
+      "blocks": {
+        "icon_box_Cpjdgj": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/iso-logo_1.png",
+            "heading": "ISO Certified",
+            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
+          }
+        },
+        "icon_box_BHdY7A": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/ayush-logo.png",
+            "heading": "MINISTRY OF AYUSH CERTIFIED",
+            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
+          }
+        },
+        "icon_box_MEjTXr": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/gmp-logo_1.png",
+            "heading": "GMP CERTIFIED",
+            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
+          }
+        },
+        "icon_box_RRQWGU": {
+          "type": "icon_box",
+          "settings": {
+            "icon_image": "shopify://shop_images/fssai-logo.png",
+            "heading": "FSSAI",
+            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_Cpjdgj",
+        "icon_box_BHdY7A",
+        "icon_box_MEjTXr",
+        "icon_box_RRQWGU"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "location_areas_CARJpf": {
       "type": "location-areas",
       "blocks": {
@@ -509,73 +576,6 @@
       ],
       "settings": {
         "title": "Fresh A2 Milk Delivered in Pune",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "featured_blog_dC8T9G": {
-      "type": "featured-blog",
-      "custom_css": [
-        ".blog__title {font-size: 28px; font-weight: bold; color: #2d4829; position: relative; text-align: center; width: 100%;}"
-      ],
-      "settings": {
-        "blog": "truly-desi-blogs",
-        "post_limit": 3,
-        "heading": "<strong>Blog Posts</strong>",
-        "heading_size": "h2",
-        "columns_desktop": 3,
-        "show_view_all": true,
-        "show_image": true,
-        "show_date": true,
-        "show_author": true,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "vm_certifications_eLDR6z": {
-      "type": "vm-certifications",
-      "blocks": {
-        "icon_box_Cpjdgj": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/iso-logo_1.png",
-            "heading": "ISO Certified",
-            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
-          }
-        },
-        "icon_box_BHdY7A": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/ayush-logo.png",
-            "heading": "MINISTRY OF AYUSH CERTIFIED",
-            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
-          }
-        },
-        "icon_box_MEjTXr": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/gmp-logo_1.png",
-            "heading": "GMP CERTIFIED",
-            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
-          }
-        },
-        "icon_box_RRQWGU": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/fssai-logo.png",
-            "heading": "FSSAI",
-            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon_box_Cpjdgj",
-        "icon_box_BHdY7A",
-        "icon_box_MEjTXr",
-        "icon_box_RRQWGU"
-      ],
-      "settings": {
         "padding_top": 40,
         "padding_bottom": 40
       }
