@@ -366,7 +366,7 @@
         "arrow-1": "shopify://shop_images/Path-33215.png",
         "arrow-2": "shopify://shop_images/Path-33214.png",
         "color_scheme": "scheme-b358da23-ef12-42b0-9985-e6703f126c31",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
       }
