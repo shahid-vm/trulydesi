@@ -15,7 +15,7 @@
         "slide_rHcdYg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/common_Banner.png",
+            "image": "shopify://shop_images/Web-Desk_Banner_87106d0c-2145-45aa-85e0-55e7dcf8a196.png",
             "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
             "heading_size": "h1",
@@ -34,45 +34,7 @@
         "slide_xtWBYn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/ghee_Banner.png",
-            "mob_image": "shopify://shop_images/1st_April_1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_Xy4VWH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/milk_Banner.png",
-            "mob_image": "shopify://shop_images/1st_April_1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_F9tHtQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/paneer_Banner.png",
+            "image": "shopify://shop_images/Web-Desk_Banner_87106d0c-2145-45aa-85e0-55e7dcf8a196.png",
             "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
             "heading_size": "h1",
@@ -91,9 +53,7 @@
       },
       "block_order": [
         "slide_rHcdYg",
-        "slide_xtWBYn",
-        "slide_Xy4VWH",
-        "slide_F9tHtQ"
+        "slide_xtWBYn"
       ],
       "custom_css": [],
       "settings": {
@@ -131,13 +91,31 @@
         "slide_Aciz4J": {
           "type": "slide",
           "settings": {
-            "anouncement": "Hormones and Antibiotics free"
+            "anouncement": "Comprehensive Traceability"
           }
         },
         "slide_ekiVAw": {
           "type": "slide",
           "settings": {
-            "anouncement": "Conservation of Indian Cow Breeds"
+            "anouncement": "Hormones and Antibiotics free"
+          }
+        },
+        "slide_hg34Yz": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Preservatives and Adulterants free"
+          }
+        },
+        "slide_dMh6tL": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Cruelty free Animal rearing"
+          }
+        },
+        "slide_KFhcTW": {
+          "type": "slide",
+          "settings": {
+            "anouncement": "Conservation of Indian cow Breeds"
           }
         }
       },
@@ -146,7 +124,10 @@
         "slide_DaqYf9",
         "slide_NMjXFT",
         "slide_Aciz4J",
-        "slide_ekiVAw"
+        "slide_ekiVAw",
+        "slide_hg34Yz",
+        "slide_dMh6tL",
+        "slide_KFhcTW"
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
@@ -206,6 +187,26 @@
         "padding_bottom": 20
       }
     },
+    "location_areas_kpQJ47": {
+      "type": "location-areas",
+      "blocks": {
+        "icon_box_cyjEXR": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Vasai",
+            "link": "shopify://pages/milk-delivery-in-vasai"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_cyjEXR"
+      ],
+      "settings": {
+        "title": "Fresh A2 Milk Delivered in Mumbai",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "featured_collection_dgfBmJ": {
       "type": "featured-collection",
       "custom_css": [
@@ -260,53 +261,44 @@
         "block_3dA9ew": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/AUTHENTIC_CARE.svg",
-            "title": "AUTHENTIC CARE",
-            "sub-title": "Our cows are raised naturally, free from antibiotics and growth hormones."
+            "image": "shopify://shop_images/authenticity.jpg",
+            "title": "AUTHENTICITY",
+            "sub-title": "Bringing purest form of food direct from the farms"
           }
         },
         "block_ji8MW7": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/NATURAL_BREEDING.svg",
-            "title": "NATURAL BREEDING",
-            "sub-title": "We practice ethical, natural breeding with no artificial insemination."
-          }
-        },
-        "block_mNpxDi": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/STRESS-FREE_ENVIRONMENT.svg",
-            "title": "STRESS-FREE ENVIRONMENT",
-            "sub-title": "Our cows live in a clean, stress-free environment, groomed regularly with herbal care."
+            "image": "shopify://shop_images/tradition-culture.jpg",
+            "title": "TRADITION",
+            "sub-title": "Harnessing age-old wisdom passed down by Grandmas"
           }
         },
         "block_4NgwEJ": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/NATURAL_GRAZING.svg",
-            "title": "NATURAL GRAZING",
-            "sub-title": "Our cows graze freely on chemical-free, nutrient-rich pastures."
+            "image": "shopify://shop_images/brutal-honesty.jpg",
+            "title": "TRUST",
+            "sub-title": "Being 100% transparent & thoroughly lab-tested"
           }
         },
-        "block_bYG66k": {
+        "block_mNpxDi": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/CALF-FIRST_APPROACH.svg",
-            "title": "CALF-FIRST APPROACH",
-            "sub-title": "We ensure our calves are fed first before collecting milk."
+            "image": "shopify://shop_images/purpose.jpg",
+            "title": "PURPOSE",
+            "sub-title": "Empowering rural India with employment & fair trade"
           }
         }
       },
       "block_order": [
         "block_3dA9ew",
         "block_ji8MW7",
-        "block_mNpxDi",
         "block_4NgwEJ",
-        "block_bYG66k"
+        "block_mNpxDi"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "title": "Truly Desi Promises",
         "coll-desc": ""
       }
@@ -365,9 +357,7 @@
       "settings": {
         "color_scheme": "",
         "title": "",
-        "coll-desc": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "coll-desc": ""
       }
     },
     "location_areas_CARJpf": {
@@ -442,26 +432,6 @@
       ],
       "settings": {
         "title": "Fresh A2 Milk Delivered in Pune",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
-    "location_areas_kpQJ47": {
-      "type": "location-areas",
-      "blocks": {
-        "icon_box_cyjEXR": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Vasai",
-            "link": "shopify://pages/milk-delivery-in-vasai"
-          }
-        }
-      },
-      "block_order": [
-        "icon_box_cyjEXR"
-      ],
-      "settings": {
-        "title": "Fresh A2 Milk Delivered in Mumbai",
         "padding_top": 40,
         "padding_bottom": 40
       }
