@@ -206,26 +206,6 @@
         "padding_bottom": 20
       }
     },
-    "location_areas_kpQJ47": {
-      "type": "location-areas",
-      "blocks": {
-        "icon_box_cyjEXR": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Vasai",
-            "link": "shopify://pages/milk-delivery-in-vasai"
-          }
-        }
-      },
-      "block_order": [
-        "icon_box_cyjEXR"
-      ],
-      "settings": {
-        "title": "Fresh A2 Milk Delivered in Mumbai",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "featured_collection_dgfBmJ": {
       "type": "featured-collection",
       "custom_css": [
@@ -331,113 +311,47 @@
         "coll-desc": ""
       }
     },
-    "home_journey_z4QLLy": {
-      "type": "home-journey",
-      "blocks": {
-        "text_tQPU3f": {
-          "type": "text",
-          "settings": {
-            "step-image": "shopify://shop_images/Asset_1_8786dacf-32bb-4d8d-b99c-49ef4174fc75.svg",
-            "step-title": "Milk sourced from DNA-certified, ethically raised Gir cows"
-          }
-        },
-        "text_7bmHeX": {
-          "type": "text",
-          "settings": {
-            "step-image": "shopify://shop_images/Asset_2.svg",
-            "step-title": "Cows graze freely, with no hormones or artificial insemination"
-          }
-        },
-        "text_GUw7BY": {
-          "type": "text",
-          "settings": {
-            "step-image": "shopify://shop_images/Asset_3_7968cf1a-b3a0-4265-834a-a43aeb9cef29.svg",
-            "step-title": "Each batch is tested for purity, safety, and nutrition"
-          }
-        },
-        "text_nGrBPP": {
-          "type": "text",
-          "settings": {
-            "step-image": "shopify://shop_images/Asset_4_9f57676c-9f37-4651-9eff-d1d771e09bcc.svg",
-            "step-title": "Lightly processed to retain its natural richness"
-          }
-        },
-        "text_B3wDkC": {
-          "type": "text",
-          "settings": {
-            "step-image": "shopify://shop_images/Asset_5.svg",
-            "step-title": "Delivered within 12 hours of milking, straight to your doorstep"
-          }
-        }
-      },
-      "block_order": [
-        "text_tQPU3f",
-        "text_7bmHeX",
-        "text_GUw7BY",
-        "text_nGrBPP",
-        "text_B3wDkC"
-      ],
-      "settings": {
-        "title": "Journey From Farm To Plate",
-        "btn_text": "",
-        "btn_url": "",
-        "arrow-1": "shopify://shop_images/Path-33215.png",
-        "arrow-2": "shopify://shop_images/Path-33214.png",
-        "color_scheme": "scheme-b358da23-ef12-42b0-9985-e6703f126c31",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "usp_section_kQwdyR": {
       "type": "usp-section",
       "blocks": {
         "block_qy3V3B": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Cow_Therapy.svg",
-            "title": "Cow Therapy",
-            "sub-title": "Feed, cuddle, and connect with our calm, loving cows."
+            "image": "shopify://shop_images/Background_1.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
           }
         },
         "block_mApPX7": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Orchard_Walk.svg",
-            "title": "Orchard Walk",
-            "sub-title": "Take a peaceful stroll through our thriving coconut and papaya groves."
+            "image": "shopify://shop_images/Background_2.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
           }
         },
         "block_MWhkUG": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Hand_Milking.svg",
-            "title": "Hand Milking",
-            "sub-title": "Experience milking firsthand, only after the calves are fully nourished."
+            "image": "shopify://shop_images/Background_3.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
           }
         },
         "block_j76HbY": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Sustainable_Living__1.svg",
-            "title": "Sustainable Living",
-            "sub-title": "Discover how our biogas system powers the farm and restores the soil."
+            "image": "shopify://shop_images/Background_4.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
           }
         },
         "block_jLLpVP": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Ghee_Making.svg",
-            "title": "Ghee Making",
-            "sub-title": "Watch the traditional Bilona process of preparing Gir Cow Cultured Ghee."
-          }
-        },
-        "block_F9byXK": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Farm_to_Table.svg",
-            "title": "Farm to Table",
-            "sub-title": "Get involved in sowing, harvesting, and learning the roots of organic farming."
+            "image": "shopify://shop_images/Background_5.png",
+            "title": "500+ Acres of Certified Organic FarmSources",
+            "sub-title": ""
           }
         }
       },
@@ -446,14 +360,13 @@
         "block_mApPX7",
         "block_MWhkUG",
         "block_j76HbY",
-        "block_jLLpVP",
-        "block_F9byXK"
+        "block_jLLpVP"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "title": "Activities",
-        "coll-desc": "<p>Experience farm life up close with these enriching activities</p>",
-        "padding_top": 52,
+        "color_scheme": "",
+        "title": "",
+        "coll-desc": "",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -533,6 +446,26 @@
         "padding_bottom": 40
       }
     },
+    "location_areas_kpQJ47": {
+      "type": "location-areas",
+      "blocks": {
+        "icon_box_cyjEXR": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Vasai",
+            "link": "shopify://pages/milk-delivery-in-vasai"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_cyjEXR"
+      ],
+      "settings": {
+        "title": "Fresh A2 Milk Delivered in Mumbai",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "featured_blog_dC8T9G": {
       "type": "featured-blog",
       "custom_css": [
@@ -608,7 +541,6 @@
     "featured_collection_dgfBmJ",
     "image_banner_TDV7Vi",
     "icon_with_title_text_qRQTzn",
-    "home_journey_z4QLLy",
     "usp_section_kQwdyR",
     "location_areas_CARJpf",
     "location_areas_kpQJ47",
