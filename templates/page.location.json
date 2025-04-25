@@ -131,31 +131,13 @@
         "slide_Aciz4J": {
           "type": "slide",
           "settings": {
-            "anouncement": "Comprehensive Traceability"
+            "anouncement": "Hormones and Antibiotics free"
           }
         },
         "slide_ekiVAw": {
           "type": "slide",
           "settings": {
-            "anouncement": "Hormones and Antibiotics free"
-          }
-        },
-        "slide_hg34Yz": {
-          "type": "slide",
-          "settings": {
-            "anouncement": "Preservatives and Adulterants free"
-          }
-        },
-        "slide_dMh6tL": {
-          "type": "slide",
-          "settings": {
-            "anouncement": "Cruelty free Animal rearing"
-          }
-        },
-        "slide_KFhcTW": {
-          "type": "slide",
-          "settings": {
-            "anouncement": "Conservation of Indian cow Breeds"
+            "anouncement": "Conservation of Indian Cow Breeds"
           }
         }
       },
@@ -164,10 +146,7 @@
         "slide_DaqYf9",
         "slide_NMjXFT",
         "slide_Aciz4J",
-        "slide_ekiVAw",
-        "slide_hg34Yz",
-        "slide_dMh6tL",
-        "slide_KFhcTW"
+        "slide_ekiVAw"
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
