@@ -15,64 +15,7 @@
         "slide_rHcdYg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/common_Banner.png",
-            "mob_image": "shopify://shop_images/1st_April_1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_xtWBYn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ghee_Banner.png",
-            "mob_image": "shopify://shop_images/1st_April_1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_Xy4VWH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/milk_Banner.png",
-            "mob_image": "shopify://shop_images/1st_April_1.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_F9tHtQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/paneer_Banner.png",
+            "image": "shopify://shop_images/image_1_4734fec4-4515-4f7d-ab48-84be3803f084.png",
             "mob_image": "shopify://shop_images/1st_April_1.png",
             "heading": "",
             "heading_size": "h1",
@@ -90,10 +33,7 @@
         }
       },
       "block_order": [
-        "slide_rHcdYg",
-        "slide_xtWBYn",
-        "slide_Xy4VWH",
-        "slide_F9tHtQ"
+        "slide_rHcdYg"
       ],
       "custom_css": [],
       "settings": {
