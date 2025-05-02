@@ -33,7 +33,6 @@
         "announcement_6MQUpr",
         "announcement_kz8rNz"
       ],
-      "disabled": true,
       "custom_css": [
         "@media (min-width: 1024px) and (max-width: 1342px) {.marquee-item {flex: 0 0 41vw !important; } .marquee-content {animation: unset; }}"
       ],
@@ -68,6 +67,7 @@
         "slide_hrL7nj",
         "slide_rwAhw9"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (min-width: 1024px) {.marquee-item {flex: 0 0 41vw !important; } .marquee-content {animation: unset; }}"
       ],
