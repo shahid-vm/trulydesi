@@ -33,7 +33,9 @@
         "announcement_6MQUpr",
         "announcement_kz8rNz"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "p.announcement-bar__message {font-size: 13px;}"
+      ],
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
         "auto_rotate": false,
