@@ -198,6 +198,9 @@
         "featured_collection_Kpg98b",
         "featured_collection_jVVWnE"
       ],
+      "custom_css": [
+        "h2{color: #064f32; font-size: 28px; font-weight: 700; text-align: center; width: 100%;}"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "Collections",
