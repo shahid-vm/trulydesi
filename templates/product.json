@@ -127,20 +127,20 @@
             "metafield_key": "why_truly_desi"
           }
         },
-        "content_6YfkAW": {
-          "type": "content",
-          "settings": {
-            "title": "Additional Details",
-            "content": "",
-            "metafield_key": "additional_details"
-          }
-        },
         "content_km7tkH": {
           "type": "content",
           "settings": {
             "title": "Serviceable Areas",
             "content": "",
             "metafield_key": "custom.serviceable_areas"
+          }
+        },
+        "content_6YfkAW": {
+          "type": "content",
+          "settings": {
+            "title": "Additional Details",
+            "content": "",
+            "metafield_key": "additional_details"
           }
         }
       },
@@ -149,8 +149,8 @@
         "content_kBTnCT",
         "content_maRjLE",
         "content_PWbxnD",
-        "content_6YfkAW",
-        "content_km7tkH"
+        "content_km7tkH",
+        "content_6YfkAW"
       ],
       "settings": {
         "caption": "",
