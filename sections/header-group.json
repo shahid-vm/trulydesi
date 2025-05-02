@@ -33,9 +33,7 @@
         "announcement_6MQUpr",
         "announcement_kz8rNz"
       ],
-      "custom_css": [
-        "@media (min-width: 1024px) and (max-width: 1342px) {.marquee-item {flex: 0 0 41vw !important; } .marquee-content {animation: unset; }}"
-      ],
+      "custom_css": [],
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
         "auto_rotate": false,
