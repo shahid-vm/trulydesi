@@ -38,7 +38,7 @@
       ],
       "name": "t:sections.announcement-bar.presets.name",
       "settings": {
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 3,
         "color_scheme": "scheme-b358da23-ef12-42b0-9985-e6703f126c31",
         "show_line_separator": true,
