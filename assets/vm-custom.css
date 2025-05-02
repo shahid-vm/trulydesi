@@ -551,3 +551,8 @@ dl {
     line-height: 20px;
     font-size: 14px;
 }
+@media screen and (max-width: 749px) {
+  .product-short-dis {
+    display: none;
+  }
+}
