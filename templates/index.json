@@ -218,6 +218,30 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_kNhCQ9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hAJHp6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Loved By Customer's",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hAJHp6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1746165728ea6c6944": {
       "type": "apps",
       "blocks": {
@@ -887,6 +911,7 @@
     "slideshow_eWVBwE",
     "scrolling_announcement_bar_UAEhwn",
     "collection_list_mrUQxn",
+    "rich_text_kNhCQ9",
     "1746165728ea6c6944",
     "collection_tabs_iVx6Lz",
     "image_banner_TDV7Vi",
