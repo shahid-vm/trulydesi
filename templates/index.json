@@ -202,7 +202,7 @@
         "h2 {color: #064f32; font-size: 28px; font-weight: 700; text-align: center; width: 100%;}",
         "a.full-unstyled-link {text-align: center; font-size: 16px; color: #064f32;}",
         ".card .icon-wrap {display: none;}",
-        ".card--standard .card__inner{border-radius: 0px;}"
+        ".card--standard .card__inner {border-radius: 0px !important;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
