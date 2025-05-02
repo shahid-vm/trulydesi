@@ -163,13 +163,15 @@
         "featured_collection_yfeHXe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all"
+            "collection": "all",
+            "image": "shopify://shop_images/Plant_Care.png"
           }
         },
         "featured_collection_KPGAY3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "best-seller"
+            "collection": "best-seller",
+            "image": "shopify://shop_images/Plants.png"
           }
         },
         "featured_collection_VR47kQ": {
