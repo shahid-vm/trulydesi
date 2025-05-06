@@ -177,6 +177,17 @@
   background: #ddd;
   transform: translateX(-50%);
 }
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  width: 8px;
+  height: 0;
+  background-color: #ff4f12;
+  border-radius: 50px;
+  transition: height 1s ease-out;
+}
 
 .timeline-{{ section.id }} .timeline-item {
   display: flex;
