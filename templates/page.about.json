@@ -194,10 +194,64 @@
             "title": "The Beginning",
             "discription": "Truly Desi was founded with a vision to offer clean, ethical dairy. We started our journey with just 13 indigenous cows on our farm."
           }
+        },
+        "block_Nkrejf": {
+          "type": "Block",
+          "settings": {
+            "year": "2019",
+            "title": "Laying the Groundwork",
+            "discription": "We began delivering raw A2 milk in PET bottles, introduced Bilona A2 Ghee and A2 Paneer, and supplied buttermilk to offices. R&D on cow nutrition and partnerships with local farmers also took off."
+          }
+        },
+        "block_46HtTK": {
+          "type": "Block",
+          "settings": {
+            "year": "2020",
+            "title": "Growing Strong",
+            "discription": "We scaled up by establishing a 100+ Gir cow farm in Maval, launched pasteurised milk, and introduced the Truly Desi Daily App for customer ease."
+          }
+        },
+        "block_KqrGgB": {
+          "type": "Block",
+          "settings": {
+            "year": "2021",
+            "title": "Expanding Horizons",
+            "discription": "Our A2 Kullhad Dahi hit the market along with our first retail store in Pune. We added organic fruits and veggies, grew our social presence, and joined platforms like Nature’s Basket and Swiggy Minis."
+          }
+        },
+        "block_mLE9VW": {
+          "type": "Block",
+          "settings": {
+            "year": "2022",
+            "title": "Wider Recognition",
+            "discription": "Named among India’s Top 100 D2C brands, we gained media features and listed our Ghee on Amazon. We also introduced the rare Punganur cow breed at our farm."
+          }
+        },
+        "block_3bnXEn": {
+          "type": "Block",
+          "settings": {
+            "year": "2023",
+            "title": "Going National",
+            "discription": "Truly Desi was recognised by NITI Aayog and expanded to Mumbai. We revamped our digital presence and partnered with major platforms like Blinkit and Reliance Smart."
+          }
+        },
+        "block_8YrXd4": {
+          "type": "Block",
+          "settings": {
+            "year": "2024",
+            "title": "Building Deeper Bonds",
+            "discription": "We launched farm visit programs for transparency, onboarded B2B clients, and engaged in wellness markets. Quick commerce partnerships with Instamart, Zepto, and MilkBasket enhanced our delivery reach."
+          }
         }
       },
       "block_order": [
-        "block_qz3epM"
+        "block_qz3epM",
+        "block_Nkrejf",
+        "block_46HtTK",
+        "block_KqrGgB",
+        "block_mLE9VW",
+        "block_3bnXEn",
+        "block_8YrXd4"
       ],
       "name": "Timeline Section",
       "settings": {
