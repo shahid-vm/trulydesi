@@ -9,8 +9,8 @@
     {% if count != 0 %}
       <div class="timeline-item left">
         <div class="timeline-content">
-          <h3>{{ block.settings.year }}</h3>
-          <h4>{{ block.settings.title }}</h4>
+          <h3 class="year">{{ block.settings.year }}</h3>
+          <h4 class="title">{{ block.settings.title }}</h4>
           <p>{{ block.settings.discription }}</p>
         </div>
       </div>
@@ -240,10 +240,13 @@
   font-weight: bold;
   color: #1c0f0a;
 }
+.timeline-{{ section.id }} .timeline-content .year {
+  margin: 15px 0px;
+}
 
 .timeline-{{ section.id }} .timeline-content p {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 23px;
   color: #333;
 }
 
