@@ -1664,3 +1664,10 @@ slider-component svg.icon.icon-caret {
   }
   
 }
+.usp-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 23px;
+    word-spacing: 1px;
+}
