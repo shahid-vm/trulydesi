@@ -416,7 +416,7 @@
           "settings": {
             "main-img": "shopify://shop_images/Milk_Pouch_Recycling.png",
             "main-title": "Milk Pouch Recycling",
-            "coll-desc": "<p>Over 5 crore milk pouches are discarded daily in India, contributing to plastic pollution. To reduce this, we’ve set up a system for collecting and recycling our pouches. After washing and shredding, the pouches are transformed into plastic granules, which are reused to create new products. By returning used pouches, you help reduce waste and support environmental conservation.</p>",
+            "coll-desc": "<p>Every day in India, over 5 crore milk pouches are discarded, adding to the problem of plastic pollution. To address this issue, we have established a collection and recycling system for used pouches. Once collected, the pouches are thoroughly washed, shredded, and processed into plastic granules. These granules are then reused to create thermal bags for dairy products that we distribute to our customers. </p>",
             "title": "",
             "title2": ""
           }
@@ -458,18 +458,18 @@
     "home_journey_z4QLLy": {
       "type": "home-journey",
       "blocks": {
-        "text_tQPU3f": {
-          "type": "text",
-          "settings": {
-            "step-image": "shopify://shop_images/Asset_1_8786dacf-32bb-4d8d-b99c-49ef4174fc75.svg",
-            "step-title": "Milk sourced from DNA-certified, ethically raised Gir cows"
-          }
-        },
         "text_7bmHeX": {
           "type": "text",
           "settings": {
             "step-image": "shopify://shop_images/Asset_2.svg",
             "step-title": "Cows graze freely, with no hormones or artificial insemination"
+          }
+        },
+        "text_tQPU3f": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Asset_1_8786dacf-32bb-4d8d-b99c-49ef4174fc75.svg",
+            "step-title": "Milk sourced from DNA-certified, ethically raised Gir cows"
           }
         },
         "text_GUw7BY": {
@@ -483,20 +483,20 @@
           "type": "text",
           "settings": {
             "step-image": "shopify://shop_images/Asset_4_9f57676c-9f37-4651-9eff-d1d771e09bcc.svg",
-            "step-title": "Lightly processed to retain its natural richness"
+            "step-title": "Packed under strict hygienic conditions to ensure safety and quality."
           }
         },
         "text_B3wDkC": {
           "type": "text",
           "settings": {
             "step-image": "shopify://shop_images/Asset_5.svg",
-            "step-title": "Delivered within 12 hours of milking, straight to your doorstep"
+            "step-title": "Delivered within 12 hours of milking, straight to your doorstep."
           }
         }
       },
       "block_order": [
-        "text_tQPU3f",
         "text_7bmHeX",
+        "text_tQPU3f",
         "text_GUw7BY",
         "text_nGrBPP",
         "text_B3wDkC"
@@ -799,48 +799,6 @@
         "padding_bottom": 36
       }
     },
-    "customer_testimonial_T7fWbG": {
-      "type": "customer-testimonial",
-      "blocks": {
-        "block_96WBE9": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Shahid_Kapoor_1_small_530920c8-0a9e-4544-a67a-1e873a77ff5d.png",
-            "content": "Their dedication to organic farming is truly inspiring. The quality of their products speaks volumes about the hard work and love they put into it. 1",
-            "title": "Akshay Kumar 1",
-            "sub-title": "Actor 1"
-          }
-        },
-        "block_nbUc9p": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Two_brothers_circle_small_899a0086-8ca7-4c0f-8cfd-b356fd8afd98.png",
-            "content": "Their dedication to organic farming is truly inspiring. The quality of their products speaks volumes about the hard work and love they put into it. 2",
-            "title": "Akshay Kumar 2",
-            "sub-title": "Actor 2"
-          }
-        },
-        "block_UWHpLi": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Sonam_Kapoor_small_8762e642-8993-42ee-b1d5-6fa98ac4783f.png",
-            "content": "Their dedication to organic farming is truly inspiring. The quality of their products speaks volumes about the hard work and love they put into it. 3",
-            "title": "Akshay Kumar 3",
-            "sub-title": "Actor 3"
-          }
-        }
-      },
-      "block_order": [
-        "block_96WBE9",
-        "block_nbUc9p",
-        "block_UWHpLi"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-2",
-        "title": ""
-      }
-    },
     "featured_blog_dC8T9G": {
       "type": "featured-blog",
       "custom_css": [
@@ -927,7 +885,6 @@
     "never_ever_section_gXK9rN",
     "index_video_jGRhDF",
     "franke_testinomial_section_WzX4yC",
-    "customer_testimonial_T7fWbG",
     "featured_blog_dC8T9G",
     "vm_certifications_eLDR6z"
   ]
