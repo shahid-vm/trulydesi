@@ -50,6 +50,24 @@
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const items = document.querySelectorAll(".timeline-item");
+    const line = document.querySelector('.timeline-line');
+
+  window.addEventListener('scroll', () => {
+    // Total height the page can scroll
+    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+
+    // Current scroll position
+    const scrollTop = window.scrollY;
+
+    // Calculate scroll percentage
+    const scrollPercent = scrollTop / scrollableHeight;
+
+    // Set max height in pixels for the line (change this as needed)
+    const maxHeight = document.documentElement.scrollHeight;
+
+    // Set new height based on scroll percentage
+    line.style.height = `${scrollPercent * maxHeight}px`;
+  });
 
     const observer = new IntersectionObserver(
       entries => {
