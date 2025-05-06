@@ -16,7 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/common_Banner.png",
-            "mob_image": "shopify://shop_images/1st_April_1.png",
+            "mob_image": "shopify://shop_images/common_Banner_mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -35,7 +35,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/ghee_Banner.png",
-            "mob_image": "shopify://shop_images/1st_April_1.png",
+            "mob_image": "shopify://shop_images/ghee_Banner_mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -54,7 +54,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/milk_Banner.png",
-            "mob_image": "shopify://shop_images/1st_April_1.png",
+            "mob_image": "shopify://shop_images/milk_Banner_mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -73,7 +73,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/paneer_Banner.png",
-            "mob_image": "shopify://shop_images/1st_April_1.png",
+            "mob_image": "shopify://shop_images/paneer_Banner_mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
