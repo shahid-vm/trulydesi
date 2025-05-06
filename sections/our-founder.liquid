@@ -215,8 +215,13 @@
     }
     }
    @media screen and (max-width: 750px) {
-      .founders-{{ section.id }} .founder-container {
-        overflow: auto;
-      } 
+     .founders-{{ section.id }} .founder-container .all-cards {
+        display: flex;
+        flex-direction: column;
+      }
+    
+    .founders-{{ section.id }} .founder-card {
+      max-width: 100%;
+    }
    }
 </style>
