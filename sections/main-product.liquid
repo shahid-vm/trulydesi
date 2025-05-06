@@ -508,9 +508,19 @@
                 {%- endif -%}
               {%- when 'usp' -%}
               <div class="product-usp-icons">
-                {% for img in product.metafields.custom.usp.value %}
-                  <img src="{{ img | img_url:'master' }}" {% if forloop.first %} style="margin-left: -18px;"{% endif %}>
-                {% endfor %}
+               {% assign images = product.metafields.custom.usp.value %}
+               {% assign titles = product.metafields.custom.usp_title.value %} 
+                {% for image in images %}
+                {% assign final_index  = forloop.index  %}
+                    {% for title in titles %}
+                       {% if final_index == forloop.index %}
+                        <div class="usp-container">
+                          <img src="{{ image | img_url:'master' }}" {% if forloop.first %} style="margin-left: -18px;"{% endif %}>
+                          <p class="usp-title">{{ title }}</p>
+                        </div>
+                        {% endif %}
+                      {% endfor %}
+                    {% endfor %}
               </div>
               {%- when 'complementary' -%}
                 <product-recommendations
