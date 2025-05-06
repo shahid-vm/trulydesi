@@ -1,7 +1,7 @@
 {% if section.blocks.size > 0 %}
 <div class="timeline-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
     <h2 class="section-title">{{ section.settings.title }}</h2>
-    <p class="sub-title">{{ section.settings.coll-desc }}</p>
+    <div class="sub-title">{{ section.settings.coll-desc }}</div>
   <div class="timeline">
     <span class="timeline-line"></span>
     {% for block in section.blocks %}
