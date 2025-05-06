@@ -1,52 +1,30 @@
+{% if section.blocks.size > 0 %}
 <div class="timeline-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
-    <h2 class="section-title">Jiddo's Life Journey</h2>
+    <h2 class="section-title">{{ section.settings.title }}</h2>
+    <p class="sub-title">{{ section.settings.coll-desc }}</p>
   <div class="timeline">
     <span class="timeline-line"></span>
-    <div class="timeline-item left">
-      <div class="timeline-content">
-        <h3>1929</h3>
-        <p>The Legend is born, setting the stage for an extraordinary life.</p>
+    {% for block in section.blocks %}
+    {% assign count = forloop.index | modulo:2 %}
+    {% if count != 0 %}
+      <div class="timeline-item left">
+        <div class="timeline-content">
+          <h3>{{ block.settings.year }}</h3>
+          <p>{{ block.settings.discription }}</p>
+        </div>
       </div>
-    </div>
-    <div class="timeline-item right">
-      <div class="timeline-content">
-        <h3>1946</h3>
-        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village during that era - cementing his hero status.</p>
+    {% else %}
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <h3>{{ block.settings.year }}</h3>
+          <p>{{ block.settings.discription }}</p>
+        </div>
       </div>
-    </div>
-    <div class="timeline-item left">
-      <div class="timeline-content">
-        <h3>1948</h3>
-        <p>Village maverick goes on rescue spree against mom's wishes to neighboring villages in danger. Details? Top secret.</p>
-      </div>
-    </div>
-    <div class="timeline-item right">
-      <div class="timeline-content">
-        <h3>1946</h3>
-        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village during that era - cementing his hero status.</p>
-      </div>
-    </div>
-    <div class="timeline-item left">
-      <div class="timeline-content">
-        <h3>1948</h3>
-        <p>Village maverick goes on rescue spree against mom's wishes to neighboring villages in danger. Details? Top secret.</p>
-      </div>
-    </div>
-    <div class="timeline-item right">
-      <div class="timeline-content">
-        <h3>1946</h3>
-        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village during that era - cementing his hero status.</p>
-      </div>
-    </div>
-    <div class="timeline-item left">
-      <div class="timeline-content">
-        <h3>1948</h3>
-        <p>Village maverick goes on rescue spree against mom's wishes to neighboring villages in danger. Details? Top secret.</p>
-      </div>
-    </div>
-    <!-- Add more items here -->
+    {% endif %}
+    {% endfor %}
   </div>
 </div>
+{% endif %}
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const items = document.querySelectorAll(".timeline-item");
@@ -93,11 +71,6 @@
         "id": "color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "background-1"
-      }, 
-      {
-       "type": "image_picker",
-        "id": "image",
-        "label": "Main Image"
       },
       {
         "type": "text",
@@ -109,7 +82,7 @@
         "id": "coll-desc",
         "label": "Description"
       },
-            {
+      {
         "type": "range",
         "id": "padding_top",
         "min": 0,
@@ -136,20 +109,15 @@
         "type": "Block",
         "settings": [
           {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Image"
-          },
-          {
             "type": "text",
-            "id": "title",
-            "label": "Title"
+            "id": "year",
+            "label": "Year"
           }, 
           {
-            "type": "text",
-            "id": "sub-title",
-            "label": "Sub Title"
-          }, 
+            "type": "textarea",
+            "id": "discription",
+            "label": "Content"
+          } 
         ]
       }
     ],
@@ -167,15 +135,21 @@
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
    .timeline-{{ section.id }} .jiddo-journey {
-  padding: 80px 20px;
-  position: relative;
-}
+      padding: 80px 20px;
+      position: relative;
+    }
 
 .timeline-{{ section.id }} .section-title {
-  text-align: center;
-  font-size: 2.8rem;
-  margin-bottom: 60px;
-  font-weight: 700;
+    color: #064f32;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+.timeline-{{ section.id }} .sub-title {
+    max-width: 800px;
+    font-size: 16px;
+    color: #555;
 }
 
 .timeline-{{ section.id }} .timeline {
