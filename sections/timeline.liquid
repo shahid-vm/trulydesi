@@ -1,77 +1,68 @@
 <div class="timeline-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
-  <h2 class="timeline-title">Jiddo's Life Journey</h2>
-  <div class="timeline-container">
-    <div class="timeline-item">
+    <h2 class="section-title">Jiddo's Life Journey</h2>
+  <div class="timeline">
+    <div class="timeline-item left">
       <div class="timeline-content">
         <h3>1929</h3>
         <p>The Legend is born, setting the stage for an extraordinary life.</p>
       </div>
     </div>
-    <div class="timeline-item">
+    <div class="timeline-item right">
       <div class="timeline-content">
         <h3>1946</h3>
         <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village during that era - cementing his hero status.</p>
       </div>
     </div>
-    <div class="timeline-item">
+    <div class="timeline-item left">
       <div class="timeline-content">
         <h3>1948</h3>
         <p>Village maverick goes on rescue spree against mom's wishes to neighboring villages in danger. Details? Top secret.</p>
       </div>
     </div>
-    <div class="timeline-item">
+    <div class="timeline-item right">
       <div class="timeline-content">
-        <h3>1960</h3>
-        <p>His unmatched charm wins the heart of the village princess, outshining all other suitors.</p>
+        <h3>1946</h3>
+        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village during that era - cementing his hero status.</p>
       </div>
     </div>
-    <div class="timeline-item">
+    <div class="timeline-item left">
       <div class="timeline-content">
-        <h3>1969</h3>
-        <p>The Legend's charismatic offsprings grace the world with their presence.</p>
+        <h3>1948</h3>
+        <p>Village maverick goes on rescue spree against mom's wishes to neighboring villages in danger. Details? Top secret.</p>
       </div>
     </div>
-    <div class="timeline-item">
+    <div class="timeline-item right">
       <div class="timeline-content">
-        <h3>1976</h3>
-        <p>Legend goes global: UAE sheikhs hire village hero as head of security. Obviously.</p>
+        <h3>1946</h3>
+        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village during that era - cementing his hero status.</p>
       </div>
     </div>
-    <div class="timeline-item">
+    <div class="timeline-item left">
       <div class="timeline-content">
-        <h3>1992</h3>
-        <p>The family legacy continues, with even more charming grandchildren joining the fold.</p>
+        <h3>1948</h3>
+        <p>Village maverick goes on rescue spree against mom's wishes to neighboring villages in danger. Details? Top secret.</p>
       </div>
     </div>
-    <div class="timeline-item">
-      <div class="timeline-content">
-        <h3>2000</h3>
-        <p>The Legend leaves us, but his dream and cherished tea recipe live on, inspiring generations.</p>
-      </div>
-    </div>
+    <!-- Add more items here -->
   </div>
 </div>
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
-    const items = document.querySelectorAll('.timeline-item');
+  document.addEventListener("DOMContentLoaded", () => {
+    const items = document.querySelectorAll(".timeline-item");
 
     const observer = new IntersectionObserver(
       entries => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
-            entry.target.classList.add('visible');
+            entry.target.classList.add("visible");
             observer.unobserve(entry.target);
           }
         });
       },
-      {
-        threshold: 0.1
-      }
+      { threshold: 0.2 }
     );
 
-    items.forEach(item => {
-      observer.observe(item);
-    });
+    items.forEach(item => observer.observe(item));
   });
 </script>
 {% schema %}
@@ -156,85 +147,113 @@
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
-   .timeline-{{ section.id }} {
-    background-color: #f9f9f9;
-    padding: 60px 20px;
-    position: relative;
+   .timeline-{{ section.id }} .jiddo-journey {
+  padding: 80px 20px;
+  position: relative;
+}
+
+.timeline-{{ section.id }} .section-title {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 60px;
+  font-weight: 700;
+}
+
+.timeline-{{ section.id }} .timeline {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px 0;
+  max-width: 900px;
+}
+
+.timeline-{{ section.id }} .timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px;
+  background: #ddd;
+  transform: translateX(-50%);
+}
+
+.timeline-{{ section.id }} .timeline-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 80px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.timeline-{{ section.id }} .timeline-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.timeline-{{ section.id }} .timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  background: #ff4f12;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.timeline-{{ section.id }} .timeline-item.left {
+  flex-direction: row-reverse;
+}
+
+.timeline-{{ section.id }} .timeline-item.right {
+  flex-direction: row;
+}
+
+.timeline-{{ section.id }} .timeline-content {
+  width: 45%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.timeline-{{ section.id }} .timeline-content h3 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1c0f0a;
+}
+
+.timeline-{{ section.id }} .timeline-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline-{{ section.id }} .timeline::before {
+    left: 20px;
   }
-  
-  .timeline-{{ section.id }} .timeline-title {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 40px;
-    color: #333;
+  .timeline-{{ section.id }} .timeline-item,
+  .timeline-{{ section.id }} .timeline-item.left,
+  .timeline-{{ section.id }} .timeline-item.right {
+    flex-direction: column;
+    align-items: flex-start;
   }
-  
-  .timeline-{{ section.id }} .timeline-container {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
-    padding-left: 20px;
-    border-left: 4px solid #5c3441;
-  }
-  
-  .timeline-{{ section.id }} .timeline-item {
-    position: relative;
-    margin-bottom: 40px;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.6s ease-out;
-  }
-  
   .timeline-{{ section.id }} .timeline-item::before {
-    content: '';
-    position: absolute;
-    left: -12px;
-    top: 0;
-    width: 24px;
-    height: 24px;
-    background-color: #5c3441;
-    border-radius: 50%;
-    border: 4px solid #fff;
-    box-shadow: 0 0 0 4px #5c3441;
+    left: 20px;
+    transform: none;
   }
-  
-  .timeline-{{ section.id }} .timeline-item.visible {
-    opacity: 1;
-    transform: translateY(0);
+  .timeline-{{ section.id }} .timeline-content {
+    width: 100%;
+    margin-left: 40px;
   }
-  
-  .timeline-{{ section.id }} .timeline-content h3 {
-    margin: 0 0 10px;
-    color: #5c3441;
-    font-size: 1.5rem;
-  }
-  
-  .timeline-{{ section.id }} .timeline-content p {
-    margin: 0;
-    color: #555;
-    font-size: 1rem;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 600px) {
-    .timeline-{{ section.id }} .timeline-container {
-      padding-left: 10px;
-    }
-  
-    .timeline-{{ section.id }} .timeline-item::before {
-      left: -10px;
-      width: 20px;
-      height: 20px;
-    }
-  
-    .timeline-{{ section.id }} .timeline-content h3 {
-      font-size: 1.25rem;
-    }
-  
-    .timeline-{{ section.id }} .timeline-content p {
-      font-size: 0.95rem;
-    }
-  }
+}
 @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
