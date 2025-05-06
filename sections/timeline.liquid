@@ -7,18 +7,18 @@
     {% for block in section.blocks %}
     {% assign count = forloop.index | modulo:2 %}
     {% if count != 0 %}
-      <div class="timeline-item right">
-        <div class="timeline-content">
-          <h3>{{ block.settings.year }}</h3>
-          <h4>{{ block.settings.title }}</h4>
-          <p>{{ block.settings.discription }}</p>
-        </div>
-      </div>
-    {% else %}
       <div class="timeline-item left">
         <div class="timeline-content">
           <h3 class="year">{{ block.settings.year }}</h3>
           <h4 class="title">{{ block.settings.title }}</h4>
+          <p>{{ block.settings.discription }}</p>
+        </div>
+      </div>
+    {% else %}
+      <div class="timeline-item right">
+        <div class="timeline-content">
+          <h3>{{ block.settings.year }}</h3>
+          <h4>{{ block.settings.title }}</h4>
           <p>{{ block.settings.discription }}</p>
         </div>
       </div>
