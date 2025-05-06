@@ -1,66 +1,88 @@
 <div class="timeline-{{ section.id }} section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
-    <h2 class="section-title">Jiddo's Life Journey</h2>
+    <section class="jiddo-journey">
+  <h2 class="section-title">Jiddo's Life Journey</h2>
   <div class="timeline">
-    <div class="timeline-item left">
-      <div class="timeline-content">
+    <div class="timeline-item">
+      <span class="timeline-line"></span>
+      <div class="timeline-content right">
         <h3>1929</h3>
         <p>The Legend is born, setting the stage for an extraordinary life.</p>
       </div>
     </div>
-    <div class="timeline-item right">
-      <div class="timeline-content">
+    <div class="timeline-item">
+      <span class="timeline-line"></span>
+      <div class="timeline-content left">
         <h3>1946</h3>
-        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village during that era - cementing his hero status.</p>
+        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village.</p>
       </div>
     </div>
-    <div class="timeline-item left">
-      <div class="timeline-content">
+    <div class="timeline-item">
+      <span class="timeline-line"></span>
+      <div class="timeline-content right">
         <h3>1948</h3>
-        <p>Village maverick goes on rescue spree against mom's wishes to neighboring villages in danger. Details? Top secret.</p>
+        <p>Village maverick goes on rescue spree. Details? Top secret.</p>
       </div>
     </div>
-    <div class="timeline-item right">
-      <div class="timeline-content">
+    <div class="timeline-item">
+      <span class="timeline-line"></span>
+      <div class="timeline-content left">
         <h3>1946</h3>
-        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village during that era - cementing his hero status.</p>
+        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village.</p>
       </div>
     </div>
-    <div class="timeline-item left">
-      <div class="timeline-content">
+    <div class="timeline-item">
+      <span class="timeline-line"></span>
+      <div class="timeline-content right">
         <h3>1948</h3>
-        <p>Village maverick goes on rescue spree against mom's wishes to neighboring villages in danger. Details? Top secret.</p>
+        <p>Village maverick goes on rescue spree. Details? Top secret.</p>
       </div>
     </div>
-    <div class="timeline-item right">
-      <div class="timeline-content">
+    <div class="timeline-item">
+      <span class="timeline-line"></span>
+      <div class="timeline-content left">
         <h3>1946</h3>
-        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village during that era - cementing his hero status.</p>
+        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village.</p>
       </div>
     </div>
-    <div class="timeline-item left">
-      <div class="timeline-content">
+    <div class="timeline-item">
+      <span class="timeline-line"></span>
+      <div class="timeline-content right">
         <h3>1948</h3>
-        <p>Village maverick goes on rescue spree against mom's wishes to neighboring villages in danger. Details? Top secret.</p>
+        <p>Village maverick goes on rescue spree. Details? Top secret.</p>
       </div>
     </div>
-    <!-- Add more items here -->
+    <div class="timeline-item">
+      <span class="timeline-line"></span>
+      <div class="timeline-content left">
+        <h3>1946</h3>
+        <p>The Legend had an adventurous spirit as a teen, becoming the first to use a cannon in his village.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-line"></span>
+      <div class="timeline-content right">
+        <h3>1948</h3>
+        <p>Village maverick goes on rescue spree. Details? Top secret.</p>
+      </div>
+    </div>
+    <!-- Add more entries here -->
   </div>
+</section>
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const items = document.querySelectorAll(".timeline-item");
 
-    const observer = new IntersectionObserver(
-      entries => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.2 }
-    );
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.3
+    });
 
     items.forEach(item => observer.observe(item));
   });
@@ -147,113 +169,88 @@
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     }
-   .timeline-{{ section.id }} .jiddo-journey {
-  padding: 80px 20px;
-  position: relative;
-}
-
-.timeline-{{ section.id }} .section-title {
-  text-align: center;
-  font-size: 2.8rem;
-  margin-bottom: 60px;
-  font-weight: 700;
-}
-
-.timeline-{{ section.id }} .timeline {
-  position: relative;
-  margin: 0 auto;
-  padding: 20px 0;
-  max-width: 900px;
-}
-
-.timeline-{{ section.id }} .timeline::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 2px;
-  background: #ddd;
-  transform: translateX(-50%);
-}
-
-.timeline-{{ section.id }} .timeline-item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-bottom: 80px;
-  position: relative;
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.6s ease;
-}
-
-.timeline-{{ section.id }} .timeline-item.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.timeline-{{ section.id }} .timeline-item::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 16px;
-  height: 16px;
-  background: #ff4f12;
-  border-radius: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
-}
-
-.timeline-{{ section.id }} .timeline-item.left {
-  flex-direction: row-reverse;
-}
-
-.timeline-{{ section.id }} .timeline-item.right {
-  flex-direction: row;
-}
-
-.timeline-{{ section.id }} .timeline-content {
-  width: 45%;
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: left;
-}
-
-.timeline-{{ section.id }} .timeline-content h3 {
-  margin-top: 0;
-  font-size: 1.8rem;
-  font-weight: bold;
-  color: #1c0f0a;
-}
-
-.timeline-{{ section.id }} .timeline-content p {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #333;
-}
-
-@media screen and (max-width: 768px) {
-  .timeline-{{ section.id }} .timeline::before {
-    left: 20px;
-  }
-  .timeline-{{ section.id }} .timeline-item,
-  .timeline-{{ section.id }} .timeline-item.left,
-  .timeline-{{ section.id }} .timeline-item.right {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .timeline-{{ section.id }} .timeline-item::before {
-    left: 20px;
-    transform: none;
-  }
-  .timeline-{{ section.id }} .timeline-content {
-    width: 100%;
-    margin-left: 40px;
-  }
-}
+   .section-title {
+      text-align: center;
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 60px;
+    }
+    
+    .timeline {
+      position: relative;
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 0;
+    }
+    
+    .timeline-item {
+      position: relative;
+      padding-left: 50%;
+      margin-bottom: 100px;
+    }
+    
+    .timeline-item .timeline-content {
+      position: relative;
+      width: 45%;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    
+    .timeline-content.left {
+      left: -100%;
+      text-align: right;
+    }
+    
+    .timeline-content.right {
+      left: 5%;
+      text-align: left;
+    }
+    
+    .timeline-line {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      transform: translateX(-50%);
+      width: 8px;
+      height: 0;
+      background-color: #ff4f12;
+      border-radius: 50px;
+      transition: height 1s ease-out;
+    }
+    
+    .timeline-item::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 18px;
+      height: 18px;
+      background: #ff4f12;
+      border-radius: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+    }
+    
+    .timeline-item.visible .timeline-line {
+      height: 100px;
+    }
+    
+    @media (max-width: 768px) {
+      .timeline-item {
+        padding-left: 40px;
+      }
+      .timeline-line {
+        left: 20px;
+      }
+      .timeline-content.left,
+      .timeline-content.right {
+        width: calc(100% - 60px);
+        left: 0;
+        text-align: left;
+      }
+    }
 @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
