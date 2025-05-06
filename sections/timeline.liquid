@@ -51,23 +51,23 @@
   document.addEventListener("DOMContentLoaded", () => {
     const items = document.querySelectorAll(".timeline-item");
     const line = document.querySelector('.timeline-line');
-
-  window.addEventListener('scroll', () => {
-    // Total height the page can scroll
-    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
-
-    // Current scroll position
-    const scrollTop = window.scrollY;
-
-    // Calculate scroll percentage
-    const scrollPercent = scrollTop / scrollableHeight;
-
-    // Set max height in pixels for the line (change this as needed)
-    const maxHeight = document.documentElement.scrollHeight;
-
-    // Set new height based on scroll percentage
-    line.style.height = `${scrollPercent * maxHeight}px`;
-  });
+    const timelineSection = document.querySelector('.timeline');
+  
+    window.addEventListener('scroll', () => {
+      const sectionTop = timelineSection.offsetTop;
+      const sectionHeight = timelineSection.offsetHeight;
+      const scrollTop = window.scrollY;
+      const windowHeight = window.innerHeight;
+  
+      // Scroll position relative to the timeline section
+      const distanceScrolledInSection = scrollTop + windowHeight - sectionTop;
+  
+      // Clamp the value between 0 and sectionHeight
+      const clampedHeight = Math.min(Math.max(distanceScrolledInSection, 0), sectionHeight);
+  
+      // Set the height of the line
+      line.style.height = `${clampedHeight}px`;
+    });
 
     const observer = new IntersectionObserver(
       entries => {
@@ -204,7 +204,7 @@
   height: 0;
   background-color: #ff4f12;
   border-radius: 50px;
-  transition: height 1s ease-out;
+  transition: height 0.3s ease-out;
 }
 
 .timeline-{{ section.id }} .timeline-item {
