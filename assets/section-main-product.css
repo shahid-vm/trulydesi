@@ -390,7 +390,13 @@ a.product__text {
     margin-bottom: 3rem;
     width: calc(100% + 4rem);
   }
-
+  .product-usp-icons {
+    display: grid;
+    width: 100%;
+    gap: 20px;
+    margin: 20px 0;
+    grid-template-columns: auto auto;
+  }
   .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
     margin-left: -1.5rem;
     margin-right: -1.5rem;
