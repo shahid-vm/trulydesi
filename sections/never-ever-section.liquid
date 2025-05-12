@@ -1,4 +1,5 @@
 <div class="section-{{ section.id }}-padding never-have-i-ever {{ section.id }} color-{{ section.settings.color_scheme }}">
+  <div class="never-ever-sec">
   <div class="title-bubble">
     <h2>{{ section.settings.title }}</h2>
   </div>
@@ -37,7 +38,7 @@
     {% endif %}
     <img class="character" src="{{ section.settings.image | img_url:'master' }}" alt="character" />
   </div>
-
+  </div>
 </div>
     {% schema %}
 {
