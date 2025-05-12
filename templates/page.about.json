@@ -71,8 +71,9 @@
         "column_VRBFjB": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Benifts_Section_images_1ecc7884-829d-4d05-9151-c4eae59fd06c.png",
+            "title": "Vision",
+            "text": "<p>Truly Desi comes with a vision to bring a unique experience to our customers with their choice of dairy products. We want to support sustainable organic farming on a greater scale with comprehensive traceability, seamless service, and quality assurance. Our aim also constitutes the conservation and breeding of Indian cow breeds.</p>",
             "link_label": "",
             "link": ""
           }
@@ -80,8 +81,8 @@
         "column_RYVBhe": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Mission",
+            "text": "<p>Our mission is to offer farm-fresh milk and milk products directly to consumers at the best possible prices with 100% quality assurance.</p>",
             "link_label": "",
             "link": ""
           }
