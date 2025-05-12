@@ -84,48 +84,39 @@
               </div>
             {% endif %}
             <div class="grid__item">
-               {% assign faq_title = product.metafields.custom.faq_question.value %}
-               {% assign faq_content = product.metafields.custom.faq_answer.value %}      
-                {% for title in faq_title %}
-                {% assign final_index  = forloop.index  %}
-                    {% for content in faq_content %}
-                       {% if final_index == forloop.index %}
-                        <div
-                          class="accordion color-{{ section.settings.container_color_scheme }} {% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}"
-                          {{ block.shopify_attributes }}
-                        >
-                          <details
-                            id="Details-{{ block.id }}-{{ section.id }}"
-                            {% if section.settings.open_first_collapsible_row and forloop.first %}
-                              open
-                            {% endif %}
-                          >
-                            <summary id="Summary-{{ block.id }}-{{ section.id }}">
-                              <h3 class="accordion__title inline-richtext h4">
-                                {{ title }}
-                              </h3>
-                              <svg class="icon icon-plus" fill="currentColor" height="30px" width="30px" viewBox="0 0 20 20">
-                                <path d="M16,10c0,0.553-0.048,1-0.601,1H11v4.399C11,15.951,10.553,16,10,16c-0.553,0-1-0.049-1-0.601V11H4.601
-                                C4.049,11,4,10.553,4,10c0-0.553,0.049-1,0.601-1H9V4.601C9,4.048,9.447,4,10,4c0.553,0,1,0.048,1,0.601V9h4.399
-                                C15.952,9,16,9.447,16,10z"></path>
-                              </svg>
-                              <svg fill="currentColor" height="30px" width="30px" viewBox="0 0 20 20" class="icon-minus" style="display:none">
-                                <path d="M16,10c0,0.553-0.048,1-0.601,1H4.601C4.049,11,4,10.553,4,10c0-0.553,0.049-1,0.601-1h10.799C15.952,9,16,9.447,16,10z"></path>
-                              </svg>
-                            </summary>
-                            <div
-                              class="accordion__content rte"
-                              id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}"
-                              role="region"
-                              aria-labelledby="Summary-{{ block.id }}-{{ section.id }}"
-                            >
-                              {{ content }}
-                            </div>
-                          </details>
-                        </div>
-                  {% endif %}
-                {% endfor %}
+              {% assign faq_title = product.metafields.custom.faq_question.value %}
+              {% assign faq_content = product.metafields.custom.faq_answer.value %}      
+
+              {% for title in faq_title %}
+                {% assign final_index = forloop.index %}
+                {% assign content = faq_content[forloop.index0] %}
+
+                <div
+                  class="accordion color-{{ section.settings.container_color_scheme }} {% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %} {% if forloop.index > 4 %} extra-faq hidden{% endif %}"
+                >
+                  <details {% if section.settings.open_first_collapsible_row and forloop.first %} open {% endif %}>
+                    <summary>
+                      <h3 class="accordion__title inline-richtext h4">{{ title }}</h3>
+                      <svg class="icon icon-plus" fill="currentColor" height="30px" width="30px" viewBox="0 0 20 20">
+                        <path d="M16,10c0,0.553-0.048,1-0.601,1H11v4.399C11,15.951,10.553,16,10,16c-0.553,0-1-0.049-1-0.601V11H4.601
+                        C4.049,11,4,10.553,4,10c0-0.553,0.049-1,0.601-1H9V4.601C9,4.048,9.447,4,10,4c0.553,0,1,0.048,1,0.601V9h4.399
+                        C15.952,9,16,9.447,16,10z"></path>
+                      </svg>
+                      <svg fill="currentColor" height="30px" width="30px" viewBox="0 0 20 20" class="icon-minus" style="display:none">
+                        <path d="M16,10c0,0.553-0.048,1-0.601,1H4.601C4.049,11,4,10.553,4,10c0-0.553,0.049-1,0.601-1h10.799C15.952,9,16,9.447,16,10z"></path>
+                      </svg>
+                    </summary>
+                    <div class="accordion__content rte">
+                      {{ content }}
+                    </div>
+                  </details>
+                </div>
               {% endfor %}
+
+              <!-- Show More/Less Button -->
+              {% if faq_title.size > 4 %}
+                <button id="toggle-faqs" class="button" style="margin-top: 1rem;">Show more FAQs</button>
+              {% endif %}
             </div>
           </div>
         </div>
@@ -133,6 +124,32 @@
     </div>
   </div>
 {% endif %}
+
+  <!-- CSS -->
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+
+  <!-- JavaScript -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.getElementById('toggle-faqs');
+      if (!toggleBtn) return;
+
+      const extraFaqs = document.querySelectorAll('.extra-faq');
+      let expanded = false;
+
+      toggleBtn.addEventListener('click', function () {
+        extraFaqs.forEach(faq => faq.classList.toggle('hidden'));
+        expanded = !expanded;
+        toggleBtn.textContent = expanded ? 'Show less FAQs' : 'Show more FAQs';
+      });
+    });
+  </script>
+
+
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
