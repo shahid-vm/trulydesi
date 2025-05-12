@@ -308,11 +308,11 @@
     }
 
     function updateClouds() {
-      const translateAmount = latestScrollY * 0.2; // adjust for effect strength
+      const translateX = latestScrollY * 0.2; // adjust parallax speed
 
       if (leftCloud && rightCloud) {
-        leftCloud.style.transform = `translateX(${translateAmount}px)`; // move right
-        rightCloud.style.transform = `translateX(-${translateAmount}px)`; // move left
+        leftCloud.style.transform = `translateX(${translateX}px)`;
+        rightCloud.style.transform = `translateX(-${translateX}px)`;
       }
 
       ticking = false;
@@ -321,4 +321,5 @@
     window.addEventListener("scroll", onScroll);
   });
 </script>
+
 
