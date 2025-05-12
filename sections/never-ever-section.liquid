@@ -277,54 +277,7 @@
 .cloud-right-bg {
   right: 0;
 }
-.cloud-left-bg img,
-.cloud-right-bg img {
-  transition: transform 0.1s ease-out;
-}
-.cloud-left-bg img,
-.cloud-right-bg img {
-  animation: floatCloud 4s ease-in-out infinite;
-  will-change: transform;
-}
-
-@keyframes floatCloud {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px); /* adjust float height */
-  }
-}
-.cloud-left-bg img,
-.cloud-right-bg img {
-  will-change: transform;
-  transition: transform 0.05s ease-out;
-}
 
 
 </style>
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const leftCloud = document.querySelector(".cloud-left-bg img");
-    const rightCloud = document.querySelector(".cloud-right-bg img");
 
-    let scrollY = 0;
-    let floatOffset = 0;
-    let angle = 0;
-
-    function updateClouds() {
-      scrollY = window.scrollY;
-      angle += 0.03; // controls float speed
-      floatOffset = Math.sin(angle) * 10; // controls float height
-
-      if (leftCloud && rightCloud) {
-        leftCloud.style.transform = `translate(${scrollY * 0.2}px, ${floatOffset}px)`;
-        rightCloud.style.transform = `translate(${-scrollY * 0.2}px, ${-floatOffset}px)`;
-      }
-
-      requestAnimationFrame(updateClouds);
-    }
-
-    requestAnimationFrame(updateClouds);
-  });
-</script>
