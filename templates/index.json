@@ -653,6 +653,7 @@
         "block_Fqg7ii": {
           "type": "Block",
           "settings": {
+            "img": "shopify://shop_images/No_Vegetable_Oils.svg",
             "title": "No Vegetable Oils"
           }
         },
