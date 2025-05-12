@@ -267,7 +267,7 @@
 .cloud-right-bg {
   position: absolute;
   top: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .cloud-left-bg {
@@ -284,13 +284,21 @@
 .cloud-left-bg img,
 .cloud-right-bg img {
   will-change: transform;
+  pointer-events: none;
 }
 
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    const maxOffset = 100; // max movement in px
+    const translateX = Math.min(latestScrollY * 0.2, maxOffset);
+
     const leftCloud = document.querySelector(".cloud-left-bg img");
     const rightCloud = document.querySelector(".cloud-right-bg img");
+
+    const opacity = Math.max(1 - latestScrollY / 500, 0); 
+    leftCloud.style.opacity = opacity;
+    rightCloud.style.opacity = opacity;
 
     let latestScrollY = 0;
     let ticking = false;
