@@ -646,6 +646,7 @@
         "block_LHz4Nq": {
           "type": "Block",
           "settings": {
+            "img": "shopify://shop_images/No_Added_Sugars.svg",
             "title": "No Added Sugars"
           }
         },
