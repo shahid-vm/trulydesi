@@ -667,12 +667,14 @@
         "block_Y9hYAj": {
           "type": "Block",
           "settings": {
+            "img": "shopify://shop_images/No_Urea.svg",
             "title": "No Urea"
           }
         },
         "block_Qx69bt": {
           "type": "Block",
           "settings": {
+            "img": "shopify://shop_images/No_Hydrogen_Peroxide.svg",
             "title": "No Hydrogen Peroxide"
           }
         }
