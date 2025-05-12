@@ -639,6 +639,7 @@
         "block_heWa8X": {
           "type": "Block",
           "settings": {
+            "img": "shopify://shop_images/No_Caustic_soda.svg",
             "title": "No Caustic soda"
           }
         },
