@@ -21,7 +21,9 @@
       {% assign mod = forloop.index | modulo: 2 %}
       {% if  mod != 0 %}
       <li> 
+        <div class="icon-img">
         <img src="{{ block.settings.img | img_url:'medium' }}">
+        </div
         <br>
         {{ block.settings.title }}
       </li>
@@ -33,7 +35,9 @@
       {% assign mod = forloop.index | modulo: 2 %}
         {% if  mod == 0 %}
         <li>
+          <div class="icon-img">
           <img src="{{ block.settings.img | img_url:'medium' }}">
+          </div>
           <br>
           {{ block.settings.title }}
         </li>
