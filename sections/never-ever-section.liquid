@@ -20,7 +20,11 @@
     {% for block in section.blocks %}
       {% assign mod = forloop.index | modulo: 2 %}
       {% if  mod != 0 %}
-      <li> {{ block.settings.title }}</li>
+      <li> 
+        <img src="{{ block.settings.img | img_url:'medium' }}">
+        <br>
+        {{ block.settings.title }}
+      </li>
       {% endif %}
     {% endfor %}
     </ul>
@@ -28,7 +32,11 @@
     {% for block in section.blocks %}
       {% assign mod = forloop.index | modulo: 2 %}
         {% if  mod == 0 %}
-        <li> {{ block.settings.title }}</li>
+        <li>
+          <img src="{{ block.settings.img | img_url:'medium' }}">
+          <br>
+          {{ block.settings.title }}
+        </li>
         {% endif %}
     {% endfor %}
     </ul>
