@@ -357,5 +357,11 @@
           padding-bottom: {{ section.settings.padding_bottom }}px;
       }
      }
-      
-    </style>
+
+@media screen and (max-width: 767px){
+   .content-{{ section.id }}{
+     margin: 0px;
+     font-size: 15px;
+   }    
+}      
+</style>
