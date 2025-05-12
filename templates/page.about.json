@@ -81,6 +81,7 @@
         "column_RYVBhe": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Conservation_of_Soil.png",
             "title": "Mission",
             "text": "<p>Our mission is to offer farm-fresh milk and milk products directly to consumers at the best possible prices with 100% quality assurance.</p>",
             "link_label": "",
