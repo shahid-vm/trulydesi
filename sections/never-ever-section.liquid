@@ -263,6 +263,20 @@
   text-align: right;
 }
 
+.cloud-left-bg,
+.cloud-right-bg {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.cloud-left-bg {
+  left: 0;
+}
+
+.cloud-right-bg {
+  right: 0;
+}
 .cloud-left-bg img {
   animation: float-left 30s linear infinite;
   position: absolute;
@@ -291,20 +305,7 @@
 html {
   scroll-behavior: smooth;
 }
-.cloud-left-bg,
-.cloud-right-bg {
-  position: absolute;
-  top: 0;
-  z-index: 0;
-}
 
-.cloud-left-bg {
-  left: 0;
-}
-
-.cloud-right-bg {
-  right: 0;
-}
 
 
 </style>
