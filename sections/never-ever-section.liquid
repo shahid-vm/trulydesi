@@ -281,17 +281,44 @@
 .cloud-right-bg img {
   transition: transform 0.1s ease-out;
 }
+.cloud-left-bg img,
+.cloud-right-bg img {
+  will-change: transform;
+}
 
 </style>
 <script>
-  window.addEventListener('scroll', function () {
-    const scrollY = window.scrollY;
-    const leftCloud = document.querySelector('.cloud-left-bg img');
-    const rightCloud = document.querySelector('.cloud-right-bg img');
+  document.addEventListener("DOMContentLoaded", function () {
+    const leftCloud = document.querySelector(".cloud-left-bg img");
+    const rightCloud = document.querySelector(".cloud-right-bg img");
 
-    if (leftCloud && rightCloud) {
-      leftCloud.style.transform = `translateX(${scrollY * 0.2}px)`; // move right
-      rightCloud.style.transform = `translateX(-${scrollY * 0.2}px)`; // move left
+    let latestScrollY = 0;
+    let ticking = false;
+
+    function onScroll() {
+      latestScrollY = window.scrollY;
+      requestTick();
     }
+
+    function requestTick() {
+      if (!ticking) {
+        requestAnimationFrame(updateClouds);
+        ticking = true;
+      }
+    }
+
+    function updateClouds() {
+      const translateAmount = latestScrollY * 0.2; // adjust for effect strength
+
+      if (leftCloud && rightCloud) {
+        leftCloud.style.transform = `translateX(${translateAmount}px)`; // move right
+        rightCloud.style.transform = `translateX(-${translateAmount}px)`; // move left
+      }
+
+      ticking = false;
+    }
+
+    window.addEventListener("scroll", onScroll);
   });
 </script>
+
