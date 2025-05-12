@@ -284,15 +284,11 @@
 .cloud-left-bg img,
 .cloud-right-bg img {
   will-change: transform;
-  pointer-events: none;
 }
 
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const maxOffset = 100; // max movement in px
-    const translateX = Math.min(latestScrollY * 0.2, maxOffset);
-
     const leftCloud = document.querySelector(".cloud-left-bg img");
     const rightCloud = document.querySelector(".cloud-right-bg img");
 
@@ -325,5 +321,3 @@
     window.addEventListener("scroll", onScroll);
   });
 </script>
-
-
