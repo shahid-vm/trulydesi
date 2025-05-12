@@ -277,36 +277,49 @@
 .cloud-right-bg {
   right: 0;
 }
-.cloud-left-bg img {
-  animation: float-left 30s linear infinite;
-  position: absolute;
-  left: 0;
-  top: 10%;
-}
-
+.cloud-left-bg img,
 .cloud-right-bg img {
-  animation: float-right 30s linear infinite;
-  position: absolute;
-  right: 0;
-  top: 10%;
+  transition: transform 0.1s ease-out;
 }
-
-@keyframes float-left {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(-20px); }
-  100% { transform: translateX(0); }
+.cloud-left-bg img,
+.cloud-right-bg img {
+  will-change: transform;
 }
-
-@keyframes float-right {
-  0% { transform: translateX(0); }
-  50% { transform: translateX(20px); }
-  100% { transform: translateX(0); }
-}
-html {
-  scroll-behavior: smooth;
-}
-
-
 
 </style>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const leftCloud = document.querySelector(".cloud-left-bg img");
+    const rightCloud = document.querySelector(".cloud-right-bg img");
+
+    let latestScrollY = 0;
+    let ticking = false;
+
+    function onScroll() {
+      latestScrollY = window.scrollY;
+      requestTick();
+    }
+
+    function requestTick() {
+      if (!ticking) {
+        requestAnimationFrame(updateClouds);
+        ticking = true;
+      }
+    }
+
+    function updateClouds() {
+      const translateX = latestScrollY * 0.2; // adjust parallax speed
+
+      if (leftCloud && rightCloud) {
+        leftCloud.style.transform = `translateX(${translateX}px)`;
+        rightCloud.style.transform = `translateX(-${translateX}px)`;
+      }
+
+      ticking = false;
+    }
+
+    window.addEventListener("scroll", onScroll);
+  });
+</script>
+
 
