@@ -14,7 +14,7 @@
   <div class="item-list-container">
   <p class="subtitle">{{ section.settings.sub-title }}</p>
   <div class="item-list">
-    <div>
+    <div class="content">
     {% for block in section.blocks %}
       {% assign mod = forloop.index | modulo: 2 %}
       {% if  mod != 0 %}
@@ -22,14 +22,14 @@
       {% endif %}
     {% endfor %}
     </div>
-    <ul>
+    <div class="content">
     {% for block in section.blocks %}
       {% assign mod = forloop.index | modulo: 2 %}
         {% if  mod == 0 %}
-        <li>❌ {{ block.settings.title }}</li>
+        <span>❌ {{ block.settings.title }}</span>
         {% endif %}
     {% endfor %}
-    </ul>
+    </div>
   </div>
   </div>
 
