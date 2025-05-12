@@ -1,8 +1,8 @@
 <div class="section-{{ section.id }}-padding never-have-i-ever {{ section.id }} color-{{ section.settings.color_scheme }}">
-  <div class="cloud-left-bg">
+  <div class="cloud-left-bg floating">
     <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/cartoon-sky-cloud-vector-hand-dr.png?v=1747025752" alt="cloud-img">
   </div>
-  <div class="cloud-right-bg">
+  <div class="cloud-right-bg floating">
     <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/cartoon-sky-cloud-vector-hand-dr.png?v=1747025752" alt="cloud-img">
   </div>
   <div class="never-ever-sec">
@@ -285,7 +285,23 @@
 .cloud-right-bg img {
   will-change: transform;
 }
-
+.floating {
+    animation: floating 7s ease-in-out infinite;
+}
+.hp-style-leaf-1 {
+    position: absolute;
+    width: 150px;
+    bottom: -35px;
+    left: 0;
+}
+@keyframes floating {
+0% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-20px);
+}
+}
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
