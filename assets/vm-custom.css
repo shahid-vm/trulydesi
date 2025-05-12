@@ -561,7 +561,7 @@ dl {
 /* 12-05-2025 */
 @media screen and (max-width: 767px){
   .rich-text__wrapper{
-    width: 100%;
+    width: 100% !important;
   }
 }
 /* 12-05-2025 */
