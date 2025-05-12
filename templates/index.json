@@ -660,6 +660,7 @@
         "block_PFKKwi": {
           "type": "Block",
           "settings": {
+            "img": "shopify://shop_images/No_Starch.svg",
             "title": "No Starch"
           }
         },
