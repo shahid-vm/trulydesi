@@ -295,6 +295,11 @@
     transform: translateY(-10px); /* adjust float height */
   }
 }
+.cloud-left-bg img,
+.cloud-right-bg img {
+  will-change: transform;
+  transition: transform 0.05s ease-out;
+}
 
 
 </style>
@@ -303,34 +308,23 @@
     const leftCloud = document.querySelector(".cloud-left-bg img");
     const rightCloud = document.querySelector(".cloud-right-bg img");
 
-    let latestScrollY = 0;
-    let ticking = false;
-
-    function onScroll() {
-      latestScrollY = window.scrollY;
-      requestTick();
-    }
-
-    function requestTick() {
-      if (!ticking) {
-        requestAnimationFrame(updateClouds);
-        ticking = true;
-      }
-    }
+    let scrollY = 0;
+    let floatOffset = 0;
+    let angle = 0;
 
     function updateClouds() {
-      const translateX = latestScrollY * 0.2; // adjust parallax speed
+      scrollY = window.scrollY;
+      angle += 0.03; // controls float speed
+      floatOffset = Math.sin(angle) * 10; // controls float height
 
       if (leftCloud && rightCloud) {
-        leftCloud.style.transform = `translateX(${translateX}px)`;
-        rightCloud.style.transform = `translateX(-${translateX}px)`;
+        leftCloud.style.transform = `translate(${scrollY * 0.2}px, ${floatOffset}px)`;
+        rightCloud.style.transform = `translate(${-scrollY * 0.2}px, ${-floatOffset}px)`;
       }
 
-      ticking = false;
+      requestAnimationFrame(updateClouds);
     }
 
-    window.addEventListener("scroll", onScroll);
+    requestAnimationFrame(updateClouds);
   });
 </script>
-
-
