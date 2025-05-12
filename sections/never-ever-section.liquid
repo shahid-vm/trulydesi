@@ -262,4 +262,36 @@
 .cloud-right-bg{
   text-align: right;
 }
+
+.cloud-left-bg,
+.cloud-right-bg {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.cloud-left-bg {
+  left: 0;
+}
+
+.cloud-right-bg {
+  right: 0;
+}
+.cloud-left-bg img,
+.cloud-right-bg img {
+  transition: transform 0.1s ease-out;
+}
+
 </style>
+<script>
+  window.addEventListener('scroll', function () {
+    const scrollY = window.scrollY;
+    const leftCloud = document.querySelector('.cloud-left-bg img');
+    const rightCloud = document.querySelector('.cloud-right-bg img');
+
+    if (leftCloud && rightCloud) {
+      leftCloud.style.transform = `translateX(${scrollY * 0.2}px)`; // move right
+      rightCloud.style.transform = `translateX(-${scrollY * 0.2}px)`; // move left
+    }
+  });
+</script>
