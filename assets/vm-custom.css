@@ -170,7 +170,7 @@ h2.homepage_h2 {
     padding: 0px 10px;
     justify-content: space-between;
     align-items: center;
-      flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 .product-card-wrapper  span.price-item.price-item--sale.price-item--last {
     font-size: 14px !important;
