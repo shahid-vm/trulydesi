@@ -18,16 +18,18 @@
   <div class="item-list">
     <ul>
     {% for block in section.blocks %}
-      {% assign mod = forloop.index %}
+      {% assign mod = forloop.index | modulo: 2 %}
       {% if  mod != 0 %}
-      <li> 
-        <div class="icon-img">
-        <img src="{{ block.settings.img | img_url:'medium' }}">
-        </div
-        <br>
-        {{ block.settings.title }}
-      </li>
+      <li>❌ {{ block.settings.title }}</li>
       {% endif %}
+    {% endfor %}
+    </ul>
+    <ul>
+    {% for block in section.blocks %}
+      {% assign mod = forloop.index | modulo: 2 %}
+        {% if  mod == 0 %}
+        <li>❌ {{ block.settings.title }}</li>
+        {% endif %}
     {% endfor %}
     </ul>
   </div>
@@ -288,7 +290,7 @@
 @media screen and (max-width: 767px){
    .item-list ul {
       display: grid;
-      grid-template-columns: repeat(2,1fr);
+      grid-template-cloumns: repeat(2,1fr);
     }
     .item-list li {
       max-width: 100% !important;
