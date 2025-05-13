@@ -172,6 +172,11 @@ h2.homepage_h2 {
     align-items: center;
     flex-wrap: wrap;
 }
+span.compara_price-dev.price-item--regular {
+    font-size: 13px;
+    color: #00000065;
+    margin-left: 3px;
+}
 .product-card-wrapper .price-btn-container .price__container
 {
   width: 100%;
