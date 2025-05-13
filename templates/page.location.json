@@ -190,56 +190,56 @@
         "padding-bottom": 0
       }
     },
-    "icon_with_title_text_qRQTzn": {
+    "icon_with_title_text_ihnq3X": {
       "type": "icon-with-title-text",
       "blocks": {
-        "block_3dA9ew": {
+        "block_ijGajL": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/AUTHENTIC_CARE.svg",
+            "image": "shopify://shop_images/AUTHENTIC_CARE_eb413420-3c49-4deb-88b5-3252ae2a57ff.svg",
             "title": "AUTHENTIC CARE",
             "sub-title": "Our cows are raised naturally, free from antibiotics and growth hormones."
           }
         },
-        "block_ji8MW7": {
+        "block_3hhgJT": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/NATURAL_BREEDING.svg",
+            "image": "shopify://shop_images/NATURAL_BREEDING_30565c28-3a5b-4f3a-8762-75ba7660f014.svg",
             "title": "NATURAL BREEDING",
             "sub-title": "We practice ethical, natural breeding with no artificial insemination."
           }
         },
-        "block_mNpxDi": {
+        "block_pKmgA4": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/STRESS-FREE_ENVIRONMENT.svg",
+            "image": "shopify://shop_images/STRESS-FREE_ENVIRONMENT_c3292e50-fd2f-43dc-adb8-1127ea0b2510.svg",
             "title": "STRESS-FREE ENVIRONMENT",
             "sub-title": "Our cows live in a clean, stress-free environment, groomed regularly with herbal care."
           }
         },
-        "block_4NgwEJ": {
+        "block_g4DA4A": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/NATURAL_GRAZING.svg",
+            "image": "shopify://shop_images/NATURAL_GRAZING_6831476a-99e3-4f93-ad9a-e21b84f6e214.svg",
             "title": "NATURAL GRAZING",
             "sub-title": "Our cows graze freely on chemical-free, nutrient-rich pastures."
           }
         },
-        "block_bYG66k": {
+        "block_wGgdrn": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/CALF-FIRST_APPROACH.svg",
+            "image": "shopify://shop_images/CALF-FIRST_APPROACH_b8d6d33b-0644-45d7-a3b0-a4157aecc114.svg",
             "title": "CALF-FIRST APPROACH",
             "sub-title": "We ensure our calves are fed first before collecting milk."
           }
         }
       },
       "block_order": [
-        "block_3dA9ew",
-        "block_ji8MW7",
-        "block_mNpxDi",
-        "block_4NgwEJ",
-        "block_bYG66k"
+        "block_ijGajL",
+        "block_3hhgJT",
+        "block_pKmgA4",
+        "block_g4DA4A",
+        "block_wGgdrn"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -496,7 +496,7 @@
     "location_content_block_TKrKwA",
     "featured_collection_dgfBmJ",
     "single_image_banner_pMXr7L",
-    "icon_with_title_text_qRQTzn",
+    "icon_with_title_text_ihnq3X",
     "home_journey_z4QLLy",
     "usp_section_CayHym",
     "featured_blog_dC8T9G",
