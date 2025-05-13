@@ -1588,6 +1588,10 @@ span.varient-name-custom {
     object-fit: contain;
     margin: 0 auto !important;
 }
+p.usp-title {
+    font-size: 12px;
+    line-height: 15px;
+}
 span.h4.inline-richtext {
     font-size: 14px;
     line-height: 18px;
