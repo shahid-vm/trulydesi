@@ -196,7 +196,8 @@
         "featured_collection_Kpg98b"
       ],
       "custom_css": [
-        ".full-unstyled-link{text-align: :center;}"
+        ".full-unstyled-link{text-align: :center;}",
+        ".card .icon-wrap{display: none;}"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
