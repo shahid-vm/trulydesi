@@ -306,7 +306,8 @@
     "image_banner_TDV7Vi": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Why_Choose_Section.jpg",
+        "image": "shopify://shop_images/Why_Choose_Section_21570f2f-3ccc-4ee3-ba4e-9208f7db0645.jpg",
+        "image_2": "shopify://shop_images/Why_Choose_Section_21570f2f-3ccc-4ee3-ba4e-9208f7db0645.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "image_behavior": "none",
