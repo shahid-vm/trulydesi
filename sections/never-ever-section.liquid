@@ -15,6 +15,24 @@
 
   <div class="item-list-container">
   <p class="subtitle">{{ section.settings.sub-title }}</p>
+  <div class="item-list" style="display: flex; gap: 20px;">
+    
+    {% for col in (0..3) %}
+      <ul style="flex: 1;">
+        {% for block in section.blocks %}
+          {% assign mod = forloop.index0 | modulo: 4 %}
+          {% if mod == col %}
+            <li>❌ {{ block.settings.title }}</li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    {% endfor %}
+    
+  </div>
+</div>
+
+  <!-- <div class="item-list-container">
+  <p class="subtitle">{{ section.settings.sub-title }}</p>
   <div class="item-list">
     <ul>
     {% for block in section.blocks %}
@@ -33,7 +51,7 @@
     {% endfor %}
     </ul>
   </div>
-  </div>
+  </div> -->
 
   <div class="bottom-box">
     <div class="text">
