@@ -593,3 +593,41 @@ dl {
 {
   display: none;
 }
+
+/* Container style */
+.variant-select {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+  appearance: none; /* Remove default browser styling */
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%22292%22%20height%3D%22146%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%3Cpath%20d%3D%22M287%2051.5l-134%2092-134-92%22%20stroke%3D%22%23333%22%20stroke-width%3D%2210%22%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+
+/* Option styling */
+.variant-select option {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Optional: Hover effect for select */
+.variant-select:hover {
+  border-color: #888;
+}
+
+/* Optional: Focus effect */
+.variant-select:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
