@@ -926,6 +926,18 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "single_image_banner_cbCiR9": {
+      "type": "single-image-banner",
+      "name": "Single - Image Banner",
+      "settings": {
+        "full_width": false,
+        "desktop-image": "shopify://shop_images/Why_Choose_Section_21570f2f-3ccc-4ee3-ba4e-9208f7db0645.jpg",
+        "mobile-image": "shopify://shop_images/Why_Choose_Section_21570f2f-3ccc-4ee3-ba4e-9208f7db0645.jpg",
+        "link": "",
+        "padding-top": 40,
+        "padding-bottom": 40
+      }
     }
   },
   "order": [
@@ -946,6 +958,7 @@
     "index_video_jGRhDF",
     "franke_testinomial_section_WzX4yC",
     "featured_blog_dC8T9G",
-    "vm_certifications_eLDR6z"
+    "vm_certifications_eLDR6z",
+    "single_image_banner_cbCiR9"
   ]
 }
