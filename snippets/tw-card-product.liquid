@@ -303,6 +303,8 @@
   {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
   {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
   {% render 'card-quick-add',product: card_product, product_form_id: product_form_id %}
+
+{% comment %}  
   <!-- Button Module -->
         
         {% if quick_add == 'standard' %}
@@ -488,7 +490,7 @@
                             class="quick-add__product-media"
                           >
                             <div class="quick-add__product-container global-media-settings">
-                              {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+                             
                               <img
                                 srcset="
                                   {%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
@@ -509,7 +511,7 @@
                                 width="{{ card_product.featured_media.width }}"
                                 height="{{ card_product.featured_media.height }}"
                               >
-                              {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
+                             
                             </div>
                           </div>
                         {%- endif -%}
@@ -565,6 +567,7 @@
             </div>
           {% endif %}
         {% endif %}
+        {% endcomment %}
   <!-- Button Module -->
   </div>
 
