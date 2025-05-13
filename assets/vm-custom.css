@@ -566,3 +566,8 @@ dl {
   }
 }
 /* 12-05-2025 */
+.p.sub-title
+{
+      font-size: 14px;
+    line-height: 20px;
+}
