@@ -1,0 +1,125 @@
+{%- unless product.has_only_default_variant -%}
+  <custom-variant-selector>
+    {%- for option in product.options_with_values -%}
+     <select class="variant-select">
+      {%- for value in option.values -%}
+         {%- assign variant = product.variants | where: 'option1', value | first -%}
+         <option class="variant" variant-image="{{ variant.image.src | product_img_url: 'master' }}" 
+            variant-title="{{ variant.title }}" variant-id="{{ variant.id }}" variant-price="{{ variant.price }}" 
+            variant-comPrice="{{ variant.compare_at_price  }}" variant-inv="{{ variant.inventory_quantity }}"
+            variant-discount="{{ variant.compare_at_price | minus: variant.price | times: 100 | divided_by: variant.compare_at_price }}"
+           >{{ variant.title }}
+         </option>
+      {%- endfor -%}
+     </select>
+    {%- endfor -%}
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      setTimeout(function() {
+        document.querySelectorAll(".variant-select").forEach(select => {
+          select.addEventListener("change", function (e) {
+            e.preventDefault();
+            let selectedOption = this.options[this.selectedIndex];
+            const variantId = selectedOption.getAttribute("variant-id"),
+            variantQty = selectedOption.getAttribute("variant-inv"),
+            variantPrice = selectedOption.getAttribute("variant-price"),
+            result = parseFloat(variantPrice.replace(/[^0-9.-]/g, "")) / 100,
+            variantComPrice = selectedOption.getAttribute("variant-comPrice"),
+            resultCom = parseFloat(variantComPrice.replace(/[^0-9.-]/g, "")) / 100,
+            altText = selectedOption.getAttribute("variant-image");
+            let cardWrapper = selectedOption.closest(".product--item");
+            
+            let variantDiscount = selectedOption.getAttribute("variant-discount");
+            
+            if (cardWrapper) {
+              let quickAddSubmit = cardWrapper.querySelector(".quick-add__submit");
+              let custom_lpl_price = cardWrapper.querySelector('.custom_lpl_price');
+                if (quickAddSubmit) {
+                  let inputId = cardWrapper.querySelector('input[name="id"]');
+                  inputId && (inputId.value = variantId);
+                  const quickReAdd = quickAddSubmit.querySelector("span");
+                    if(variantQty < 1)  {
+                      quickReAdd.textContent = "Sold out";
+                      quickAddSubmit.setAttribute("disabled", !0)
+                    }
+                    else {
+                      quickReAdd.textContent = "Add to cart";
+                      
+                      if($(window).width() < 749) {
+                         quickReAdd.textContent = "Add";
+                      }
+                      
+                      quickAddSubmit.removeAttribute("disabled");
+                    }
+                }
+              
+              custom_lpl_price.textContent  = " \u20B9 " + (variantPrice/100);
+              
+              let priceDiscount = cardWrapper.querySelector('.discount-text');
+              priceDiscount.textContent = variantDiscount;
+              
+              let changeSrc = cardWrapper.querySelector(".card__image img");
+              if (console.log("changeSrc>>>", changeSrc), changeSrc) {
+                  let variantSc = cardWrapper.querySelector("img[srcset]");
+                  variantSc && altText != "" && variantSc.setAttribute("srcset", altText)
+              }
+            }
+          });
+        });
+      }, 2000);
+    });
+    </script>
+  </custom-variant-selector>
+{% endunless %}
+
+<product-form data-section-id="{{ section.id }}"> 
+  {%- form 'product',
+    product,
+    id: product_form_id,
+    class: 'form',
+    novalidate: 'novalidate',
+    data-type: 'add-to-cart-form'
+  -%}
+    <input
+      type="hidden"
+      name="id"
+      value="{{ product.selected_or_first_available_variant.id }}"
+      class="product-variant-id"
+      {% if product.selected_or_first_available_variant.available == false %}
+        disabled
+      {% endif %}
+    >
+    <button
+      id="{{ product_form_id }}-submit"
+      type="submit"
+      name="add"
+      class="quick-add__submit button button--full-width button--secondary{% if horizontal_quick_add %} card--horizontal__quick-add{% endif %}"
+      aria-haspopup="dialog"
+      aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ product.id }}"
+      aria-live="polite"
+      data-sold-out-message="true"
+      {% if product.selected_or_first_available_variant.available == false %}
+        disabled
+      {% endif %}
+    >
+      <span>
+        {%- if product.selected_or_first_available_variant.available -%}
+          {{ 'products.product.add_to_cart' | t }}
+        {%- else -%}
+          {{ 'products.product.sold_out' | t }}
+        {%- endif -%}
+      </span>&nbsp;-&nbsp;<span class="custom_lpl_price">{{ product.selected_or_first_available_variant.price | money_with_currency  }}
+      </span>
+      <span class="sold-out-message hidden">
+        {{ 'products.product.sold_out' | t }}
+      </span>
+      {%- if horizontal_quick_add -%}
+        <span class="icon-wrap">
+          {{- 'icon-plus.svg' | inline_asset_content -}}
+        </span>
+      {%- endif -%}
+      {%- render 'loading-spinner' -%}
+    </button>
+  {%- endform -%}
+</product-form>
