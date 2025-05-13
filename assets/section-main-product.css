@@ -1583,9 +1583,10 @@ span.varient-name-custom {
 
 }
 .product-usp-icons img {
-    width: auto;
-    height: 100px;
+        width: 50px;
+    height: 50px;
     object-fit: contain;
+    margin: 0 auto !important;
 }
 span.h4.inline-richtext {
     font-size: 14px;
