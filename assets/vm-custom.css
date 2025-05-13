@@ -172,8 +172,8 @@ h2.homepage_h2 {
     align-items: center;
     flex-wrap: wrap;
 }
-.product-card-wrapper .price-btn-container .price.price--on-sale,
-.product-card-wrapper .price-btn-container .price__regular
+.product-card-wrapper .price-btn-container .price,
+.product-card-wrapper .price-btn-container .price
 {
   width: 100%;
 }
