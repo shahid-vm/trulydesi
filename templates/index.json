@@ -163,36 +163,31 @@
         "featured_collection_yfeHXe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all",
-            "image": "shopify://shop_images/Other_Dairy_Essentials.jpg"
+            "collection": "all"
           }
         },
         "featured_collection_KPGAY3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "best-seller",
-            "image": "shopify://shop_images/Gut-Friendly_Delights.jpg"
+            "collection": "best-seller"
           }
         },
         "featured_collection_VR47kQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "location-collection",
-            "image": "shopify://shop_images/Farm_Fresh_Milk.jpg"
+            "collection": "location-collection"
           }
         },
         "featured_collection_Kpg98b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "new-arrival",
-            "image": "shopify://shop_images/Cow-Based_Products.jpg"
+            "collection": "new-arrival"
           }
         },
-        "featured_collection_J9NBUc": {
+        "featured_collection_jVVWnE": {
           "type": "featured_collection",
           "settings": {
-            "collection": "new-arrival",
-            "image": "shopify://shop_images/Cow-Based_Products.jpg"
+            "collection": "truly-desi-product-list"
           }
         }
       },
@@ -201,14 +196,14 @@
         "featured_collection_KPGAY3",
         "featured_collection_VR47kQ",
         "featured_collection_Kpg98b",
-        "featured_collection_J9NBUc"
+        "featured_collection_jVVWnE"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
@@ -306,7 +301,6 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify://shop_images/Why_Choose_Section_21570f2f-3ccc-4ee3-ba4e-9208f7db0645.jpg",
-        "image_2": "shopify://shop_images/Why_Choose_Section_21570f2f-3ccc-4ee3-ba4e-9208f7db0645.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "image_behavior": "none",
