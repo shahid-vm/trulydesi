@@ -29,7 +29,7 @@
             variantComPrice = selectedOption.getAttribute("variant-comPrice"),
             resultCom = parseFloat(variantComPrice.replace(/[^0-9.-]/g, "")) / 100,
             altText = selectedOption.getAttribute("variant-image");
-            let cardWrapper = selectedOption.closest(".product--item");
+            let cardWrapper = selectedOption.closest(".product-card-wrapper");
             
             let variantDiscount = selectedOption.getAttribute("variant-discount");
            console.log(variantDiscount,'variantDiscount');
