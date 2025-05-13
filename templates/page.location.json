@@ -247,54 +247,54 @@
         "coll-desc": ""
       }
     },
-    "home_journey_z4QLLy": {
+    "home_journey_CrXbjq": {
       "type": "home-journey",
       "blocks": {
-        "text_tQPU3f": {
-          "type": "text",
-          "settings": {
-            "step-image": "shopify://shop_images/Asset_1_8786dacf-32bb-4d8d-b99c-49ef4174fc75.svg",
-            "step-title": "Milk sourced from DNA-certified, ethically raised Gir cows"
-          }
-        },
-        "text_7bmHeX": {
+        "text_cJjcKP": {
           "type": "text",
           "settings": {
             "step-image": "shopify://shop_images/Asset_2.svg",
             "step-title": "Cows graze freely, with no hormones or artificial insemination"
           }
         },
-        "text_GUw7BY": {
+        "text_7wFi9W": {
+          "type": "text",
+          "settings": {
+            "step-image": "shopify://shop_images/Asset_1_8786dacf-32bb-4d8d-b99c-49ef4174fc75.svg",
+            "step-title": "Milk sourced from DNA-certified, ethically raised Gir cows"
+          }
+        },
+        "text_nTtPD9": {
           "type": "text",
           "settings": {
             "step-image": "shopify://shop_images/Asset_3_7968cf1a-b3a0-4265-834a-a43aeb9cef29.svg",
             "step-title": "Each batch is tested for purity, safety, and nutrition"
           }
         },
-        "text_nGrBPP": {
+        "text_qbFU87": {
           "type": "text",
           "settings": {
             "step-image": "shopify://shop_images/Asset_4_9f57676c-9f37-4651-9eff-d1d771e09bcc.svg",
-            "step-title": "Lightly processed to retain its natural richness"
+            "step-title": "Packed under strict hygienic conditions to ensure safety and quality."
           }
         },
-        "text_B3wDkC": {
+        "text_wQH3kA": {
           "type": "text",
           "settings": {
             "step-image": "shopify://shop_images/Asset_5.svg",
-            "step-title": "Delivered within 12 hours of milking, straight to your doorstep"
+            "step-title": "Delivered within 12 hours of milking, straight to your doorstep."
           }
         }
       },
       "block_order": [
-        "text_tQPU3f",
-        "text_7bmHeX",
-        "text_GUw7BY",
-        "text_nGrBPP",
-        "text_B3wDkC"
+        "text_cJjcKP",
+        "text_7wFi9W",
+        "text_nTtPD9",
+        "text_qbFU87",
+        "text_wQH3kA"
       ],
       "settings": {
-        "title": "Journey From Farm To Plate",
+        "title": "Journey From Farm To Home",
         "btn_text": "",
         "btn_url": "",
         "arrow-1": "shopify://shop_images/Path-33215.png",
@@ -497,7 +497,7 @@
     "featured_collection_dgfBmJ",
     "single_image_banner_pMXr7L",
     "icon_with_title_text_ihnq3X",
-    "home_journey_z4QLLy",
+    "home_journey_CrXbjq",
     "usp_section_CayHym",
     "featured_blog_dC8T9G",
     "location_areas_CARJpf",
