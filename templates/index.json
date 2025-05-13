@@ -187,27 +187,20 @@
             "collection": "new-arrival",
             "image": "shopify://shop_images/Cow-Based_Products.jpg"
           }
-        },
-        "featured_collection_jVVWnE": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "truly-desi-product-list"
-          }
         }
       },
       "block_order": [
         "featured_collection_yfeHXe",
         "featured_collection_KPGAY3",
         "featured_collection_VR47kQ",
-        "featured_collection_Kpg98b",
-        "featured_collection_jVVWnE"
+        "featured_collection_Kpg98b"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
