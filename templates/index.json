@@ -299,7 +299,7 @@
       "name": "Single - Image Banner",
       "settings": {
         "full_width": false,
-        "desktop-image": "shopify://shop_images/Why_Choose_Section_21570f2f-3ccc-4ee3-ba4e-9208f7db0645.jpg",
+        "desktop-image": "shopify://shop_images/Why-Choose-Section-2-_1_-min.png",
         "mobile-image": "shopify://shop_images/Why_Choose_Section_21570f2f-3ccc-4ee3-ba4e-9208f7db0645.jpg",
         "link": "",
         "padding-top": 40,
@@ -413,7 +413,7 @@
           "settings": {
             "main-img": "shopify://shop_images/Breeding_Indian_Indigenous_Cows.png",
             "main-title": "Breeding Indian Indigenous Cows – Naturally and Respectfully",
-            "coll-desc": "<p>At our farm, we nurture Gir and Punganur cows in their natural habitat, allowing them to freely graze across lush pastures filled with a diverse range of grasses, herbs, and natural fodder. This diverse diet naturally fulfills their nutritional needs, resulting in wholesome, nutrient-rich milk.</p><ul><li>Each cow selects its own food based on instinctive needs, ensuring individualized nutrition.<br/></li><li>Natural breeding only – all our cows conceive naturally while grazing. We do not use artificial insemination.<br/></li><li>Our cows live without fear or confinement, leading to minimal stress levels – verified through cortisol tests, where our cows have recorded one of the lowest cortisol scores ever tested.<br/></li></ul><p>This conscious approach to cow care results in happy, healthy cows and clean, high-quality milk that truly reflects the vitality of nature.</p>",
+            "coll-desc": "<p>At our farm, we nurture Gir and Punganur cows in their natural habitat, allowing them to freely graze across lush pastures filled with a diverse range of grasses, herbs, and natural fodder. This diverse diet naturally fulfills their nutritional needs, resulting in wholesome, nutrient-rich milk.</p><ul>\n<li>Each cow selects its own food based on instinctive needs, ensuring individualized nutrition.<br>\n</li>\n<li>Natural breeding only – all our cows conceive naturally while grazing. We do not use artificial insemination.<br>\n</li>\n<li>Our cows live without fear or confinement, leading to minimal stress levels – verified through cortisol tests, where our cows have recorded one of the lowest cortisol scores ever tested.<br>\n</li>\n</ul><p>This conscious approach to cow care results in happy, healthy cows and clean, high-quality milk that truly reflects the vitality of nature.</p>",
             "title": "",
             "title2": ""
           }
@@ -423,7 +423,7 @@
           "settings": {
             "main-img": "shopify://shop_images/Conservation_of_Soil.png",
             "main-title": "Conservation of Soil – Reviving the Foundation of Farming",
-            "coll-desc": "<p>Did you know that if conventional farming continues, we could lose all fertile soil within the next 45 to 50 years?</p><p>At our farm, we follow sustainable, soil-friendly practices to preserve and regenerate soil health for future generations:</p><ul><li>Desi Cow-Based Organic Fertilizers<br/> We use Jeevamrut, Ghanjeevamrut, and cow dung compost to naturally enrich the soil with essential microbes and nutrients.<br/></li><li>Mulching<br/> Organic mulching helps retain moisture, control weeds, and improve soil structure and microbial life.<br/></li><li>Crop Rotation<br/> We rotate crops seasonally to maintain nutrient balance in the soil and reduce the risk of pest buildup.<br/></li><li>Multi-ropping / Intercropping<br/> Growing multiple crops together increases biodiversity, improves soil fertility, and maximizes land productivity.<br/></li><li>Vermicomposting<br/> Earthworms help decompose organic matter into rich humus, enhancing soil texture and nutrient content.<br/></li></ul><p>Through these practices, we are not just growing food—we are healing the earth from the roots up.</p>",
+            "coll-desc": "<p>Did you know that if conventional farming continues, we could lose all fertile soil within the next 45 to 50 years?</p><p>At our farm, we follow sustainable, soil-friendly practices to preserve and regenerate soil health for future generations:</p><ul>\n<li>Desi Cow-Based Organic Fertilizers<br> We use Jeevamrut, Ghanjeevamrut, and cow dung compost to naturally enrich the soil with essential microbes and nutrients.<br>\n</li>\n<li>Mulching<br> Organic mulching helps retain moisture, control weeds, and improve soil structure and microbial life.<br>\n</li>\n<li>Crop Rotation<br> We rotate crops seasonally to maintain nutrient balance in the soil and reduce the risk of pest buildup.<br>\n</li>\n<li>Multi-ropping / Intercropping<br> Growing multiple crops together increases biodiversity, improves soil fertility, and maximizes land productivity.<br>\n</li>\n<li>Vermicomposting<br> Earthworms help decompose organic matter into rich humus, enhancing soil texture and nutrient content.<br>\n</li>\n</ul><p>Through these practices, we are not just growing food—we are healing the earth from the roots up.</p>",
             "title": "",
             "title2": ""
           }
