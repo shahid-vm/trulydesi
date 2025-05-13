@@ -19,7 +19,6 @@
       setTimeout(function() {
         document.querySelectorAll(".variant-select").forEach(select => {
           select.addEventListener("change", function (e) {
-            alert();
             e.preventDefault();
             let selectedOption = this.options[this.selectedIndex];
             const variantId = selectedOption.getAttribute("variant-id"),
@@ -36,8 +35,8 @@
             if (cardWrapper) {
               let quickAddSubmit = cardWrapper.querySelector(".quick-add__submit");
               let custom_lpl_price = cardWrapper.querySelector('.custom_lpl_price');
-              let compara_price-dev = cardWrapper.querySelector('.compara_price-dev');
-              let sale_price-dev = cardWrapper.querySelector('.sale_price-dev');
+              let compara_pricedev = cardWrapper.querySelector('.compara_price-dev');
+              let sale_pricedev = cardWrapper.querySelector('.sale_price-dev');
                 if (quickAddSubmit) {
                   let inputId = cardWrapper.querySelector('input[name="id"]');
                   inputId && (inputId.value = variantId);
@@ -58,8 +57,8 @@
                 }
               
               custom_lpl_price.textContent  = " \u20B9 " + (variantPrice/100);
-              compara_price-dev.textContent = "\u20B9" + (variantPrice/100);
-              sale_price-dev.textContent = "\u20B9" + (variantPrice/100);
+              compara_pricedev.textContent = "\u20B9" + (variantPrice/100);
+              sale_pricedev.textContent = "\u20B9" + (variantPrice/100);
             
               let priceDiscount = cardWrapper.querySelector('.discount-text');
               priceDiscount.textContent = variantDiscount;
