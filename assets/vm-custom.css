@@ -180,6 +180,8 @@ span.compara_price-dev.price-item--regular {
 .product-card-wrapper .price-btn-container .price__container
 {
   width: 100%;
+      text-align: center;
+    margin-bottom: 4px;
 }
 .product-card-wrapper .price-btn-container custom-variant-selector
 {
