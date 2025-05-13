@@ -22,7 +22,7 @@
           {% for block in section.blocks %}
             {% assign mod = forloop.index0 | modulo: 4 %}
             {% if mod == col %}
-              <li>❌ {{ block.settings.title }}</li>
+              <li><span class="red-icon">❌</span>  {{ block.settings.title }}</li>
             {% endif %}
           {% endfor %}
         </ul>
