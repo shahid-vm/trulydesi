@@ -523,6 +523,10 @@ dl {
     font-size: 14px;
     color: #4D4D4D;
 }
+.header__icon .svg-wrapper {
+    width: 25px;
+    height: 30px;
+}
 .cart-count-bubble span{
   font-size: 12px;
   font-weight: 600;
