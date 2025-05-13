@@ -146,7 +146,7 @@
           "settings": {
             "image": "shopify://shop_images/Cow_Therapy_d12c366c-cd5e-4488-b53f-45fb919d689d.svg",
             "title": "Cow Therapy",
-            "sub-title": "Feed, cuddle, and connect with our calm, loving cows."
+            "sub-title": "Cuddle, feed, and bond with our gentle cows."
           }
         },
         "block_mApPX7": {
@@ -173,20 +173,20 @@
             "sub-title": "Discover how our biogas system powers the farm and restores the soil."
           }
         },
-        "block_jLLpVP": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Ghee_Making_796bbc60-2fc3-40c6-b410-538b7e54feb2.svg",
-            "title": "Ghee Making",
-            "sub-title": "Watch the traditional Bilona process of preparing Gir Cow Cultured Ghee."
-          }
-        },
         "block_F9byXK": {
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/Farm_to_Table_588ff55d-b2b6-4c7c-9d7e-de5db7d2cfb1.svg",
             "title": "Farm to Table",
             "sub-title": "Get involved in sowing, harvesting, and learning the roots of organic farming."
+          }
+        },
+        "block_jLLpVP": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Ghee_Making_796bbc60-2fc3-40c6-b410-538b7e54feb2.svg",
+            "title": "Ghee Making",
+            "sub-title": "Watch the traditional Bilona process of preparing Gir Cow Cultured Ghee."
           }
         }
       },
@@ -195,8 +195,8 @@
         "block_mApPX7",
         "block_MWhkUG",
         "block_j76HbY",
-        "block_jLLpVP",
-        "block_F9byXK"
+        "block_F9byXK",
+        "block_jLLpVP"
       ],
       "settings": {
         "color_scheme": "scheme-1",
