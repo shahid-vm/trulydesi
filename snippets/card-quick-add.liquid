@@ -32,7 +32,7 @@
             let cardWrapper = selectedOption.closest(".product--item");
             
             let variantDiscount = selectedOption.getAttribute("variant-discount");
-            
+           console.log(variantDiscount,'variantDiscount');
             if (cardWrapper) {
               let quickAddSubmit = cardWrapper.querySelector(".quick-add__submit");
               let custom_lpl_price = cardWrapper.querySelector('.custom_lpl_price');
