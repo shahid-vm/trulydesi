@@ -575,3 +575,7 @@ dl {
       font-size: 14px;
     line-height: 20px;
 }
+.card__heading a:after
+{
+  display: none;
+}
