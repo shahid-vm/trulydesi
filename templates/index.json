@@ -163,31 +163,36 @@
         "featured_collection_yfeHXe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all"
+            "collection": "all",
+            "image": "shopify://shop_images/Other_Dairy_Essentials.jpg"
           }
         },
         "featured_collection_KPGAY3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "best-seller"
+            "collection": "best-seller",
+            "image": "shopify://shop_images/Gut-Friendly_Delights.jpg"
           }
         },
         "featured_collection_VR47kQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "location-collection"
+            "collection": "location-collection",
+            "image": "shopify://shop_images/Farm_Fresh_Milk.jpg"
           }
         },
         "featured_collection_Kpg98b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "new-arrival"
+            "collection": "new-arrival",
+            "image": "shopify://shop_images/Cow-Based_Products.jpg"
           }
         },
-        "featured_collection_jVVWnE": {
+        "featured_collection_J9NBUc": {
           "type": "featured_collection",
           "settings": {
-            "collection": "truly-desi-product-list"
+            "collection": "new-arrival",
+            "image": "shopify://shop_images/Cow-Based_Products.jpg"
           }
         }
       },
@@ -196,20 +201,14 @@
         "featured_collection_KPGAY3",
         "featured_collection_VR47kQ",
         "featured_collection_Kpg98b",
-        "featured_collection_jVVWnE"
-      ],
-      "custom_css": [
-        "h2 {color: #064f32; font-size: 28px; font-weight: 700; text-align: center; width: 100%;}",
-        "a.full-unstyled-link {text-align: center; font-size: 16px; color: #064f32;}",
-        ".card .icon-wrap {display: none;}",
-        ".card .media {border-radius: 7px !important;}"
+        "featured_collection_J9NBUc"
       ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "2",
