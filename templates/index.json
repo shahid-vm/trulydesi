@@ -163,13 +163,15 @@
         "featured_collection_yfeHXe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all"
+            "collection": "all",
+            "image": "shopify://shop_images/Other_Dairy_Essentials.jpg"
           }
         },
         "featured_collection_KPGAY3": {
           "type": "featured_collection",
           "settings": {
-            "collection": "best-seller"
+            "collection": "best-seller",
+            "image": "shopify://shop_images/Gut-Friendly_Delights.jpg"
           }
         },
         "featured_collection_VR47kQ": {
