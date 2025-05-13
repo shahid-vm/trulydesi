@@ -361,6 +361,15 @@ body {
 .item-list ul {
     max-width: fit-content;
 }
+@media (max-width: 767px) {
+  .item-list {
+    flex-direction: column;
+  }
+
+  .item-column {
+    width: 100%;
+  }
+}
 </style>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
