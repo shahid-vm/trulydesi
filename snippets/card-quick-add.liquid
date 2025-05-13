@@ -48,12 +48,12 @@
                     // else {
                     //   quickReAdd.textContent = "Add to cart";
                       
-                    //   if($(window).width() < 749) {
-                    //      quickReAdd.textContent = "Add";
-                    //   }
+                      if($(window).width() < 749) {
+                         quickReAdd.textContent = "Add";
+                      }
                       
                       quickAddSubmit.removeAttribute("disabled");
-                    }
+                    // }
                 }
               
               custom_lpl_price.textContent  = " \u20B9 " + (variantPrice/100);
