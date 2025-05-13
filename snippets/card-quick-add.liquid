@@ -19,6 +19,7 @@
       setTimeout(function() {
         document.querySelectorAll(".variant-select").forEach(select => {
           select.addEventListener("change", function (e) {
+            alert();
             e.preventDefault();
             let selectedOption = this.options[this.selectedIndex];
             const variantId = selectedOption.getAttribute("variant-id"),
