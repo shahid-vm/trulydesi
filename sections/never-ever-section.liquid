@@ -361,13 +361,27 @@ body {
 .item-list ul {
     max-width: fit-content;
 }
-@media (max-width: 767px) {
-  .item-list {
-    flex-direction: column;
-  }
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
+.item-column {
+  width: 25%;       /* 4 columns on desktop */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item-column li {
+  margin-bottom: 10px;
+}
+
+/* Mobile: 2 columns */
+@media (max-width: 767px) {
   .item-column {
-    width: 50%;
+    width: 50%;     /* 2 columns on mobile */
   }
 }
 </style>
