@@ -18,7 +18,7 @@
   <div class="item-list">
     <ul>
     {% for block in section.blocks %}
-      {% assign mod = forloop.index | modulo: 2 %}
+      {% assign mod = forloop.index | modulo: 4 %}
       {% if  mod != 0 %}
       <li>❌ {{ block.settings.title }}</li>
       {% endif %}
@@ -26,10 +26,26 @@
     </ul>
     <ul>
     {% for block in section.blocks %}
-      {% assign mod = forloop.index | modulo: 2 %}
+      {% assign mod = forloop.index | modulo: 4 %}
         {% if  mod == 0 %}
         <li>❌ {{ block.settings.title }}</li>
         {% endif %}
+    {% endfor %}
+    </ul>
+    <ul>
+    {% for block in section.blocks %}
+      {% assign mod = forloop.index | modulo: 4 %}
+      {% if  mod != 0 %}
+      <li>❌ {{ block.settings.title }}</li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+     <ul>
+    {% for block in section.blocks %}
+      {% assign mod = forloop.index | modulo: 4 %}
+      {% if  mod != 0 %}
+      <li>❌ {{ block.settings.title }}</li>
+      {% endif %}
     {% endfor %}
     </ul>
   </div>
