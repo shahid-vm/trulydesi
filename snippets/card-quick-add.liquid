@@ -107,12 +107,12 @@
         {%- if product.selected_or_first_available_variant.available -%}
          Add
         {%- else -%}
-          {{ 'products.product.sold_out' | t }} sold Out
+        sold Out
         {%- endif -%}
       </span>&nbsp;-&nbsp;<span class="custom_lpl_price">{{ product.selected_or_first_available_variant.price | money_with_currency  }}
       </span>
       <span class="sold-out-message hidden">
-        {{ 'products.product.sold_out' | t }}
+        {{ 'products.product.sold_out' | t }} Sold Out
       </span>
       {%- if horizontal_quick_add -%}
         <span class="icon-wrap">
