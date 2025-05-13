@@ -1,5 +1,9 @@
 <div class="price__container">
   <div class="price__regular">
+    <span class="sale_price-dev price-item--regular">
+      {{product.selected_or_first_available_variant.price  | money_with_currency }}
+    </span>
+    
     {% if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price  %}
     <span style="text-decoration: line-through;" class="compara_price-dev price-item--regular">
       {{product.selected_or_first_available_variant.compare_at_price | money_with_currency}}
@@ -9,8 +13,6 @@
      
     </span>
     {% endif %}
-    <span class="sale_price-dev price-item--regular">
-      {{product.selected_or_first_available_variant.price  | money_with_currency }}
-    </span>
+    
   </div>
 </div>
