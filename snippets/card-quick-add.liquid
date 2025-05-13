@@ -34,7 +34,7 @@
            console.log(variantDiscount,'variantDiscount');
             if (cardWrapper) {
               let quickAddSubmit = cardWrapper.querySelector(".quick-add__submit");
-              let custom_lpl_price = cardWrapper.querySelector('.custom_lpl_price');
+           
               let compara_pricedev = cardWrapper.querySelector('.compara_price-dev');
               let sale_pricedev = cardWrapper.querySelector('.sale_price-dev');
                 if (quickAddSubmit) {
@@ -56,7 +56,7 @@
                     // }
                 }
               
-              custom_lpl_price.textContent  = " \u20B9 " + (variantPrice/100);
+             
               compara_pricedev.textContent = "\u20B9" + (variantPrice/100);
               sale_pricedev.textContent = "\u20B9" + (variantPrice/100);
             
