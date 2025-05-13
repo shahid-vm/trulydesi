@@ -38,7 +38,7 @@
     {% for block in section.blocks %}
       {% assign mod = forloop.index | modulo: 2 %}
       {% if  mod != 0 %}
-      <li>❌ {{ block.settings.title }}</li>
+      <li><span class="red-icon">❌</span> {{ block.settings.title }}</li>
       {% endif %}
     {% endfor %}
     </ul>
@@ -46,7 +46,7 @@
     {% for block in section.blocks %}
       {% assign mod = forloop.index | modulo: 2 %}
         {% if  mod == 0 %}
-        <li>❌ {{ block.settings.title }}</li>
+        <li><span class="red-icon">❌</span>  {{ block.settings.title }}</li>
         {% endif %}
     {% endfor %}
     </ul>
