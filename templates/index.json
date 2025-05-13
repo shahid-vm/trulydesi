@@ -677,6 +677,36 @@
             "img": "shopify://shop_images/No_Hydrogen_Peroxide.svg",
             "title": "No Hydrogen Peroxide"
           }
+        },
+        "block_JeVxXg": {
+          "type": "Block",
+          "settings": {
+            "title": "No Formalin"
+          }
+        },
+        "block_VbMefT": {
+          "type": "Block",
+          "settings": {
+            "title": "No Melamine"
+          }
+        },
+        "block_q7C9Ve": {
+          "type": "Block",
+          "settings": {
+            "title": "No detergent powders"
+          }
+        },
+        "block_jEKN8L": {
+          "type": "Block",
+          "settings": {
+            "title": "No Preservatives"
+          }
+        },
+        "block_xwihtj": {
+          "type": "Block",
+          "settings": {
+            "title": "No Animal Fats"
+          }
         }
       },
       "block_order": [
@@ -685,7 +715,12 @@
         "block_Fqg7ii",
         "block_PFKKwi",
         "block_Y9hYAj",
-        "block_Qx69bt"
+        "block_Qx69bt",
+        "block_JeVxXg",
+        "block_VbMefT",
+        "block_q7C9Ve",
+        "block_jEKN8L",
+        "block_xwihtj"
       ],
       "settings": {
         "color_scheme": "",
