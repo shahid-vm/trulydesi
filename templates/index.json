@@ -705,12 +705,6 @@
             "title": "No artificial flavours"
           }
         },
-        "block_pfgVfm": {
-          "type": "Block",
-          "settings": {
-            "title": "No vegetable oils"
-          }
-        },
         "block_QcyPdA": {
           "type": "Block",
           "settings": {
@@ -737,7 +731,6 @@
         "block_jEKN8L",
         "block_xwihtj",
         "block_fb4QP8",
-        "block_pfgVfm",
         "block_QcyPdA",
         "block_NhFRWF"
       ],
