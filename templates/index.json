@@ -302,8 +302,8 @@
         "desktop-image": "shopify://shop_images/Why-Choose-Section-2-_1_-min.png",
         "mobile-image": "shopify://shop_images/Why_Choose_Section_21570f2f-3ccc-4ee3-ba4e-9208f7db0645.jpg",
         "link": "",
-        "padding-top": 40,
-        "padding-bottom": 40
+        "padding-top": 0,
+        "padding-bottom": 0
       }
     },
     "featured_collection_hgBaHf": {
