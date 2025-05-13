@@ -177,13 +177,15 @@
         "featured_collection_VR47kQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "location-collection"
+            "collection": "location-collection",
+            "image": "shopify://shop_images/Farm_Fresh_Milk.jpg"
           }
         },
         "featured_collection_Kpg98b": {
           "type": "featured_collection",
           "settings": {
-            "collection": "new-arrival"
+            "collection": "new-arrival",
+            "image": "shopify://shop_images/Cow-Based_Products.jpg"
           }
         },
         "featured_collection_jVVWnE": {
