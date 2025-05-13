@@ -15,7 +15,7 @@
 
   <div class="item-list-container page-width">
   <p class="subtitle">{{ section.settings.sub-title }}</p>
-  <div class="item-list" style="display: flex; gap: 20px;">
+  <div class="item-list">
     
     {% for col in (0..3) %}
       <ul style="flex: 1;">
@@ -194,7 +194,7 @@
       .{{ section.id }} .item-list {
         display: flex;
         justify-content: center;
-        gap: 15rem;
+        gap: 70px;
         flex-wrap: wrap;
         margin-bottom: 20px;
         text-align: left;
