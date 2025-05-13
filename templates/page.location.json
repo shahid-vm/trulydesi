@@ -305,65 +305,65 @@
         "padding_bottom": 52
       }
     },
-    "usp_section_kQwdyR": {
+    "usp_section_CayHym": {
       "type": "usp-section",
       "blocks": {
-        "block_qy3V3B": {
+        "block_MQcjT9": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Cow_Therapy.svg",
+            "image": "shopify://shop_images/Cow_Therapy_d12c366c-cd5e-4488-b53f-45fb919d689d.svg",
             "title": "Cow Therapy",
-            "sub-title": "Feed, cuddle, and connect with our calm, loving cows."
+            "sub-title": "Cuddle, feed, and bond with our gentle cows."
           }
         },
-        "block_mApPX7": {
+        "block_dGg8GM": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Orchard_Walk.svg",
+            "image": "shopify://shop_images/Orchard_Walk_2d8140df-20d7-456f-bf98-ca7d98852880.svg",
             "title": "Orchard Walk",
-            "sub-title": "Take a peaceful stroll through our thriving coconut and papaya groves."
+            "sub-title": "Stroll through lush coconut & papaya groves."
           }
         },
-        "block_MWhkUG": {
+        "block_dNnQBX": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Hand_Milking.svg",
+            "image": "shopify://shop_images/Hand_Milking_fc4b8ac5-290b-4929-bf4d-81faa7787738.svg",
             "title": "Hand Milking",
-            "sub-title": "Experience milking firsthand, only after the calves are fully nourished."
+            "sub-title": "Try your hand at milking, only after calves are fully fed."
           }
         },
-        "block_j76HbY": {
+        "block_KarNxQ": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Sustainable_Living__1.svg",
+            "image": "shopify://shop_images/Sustainable_Living.svg",
             "title": "Sustainable Living",
-            "sub-title": "Discover how our biogas system powers the farm and restores the soil."
+            "sub-title": "Learn how our biogas plant powers the farm and enriches the soil."
           }
         },
-        "block_jLLpVP": {
+        "block_mBhUez": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Ghee_Making.svg",
-            "title": "Ghee Making",
-            "sub-title": "Watch the traditional Bilona process of preparing Gir Cow Cultured Ghee."
-          }
-        },
-        "block_F9byXK": {
-          "type": "Block",
-          "settings": {
-            "image": "shopify://shop_images/Farm_to_Table.svg",
+            "image": "shopify://shop_images/Farm_to_Table_588ff55d-b2b6-4c7c-9d7e-de5db7d2cfb1.svg",
             "title": "Farm to Table",
-            "sub-title": "Get involved in sowing, harvesting, and learning the roots of organic farming."
+            "sub-title": "Get hands-on with sowing, harvesting, and organic farming."
+          }
+        },
+        "block_TFmajW": {
+          "type": "Block",
+          "settings": {
+            "image": "shopify://shop_images/Ghee_Making_796bbc60-2fc3-40c6-b410-538b7e54feb2.svg",
+            "title": "Ghee Making",
+            "sub-title": "Witness the traditional process of crafting Gir Cow Cultured Ghee."
           }
         }
       },
       "block_order": [
-        "block_qy3V3B",
-        "block_mApPX7",
-        "block_MWhkUG",
-        "block_j76HbY",
-        "block_jLLpVP",
-        "block_F9byXK"
+        "block_MQcjT9",
+        "block_dGg8GM",
+        "block_dNnQBX",
+        "block_KarNxQ",
+        "block_mBhUez",
+        "block_TFmajW"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -391,53 +391,6 @@
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 0
-      }
-    },
-    "vm_certifications_eLDR6z": {
-      "type": "vm-certifications",
-      "blocks": {
-        "icon_box_Cpjdgj": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/iso-logo_1.png",
-            "heading": "ISO Certified",
-            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
-          }
-        },
-        "icon_box_BHdY7A": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/ayush-logo.png",
-            "heading": "MINISTRY OF AYUSH CERTIFIED",
-            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
-          }
-        },
-        "icon_box_MEjTXr": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/gmp-logo_1.png",
-            "heading": "GMP CERTIFIED",
-            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
-          }
-        },
-        "icon_box_RRQWGU": {
-          "type": "icon_box",
-          "settings": {
-            "icon_image": "shopify://shop_images/fssai-logo.png",
-            "heading": "FSSAI",
-            "content": "<p>001:2015 COMPANY<br/>ISO Certified 9001:2015<br/>22000:2015</p>"
-          }
-        }
-      },
-      "block_order": [
-        "icon_box_Cpjdgj",
-        "icon_box_BHdY7A",
-        "icon_box_MEjTXr",
-        "icon_box_RRQWGU"
-      ],
-      "settings": {
-        "padding_top": 40,
-        "padding_bottom": 40
       }
     },
     "location_areas_CARJpf": {
@@ -545,9 +498,8 @@
     "single_image_banner_pMXr7L",
     "icon_with_title_text_qRQTzn",
     "home_journey_z4QLLy",
-    "usp_section_kQwdyR",
+    "usp_section_CayHym",
     "featured_blog_dC8T9G",
-    "vm_certifications_eLDR6z",
     "location_areas_CARJpf",
     "location_areas_kpQJ47"
   ]
