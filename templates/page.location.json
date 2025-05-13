@@ -90,9 +90,9 @@
       ],
       "settings": {
         "announcement_bar_position": "non_sticky",
-        "image": "shopify://shop_images/star.svg",
-        "image_width": 25,
-        "announcement_text_size": 24,
+        "image": "shopify://shop_images/image_1_cbc9ebf1-cbd0-4acd-967b-65a7ee6ac557.png",
+        "image_width": 15,
+        "announcement_text_size": 20,
         "background": "#f9f7eb",
         "text_color": "#6d832c"
       }
