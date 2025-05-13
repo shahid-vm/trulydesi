@@ -195,6 +195,9 @@
         "featured_collection_VR47kQ",
         "featured_collection_Kpg98b"
       ],
+      "custom_css": [
+        ".full-unstyled-link{text-align: :center;}"
+      ],
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
