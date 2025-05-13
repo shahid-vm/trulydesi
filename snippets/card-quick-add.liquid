@@ -40,16 +40,16 @@
                   let inputId = cardWrapper.querySelector('input[name="id"]');
                   inputId && (inputId.value = variantId);
                   const quickReAdd = quickAddSubmit.querySelector("span");
-                    if(variantQty < 1)  {
-                      quickReAdd.textContent = "Sold out";
-                      quickAddSubmit.setAttribute("disabled", !0)
-                    }
-                    else {
-                      quickReAdd.textContent = "Add to cart";
+                    // if(variantQty < 1)  {
+                    //   quickReAdd.textContent = "Sold out";
+                    //   quickAddSubmit.setAttribute("disabled", !0)
+                    // }
+                    // else {
+                    //   quickReAdd.textContent = "Add to cart";
                       
-                      if($(window).width() < 749) {
-                         quickReAdd.textContent = "Add";
-                      }
+                    //   if($(window).width() < 749) {
+                    //      quickReAdd.textContent = "Add";
+                    //   }
                       
                       quickAddSubmit.removeAttribute("disabled");
                     }
