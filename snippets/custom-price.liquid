@@ -4,6 +4,10 @@
     <span style="text-decoration: line-through;" class="compara_price-dev price-item--regular">
       {{product.selected_or_first_available_variant.compare_at_price | money_with_currency}}
     </span>
+    {% else %}
+      <span style="text-decoration: line-through;" class="compara_price-dev price-item--regular">
+     
+    </span>
     {% endif %}
     <span class="sale_price-dev price-item--regular">
       {{product.selected_or_first_available_variant.price  | money_with_currency }}
