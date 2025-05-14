@@ -452,98 +452,38 @@
         "padding_bottom": 0
       }
     },
-    "location_areas_CARJpf": {
-      "type": "location-areas",
-      "blocks": {
-        "icon_box_mzN7WT": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Ambegaon Budruk",
-            "link": "shopify://pages/milk-delivery-in-ambegaon-budruk"
-          }
-        },
-        "icon_box_CGdyVA": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Aundh",
-            "link": ""
-          }
-        },
-        "icon_box_nr8eLE": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Baner",
-            "link": ""
-          }
-        },
-        "icon_box_rHjxth": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Bavdhan Khurd",
-            "link": ""
-          }
-        },
-        "icon_box_FVQzix": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Bavdhan Budruk",
-            "link": ""
-          }
-        },
-        "icon_box_Y6XAaw": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Balewadi",
-            "link": ""
-          }
-        },
-        "icon_box_JqVBHT": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Shivajinagar",
-            "link": ""
-          }
-        },
-        "icon_box_YV9kwW": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Bibvewadi",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "icon_box_mzN7WT",
-        "icon_box_CGdyVA",
-        "icon_box_nr8eLE",
-        "icon_box_rHjxth",
-        "icon_box_FVQzix",
-        "icon_box_Y6XAaw",
-        "icon_box_JqVBHT",
-        "icon_box_YV9kwW"
-      ],
-      "settings": {
-        "title": "Fresh A2 Milk Delivered in Pune",
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "location_areas_kpQJ47": {
       "type": "location-areas",
       "blocks": {
-        "icon_box_cyjEXR": {
+        "icon_box_fpkecm": {
           "type": "icon_box",
           "settings": {
-            "heading": "Vasai",
-            "link": "shopify://pages/milk-delivery-in-vasai"
+            "heading": "Abhimanshree",
+            "link": "shopify://pages/s-milk-delivery-in-abhimanshree"
+          }
+        },
+        "icon_box_gkfepK": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Aundh",
+            "link": "shopify://pages/milk-delivery-aundh"
+          }
+        },
+        "icon_box_PfXPwb": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Balewadi",
+            "link": "shopify://pages/milk-delivery-in-balewadi"
           }
         }
       },
       "block_order": [
-        "icon_box_cyjEXR"
+        "icon_box_fpkecm",
+        "icon_box_gkfepK",
+        "icon_box_PfXPwb"
       ],
       "settings": {
-        "title": "Fresh A2 Milk Delivered in Mumbai",
+        "title": "Fresh A2 Milk Delivered in Pune",
         "padding_top": 40,
         "padding_bottom": 40
       }
@@ -559,7 +499,6 @@
     "home_journey_CrXbjq",
     "usp_section_CayHym",
     "featured_blog_dC8T9G",
-    "location_areas_CARJpf",
     "location_areas_kpQJ47"
   ]
 }
