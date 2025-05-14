@@ -650,6 +650,62 @@
             "heading": "Khardi Bypass",
             "link": "shopify://pages/milk-delivery-in-khardi-bypass"
           }
+        },
+        "icon_box_nEXAgh": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Sus",
+            "link": "shopify://pages/milk-delivery-in-sus"
+          }
+        },
+        "icon_box_ttKAzJ": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Kothrud",
+            "link": "shopify://pages/milk-delivery-in-kothrud"
+          }
+        },
+        "icon_box_Ye77TL": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Kharadi",
+            "link": "shopify://pages/milk-delivery-in-kharadi"
+          }
+        },
+        "icon_box_Lyx86L": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Pashan",
+            "link": "shopify://pages/milk-delivery-in-pashan"
+          }
+        },
+        "icon_box_djAiMM": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Magarpatta City",
+            "link": "shopify://pages/milk-delivery-in-magarpatta-city"
+          }
+        },
+        "icon_box_PF3GTp": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bibwewadi",
+            "link": "shopify://pages/milk-delivery-in-bibwewadi"
+          }
+        },
+        "icon_box_PXnHzr": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Kondhwa",
+            "link": "shopify://pages/milk-delivery-in-kondhwa"
+          }
+        },
+        "icon_box_wqFzRc": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Karvenagar",
+            "link": "shopify://pages/milk-delivery-in-karvenagar"
+          }
         }
       },
       "block_order": [
@@ -680,7 +736,15 @@
         "icon_box_HazzY7",
         "icon_box_zYaDYK",
         "icon_box_Bt9nfx",
-        "icon_box_q7gByP"
+        "icon_box_q7gByP",
+        "icon_box_nEXAgh",
+        "icon_box_ttKAzJ",
+        "icon_box_Ye77TL",
+        "icon_box_Lyx86L",
+        "icon_box_djAiMM",
+        "icon_box_PF3GTp",
+        "icon_box_PXnHzr",
+        "icon_box_wqFzRc"
       ],
       "settings": {
         "title": "Fresh A2 Milk Delivered in Pune",
