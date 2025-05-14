@@ -759,6 +759,131 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "location_areas_wiLghA": {
+      "type": "location-areas",
+      "blocks": {
+        "icon_box_cAJUce": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Nerul",
+            "link": "shopify://pages/milk-delivery-in-nerul"
+          }
+        },
+        "icon_box_6NchzG": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Seawoods",
+            "link": "shopify://pages/milk-delivery-in-seawoods"
+          }
+        },
+        "icon_box_iWKFyG": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Belapur",
+            "link": "shopify://pages/milk-delivery-in-belapur"
+          }
+        },
+        "icon_box_EUpyig": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Ulwe",
+            "link": "shopify://pages/milk-delivery-in-ulwe"
+          }
+        },
+        "icon_box_nN8r4Y": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Kharghar",
+            "link": "shopify://pages/milk-delivery-in-kharghar"
+          }
+        },
+        "icon_box_kFChmb": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Vashi",
+            "link": "shopify://pages/milk-delivery-in-vashi"
+          }
+        },
+        "icon_box_KwdTMN": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Koparkhairane",
+            "link": "shopify://pages/milk-delivery-in-koparkhairane"
+          }
+        },
+        "icon_box_JQA6cW": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Ghansoli",
+            "link": "shopify://pages/milk-delivery-in-ghansoli"
+          }
+        },
+        "icon_box_AKM7fk": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bandra West",
+            "link": "shopify://pages/milk-delivery-in-bandra-west"
+          }
+        },
+        "icon_box_Yb9yH4": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Santacruz West",
+            "link": "shopify://pages/milk-delivery-in-santacruz-west"
+          }
+        },
+        "icon_box_A3pfiP": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Chembur",
+            "link": "shopify://pages/milk-delivery-in-chembur"
+          }
+        },
+        "icon_box_Q6cpdW": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Malad",
+            "link": "shopify://pages/milk-delivery-in-malad"
+          }
+        },
+        "icon_box_amjPgb": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Goregaon",
+            "link": "shopify://pages/milk-delivery-in-goregaon"
+          }
+        },
+        "icon_box_kkggjT": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Kandivali",
+            "link": "shopify://pages/milk-delivery-in-kandivali"
+          }
+        }
+      },
+      "block_order": [
+        "icon_box_cAJUce",
+        "icon_box_6NchzG",
+        "icon_box_iWKFyG",
+        "icon_box_EUpyig",
+        "icon_box_nN8r4Y",
+        "icon_box_kFChmb",
+        "icon_box_KwdTMN",
+        "icon_box_JQA6cW",
+        "icon_box_AKM7fk",
+        "icon_box_Yb9yH4",
+        "icon_box_A3pfiP",
+        "icon_box_Q6cpdW",
+        "icon_box_amjPgb",
+        "icon_box_kkggjT"
+      ],
+      "name": "Location Areas",
+      "settings": {
+        "title": "Fresh A2 Milk Delivered in Mumbai",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
@@ -771,6 +896,7 @@
     "home_journey_CrXbjq",
     "usp_section_CayHym",
     "featured_blog_dC8T9G",
-    "location_areas_kpQJ47"
+    "location_areas_kpQJ47",
+    "location_areas_wiLghA"
   ]
 }
