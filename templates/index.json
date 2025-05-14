@@ -12,11 +12,11 @@
     "slideshow_eWVBwE": {
       "type": "slideshow",
       "blocks": {
-        "slide_rHcdYg": {
+        "slide_Xy4VWH": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/common_Banner.png",
-            "mob_image": "shopify://shop_images/common_Banner_mobile.png",
+            "image": "shopify://shop_images/milk_Banner.png",
+            "mob_image": "shopify://shop_images/milk_Banner_mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -50,11 +50,11 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_Xy4VWH": {
+        "slide_rHcdYg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/milk_Banner.png",
-            "mob_image": "shopify://shop_images/milk_Banner_mobile.png",
+            "image": "shopify://shop_images/common_Banner.png",
+            "mob_image": "shopify://shop_images/common_Banner_mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -90,9 +90,9 @@
         }
       },
       "block_order": [
-        "slide_rHcdYg",
-        "slide_xtWBYn",
         "slide_Xy4VWH",
+        "slide_xtWBYn",
+        "slide_rHcdYg",
         "slide_F9tHtQ"
       ],
       "custom_css": [],
