@@ -19,7 +19,7 @@
         "custom_liquid_ifkAhL": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<p clas=\"pdp-subtitle\">{{ product.metafields.custom.sub_title }}</p>"
+            "custom_liquid": "<p class=\"pdp-subtitle\">{{ product.metafields.custom.sub_title }}</p>"
           }
         },
         "price": {
