@@ -706,6 +706,13 @@
             "heading": "Karvenagar",
             "link": "shopify://pages/milk-delivery-in-karvenagar"
           }
+        },
+        "icon_box_VDKByn": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Erandavne",
+            "link": "shopify://pages/milk-delivery-in-erandavne"
+          }
         }
       },
       "block_order": [
@@ -744,7 +751,8 @@
         "icon_box_djAiMM",
         "icon_box_PF3GTp",
         "icon_box_PXnHzr",
-        "icon_box_wqFzRc"
+        "icon_box_wqFzRc",
+        "icon_box_VDKByn"
       ],
       "settings": {
         "title": "Fresh A2 Milk Delivered in Pune",
