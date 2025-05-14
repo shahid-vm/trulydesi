@@ -591,7 +591,7 @@
         "icon_box_JUpAfY": {
           "type": "icon_box",
           "settings": {
-            "heading": "Thergao",
+            "heading": "Thergaon",
             "link": "shopify://pages/milk-delivery-in-thergao"
           }
         },
@@ -672,13 +672,6 @@
             "link": "shopify://pages/milk-delivery-in-kharadi"
           }
         },
-        "icon_box_Lyx86L": {
-          "type": "icon_box",
-          "settings": {
-            "heading": "Pashan",
-            "link": "shopify://pages/milk-delivery-in-pashan"
-          }
-        },
         "icon_box_djAiMM": {
           "type": "icon_box",
           "settings": {
@@ -747,7 +740,6 @@
         "icon_box_nEXAgh",
         "icon_box_ttKAzJ",
         "icon_box_Ye77TL",
-        "icon_box_Lyx86L",
         "icon_box_djAiMM",
         "icon_box_PF3GTp",
         "icon_box_PXnHzr",
