@@ -475,12 +475,44 @@
             "heading": "Balewadi",
             "link": "shopify://pages/milk-delivery-in-balewadi"
           }
+        },
+        "icon_box_xfxPUc": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Baner",
+            "link": "shopify://pages/milk-delivery-in-baner"
+          }
+        },
+        "icon_box_nFXNPc": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bavdhan",
+            "link": "shopify://pages/milk-delivery-in-bavdhan"
+          }
+        },
+        "icon_box_aRtVFe": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Bhosle Nagar",
+            "link": "shopify://pages/milk-delivery-in-bhosle-nagar"
+          }
+        },
+        "icon_box_Q6dUgP": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Cme",
+            "link": "shopify://pages/milk-delivery-in-cme"
+          }
         }
       },
       "block_order": [
         "icon_box_fpkecm",
         "icon_box_gkfepK",
-        "icon_box_PfXPwb"
+        "icon_box_PfXPwb",
+        "icon_box_xfxPUc",
+        "icon_box_nFXNPc",
+        "icon_box_aRtVFe",
+        "icon_box_Q6dUgP"
       ],
       "settings": {
         "title": "Fresh A2 Milk Delivered in Pune",
