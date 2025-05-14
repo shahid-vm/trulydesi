@@ -552,6 +552,69 @@
             "heading": "Pimple Gurav",
             "link": "shopify://pages/milk-delivery-in-pimple-gurav"
           }
+        },
+        "icon_box_AJY3V8": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Pimple Nilakh",
+            "link": "shopify://pages/milk-delivery-in-pimple-nilakh"
+          }
+        },
+        "icon_box_DwexJx": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Pimple Saudagar",
+            "link": "shopify://pages/milk-delivery-in-pimple-saudagar"
+          }
+        },
+        "icon_box_XAFYDg": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Prabhat Road",
+            "link": "shopify://pages/milk-delivery-in-prabhat-road"
+          }
+        },
+        "icon_box_AT6Dk7": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "SB Road",
+            "link": "shopify://pages/milk-delivery-in-sb-road"
+          }
+        },
+        "icon_box_YwAiCH": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Sakal Nagar",
+            "link": "shopify://pages/milk-delivery-in-sakal-nagar"
+          }
+        },
+        "icon_box_JUpAfY": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Thergao",
+            "link": "shopify://pages/milk-delivery-in-thergao"
+          }
+        },
+        "icon_box_RM3iU3": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Wakad",
+            "link": "shopify://pages/milk-delivery-in-wakad"
+          }
+        },
+        "icon_box_pTdjfE": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "",
+            "link": ""
+          }
+        },
+        "icon_box_MgVzmq": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -568,7 +631,16 @@
         "icon_box_A9zbVq",
         "icon_box_iz6KmG",
         "icon_box_UjBa6w",
-        "icon_box_kGRHm8"
+        "icon_box_kGRHm8",
+        "icon_box_AJY3V8",
+        "icon_box_DwexJx",
+        "icon_box_XAFYDg",
+        "icon_box_AT6Dk7",
+        "icon_box_YwAiCH",
+        "icon_box_JUpAfY",
+        "icon_box_RM3iU3",
+        "icon_box_pTdjfE",
+        "icon_box_MgVzmq"
       ],
       "settings": {
         "title": "Fresh A2 Milk Delivered in Pune",
