@@ -605,15 +605,50 @@
         "icon_box_pTdjfE": {
           "type": "icon_box",
           "settings": {
-            "heading": "",
-            "link": ""
+            "heading": "Camp",
+            "link": "shopify://pages/milk-delivery-in-camp"
           }
         },
         "icon_box_MgVzmq": {
           "type": "icon_box",
           "settings": {
-            "heading": "",
-            "link": ""
+            "heading": "Viman Nagar",
+            "link": "shopify://pages/milk-delivery-in-viman-nagar"
+          }
+        },
+        "icon_box_JJjFAG": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Kalyani Nagar",
+            "link": "shopify://pages/milk-delivery-in-kalyani-nagar"
+          }
+        },
+        "icon_box_HazzY7": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Koregao Park",
+            "link": "shopify://pages/milk-delivery-in-koregao-park"
+          }
+        },
+        "icon_box_zYaDYK": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Wakdewadi",
+            "link": "shopify://pages/milk-delivery-in-wakdewadi"
+          }
+        },
+        "icon_box_Bt9nfx": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Rahatni",
+            "link": "shopify://pages/milk-delivery-in-rahatni"
+          }
+        },
+        "icon_box_q7gByP": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Khardi Bypass",
+            "link": "shopify://pages/milk-delivery-in-khardi-bypass"
           }
         }
       },
@@ -640,7 +675,12 @@
         "icon_box_JUpAfY",
         "icon_box_RM3iU3",
         "icon_box_pTdjfE",
-        "icon_box_MgVzmq"
+        "icon_box_MgVzmq",
+        "icon_box_JJjFAG",
+        "icon_box_HazzY7",
+        "icon_box_zYaDYK",
+        "icon_box_Bt9nfx",
+        "icon_box_q7gByP"
       ],
       "settings": {
         "title": "Fresh A2 Milk Delivered in Pune",
