@@ -860,6 +860,41 @@
             "heading": "Kandivali",
             "link": "shopify://pages/milk-delivery-in-kandivali"
           }
+        },
+        "icon_box_8ppcip": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Borivali",
+            "link": "shopify://pages/milk-delivery-in-borivali"
+          }
+        },
+        "icon_box_9tq6dx": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Powai",
+            "link": "shopify://pages/milk-delivery-in-powai"
+          }
+        },
+        "icon_box_6B3zXe": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Matunga",
+            "link": "shopify://pages/milk-delivery-in-matunga"
+          }
+        },
+        "icon_box_cgT3Y4": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Churchgate",
+            "link": "shopify://pages/milk-delivery-in-churchgate"
+          }
+        },
+        "icon_box_dpDjM4": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Thane",
+            "link": "shopify://pages/milk-delivery-in-thane"
+          }
         }
       },
       "block_order": [
@@ -876,7 +911,12 @@
         "icon_box_A3pfiP",
         "icon_box_Q6cpdW",
         "icon_box_amjPgb",
-        "icon_box_kkggjT"
+        "icon_box_kkggjT",
+        "icon_box_8ppcip",
+        "icon_box_9tq6dx",
+        "icon_box_6B3zXe",
+        "icon_box_cgT3Y4",
+        "icon_box_dpDjM4"
       ],
       "name": "Location Areas",
       "settings": {
