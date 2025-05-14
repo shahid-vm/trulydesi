@@ -16,6 +16,12 @@
           "type": "title",
           "settings": {}
         },
+        "custom_liquid_ifkAhL": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p clas=\"pdp-subtitle\">{{ product.metafields.custom.sub_title }}</p>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
@@ -68,6 +74,7 @@
       },
       "block_order": [
         "title",
+        "custom_liquid_ifkAhL",
         "price",
         "judge_me_reviews_preview_badge_rgtMAi",
         "variant_picker",
