@@ -599,7 +599,7 @@ dl {
 /* Container style */
 .variant-select {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   padding: 10px 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
