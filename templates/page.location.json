@@ -503,6 +503,55 @@
             "heading": "Cme",
             "link": "shopify://pages/milk-delivery-in-cme"
           }
+        },
+        "icon_box_N9FEYY": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Deccan",
+            "link": "shopify://pages/milk-delivery-in-deccan"
+          }
+        },
+        "icon_box_t7rXzB": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Kothrud",
+            "link": "shopify://pages/milk-delivery-in-kothrud"
+          }
+        },
+        "icon_box_eRDr9X": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Mahalunge",
+            "link": "shopify://pages/milk-delivery-in-mahalunge"
+          }
+        },
+        "icon_box_A9zbVq": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Model Colony",
+            "link": "shopify://pages/milk-delivery-in-model-colony"
+          }
+        },
+        "icon_box_iz6KmG": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Panchwati",
+            "link": "shopify://pages/milk-delivery-in-panchwati"
+          }
+        },
+        "icon_box_UjBa6w": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Pashan",
+            "link": "shopify://pages/milk-delivery-in-pashan"
+          }
+        },
+        "icon_box_kGRHm8": {
+          "type": "icon_box",
+          "settings": {
+            "heading": "Pimple Gurav",
+            "link": "shopify://pages/milk-delivery-in-pimple-gurav"
+          }
         }
       },
       "block_order": [
@@ -512,7 +561,14 @@
         "icon_box_xfxPUc",
         "icon_box_nFXNPc",
         "icon_box_aRtVFe",
-        "icon_box_Q6dUgP"
+        "icon_box_Q6dUgP",
+        "icon_box_N9FEYY",
+        "icon_box_t7rXzB",
+        "icon_box_eRDr9X",
+        "icon_box_A9zbVq",
+        "icon_box_iz6KmG",
+        "icon_box_UjBa6w",
+        "icon_box_kGRHm8"
       ],
       "settings": {
         "title": "Fresh A2 Milk Delivered in Pune",
