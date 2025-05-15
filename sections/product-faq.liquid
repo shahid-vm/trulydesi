@@ -161,10 +161,10 @@
             {% if final_index == forloop.index %}
               {
                 "@type": "Question",
-                "name": "{{ title }}",
+                "name": "{{ title | strip_html }}",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "{{ content }}"
+                  "text": "{{ content | strip_html }}"
                 }
               }
               {% unless forloop.last %}, {% endunless %}
