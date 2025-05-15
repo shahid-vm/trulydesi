@@ -165,7 +165,17 @@
         aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
         tabindex="-1"
       >
-        
+ 
+        <div class="slideshow__overlay-wrapper">
+          {% if block.settings.overlay_image %}
+            <div
+              class="slideshow__overlay"
+              style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }});"
+            ></div>
+          {% endif %}
+        </div>
+     
+
         {% if block.settings.link %}<a href="{{ block.settings.link }}" class="banner__media--link">{% endif %}
           <div class="banner__media--dekstop slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
             {%- if block.settings.image -%}
