@@ -160,11 +160,11 @@
     "collection_list_mrUQxn": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_yfeHXe": {
+        "featured_collection_VR47kQ": {
           "type": "featured_collection",
           "settings": {
-            "collection": "other-dairy-essentials",
-            "image": "shopify://shop_images/Other_Dairy_Essentials.jpg"
+            "collection": "farm-fresh-milk",
+            "image": "shopify://shop_images/Farm_Fresh_Milk.jpg"
           }
         },
         "featured_collection_KPGAY3": {
@@ -174,11 +174,11 @@
             "image": "shopify://shop_images/Gut-Friendly_Delights.jpg"
           }
         },
-        "featured_collection_VR47kQ": {
+        "featured_collection_yfeHXe": {
           "type": "featured_collection",
           "settings": {
-            "collection": "farm-fresh-milk",
-            "image": "shopify://shop_images/Farm_Fresh_Milk.jpg"
+            "collection": "other-dairy-essentials",
+            "image": "shopify://shop_images/Other_Dairy_Essentials.jpg"
           }
         },
         "featured_collection_Kpg98b": {
@@ -190,9 +190,9 @@
         }
       },
       "block_order": [
-        "featured_collection_yfeHXe",
-        "featured_collection_KPGAY3",
         "featured_collection_VR47kQ",
+        "featured_collection_KPGAY3",
+        "featured_collection_yfeHXe",
         "featured_collection_Kpg98b"
       ],
       "custom_css": [
