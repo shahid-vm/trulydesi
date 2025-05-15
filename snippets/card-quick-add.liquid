@@ -1,4 +1,5 @@
 {%- unless product.has_only_default_variant -%}
+  {% if product.variants.size > 1 %}
   <custom-variant-selector>
     {%- for option in product.options_with_values -%}
      <select class="variant-select">
@@ -81,6 +82,7 @@
     });
     </script>
   </custom-variant-selector>
+    {% endif %}
 {% endunless %}
 
 <product-form data-section-id="{{ section.id }}"> 
