@@ -35,14 +35,14 @@
         "slide_xzUCEw": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/paneer_Banner.png",
-            "overlay_image": "shopify://shop_images/png-clipart-soy-milk-stuffing-to.png",
-            "mob_image": "shopify://shop_images/paneer_Banner_mobile.png",
+            "image": "shopify://shop_images/paneer_with_out_paneer_Banner.png",
+            "overlay_image": "shopify://shop_images/paneer_2.png",
+            "mob_image": "shopify://shop_images/paneer_with_out_paneer_mobile.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "",
-            "link": "",
+            "link": "shopify://products/a2paneer",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
