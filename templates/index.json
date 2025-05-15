@@ -317,9 +317,9 @@
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "collection": "best-seller",
+        "collection": "all",
         "products_to_show": 8,
-        "title": "Bestsellers",
+        "title": "Our Products",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
