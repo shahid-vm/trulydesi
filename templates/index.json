@@ -9,6 +9,62 @@
  */
 {
   "sections": {
+    "animated_slideshow_x9Fg3F": {
+      "type": "animated-slideshow",
+      "blocks": {
+        "slide_dwAQLF": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image_1_4734fec4-4515-4f7d-ab48-84be3803f084.png",
+            "mob_image": "shopify://shop_images/milk_Banner_mobile.png",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_zhCAHK": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_dwAQLF",
+        "slide_zhCAHK"
+      ],
+      "name": "Animated Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "slideshow_eWVBwE": {
       "type": "slideshow",
       "blocks": {
@@ -922,6 +978,7 @@
     }
   },
   "order": [
+    "animated_slideshow_x9Fg3F",
     "slideshow_eWVBwE",
     "scrolling_announcement_bar_UAEhwn",
     "collection_list_mrUQxn",
