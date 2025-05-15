@@ -299,7 +299,7 @@
           {% else %}
             <div class="product-short-dis">{{ card_product.metafields.custom.description | metafield_tag | truncatewords: 15 }}</div>
           {% endif %}
-  <div class="price-btn-container"  {% if card_product.variants.size > 1 %} style="justify-content: center;" {% endif %} >   
+  <div class="price-btn-container"  {% if card_product.variants.size < 1 %} style="justify-content: center;" {% endif %} >   
   {% assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id %}
   {% render 'custom-price', product: card_product, price_class: '', show_compare_at_price: true %}
   {% render 'card-quick-add',product: card_product, product_form_id: product_form_id %}
