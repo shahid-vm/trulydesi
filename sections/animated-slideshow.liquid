@@ -36,30 +36,30 @@
   animation: float 8s ease-in-out infinite;
 }
 
-@keyframes dropAndBounce {
+@keyframes dropIn {
   0% {
     transform: translateY(-300px);
     opacity: 0;
   }
-  60% {
+  100% {
     transform: translateY(0);
     opacity: 1;
   }
-  75% {
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
     transform: translateY(-30px);
   }
-  90% {
-    transform: translateY(0);
-  }
-  95% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
+  60% {
+    transform: translateY(-15px);
   }
 }
 .overlay-img-1 {
-  animation: dropAndBounce 1.5s ease-out forwards;
+  animation: bounce 2s infinite;
 }
 
 </style>
