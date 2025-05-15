@@ -16,6 +16,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/paneer_Banner.png",
+            "overlay_image": "shopify://shop_images/png-clipart-soy-milk-stuffing-to.png",
             "mob_image": "shopify://shop_images/paneer_Banner_mobile.png",
             "heading": "",
             "heading_size": "h1",
