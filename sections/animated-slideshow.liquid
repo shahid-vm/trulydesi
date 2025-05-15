@@ -3,6 +3,13 @@
 {{ 'component-slideshow.css' | asset_url | stylesheet_tag }}
 
 <style>
+@media screen and (min-width: 768px){
+  .slideshow__overlay{
+    background-size: 14% !important;
+    background-color: transparent;
+    background-position: bottom left;
+  }
+}
 .slideshow__overlay{
   display: block !important;
 }
