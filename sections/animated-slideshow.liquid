@@ -36,25 +36,22 @@
   animation: float 8s ease-in-out infinite;
 }
 
-@keyframes slideShrinkIn {
-  0% {
-    transform: translateY(-100%) scale(1.2);
-    opacity: 0;
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
   }
-  100% {
-    transform: translateY(0) scale(1);
-    opacity: 1;
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
   }
 }
- .animate-overlay {
-
-      transition: transform 0.3s ease;
-    }
-
-   .animate-overlay:hover {
-      transform: scale(0.8); /* Shrinks to 80% of original size */
-    }
-.animate-overlay {
+.overlay-img-1 {
+  animation: bounce 2s infinite;
+}
+.overlay-img-1 {
   animation: slideShrinkIn 1.2s ease-out forwards;
   background-size: cover;
   background-position: center;
@@ -228,14 +225,12 @@
         tabindex="-1"
       >
  
-        <div class="slideshow__overlay-wrapper">
-          {% if block.settings.overlay_image %}
-            <div
-              class="slideshow__overlay overlay-img-{{ forloop.index }} animate-overlay"
-              style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }});"
-            ></div>
-          {% endif %}
-        </div>
+        <div
+          class="slideshow__overlay overlay-img-{{ forloop.index }} animate-overlay"
+          style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }}); animation-delay: {{ forloop.index0 | times: 0.3 }}s;"
+        >
+      </div>
+
      
 
         {% if block.settings.link %}<a href="{{ block.settings.link }}" class="banner__media--link">{% endif %}
