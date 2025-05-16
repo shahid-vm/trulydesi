@@ -733,6 +733,7 @@
 
     <script type="application/ld+json">
       {{ product | structured_data }}
+      "@type": "{% if product.variants.size > 1 %}ProductGroup{% else %}Product{% endif %}",
     </script>
   </div>
 </product-info>
