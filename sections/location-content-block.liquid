@@ -18,6 +18,13 @@
           </div>
       {% endif %}
 
+       {% if forloop.first %}
+        <div class="center-image">
+          <img src="{{ section.settings.main_image| img_url:'master' }}" alt="Main Image">
+        </div>
+      {% endif %}
+
+      
       {% if forloop.index == 3 %}
           <div class="benefit bottom-left">
             <img src="{{ block.settings.icon_image| img_url:'master' }}" alt="Block-image">
@@ -26,12 +33,7 @@
           </div>
       {% endif %}
 
-      {% if forloop.first %}
-        <div class="center-image">
-          <img src="{{ section.settings.main_image| img_url:'master' }}" alt="Main Image">
-        </div>
-      {% endif %}
-        
+     
        {% if forloop.index == 4 %}
           <div class="benefit bottom-right">
             <img src="{{ block.settings.icon_image| img_url:'master' }}" alt="Block-image">
