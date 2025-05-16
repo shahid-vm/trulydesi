@@ -643,3 +643,12 @@ dl {
     line-height: 23px;
     color: #000000ab;
 }
+
+/* animation css
+*/
+img.animated-image-1 {
+    position: absolute;
+    z-index: 10;
+    max-width: 100px;
+    height: auto;
+}
