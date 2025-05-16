@@ -36,7 +36,8 @@
   animation: float 8s ease-in-out infinite;
 }
 
-@keyframes slideShrinkIn {
+/* Keyframe animation for slide-in and shrink */
+@keyframes slideInShrink {
   0% {
     transform: translateY(-100%) scale(1.2);
     opacity: 0;
@@ -47,13 +48,15 @@
   }
 }
 
-.animate-overlay {
-  animation: slideShrinkIn 1.2s ease-out forwards;
+/* Overlay Animation Style */
+.overlay-animate {
+  animation: slideInShrink 1.5s ease-in-out forwards;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0; /* start hidden before animation */
+  opacity: 0; /* Initial opacity */
 }
+
 
 </style>
 
