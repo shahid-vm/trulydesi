@@ -652,6 +652,6 @@ img.animated-image-1 {
     max-width: 100px;
     height: auto;
     transform: translateY(-50%);
-    right: 0;
+    right: 10%;
     top: 50%;
 }
