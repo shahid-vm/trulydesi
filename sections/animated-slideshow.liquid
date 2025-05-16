@@ -221,14 +221,12 @@
         tabindex="-1"
       >
  
-        <div class="slideshow__overlay-wrapper">
-          {% if block.settings.overlay_image %}
-            <div
-              class="slideshow__overlay overlay-img-{{ forloop.index }}"
-              style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }});"
-            ></div>
-          {% endif %}
-        </div>
+        <div
+          class="slideshow__overlay overlay-img-{{ forloop.index }} animate-overlay"
+          style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }}); animation-delay: {{ forloop.index0 | times: 0.3 }}s;"
+        >
+      </div>
+
      
 
         {% if block.settings.link %}<a href="{{ block.settings.link }}" class="banner__media--link">{% endif %}
