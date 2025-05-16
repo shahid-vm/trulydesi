@@ -654,4 +654,17 @@ img.animated-image-1 {
     transform: translateY(-50%);
     right: 10%;
     top: 50%;
+    animation: float 3s ease-in-out infinite;
+}
+/* Float Animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
