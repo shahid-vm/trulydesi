@@ -225,7 +225,7 @@
         <div class="slideshow__overlay-wrapper">
           {% if block.settings.overlay_image %}
             <div
-              class="slideshow__overlay overlay-img-{{ forloop.index }} animate-overlay"
+              class="slideshow__overlay overlay-img-{{ forloop.index }} animate-overlay {% if forloop.first %}wobble-ver-left{% endif %}"
               style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }});"
             ></div>
           {% endif %}
