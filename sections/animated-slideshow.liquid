@@ -36,8 +36,7 @@
   animation: float 8s ease-in-out infinite;
 }
 
-/* Keyframe animation for slide-in and shrink */
-@keyframes slideInShrink {
+@keyframes slideShrinkIn {
   0% {
     transform: translateY(-100%) scale(1.2);
     opacity: 0;
@@ -48,15 +47,13 @@
   }
 }
 
-/* Overlay Animation Style */
-.overlay-animate {
-  animation: slideInShrink 1.5s ease-in-out forwards;
+.animate-overlay {
+  animation: slideShrinkIn 1.2s ease-out forwards;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0; /* Initial opacity */
+  opacity: 0; /* start hidden before animation */
 }
-
 
 </style>
 
@@ -227,7 +224,7 @@
         <div class="slideshow__overlay-wrapper">
           {% if block.settings.overlay_image %}
             <div
-              class="slideshow__overlay overlay-img-{{ forloop.index }} animate-overlay"
+              class="slideshow__overlay overlay-img-{{ forloop.index }}"
               style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }});"
             ></div>
           {% endif %}
