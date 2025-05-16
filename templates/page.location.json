@@ -916,6 +916,29 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
+    },
+    "rich_text_YGhqdR": {
+      "type": "rich-text",
+      "blocks": {
+        "text_WfGYbU": {
+          "type": "text",
+          "settings": {
+            "text": "{{ page.content }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_WfGYbU"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -929,6 +952,7 @@
     "usp_section_CayHym",
     "featured_blog_dC8T9G",
     "location_areas_kpQJ47",
-    "location_areas_wiLghA"
+    "location_areas_wiLghA",
+    "rich_text_YGhqdR"
   ]
 }
