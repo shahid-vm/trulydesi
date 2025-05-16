@@ -272,8 +272,12 @@
             {%- endif -%}
           </div>
         </div>
-        <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/ghee_1.png?v=1747300513" class="animated-image-2">
-        <img src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/ghee_2.png?v=1747395176" class="animated-image-1">
+        {% if section.settings.hangging_img2 != blank %}
+          <img src="{{ section.settings.hangging_img2 | img_url:'master' }}" class="animated-image-2">
+        {% endif %}
+        {% if section.settings.hangging_img != blank %}
+          <img src="{{ section.settings.hangging_img1 | img_url:'master' }}" class="animated-image-1">
+        {% endif %}
       </div>
     {%- endfor -%}
   </div>
