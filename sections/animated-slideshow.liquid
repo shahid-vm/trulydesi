@@ -46,7 +46,14 @@
     opacity: 1;
   }
 }
+ .animate-overlay {
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
 
+   .animate-overlay:hover {
+      transform: scale(0.8); /* Shrinks to 80% of original size */
+    }
 .animate-overlay {
   animation: slideShrinkIn 1.2s ease-out forwards;
   background-size: cover;
