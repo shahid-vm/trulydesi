@@ -55,12 +55,22 @@
   opacity: 0; /* start hidden before animation */
 }
 
+.animate-wrapper {
+  animation: slideShrinkIn 1.2s ease-out forwards;
+  opacity: 0;
+}
+
 .animate-overlay {
+  width: 200px;
+  height: 200px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   animation: dance 0.6s linear infinite;
-  transform: rotateX(-10deg) rotateY(25deg);
   transform-style: preserve-3d;
   perspective: 1000px;
 }
+
 
 .animate-overlay img {
   width: 200px;
@@ -243,14 +253,17 @@
         tabindex="-1"
       >
  
-        <div class="slideshow__overlay-wrapper">
-          {% if block.settings.overlay_image %}
-            <div
-              class="slideshow__overlay overlay-img-{{ forloop.index }} animate-overlay"
-              style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }});"
-            ></div>
-          {% endif %}
-        </div>
+     <div class="slideshow__overlay-wrapper">
+  {% if block.settings.overlay_image %}
+    <div class="animate-wrapper">
+      <div
+        class="slideshow__overlay overlay-img-{{ forloop.index }} animate-overlay"
+        style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }});"
+      ></div>
+    </div>
+  {% endif %}
+</div>
+
      
 
         {% if block.settings.link %}<a href="{{ block.settings.link }}" class="banner__media--link">{% endif %}
