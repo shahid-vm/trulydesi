@@ -732,7 +732,27 @@
     -%}
 
     <script type="application/ld+json">
-      {{ product | structured_data }}
+     {% comment %} {{ product | structured_data }} {% endcomment %}
+     {
+      "@context": "https://schema.org/",
+      "@type": "Product",
+      "name": "{{ product.title | escape }}",
+      "image": ["{{ product.featured_image | img_url: 'master' }}"],
+      "description": "{{ product.description | strip_html | escape }}",
+      "sku": "{{ product.variants.first.sku }}",
+      "brand": {
+        "@type": "Brand",
+        "name": "{{ product.vendor }}"
+      },
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "{{ shop.currency }}",
+        "price": "{{ product.price | money_without_currency | replace: ',', '' }}",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
+        "url": "{{ product.url | prepend: shop.url }}"
+      }
+    }
     </script>
   </div>
 </product-info>
