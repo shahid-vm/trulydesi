@@ -656,6 +656,16 @@ img.animated-image-1 {
     top: 50%;
     animation: float 3s ease-in-out infinite;
 }
+img.animated-image-2 {
+    position: absolute;
+    z-index: 10;
+    max-width: 100px;
+    height: auto;
+    transform: translateY(-50%);
+    left: 10%;
+    top: 30%;
+    animation: float 3s ease-in-out infinite;
+}
 /* Float Animation */
 @keyframes float {
   0% {
