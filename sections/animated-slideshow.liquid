@@ -85,6 +85,50 @@
   /* 75%  { transform: translateY(5px) rotateX(-3deg) rotateY(8deg) rotateZ(-3deg); } */
   100% { transform: rotateX(-3deg) rotateY(7deg); }
 }
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.ghee-image {
+  width: 400px; /* Adjust size as needed */
+  display: block;
+}
+
+.line {
+  position: absolute;
+  width: 4px;
+  height: 40px;
+  background-color: #cc0066; /* Pink color */
+  border-radius: 2px;
+}
+
+/* Adjust positions and rotation */
+.line1 {
+  left: 20px;
+  bottom: 40px;
+  transform: rotate(-30deg);
+}
+.line2 {
+  left: 50px;
+  bottom: 30px;
+  transform: rotate(-15deg);
+}
+.line3 {
+  left: 90px;
+  bottom: 25px;
+  transform: rotate(0deg);
+}
+.line4 {
+  left: 130px;
+  bottom: 30px;
+  transform: rotate(15deg);
+}
+.line5 {
+  left: 170px;
+  bottom: 40px;
+  transform: rotate(30deg);
+}
 
 </style>
 
@@ -258,7 +302,13 @@
       <div
         class="slideshow__overlay overlay-img-{{ forloop.index }} animate-overlay"
         style="background-image: url({{ block.settings.overlay_image | image_url: width: 1000 }});"
-      ></div>
+      >
+      <span class="line line1"></span>
+      <span class="line line2"></span>
+      <span class="line line3"></span>
+      <span class="line line4"></span>
+      <span class="line line5"></span>
+    </div>
     </div>
   {% endif %}
 </div>
