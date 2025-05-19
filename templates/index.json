@@ -78,6 +78,8 @@
           "settings": {
             "image": "shopify://shop_images/milk_Banner.png",
             "mob_image": "shopify://shop_images/milk_Banner_mobile.png",
+            "hangging_img": "shopify://shop_images/paneer_1.png",
+            "hangging_img2": "shopify://shop_images/ghee_2.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
