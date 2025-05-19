@@ -117,7 +117,6 @@
           "settings": {
             "image": "shopify://shop_images/common_Banner.png",
             "mob_image": "shopify://shop_images/common_Banner_mobile.png",
-            "hangging_img": "shopify://shop_images/Farm_to_Table_588ff55d-b2b6-4c7c-9d7e-de5db7d2cfb1.svg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -138,6 +137,7 @@
             "image": "shopify://shop_images/paneer_Banner.png",
             "mob_image": "shopify://shop_images/paneer_Banner_mobile.png",
             "hangging_img": "shopify://shop_images/png-clipart-soy-milk-stuffing-to.png",
+            "hangging_img2": "shopify://shop_images/png-clipart-soy-milk-stuffing-to.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
