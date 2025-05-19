@@ -352,7 +352,7 @@
         "text_cJjcKP": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Asset_2.svg",
+            "step-image": "shopify://shop_images/Cows_graze.svg",
             "step-title": "Cows graze freely, with no hormones or artificial insemination"
           }
         },
@@ -366,21 +366,21 @@
         "text_nTtPD9": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Asset_3_7968cf1a-b3a0-4265-834a-a43aeb9cef29.svg",
+            "step-image": "shopify://shop_images/Each_batch.svg",
             "step-title": "Each batch is tested for purity, safety, and nutrition"
           }
         },
         "text_qbFU87": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Asset_4_9f57676c-9f37-4651-9eff-d1d771e09bcc.svg",
+            "step-image": "shopify://shop_images/Packed_under_strict.svg",
             "step-title": "Packed under strict hygienic conditions to ensure safety and quality."
           }
         },
         "text_wQH3kA": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Asset_5.svg",
+            "step-image": "shopify://shop_images/Delivered_within_12.svg",
             "step-title": "Delivered within 12 hours of milking, straight to your doorstep."
           }
         }
