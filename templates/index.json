@@ -78,7 +78,6 @@
           "settings": {
             "image": "shopify://shop_images/milk_Banner.png",
             "mob_image": "shopify://shop_images/milk_Banner_mobile.png",
-            "hangging_img2": "shopify://shop_images/Cow_Therapy_d12c366c-cd5e-4488-b53f-45fb919d689d.svg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -96,8 +95,8 @@
         "slide_xtWBYn": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/ghee_Banner.png",
-            "mob_image": "shopify://shop_images/ghee_Banner_mobile.png",
+            "image": "shopify://shop_images/ghee_with_out_ghee_Banner_9b261f65-64db-4fbf-bf52-1f9b6cab7b96.png",
+            "mob_image": "shopify://shop_images/ghee_with_out_ghee_mobile_0170cd61-fc18-4ccc-8381-d36c0fdc5cbe.png",
             "hangging_img": "shopify://shop_images/ghee_1.png",
             "heading": "",
             "heading_size": "h1",
