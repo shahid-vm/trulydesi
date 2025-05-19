@@ -365,6 +365,7 @@
     },
     "single_image_banner_cbCiR9": {
       "type": "single-image-banner",
+      "disabled": true,
       "name": "Single - Image Banner",
       "settings": {
         "full_width": false,
