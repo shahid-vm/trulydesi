@@ -78,8 +78,7 @@
           "settings": {
             "image": "shopify://shop_images/milk_Banner.png",
             "mob_image": "shopify://shop_images/milk_Banner_mobile.png",
-            "hangging_img": "shopify://shop_images/paneer_1.png",
-            "hangging_img2": "shopify://shop_images/ghee_2.png",
+            "hangging_img2": "shopify://shop_images/Cow_Therapy_d12c366c-cd5e-4488-b53f-45fb919d689d.svg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -99,6 +98,7 @@
           "settings": {
             "image": "shopify://shop_images/ghee_Banner.png",
             "mob_image": "shopify://shop_images/ghee_Banner_mobile.png",
+            "hangging_img": "shopify://shop_images/ghee_1.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -118,6 +118,7 @@
           "settings": {
             "image": "shopify://shop_images/common_Banner.png",
             "mob_image": "shopify://shop_images/common_Banner_mobile.png",
+            "hangging_img": "shopify://shop_images/Farm_to_Table_588ff55d-b2b6-4c7c-9d7e-de5db7d2cfb1.svg",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -137,6 +138,7 @@
           "settings": {
             "image": "shopify://shop_images/paneer_Banner.png",
             "mob_image": "shopify://shop_images/paneer_Banner_mobile.png",
+            "hangging_img": "shopify://shop_images/png-clipart-soy-milk-stuffing-to.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
