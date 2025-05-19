@@ -457,7 +457,7 @@
         "block_ji8MW7": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/NATURAL_BREEDING_15aa8893-df64-441e-a17c-26d1aa122107.svg",
+            "image": "shopify://shop_images/NATURAL-BREEDING.png",
             "title": "NATURAL BREEDING",
             "sub-title": "We practice ethical, natural breeding with no artificial insemination."
           }
@@ -473,7 +473,7 @@
         "block_4NgwEJ": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/NATURAL_GRAZING_173c4b28-d59d-4c2d-b7f5-892b1500bcd4.svg",
+            "image": "shopify://shop_images/NATURAL-GRAZING.png",
             "title": "NATURAL GRAZING",
             "sub-title": "Our cows graze freely on chemical-free, nutrient-rich pastures."
           }
