@@ -371,6 +371,42 @@
         "padding-bottom": 0
       }
     },
+    "image_description_blocks_gFzhHN": {
+      "type": "image-description-blocks",
+      "blocks": {
+        "block_jkzhmm": {
+          "type": "Block",
+          "settings": {
+            "main-img": "shopify://shop_images/Punganur_Cow_1.png",
+            "main-title": "Preserving India’s Indigenous Legacy",
+            "coll-desc": "<p>We are dedicated to protecting and promoting native cow breeds, such as Gir and Punganur, by breeding them naturally rather than artificially. We deliver their nutrient-rich A2 milk within 12 hours of milking.</p>",
+            "title": "",
+            "title2": ""
+          }
+        },
+        "block_eG7NYi": {
+          "type": "Block",
+          "settings": {
+            "main-img": "shopify://shop_images/Breeding_Indian_Indigenous_Cows.png",
+            "main-title": "Sustainability",
+            "coll-desc": "<p>From recycling milk pouches to nurturing soil with desi cow-based fertilisers, our farm practices heal the earth while nourishing you, making every product a step towards a cleaner planet.</p>",
+            "title": "",
+            "title2": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_jkzhmm",
+        "block_eG7NYi"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "title": "Why Choose Truly Desi",
+        "content": "",
+        "padding_top": 40,
+        "padding_bottom": 60
+      }
+    },
     "featured_collection_hgBaHf": {
       "type": "featured-collection",
       "custom_css": [
@@ -460,10 +496,10 @@
         "coll-desc": ""
       }
     },
-    "image_description_blocks_gFzhHN": {
+    "image_description_blocks_pcrqTy": {
       "type": "image-description-blocks",
       "blocks": {
-        "block_jkzhmm": {
+        "block_XF9yjn": {
           "type": "Block",
           "settings": {
             "main-img": "shopify://shop_images/Milk_Pouch_Recycling_095250e8-1f0e-40ef-95c8-3911be5780a2.png",
@@ -473,7 +509,7 @@
             "title2": ""
           }
         },
-        "block_eG7NYi": {
+        "block_XW96bb": {
           "type": "Block",
           "settings": {
             "main-img": "shopify://shop_images/Breeding_Indian_Indigenous_Cows.png",
@@ -483,7 +519,7 @@
             "title2": ""
           }
         },
-        "block_iMwCdt": {
+        "block_nXyKmG": {
           "type": "Block",
           "settings": {
             "main-img": "shopify://shop_images/Conservation_of_Soil.png",
@@ -495,9 +531,9 @@
         }
       },
       "block_order": [
-        "block_jkzhmm",
-        "block_eG7NYi",
-        "block_iMwCdt"
+        "block_XF9yjn",
+        "block_XW96bb",
+        "block_nXyKmG"
       ],
       "settings": {
         "color_scheme": "scheme-2",
@@ -991,9 +1027,10 @@
     "1746165728ea6c6944",
     "collection_tabs_iVx6Lz",
     "single_image_banner_cbCiR9",
+    "image_description_blocks_gFzhHN",
     "featured_collection_hgBaHf",
     "icon_with_title_text_qRQTzn",
-    "image_description_blocks_gFzhHN",
+    "image_description_blocks_pcrqTy",
     "home_journey_z4QLLy",
     "usp_section_kQwdyR",
     "brand_section_eHygHB",
