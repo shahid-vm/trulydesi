@@ -33,6 +33,7 @@
         },
         "slide_DQBQ3D": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/ghee_Banner.png",
             "mob_image": "shopify://shop_images/ghee_Banner_mobile.png",
@@ -52,6 +53,7 @@
         },
         "slide_iQwyA9": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/milk_Banner.png",
             "mob_image": "shopify://shop_images/milk_Banner_mobile.png",
@@ -71,6 +73,7 @@
         },
         "slide_DJqEy9": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/paneer_Banner.png",
             "mob_image": "shopify://shop_images/paneer_Banner_mobile.png",
@@ -239,6 +242,7 @@
     },
     "single_image_banner_pMXr7L": {
       "type": "single-image-banner",
+      "disabled": true,
       "name": "Single - Image Banner",
       "settings": {
         "full_width": false,
@@ -247,6 +251,42 @@
         "link": "",
         "padding-top": 0,
         "padding-bottom": 0
+      }
+    },
+    "image_description_blocks_FFNjYM": {
+      "type": "image-description-blocks",
+      "blocks": {
+        "block_gn8MBc": {
+          "type": "Block",
+          "settings": {
+            "main-img": "shopify://shop_images/Punganur_Cow_1.png",
+            "main-title": "Preserving India’s Indigenous Legacy",
+            "coll-desc": "<p>We are dedicated to protecting and promoting native cow breeds, such as Gir and Punganur, by breeding them naturally rather than artificially. We deliver their nutrient-rich A2 milk within 12 hours of milking.</p>",
+            "title": "",
+            "title2": ""
+          }
+        },
+        "block_Rg7qkw": {
+          "type": "Block",
+          "settings": {
+            "main-img": "shopify://shop_images/Breeding_Indian_Indigenous_Cows.png",
+            "main-title": "Sustainability",
+            "coll-desc": "<p>From recycling milk pouches to nurturing soil with desi cow-based fertilisers, our farm practices heal the earth while nourishing you, making every product a step towards a cleaner planet.</p>",
+            "title": "",
+            "title2": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_gn8MBc",
+        "block_Rg7qkw"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "title": "Why Choose Truly Desi",
+        "content": "",
+        "padding_top": 40,
+        "padding_bottom": 60
       }
     },
     "icon_with_title_text_ihnq3X": {
@@ -947,6 +987,7 @@
     "location_content_block_TKrKwA",
     "featured_collection_dgfBmJ",
     "single_image_banner_pMXr7L",
+    "image_description_blocks_FFNjYM",
     "icon_with_title_text_ihnq3X",
     "home_journey_CrXbjq",
     "usp_section_CayHym",
