@@ -554,14 +554,14 @@
         "text_7bmHeX": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Asset_2.svg",
+            "step-image": "shopify://shop_images/Cows-graze.png",
             "step-title": "Cows graze freely, with no hormones or artificial insemination"
           }
         },
         "text_tQPU3f": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Asset_1_8786dacf-32bb-4d8d-b99c-49ef4174fc75.svg",
+            "step-image": "shopify://shop_images/DNA_1.png",
             "step-title": "Milk sourced from DNA-certified, ethically raised Gir cows"
           }
         },
