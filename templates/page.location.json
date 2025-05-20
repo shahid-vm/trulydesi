@@ -347,51 +347,51 @@
         "coll-desc": ""
       }
     },
-    "home_journey_CrXbjq": {
+    "home_journey_bzJYTb": {
       "type": "home-journey",
       "blocks": {
-        "text_cJjcKP": {
+        "text_6Wbfci": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Cows_graze.svg",
+            "step-image": "shopify://shop_images/Asset_2.svg",
             "step-title": "Cows graze freely, with no hormones or artificial insemination"
           }
         },
-        "text_7wFi9W": {
+        "text_M3ApMX": {
           "type": "text",
           "settings": {
             "step-image": "shopify://shop_images/Asset_1_8786dacf-32bb-4d8d-b99c-49ef4174fc75.svg",
             "step-title": "Milk sourced from DNA-certified, ethically raised Gir cows"
           }
         },
-        "text_nTtPD9": {
+        "text_xEF6tX": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Each_batch.svg",
+            "step-image": "shopify://shop_images/Asset_3_7968cf1a-b3a0-4265-834a-a43aeb9cef29.svg",
             "step-title": "Each batch is tested for purity, safety, and nutrition"
           }
         },
-        "text_qbFU87": {
+        "text_TdhjV3": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Packed_under_strict.svg",
+            "step-image": "shopify://shop_images/Asset_4_9f57676c-9f37-4651-9eff-d1d771e09bcc.svg",
             "step-title": "Packed under strict hygienic conditions to ensure safety and quality."
           }
         },
-        "text_wQH3kA": {
+        "text_LXXCYC": {
           "type": "text",
           "settings": {
-            "step-image": "shopify://shop_images/Delivered_within_12.svg",
+            "step-image": "shopify://shop_images/Asset_5.svg",
             "step-title": "Delivered within 12 hours of milking, straight to your doorstep."
           }
         }
       },
       "block_order": [
-        "text_cJjcKP",
-        "text_7wFi9W",
-        "text_nTtPD9",
-        "text_qbFU87",
-        "text_wQH3kA"
+        "text_6Wbfci",
+        "text_M3ApMX",
+        "text_xEF6tX",
+        "text_TdhjV3",
+        "text_LXXCYC"
       ],
       "settings": {
         "title": "Journey From Farm To Home",
@@ -990,7 +990,7 @@
     "single_image_banner_pMXr7L",
     "image_description_blocks_PYJyBN",
     "icon_with_title_text_pwgPmn",
-    "home_journey_CrXbjq",
+    "home_journey_bzJYTb",
     "usp_section_eqkYpA",
     "featured_blog_dC8T9G",
     "location_areas_kpQJ47",
