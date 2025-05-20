@@ -665,8 +665,8 @@ img.animated-image-2 {
     max-width: 100px;
     height: auto;
     transform: translateY(-50%);
-    left: 10%;
-    top: 30%;
+    left: 20%;
+    top: 80%;
     animation: float 3s ease-in-out infinite;
 }
 /* Float Animation */
