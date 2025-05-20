@@ -290,10 +290,10 @@
         "padding_bottom": 60
       }
     },
-    "icon_with_title_text_VRe9CT": {
+    "icon_with_title_text_pwgPmn": {
       "type": "icon-with-title-text",
       "blocks": {
-        "block_zEfhXr": {
+        "block_c4xCJQ": {
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/AUTHENTIC_CARE_14ce87ac-f018-40e5-91cb-f27ea692a728.svg",
@@ -301,15 +301,15 @@
             "sub-title": "Our cows are raised naturally, free from antibiotics and growth hormones."
           }
         },
-        "block_rT7TdV": {
+        "block_J3jRRC": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/NATURAL_BREEDING_15aa8893-df64-441e-a17c-26d1aa122107.svg",
+            "image": "shopify://shop_images/NATURAL-BREEDING.png",
             "title": "NATURAL BREEDING",
             "sub-title": "We practice ethical, natural breeding with no artificial insemination."
           }
         },
-        "block_JPEXpk": {
+        "block_YHjBCa": {
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/STRESS-FREE_ENVIRONMENT_f6fbb4bd-c2f7-4514-9477-7d531c306f07.svg",
@@ -317,15 +317,15 @@
             "sub-title": "Our cows live in a clean, stress-free environment, groomed regularly with herbal care."
           }
         },
-        "block_VciKpq": {
+        "block_hUPYrB": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/NATURAL_GRAZING_173c4b28-d59d-4c2d-b7f5-892b1500bcd4.svg",
+            "image": "shopify://shop_images/NATURAL-GRAZING.png",
             "title": "NATURAL GRAZING",
             "sub-title": "Our cows graze freely on chemical-free, nutrient-rich pastures."
           }
         },
-        "block_8b4x7w": {
+        "block_xtpKw7": {
           "type": "Block",
           "settings": {
             "image": "shopify://shop_images/CALF-FIRST_APPROACH_befa4bb6-92a3-46bd-b476-44fdd70d4344.svg",
@@ -335,11 +335,11 @@
         }
       },
       "block_order": [
-        "block_zEfhXr",
-        "block_rT7TdV",
-        "block_JPEXpk",
-        "block_VciKpq",
-        "block_8b4x7w"
+        "block_c4xCJQ",
+        "block_J3jRRC",
+        "block_YHjBCa",
+        "block_hUPYrB",
+        "block_xtpKw7"
       ],
       "settings": {
         "color_scheme": "scheme-1",
@@ -989,7 +989,7 @@
     "featured_collection_dgfBmJ",
     "single_image_banner_pMXr7L",
     "image_description_blocks_PYJyBN",
-    "icon_with_title_text_VRe9CT",
+    "icon_with_title_text_pwgPmn",
     "home_journey_CrXbjq",
     "usp_section_CayHym",
     "featured_blog_dC8T9G",
