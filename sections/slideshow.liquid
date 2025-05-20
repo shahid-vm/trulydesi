@@ -278,6 +278,9 @@
         {% if block.settings.hangging_img != blank %}
           <img src="{{ block.settings.hangging_img | img_url:'master' }}" class="animated-image-1">
         {% endif %}
+      {% if block.settings.hangging_img3 != blank %}
+          <img src="{{ block.settings.hangging_img3 | img_url:'master' }}" class="animated-image-3">
+        {% endif %}
       </div>
     {%- endfor -%}
   </div>
@@ -505,6 +508,11 @@
           "type": "image_picker",
           "id": "hangging_img2",
           "label": "Hangging Image 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "hangging_img3",
+          "label": "Hangging Image 3"
         },
         {
           "type": "inline_richtext",
