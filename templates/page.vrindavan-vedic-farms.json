@@ -144,7 +144,7 @@
         "block_qy3V3B": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/cow_90a38598-d766-4d97-8235-154aa10dd4bc.png",
+            "image": "shopify://shop_images/cow_1_8155b867-0b55-4564-badc-2ced825b84d7.png",
             "title": "Cow Therapy",
             "sub-title": "Cuddle, feed, and bond with our gentle cows."
           }
@@ -160,7 +160,7 @@
         "block_MWhkUG": {
           "type": "Block",
           "settings": {
-            "image": "shopify://shop_images/Hand_Milking_6220840a-e49e-4a16-828d-9612866fe4e6.svg",
+            "image": "shopify://shop_images/cow-2.png",
             "title": "Hand Milking",
             "sub-title": "Try your hand at milking, only after calves are fully fed."
           }
