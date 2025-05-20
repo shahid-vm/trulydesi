@@ -405,6 +405,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-2",
+        "bgImage": "shopify://shop_images/bg-bottom.png",
         "title": "Why Choose Truly Desi",
         "content": "",
         "padding_top": 40,
