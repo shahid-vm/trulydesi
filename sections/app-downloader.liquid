@@ -58,9 +58,9 @@
 <body>
 <div class="app-install-banner" id="appBanner">
   <div class="banner-content">
-    <img src="download.png" alt="Milk Bottle" class="milk-icon" />
+    <img src="{{ section.settings.image | img_url:'master' }}" alt="main-image" class="milk-icon" />
     <div class="text">
-      <p><strong>Trusted by 35K families</strong><br>Install Provilac App</p>
+      <p><strong>{{ section.settings.title }}</strong></p>
     </div>
     <a href="#" id="installLink" class="install-btn">Install</a>
     <button class="close-btn" onclick="document.getElementById('appBanner').style.display='none'">×</button>
@@ -72,11 +72,11 @@
   const userAgent = window.navigator.userAgent || window.navigator.vendor || window.opera;
 
   if (/android/i.test(userAgent)) {
-    installLink.href = "https://play.google.com/store/apps/details?id=com.provilac"; // Android link
+    installLink.href = "{{ section.settings.androidlink }}"; // Android link
     installLink.style.backgroundColor = "#4CAF50";
     installLink.textContent = "Install for Android";
   } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-    installLink.href = "https://apps.apple.com/app/id123456789"; // iOS link
+    installLink.href = "{{ section.settings.ioslink }}"; // iOS link
     installLink.style.backgroundColor = "#007AFF";
     installLink.textContent = "Install for iOS";
   } else {
@@ -99,7 +99,13 @@
     {
       "type":"text",
       "id": "title",
-      "label":"Title"
+      "label":"Title",
+      "default":"Title"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
     },
     {
       "type":"url",
