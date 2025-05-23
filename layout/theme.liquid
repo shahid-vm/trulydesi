@@ -380,13 +380,13 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-    <!-- <div style="position: fixed; z-index: 999999999; bottom: 10px; right: 10px;">
+    <div style="position: fixed; z-index: 999999999; bottom: 10px; right: 10px;">
       <button style="font-size: 24px; color: rgb(255, 255, 255); background: linear-gradient(90deg, rgb(18, 198, 101) 0.85%, rgb(0, 148, 70) 100%); border-radius: 50%; padding: 10px; outline: none; border: none; cursor: pointer; height: 60px; width: 60px;">
         <a href="https://wa.me/+919750346346?text=Hii">
           <img data-cy="chat-widget-icon" src="https://cdn.shopify.com/s/files/1/0579/7557/0520/files/svgexport-1.svg?v=1744776793" style="width: 100%; height: 100%;">
         </a>
       </button>
-    </div> -->
+    </div>
     {% if template.suffix == 'pune' %}
       {% render 'pune-page-schema' %}
     {% endif  %}
