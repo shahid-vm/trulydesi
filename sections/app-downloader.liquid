@@ -98,11 +98,11 @@ document.addEventListener("DOMContentLoaded", function () {
       installLink.textContent = "INSTALL";
       break;
     case "mac":
-      installLink.href = "https://apps.apple.com"; // or your Mac app link if any
+      installLink.href = "{{ section.settings.ioslink }}"; // or your Mac app link if any
       installLink.textContent = "INSTALL";
       break;
     case "windows":
-      installLink.href = "https://www.microsoft.com/store"; // or your Windows app link
+      installLink.href = "{{ section.settings.androidlink }}"; // or your Windows app link
       installLink.textContent = "INSTALL";
       break;
     default:
