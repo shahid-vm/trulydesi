@@ -69,25 +69,50 @@
   </div>
 </div>
 <script>
- document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   const installLink = document.getElementById("installLink");
-  const userAgent = window.navigator.userAgent || window.navigator.vendor || window.opera;
+  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+  const appBanner = document.getElementById("appBanner");
+
+  // Detect platform
+  let platform = "other";
 
   if (/android/i.test(userAgent)) {
-    installLink.href = "{{ section.settings.androidlink }}"; // Android link
-    installLink.textContent = "INSTALL";
+    platform = "android";
   } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-    installLink.href = "{{ section.settings.ioslink }}"; // iOS link
-    installLink.textContent = "INSTALL";
-  } else {
-    // If OS can't be determined, hide the button or default to Android
-    installLink.href = "https://www.trulydesi.in/";
-    installLink.textContent = "Visit Site";
+    platform = "ios";
+  } else if (/Macintosh|Mac OS X/i.test(userAgent)) {
+    platform = "mac";
+  } else if (/Windows NT/i.test(userAgent)) {
+    platform = "windows";
   }
 
-  // Optional: Hide on repeat visit
+  // Set install link based on platform
+  switch (platform) {
+    case "android":
+      installLink.href = "{{ section.settings.androidlink }}";
+      installLink.textContent = "Install for Android";
+      break;
+    case "ios":
+      installLink.href = "{{ section.settings.ioslink }}";
+      installLink.textContent = "INSTALL";
+      break;
+    case "mac":
+      installLink.href = "https://apps.apple.com"; // or your Mac app link if any
+      installLink.textContent = "INSTALL";
+      break;
+    case "windows":
+      installLink.href = "https://www.microsoft.com/store"; // or your Windows app link
+      installLink.textContent = "INSTALL";
+      break;
+    default:
+      installLink.href = "https://www.trulydesi.in/";
+      installLink.textContent = "Visit Site";
+  }
+
+  // Close banner
   document.querySelector('.close-btn').addEventListener('click', () => {
-  document.getElementById('appBanner').style.display = 'none';
+    appBanner.style.display = 'none';
   });
 });
 </script>
