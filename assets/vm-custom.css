@@ -691,4 +691,8 @@ img.animated-image-3 {
     transform: translateY(0);
   }
 }
-
+a.full-unstyled-link.cust-link {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
