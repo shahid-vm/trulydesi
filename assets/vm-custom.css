@@ -3,7 +3,7 @@ body * {
     letter-spacing: 0 !important;
 }
 body{
-  overflow-x: hidden !important;
+  overflow: hidden !important;
 }
 body, .color-scheme-1, .color-scheme-2, .color-scheme-3, .color-scheme-4, .color-scheme-5, .header__menu-item {
     color: rgba(var(--color-foreground), 1);
