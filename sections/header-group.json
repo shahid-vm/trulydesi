@@ -15,9 +15,10 @@
       "type": "app-downloader",
       "name": "App Downloader",
       "settings": {
-        "title": "",
-        "androidlink": "",
-        "ioslink": "",
+        "title": "Trusted By 35k Family",
+        "image": "shopify://shop_images/milk_1.png",
+        "androidlink": "https://play.google.com/store/apps/details?id=com.mrmilkman.trulydesidaily&amp;hl=en_IN",
+        "ioslink": "https://apps.apple.com/in/app/truly-desi/id1666204942",
         "padding_top": 20,
         "padding_bottom": 20
       }
