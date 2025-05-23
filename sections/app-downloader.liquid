@@ -24,8 +24,13 @@
 
   .app-install-banner .text {
     flex: 1;
-    font-size: 14px;
   }
+   .app-install-banner .text .subTitle{
+     font-title: 10px;
+   }
+  .app-install-banner .text .subTitle{
+     font-title: 12px;
+   }
 
   .app-install-banner .install-btn {
     padding: 5px 10px;
@@ -54,7 +59,8 @@
     <button class="close-btn" onclick="document.getElementById('appBanner').style.display='none'">×</button>
     <img src="{{ section.settings.image | img_url:'master' }}" alt="main-image" class="milk-icon" />
     <div class="text">
-      <p><strong>{{ section.settings.title }}</strong></p>
+      <p class="subTitle"><strong>{{ section.settings.sub_title }}</strong></p>
+      <p class="app-title"><strong>{{ section.settings.title }}</strong></p>
     </div>
     <a href="#" id="installLink" class="install-btn">Install</a>
   </div>
@@ -92,6 +98,12 @@
       "id": "title",
       "label":"Title",
       "default":"Title"
+    },
+    {
+      "type":"text",
+      "id": "sub_title",
+      "label":"Sub Title",
+      "default":"Sub Title"
     },
     {
       "type": "image_picker",
