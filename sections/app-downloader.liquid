@@ -65,12 +65,10 @@
 
   if (/android/i.test(userAgent)) {
     installLink.href = "{{ section.settings.androidlink }}"; // Android link
-    installLink.style.backgroundColor = "#4CAF50";
-    installLink.textContent = "Install for Android";
+    installLink.textContent = "INSTALL";
   } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
     installLink.href = "{{ section.settings.ioslink }}"; // iOS link
-    installLink.style.backgroundColor = "#007AFF";
-    installLink.textContent = "Install for iOS";
+    installLink.textContent = "INSTALL";
   } else {
     // If OS can't be determined, hide the button or default to Android
     installLink.href = "https://provilac.com";
