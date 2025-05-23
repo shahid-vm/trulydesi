@@ -1,6 +1,141 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+<style>
+@media only screen and (max-width: 768px) {
+  .app-install-banner {
+    background-color: #d84520;
+    color: white;
+    width: 100%;
+    z-index: 1000;
   }
+
+  .banner-content {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+
+  .milk-icon {
+    height: 40px;
+  }
+
+  .text {
+    flex: 1;
+    font-size: 14px;
+  }
+
+  .install-btn {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 0 2px;
+    background-color: #4CAF50; /* default Android green */
+  }
+
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    cursor: pointer;
+  }
+}
+
+</style>
+<body>
+<div class="app-install-banner" id="appBanner">
+  <div class="banner-content">
+    <img src="download.png" alt="Milk Bottle" class="milk-icon" />
+    <div class="text">
+      <p><strong>Trusted by 35K families</strong><br>Install Provilac App</p>
+    </div>
+    <a href="#" id="installLink" class="install-btn">Install</a>
+    <button class="close-btn" onclick="document.getElementById('appBanner').style.display='none'">×</button>
+  </div>
+</div>
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+  const installLink = document.getElementById("installLink");
+  const userAgent = window.navigator.userAgent || window.navigator.vendor || window.opera;
+
+  if (/android/i.test(userAgent)) {
+    installLink.href = "https://play.google.com/store/apps/details?id=com.provilac"; // Android link
+    installLink.style.backgroundColor = "#4CAF50";
+    installLink.textContent = "Install for Android";
+  } else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+    installLink.href = "https://apps.apple.com/app/id123456789"; // iOS link
+    installLink.style.backgroundColor = "#007AFF";
+    installLink.textContent = "Install for iOS";
+  } else {
+    // If OS can't be determined, hide the button or default to Android
+    installLink.href = "https://provilac.com";
+    installLink.textContent = "Visit Site";
+  }
+
+  // Optional: Hide on repeat visit
+  document.querySelector('.close-btn').addEventListener('click', () => {
+  document.getElementById('appBanner').style.display = 'none';
+  });
+});
+</script>
+{% schema %}
+{
+  "name": "App Downloader",
+  "class": "section-App",
+  "settings": [
+    {
+      "type":"text",
+      "id": "title",
+      "label":"Title"
+    },
+    {
+      "type":"url",
+      "id":"androidlink",
+      "label":"Play Store App Link"
+    },
+    {
+      "type":"url",
+      "id":"ioslink",
+      "label":"IOS App Link"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 36,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 36,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 20
+    }
+  ],
+   "presets": [
+    {
+      "name": "App Downloader"
+    }
+  ]
+}
 {% endschema %}
