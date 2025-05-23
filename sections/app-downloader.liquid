@@ -4,8 +4,6 @@
 }
 @media only screen and (max-width: 768px) {
   .app-install-banner {
-    background-color: #d84520;
-    color: white;
     width: 100%;
     z-index: 1000;
     display:block;
@@ -33,12 +31,11 @@
   .install-btn {
     padding: 5px 10px;
     border: none;
-    color: white;
     border-radius: 4px;
     text-decoration: none;
     font-size: 13px;
     margin: 0 2px;
-    background-color: #4CAF50; /* default Android green */
+    background-color: #fff; /* default Android green */
   }
 
   .close-btn {
@@ -56,7 +53,7 @@
 
 </style>
 <body>
-<div class="app-install-banner" id="appBanner">
+<div class="app-install-banner color-{{ section.settings.color_scheme }}" id="appBanner">
   <div class="banner-content">
     <img src="{{ section.settings.image | img_url:'master' }}" alt="main-image" class="milk-icon" />
     <div class="text">
@@ -106,6 +103,12 @@
       "type": "image_picker",
       "id": "image",
       "label": "Image"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
     },
     {
       "type":"url",
