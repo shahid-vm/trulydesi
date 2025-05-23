@@ -15,7 +15,8 @@
       "type": "app-downloader",
       "name": "App Downloader",
       "settings": {
-        "title": "Trusted By 35k Family",
+        "title": "Install Provilac App",
+        "sub_title": "Trusted By 35k Family",
         "image": "shopify://shop_images/ghee_1.png",
         "color_scheme": "scheme-1",
         "androidlink": "https://play.google.com/store/apps/details?id=com.mrmilkman.trulydesidaily&amp;hl=en_IN",
