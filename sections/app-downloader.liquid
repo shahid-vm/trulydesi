@@ -13,7 +13,6 @@
     display: flex;
     align-items: center;
     padding: 10px;
-    position: relative;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-between;
@@ -43,9 +42,6 @@
     border: none;
     font-size: 20px;
     line-height: 20px;
-    position: absolute;
-    left: 10px;
-    top: 5px;
     cursor: pointer;
   }
 }
@@ -54,12 +50,12 @@
 <body>
 <div class="app-install-banner color-{{ section.settings.color_scheme }}" id="appBanner">
   <div class="banner-content">
+    <button class="close-btn" onclick="document.getElementById('appBanner').style.display='none'">×</button>
     <img src="{{ section.settings.image | img_url:'master' }}" alt="main-image" class="milk-icon" />
     <div class="text">
       <p><strong>{{ section.settings.title }}</strong></p>
     </div>
     <a href="#" id="installLink" class="install-btn">Install</a>
-    <button class="close-btn" onclick="document.getElementById('appBanner').style.display='none'">×</button>
   </div>
 </div>
 <script>
