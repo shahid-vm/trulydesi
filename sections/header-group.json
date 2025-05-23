@@ -11,6 +11,17 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "app_downloader_wQfxQd": {
+      "type": "app-downloader",
+      "name": "App Downloader",
+      "settings": {
+        "title": "",
+        "androidlink": "",
+        "ioslink": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "announcement_bar_KQgDxL": {
       "type": "announcement-bar",
       "blocks": {
@@ -121,6 +132,7 @@
     }
   },
   "order": [
+    "app_downloader_wQfxQd",
     "announcement_bar_KQgDxL",
     "scrolling_announcement_bar_m49F9e",
     "header",
