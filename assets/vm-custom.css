@@ -124,6 +124,10 @@ h2.homepage_h2 {
 {
     z-index: 2;
 }
+.variant-select
+{
+  max-width: 100%;
+}
 @media screen and (min-width: 989px) {
   .large-hide{
     display:none !important;
