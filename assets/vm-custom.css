@@ -189,7 +189,7 @@ h2.homepage_h2 {
 .product-card-wrapper .price-btn-container {
     display: flex;
     padding: 0px 10px;
-    justify-content: space-between;
+    justify-content: space-between !important;
     align-items: center;
     flex-wrap: wrap;
 }
