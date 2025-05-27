@@ -737,3 +737,6 @@ a.full-unstyled-link.cust-link {
 {
       max-width: 30px;
 }
+.product-card-wrapper  product-form {
+    width: 50%;
+}
