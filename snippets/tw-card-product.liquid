@@ -295,7 +295,10 @@
           </div>
         </div>
           {% if card_product.metafields.custom.sub_title != blank %}
+             <a
+              href="{{ card_product.url }}">
             <div class="product-short-dis">{{ card_product.metafields.custom.sub_title | strip_html | truncatewords: 15 }}</div>
+             </a>
           {% else %}
             <div class="product-short-dis">{{ card_product.metafields.custom.description | metafield_tag | truncatewords: 15 }}</div>
           {% endif %}
