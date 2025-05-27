@@ -62,8 +62,8 @@
       "type": "single-image-banner",
       "settings": {
         "full_width": true,
-        "desktop-image": "shopify://shop_images/about_us_banner_f9ec143f-81b1-4cee-ba99-3ddf23c109ff.png",
-        "mobile-image": "shopify://shop_images/about_us_banner_mobile.png",
+        "desktop-image": "shopify://shop_images/about_us_banner_1-min.png",
+        "mobile-image": "shopify://shop_images/about_us_banner_mobile_1-min.png",
         "link": "",
         "padding-top": 0,
         "padding-bottom": 0
