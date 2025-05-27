@@ -184,7 +184,7 @@ h2.homepage_h2 {
 .product-card-wrapper .card__content {
     display: flex !important;
     flex-direction: column;
-    padding: 20px 10px !important;
+    padding: 20px 10px 10px !important;
 }
 .product-card-wrapper .price-btn-container {
     display: flex;
