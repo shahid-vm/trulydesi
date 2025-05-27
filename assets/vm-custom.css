@@ -124,10 +124,7 @@ h2.homepage_h2 {
 {
     z-index: 2;
 }
-.variant-select
-{
-  max-width: 100%;
-}
+
 @media screen and (min-width: 989px) {
   .large-hide{
     display:none !important;
@@ -623,7 +620,7 @@ dl {
 /* Container style */
 .variant-select {
   width: 100%;
-  max-width: 100%;
+  max-width: -webkit-fill-available;
   padding: 10px 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
