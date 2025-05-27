@@ -342,6 +342,7 @@
         "block_jkzhmm",
         "block_eG7NYi"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "bgImage": "shopify://shop_images/bg-bottom.png",
