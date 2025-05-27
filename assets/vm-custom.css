@@ -726,3 +726,6 @@ a.full-unstyled-link.cust-link {
     margin-bottom: 0px;
     margin-top:-40px;
 }
+quantity-input.quantity {
+    width: 40%;
+}
