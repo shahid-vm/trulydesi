@@ -232,7 +232,7 @@ span.compara_price-dev.price-item--regular {
     background-color: #174117;
     color: #fff;
     font-weight: 700;
-    width: 120px;
+   width: 100%;
     text-transform: uppercase;
 }
 .product-card-wrapper  .badge {
