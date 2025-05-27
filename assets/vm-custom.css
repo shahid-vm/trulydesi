@@ -209,7 +209,7 @@ span.compara_price-dev.price-item--regular {
 }
 .product-card-wrapper .price-btn-container custom-variant-selector
 {
-    width: 50%;
+    width: 100%;
 }
 .product-card-wrapper  span.price-item.price-item--sale.price-item--last {
     font-size: 14px !important;
@@ -623,7 +623,7 @@ dl {
 /* Container style */
 .variant-select {
   width: 100%;
-  max-width: 200px;
+  max-width: 100%;
   padding: 10px 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
