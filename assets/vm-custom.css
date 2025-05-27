@@ -724,4 +724,5 @@ a.full-unstyled-link.cust-link {
 .product-card-wrapper .price-btn-container .price__container + custom-variant-selector
 {
     margin-bottom: 0px;
+    margin-top:-40px;
 }
