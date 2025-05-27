@@ -717,7 +717,11 @@ a.full-unstyled-link.cust-link {
     height: 100%;
     position: absolute;
 }
-.product-card-wrapper .price-btn-container .price__container + custom-variant-selector
+.product-card-wrapper .price-btn-container .price__container 
 {
   margin-bottom: 44px;
+}
+.product-card-wrapper .price-btn-container .price__container + custom-variant-selector
+{
+    margin-bottom: 44px;
 }
