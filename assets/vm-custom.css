@@ -405,7 +405,7 @@ h2.footer__title {
       align-items: center;
       flex-direction: column;
       text-align: center;
-      gap: 4px;
+      gap: 0px;
   }
 }
 a.product__title h2 {
