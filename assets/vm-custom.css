@@ -189,7 +189,7 @@ h2.homepage_h2 {
 .product-card-wrapper .price-btn-container {
     display: flex;
     padding: 0px 10px;
-    justify-content: space-between !important;
+    justify-content: space-between
     align-items: center;
     flex-wrap: wrap;
 }
@@ -407,6 +407,9 @@ h2.footer__title {
       text-align: center;
       gap: 0px;
   }
+  .product-card-wrapper .price-btn-container {
+    justify-content: space-between !important;
+}
 }
 a.product__title h2 {
     font-size: 28px;
