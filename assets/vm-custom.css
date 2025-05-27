@@ -120,7 +120,7 @@ h2.homepage_h2 {
     height: 100%;
     z-index: 1;
 }
-.custom-badge-meta
+.custom-badge-meta,.product-card-wrapper .card__badge.top
 {
     z-index: 2;
 }
