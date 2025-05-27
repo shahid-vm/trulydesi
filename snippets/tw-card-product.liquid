@@ -623,6 +623,7 @@
         <div
           class="card__media {% if image_shape and image_shape != 'default' %} shape--{{ image_shape }} color-{{ settings.card_color_scheme }} gradient{% endif %}"
         >
+            <a href="{{ card_product.url }}">
           <div
             class="media media--transparent"
           >
@@ -632,6 +633,7 @@
               {{ 'product-apparel-2' | placeholder_svg_tag: 'placeholder-svg' }}
             {% endif %}
           </div>
+        </a>
         </div>
       </div>
       <div class="card__content">
