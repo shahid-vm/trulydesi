@@ -726,6 +726,10 @@ a.full-unstyled-link.cust-link {
     margin-bottom: 0px;
     margin-top:-40px;
 }
-quantity-input.quantity {
+.product-card-wrapper quantity-input.quantity {
     width: 40%;
 }
+.product-card-wrapper .quantity__button
+ {
+    width: 15px;
+ }
