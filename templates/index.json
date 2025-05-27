@@ -9,67 +9,6 @@
  */
 {
   "sections": {
-    "animated_slideshow_yLwhAd": {
-      "type": "animated-slideshow",
-      "blocks": {
-        "slide_4mX4rg": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ghee_with_out_ghee_Banner.png",
-            "overlay_image": "shopify://shop_images/ghee_1.png",
-            "mob_image": "shopify://shop_images/ghee_with_out_ghee_mobile.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://products/a2ghee",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_xzUCEw": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/paneer_with_out_paneer_Banner.png",
-            "overlay_image": "shopify://shop_images/paneer_2.png",
-            "mob_image": "shopify://shop_images/paneer_with_out_paneer_mobile.png",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify://products/a2paneer",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_4mX4rg",
-        "slide_xzUCEw"
-      ],
-      "disabled": true,
-      "name": "Animated Slideshow",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "slideshow_eWVBwE": {
       "type": "slideshow",
       "blocks": {
@@ -137,7 +76,6 @@
             "image": "shopify://shop_images/paneer_Banner.png",
             "mob_image": "shopify://shop_images/paneer_Banner_mobile.png",
             "hangging_img2": "shopify://shop_images/png-clipart-soy-milk-stuffing-to.png",
-            "hangging_img3": "shopify://shop_images/paneer_1.png",
             "hangging_img": "shopify://shop_images/png-clipart-soy-milk-stuffing-to.png",
             "heading": "",
             "heading_size": "h1",
@@ -1025,7 +963,6 @@
     }
   },
   "order": [
-    "animated_slideshow_yLwhAd",
     "slideshow_eWVBwE",
     "scrolling_announcement_bar_UAEhwn",
     "collection_list_mrUQxn",
