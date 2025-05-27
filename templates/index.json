@@ -15,8 +15,8 @@
         "slide_Xy4VWH": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/milk_Banner.png",
-            "mob_image": "shopify://shop_images/milk_Banner_mobile.png",
+            "image": "shopify://shop_images/milk_Banner_desktop.png",
+            "mob_image": "shopify://shop_images/milk_Banner_mobile_73f0950b-0337-4441-92a8-53e057d9e3a5.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
