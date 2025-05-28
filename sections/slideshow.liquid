@@ -37,15 +37,18 @@
 
     #shopify-section-{{ section.id }} .slider-mobile-gutter .slider-button {
         position: absolute;
-        background: #0E4825 ;
-        color: #fff;
+        background: #fff;
+        color: #000;
         border-radius: 100%;
         top: 50%;
         width: 40px;
         height: 40px;
-        opacity: .35;
         box-shadow: 0px 4px 10px 0 rgba(0, 0, 0, 0.5);
     }
+     #shopify-section-{{ section.id }} .slider-mobile-gutter .slider-button:hover {
+        background: #0E4825 !important;
+        color: #fff !important;
+     }
     
     #shopify-section-{{ section.id }} .slider-button .icon {
         height: 0.7rem !important;
