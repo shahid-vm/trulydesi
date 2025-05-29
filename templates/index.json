@@ -103,7 +103,7 @@
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "dots",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": false,
@@ -202,7 +202,6 @@
         ".full-unstyled-link{text-align: :center;}",
         ".card .icon-wrap{display: none;}"
       ],
-      "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -233,7 +232,6 @@
       "custom_css": [
         "h2 {color: #064f32; font-size: 28px; font-weight: 700; text-align: center; width: 100%; margin: 0px;}"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -304,7 +302,6 @@
     "single_image_banner_cbCiR9": {
       "type": "single-image-banner",
       "disabled": true,
-      "name": "Single - Image Banner",
       "settings": {
         "full_width": false,
         "desktop-image": "shopify://shop_images/Why-Choose-Section-2-_1_-min.png",
@@ -357,7 +354,6 @@
       "custom_css": [
         "h2 {color: #064f32; font-size: 28px; font-weight: 700; text-align: center; width: 100%;}"
       ],
-      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "collection": "all",
         "products_to_show": 8,
