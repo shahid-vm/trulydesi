@@ -376,3 +376,6 @@ slider-component.slider-component-full-width {
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
 }
+button.slideshow__autoplay.slider-button {
+    display: none;
+}
