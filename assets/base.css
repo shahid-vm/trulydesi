@@ -2915,6 +2915,9 @@ details-disclosure > details {
 .overflow-hidden-desktop {
   overflow: hidden;
 }
+.overflow-hidden-tablet{
+  overflow-x: unset !important;
+}
 
 @media screen and (min-width: 750px) {
   .overflow-hidden-mobile {
