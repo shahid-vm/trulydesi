@@ -47,12 +47,14 @@ class CartDrawer extends HTMLElement {
     );
 
     document.body.classList.add('overflow-hidden');
+    document.body.classList.add('x-hidden');
   }
 
   close() {
     this.classList.remove('active');
     removeTrapFocus(this.activeElement);
     document.body.classList.remove('overflow-hidden');
+    document.body.classList.remove('x-hidden');
   }
 
   setSummaryAccessibility(cartDrawerNote) {
