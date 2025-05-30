@@ -2,7 +2,7 @@
 body * {
     letter-spacing: 0 !important;
 }
-html
+html, body
 {
  overflow-x: hidden;
 }
