@@ -170,7 +170,7 @@
         tabindex="-1"
       >
         
-        {% if block.settings.link %}<a href="{{ block.settings.link }}" class="banner__media--link">{% endif %}
+        {% if block.settings.link %}<a href="{{ block.settings.link }}" aria-label="slider-ar-label" class="banner__media--link">{% endif %}
           <div class="banner__media--dekstop slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
             {%- if block.settings.image -%}
               {%- liquid
