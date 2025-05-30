@@ -99,6 +99,7 @@
                         name="quantity"
                         id="Quantity-{{ section.id }}"
                         data-cart-quantity="{{ cart_qty }}"
+                        aria-label="{{ 'products.product.quantity.input_label' | t: product: variant.title | escape }}"
                         data-min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                         min="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                         {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
