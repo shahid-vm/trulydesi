@@ -305,7 +305,7 @@
              </a>
           {% else %}
               <a
-              href="{{ card_product.url }}" class="product-short-dis_achor">
+              href="{{ card_product.url }}" class="product-short-dis_achor" aria-label="{{ card_product.title }}">
             <div class="product-short-dis">{{ card_product.metafields.custom.description | metafield_tag | truncatewords: 15 }}</div>
               </a>
           {% endif %}
