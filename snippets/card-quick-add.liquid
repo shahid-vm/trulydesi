@@ -2,7 +2,7 @@
   {% if product.variants.size > 1 %}
   <custom-variant-selector>
     {%- for option in product.options_with_values -%}
-     <select class="variant-select">
+     <select class="variant-select" aria-label="{{ 'products.product.quantity.input_label' | t: product: variant.title | escape }}">
       {%- for value in option.values -%}
          {%- assign variant = product.variants | where: 'option1', value | first -%}
          <option class="variant" variant-image="{{ variant.image.src | product_img_url: 'master' }}" 
