@@ -731,10 +731,11 @@
       endif
     -%}
 
-    <script type="application/ld+json">
-     {% comment %} {{ product | structured_data }} {% endcomment %}
-     {
-      "@context": "https://schema.org/",
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
       "@type": "Product",
       "name": "{{ product.title | escape }}",
       "image": ["{{ product.featured_image | img_url: 'master' }}"],
@@ -752,8 +753,30 @@
         "availability": "https://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}",
         "url": "{{ product.url | prepend: shop.url }}"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {% for title in faq_title %}
+          {% assign final_index = forloop.index %}
+          {% for content in faq_content %}
+            {% if final_index == forloop.index %}
+              {
+                "@type": "Question",
+                "name": "{{ title | strip_html | escape }}",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "{{ content | strip_html | escape }}"
+                }
+              }{% unless forloop.last and forloop.index == faq_title.size %}, {% endunless %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      ]
     }
-    </script>
+  ]
+}
+</script>
   </div>
 </product-info>
 
