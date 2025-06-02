@@ -127,7 +127,7 @@
           "settings": {
             "image": "shopify://shop_images/founder_2.png",
             "title": "Rupali Kakade",
-            "content": "<b>Co-Founder & Director</b><br>Rupali holds a PG Diploma in Hospital & Healthcare Management from Symbiosis International University and a Master’s in Business Studies (HR). With her experience in education and healthcare, she prioritises empathy and a people-first approach at Truly Desi. Her journey from a mother searching for safe milk to a leader in A2 dairy reflects the core values of our brand. Rupali oversees quality control and customer experience, ensuring chemical-free nutrition for all families.  "
+            "content": "Co-Founder & DirectorRupali holds a PG Diploma in Hospital & Healthcare Management from Symbiosis International University and a Master’s in Business Studies (HR). With her experience in education and healthcare, she prioritises empathy and a people-first approach at Truly Desi. Her journey from a mother searching for safe milk to a leader in A2 dairy reflects the core values of our brand. Rupali oversees quality control and customer experience, ensuring chemical-free nutrition for all families.  "
           }
         }
       },
@@ -138,7 +138,7 @@
       "settings": {
         "color_scheme": "",
         "title": "Our Co-founder",
-        "discription": "Young and agile graduates from IIT Guwahati wanted to use their technical skills in the food and agriculture industry. They have the vision to bring food processing to the farm level and provide traditional superfoods to everyone.",
+        "discription": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
