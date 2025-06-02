@@ -431,9 +431,131 @@
         "block_bYG66k"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "title": "Truly Desi Promises",
         "coll-desc": ""
+      }
+    },
+    "never_ever_section_gXK9rN": {
+      "type": "never-ever-section",
+      "blocks": {
+        "block_heWa8X": {
+          "type": "Block",
+          "settings": {
+            "img": "shopify://shop_images/No_Caustic_soda.svg",
+            "title": "No Caustic soda"
+          }
+        },
+        "block_LHz4Nq": {
+          "type": "Block",
+          "settings": {
+            "img": "shopify://shop_images/No_Added_Sugars.svg",
+            "title": "No Added Sugars"
+          }
+        },
+        "block_Fqg7ii": {
+          "type": "Block",
+          "settings": {
+            "img": "shopify://shop_images/No_Vegetable_Oils.svg",
+            "title": "No Vegetable Oils"
+          }
+        },
+        "block_PFKKwi": {
+          "type": "Block",
+          "settings": {
+            "img": "shopify://shop_images/No_Starch.svg",
+            "title": "No Starch"
+          }
+        },
+        "block_Y9hYAj": {
+          "type": "Block",
+          "settings": {
+            "img": "shopify://shop_images/No_Urea.svg",
+            "title": "No Urea"
+          }
+        },
+        "block_Qx69bt": {
+          "type": "Block",
+          "settings": {
+            "img": "shopify://shop_images/No_Hydrogen_Peroxide.svg",
+            "title": "No Hydrogen Peroxide"
+          }
+        },
+        "block_JeVxXg": {
+          "type": "Block",
+          "settings": {
+            "title": "No Formalin"
+          }
+        },
+        "block_VbMefT": {
+          "type": "Block",
+          "settings": {
+            "title": "No Melamine"
+          }
+        },
+        "block_q7C9Ve": {
+          "type": "Block",
+          "settings": {
+            "title": "No detergent powders"
+          }
+        },
+        "block_jEKN8L": {
+          "type": "Block",
+          "settings": {
+            "title": "No Preservatives"
+          }
+        },
+        "block_xwihtj": {
+          "type": "Block",
+          "settings": {
+            "title": "No Animal Fats"
+          }
+        },
+        "block_fb4QP8": {
+          "type": "Block",
+          "settings": {
+            "title": "No artificial flavours"
+          }
+        },
+        "block_QcyPdA": {
+          "type": "Block",
+          "settings": {
+            "title": "No synthetic aroma"
+          }
+        },
+        "block_NhFRWF": {
+          "type": "Block",
+          "settings": {
+            "title": "No colouring agents"
+          }
+        }
+      },
+      "block_order": [
+        "block_heWa8X",
+        "block_LHz4Nq",
+        "block_Fqg7ii",
+        "block_PFKKwi",
+        "block_Y9hYAj",
+        "block_Qx69bt",
+        "block_JeVxXg",
+        "block_VbMefT",
+        "block_q7C9Ve",
+        "block_jEKN8L",
+        "block_xwihtj",
+        "block_fb4QP8",
+        "block_QcyPdA",
+        "block_NhFRWF"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title": "Clean and Fresh Milk",
+        "sub-title": "Made for the Ones You Care about Most",
+        "discription": "Just Genuine Goodness!",
+        "button-text": "About Us",
+        "button-link": "shopify://pages/about-us-new",
+        "image": "shopify://shop_images/74e5fdd6821f425485605813cfdd978e.png",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_description_blocks_pcrqTy": {
@@ -661,128 +783,6 @@
         "coll-desc": ""
       }
     },
-    "never_ever_section_gXK9rN": {
-      "type": "never-ever-section",
-      "blocks": {
-        "block_heWa8X": {
-          "type": "Block",
-          "settings": {
-            "img": "shopify://shop_images/No_Caustic_soda.svg",
-            "title": "No Caustic soda"
-          }
-        },
-        "block_LHz4Nq": {
-          "type": "Block",
-          "settings": {
-            "img": "shopify://shop_images/No_Added_Sugars.svg",
-            "title": "No Added Sugars"
-          }
-        },
-        "block_Fqg7ii": {
-          "type": "Block",
-          "settings": {
-            "img": "shopify://shop_images/No_Vegetable_Oils.svg",
-            "title": "No Vegetable Oils"
-          }
-        },
-        "block_PFKKwi": {
-          "type": "Block",
-          "settings": {
-            "img": "shopify://shop_images/No_Starch.svg",
-            "title": "No Starch"
-          }
-        },
-        "block_Y9hYAj": {
-          "type": "Block",
-          "settings": {
-            "img": "shopify://shop_images/No_Urea.svg",
-            "title": "No Urea"
-          }
-        },
-        "block_Qx69bt": {
-          "type": "Block",
-          "settings": {
-            "img": "shopify://shop_images/No_Hydrogen_Peroxide.svg",
-            "title": "No Hydrogen Peroxide"
-          }
-        },
-        "block_JeVxXg": {
-          "type": "Block",
-          "settings": {
-            "title": "No Formalin"
-          }
-        },
-        "block_VbMefT": {
-          "type": "Block",
-          "settings": {
-            "title": "No Melamine"
-          }
-        },
-        "block_q7C9Ve": {
-          "type": "Block",
-          "settings": {
-            "title": "No detergent powders"
-          }
-        },
-        "block_jEKN8L": {
-          "type": "Block",
-          "settings": {
-            "title": "No Preservatives"
-          }
-        },
-        "block_xwihtj": {
-          "type": "Block",
-          "settings": {
-            "title": "No Animal Fats"
-          }
-        },
-        "block_fb4QP8": {
-          "type": "Block",
-          "settings": {
-            "title": "No artificial flavours"
-          }
-        },
-        "block_QcyPdA": {
-          "type": "Block",
-          "settings": {
-            "title": "No synthetic aroma"
-          }
-        },
-        "block_NhFRWF": {
-          "type": "Block",
-          "settings": {
-            "title": "No colouring agents"
-          }
-        }
-      },
-      "block_order": [
-        "block_heWa8X",
-        "block_LHz4Nq",
-        "block_Fqg7ii",
-        "block_PFKKwi",
-        "block_Y9hYAj",
-        "block_Qx69bt",
-        "block_JeVxXg",
-        "block_VbMefT",
-        "block_q7C9Ve",
-        "block_jEKN8L",
-        "block_xwihtj",
-        "block_fb4QP8",
-        "block_QcyPdA",
-        "block_NhFRWF"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "title": "Clean and Fresh Milk",
-        "sub-title": "Made for the Ones You Care about Most",
-        "discription": "Just Genuine Goodness!",
-        "button-text": "About Us",
-        "button-link": "shopify://pages/about-us-new",
-        "image": "shopify://shop_images/74e5fdd6821f425485605813cfdd978e.png",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "index_video_jGRhDF": {
       "type": "index-video",
       "settings": {
@@ -969,11 +969,11 @@
     "image_description_blocks_gFzhHN",
     "featured_collection_hgBaHf",
     "icon_with_title_text_qRQTzn",
+    "never_ever_section_gXK9rN",
     "image_description_blocks_pcrqTy",
     "home_journey_z4QLLy",
     "usp_section_kQwdyR",
     "brand_section_eHygHB",
-    "never_ever_section_gXK9rN",
     "index_video_jGRhDF",
     "franke_testinomial_section_WzX4yC",
     "featured_blog_dC8T9G",
