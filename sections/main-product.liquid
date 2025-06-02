@@ -730,7 +730,8 @@
         assign seo_media = product.featured_media
       endif
     -%}
-
+{% assign faq_title = product.metafields.custom.faq_question.value %}
+{% assign faq_content = product.metafields.custom.faq_answer.value %}      
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
