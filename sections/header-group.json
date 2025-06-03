@@ -37,6 +37,7 @@
         },
         "announcement_kz8rNz": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Get 5% extra Discount on Prepaid Orders*",
             "link": "shopify://collections/all"
